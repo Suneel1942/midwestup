@@ -1,0 +1,276 @@
+[
+  {
+    "banner": {
+      "images": [
+        "homepage/home-banner-1.jpg",
+        "homepage/home-banner-2.jpg",
+        "homepage/home-banner-3.jpg",
+        "homepage/home-banner-4.jpg",
+        "homepage/home-banner-5.jpg",
+        "homepage/home-banner-6.jpg",
+        "homepage/home-banner-8.jpg",
+        "homepage/home-banner-10.jpg",
+        "homepage/home-banner-11.jpg"
+      ],
+      "title-heading-1": "From Earth to Innovation",
+      "title-heading-2": "Trusted, Tested, True."
+    },
+    "introduction": {
+      "header": "Introduction",
+      "left-column": {
+        "title": "Shaping Tomorrow's Materials, Today."
+      },
+      "right-column": {
+        "description": "With over four decades of experience across the dimensional stone value chain with mine-to-distribution capabilities, Midwest Ltd. continues to evolve, diversifying into high-value materials like quartz and heavy mineral sands. These initiatives aim to power industries such as building materials, renewable energy, semi-conductors, titanium-based industries and more."
+      },
+      "list-cards": [
+        {
+          "description": "A legacy of **over four decades** of experience in the dimensional natural stone industry, covering exploration, mining, processing, sales, distribution, marketing and export of natural stones.",
+          "color": "#d97f61",
+          "background": "backgrounds/orange.svg"
+        },
+        {
+          "description": "Mines over **1.37 million cubic meters** of granite (an average of fiscal 22, 23 and 24) per annum including saleable and waste granite.",
+          "color": "#8ab636",
+          "background": "backgrounds/green.svg"
+        },
+        {
+          "description": "**India's largest producer** and **exporter** of **Black Galaxy Granite**—a premium variety of Granite, exporting **23%** of the overall Black Galaxy Granite export volume in FY 2024.",
+          "color": "#2383ae",
+          "background": "backgrounds/blue.svg"
+        },
+        {
+          "description": "Highest Royality is levied on Black Galaxy Granite, establishing its position as a premium material. Ability to fetch **superior** market pricing due to **substantial market share** of this high demand granite.",
+          "color": "#77787c",
+          "background": "backgrounds/gray.svg"
+        },
+        {
+          "description": "Strong distribution network with a customer base spread across **17 countries** and **five continents.** Midwest serves as an organized player in an otherwise unorganized and fragmented market",
+          "color": "#d97f61",
+          "background": "backgrounds/orange.svg"
+        },
+        {
+          "description": "Employing **sustainable mining practices** with solar-powered machinery and induction of electric tipper trucks, reducing maintenance, downtime, and emissions.",
+          "color": "#2383ae",
+          "background": "backgrounds/blue.svg"
+        },
+        {
+          "description": "**23.3 million tonnes** of large quartz resources, with planned production expansion of **2.42 lacs MTPA.**",
+          "color": "#77787c",
+          "background": "backgrounds/gray.svg"
+        },
+        {
+          "description": "**4 exploration licenses** obtained in Sri Lanka to extract and produce **37,000 metric tonne** per annum of minerals such as monazite, Ilmenite, zircon, garnet, sillimanite and rutile.",
+          "color": "#d97f61",
+          "background": "backgrounds/orange.svg"
+        },
+        {
+          "description": "One of India’s Largest producers of Absolute Black Granite, accounting for **10.8%** of the overall Black Granite production in India during **FY 2024**.",
+          "color": "#8ab636",
+          "background": "backgrounds/green.svg"
+        },
+        {
+          "description": "Operational efficiencies through reduced diesel use, optimized spare parts, and captive solar power; piloting electric dump trucks to lower logistics costs.",
+          "color": "#8ab636",
+          "background": "backgrounds/blue.svg"
+        },
+        {
+          "description": "A Strong track record of consistent growth and profitability, with strong sales visibility, typically backed by customer advances and LC’s.",
+          "color": "#8ab636",
+          "background": "backgrounds/gray.svg"
+        },
+        {
+          "description": "With Phase I, Company will be one of the few players worldwide, which incorporate a mine to market integrated business model for production of Quartz grit and powder*",
+          "color": "#8ab636",
+          "background": "backgrounds/orange.svg"
+        },
+        {
+          "description": "A **1200+** strong team of geologists, engineers, R&D, and finance professionals ensuring excellence across the value chain.",
+          "color": "#8ab636",
+          "background": "backgrounds/blue.svg"
+        },
+        {
+          "description": "Leading contributor of **Black Galaxy Granite** royalties, between **2020 and 2024**, accounting for **31%** of the total royalty paid for Black Galaxy Granite during **FY 2024.**",
+          "color": "#8ab636",
+          "background": "backgrounds/gray.svg"
+        },
+        {
+          "description": "Significant establishment costs and long gestation periods favor established players, guided by experienced promoters and a professional management team.",
+          "color": "#8ab636",
+          "background": "backgrounds/orange.svg"
+        },
+        {
+          "description": "Focus on R&D and technology with initiatives like an eco-friendly diamond tools plant and a co-developed electric dressing station with an Italian company.",
+          "color": "#8ab636",
+          "background": "backgrounds/green.svg"
+        }
+      ]
+    },
+    "quick-about": {
+      "header": "Quick About",
+      "image": "homepage/home-about-stones.svg",
+      "left-column": {
+        "title": "Transforming Raw Materials into Strategic Assets."
+      },
+      "right-column": {
+        "description": "As a vertically integrated, high-tech processor, we transform raw materials like granite, quartz, and precision-crafted diamond wire tools into advanced, strategic assets for industries worldwide. From engineered stone to solar glass, high-performance titanium, and cutting-edge tools, our innovative processes add value at every step—delivering premium materials that fuel growth in sectors such as construction, aerospace, semiconductors, and renewable energy.",
+        "list-cards": [
+          {
+            "title": "No. 1",
+            "description": "Producer of Black and Galaxy Granite"
+          },
+          {
+            "title": "28",
+            "description": "Business Partner Countries"
+          },
+          {
+            "title": "Top 3",
+            "description": "Natural Stone Players in India"
+          }
+        ]
+      }
+    },
+    "what-we-deliver": {
+      "header": "What We Deliver",
+      "left-column": {
+        "icon": "icons/flower-icon.svg",
+        "title": "Mastering the Materials Ecosystem, from Source to Solution."
+      },
+      "right-column": {
+        "description": "Our resources, advanced technologies, and focus on sustainable practices support industries globally, with an emphasis on long-term growth and reliability."
+      },
+      "list": [
+        {
+          "title": "Extracting Excellence",
+          "description": "We extract the finest raw materials with precision, ensuring that our products meet the highest standards in global markets. For us, quality isn’t just guaranteed—it’s crafted into every part of the process."
+        },
+        {
+          "title": "End-to-End Expertise",
+          "description": "From extraction to processing to delivery, we manage the entire value chain, focusing on consistency, quality, and sustainability. We support every step, maintaining reliability for global industries."
+        },
+        {
+          "title": "Operational Efficiencies",
+          "description": "We are committed to reducing costs through electrification of machinery, solar integration, and the deployment of electric dump trucks. This focus on resource optimization not only lowers consumption but also enhances sustainability across operations."
+        },
+        {
+          "title": "Exclusive Resources",
+          "description": "We mine quarries of Black Galaxy Granite, a highly coveted natural stone available only in Chimakurthy village of the Ongole district in Andhra Pradesh, India. Known for its premium quality, it is used globally in high-end applications and quotes the highest royalty among all dimensional stones."
+        },
+        {
+          "title": "Robust Distribution Network",
+          "description": "Midwest has mine-to-distribution capabilities spanning the dimensional granite value chain. It operates within a market that is predominantly unorganized and fragmented, providing solutions across the value chain."
+        },
+        {
+          "title": "Technology-led Precision",
+          "description": "We have implemented an ERP system integrated with real-time sensor monitoring on machinery, enabling data-driven decision-making to enhance automation and minimize manual intervention."
+        },
+        {
+          "title": "Research & Development",
+          "description": "We have a strong R&D focus, which supports backward integration with environmentally friendly diamond tools for both captive use and industry consumption. This emphasis on innovation allows us to stay at the forefront of technology while minimizing our environmental impact."
+        },
+        {
+          "title": "Expansion & Acquisition",
+          "description": "With a growing reserve base of 21.5 million CBM and continuously adding mines to the pipe line, we balance the reserve depletion and addition ratio in mines. Our acquisition of Black Galaxy Granite deposits helps retain our market leadership position."
+        },
+        {
+          "title": "Innovating with Purpose",
+          "description": "Advanced technology and environmentally friendly practices improve efficiency while reducing our carbon footprint—paving the way for responsible, sustainable growth."
+        },
+        {
+          "title": "Strategic Market Position",
+          "description": "With over 23% of the global export market for Black Galaxy Granite, Midwest has the ability to fetch better market pricing through its substantial market share. Entry barriers are high with the company having old mining rights and entrenched operations."
+        },
+        {
+          "title": "Knowledgeable Leadership",
+          "description": "Led by experienced promoters and a professional management team, the company benefits from deep industry expertise and a proven track record of performance."
+        }
+      ]
+    },
+    "founders-note": {
+      "header": "Founder's Note",
+      "left-column": {
+        "image": "homepage/founder-image.jpg"
+      },
+      "right-column": {
+        "title-quote": "At Midwest Group, our commitment to sustainability, community, and ethical governance has been at the core of everything we do for over four decades.",
+        "founder": {
+          "name": "Kollareddy Raghava Reddy",
+          "designation": "Founder & President"
+        }
+      }
+    },
+    "our-story": {
+      "header": "Our Story",
+      "left-column": {
+        "icon": "icons/spiral-icon-orange.svg",
+        "title": "A Legacy Forged in Purpose and Progress"
+      },
+      "right-column": {
+        "description": "Midwest's journey is built on a foundation of innovation, responsibility, and global connection. With a focus on integrity and sustainability, we turn raw materials into strategic assets that drive industries forward.",
+        "list": [
+          {
+            "title": "Our Purpose",
+            "initial-text": "Processing the Future, Responsibly.",
+            "description": "At Midwest, we believe that the materials of tomorrow must be created with both innovation and responsibility. Our purpose is to build sustainable growth by leading the way in materials processing, while ensuring that every step of our journey—from extraction to delivery—honours both people and the planet.",
+            "color": "#d97f61",
+            "background": "backgrounds/orange.svg"
+          },
+          {
+            "title": "Our Ethos",
+            "initial-text": "Integrity, Innovation, Impact.",
+            "description": "At Midwest, our philosophy goes beyond boundaries—both geographical and technological. We transform high-value raw materials into strategic assets for global industries. Integrity drives our actions, innovation fuels our growth, and sustainable practices ensure a positive impact for future generations.",
+            "color": "#77787c",
+            "background": "backgrounds/orange.svg"
+          }
+        ],
+        "link": {
+          "text": "About Us",
+          "href": "/about"
+        }
+      }
+    },
+    "offerings": {
+      "header": "Offerings",
+      "left-column": {
+        "icon": "icons/leaf-icon.svg",
+        "title": "Materials Refined, Industries Redefined."
+      },
+      "right-column": {
+        "description": "Our product portfolio includes a significant presence in dimensional stone, alongside offerings in quartz and diamond wire tools to meet diverse industry needs. Additionally, we are foraying into heavy mineral sands, with exploration licenses secured and environmental licenses pending approval."
+      },
+      "materials": {
+        "title": "Materials",
+        "list": [
+          {
+            "heading": "Natural Stone",
+            "description": "Midwest leads the Black Granite industry, particularly in Black Galaxy Granite, with 3.5 million tons processed annually.",
+            "link": "/materials/natural-stone"
+          },
+          {
+            "heading": "Quartz",
+            "description": "Our quartz supports industries like engineered stone, solar glass, and semiconductors, with operations set to exceed 4.8 lakh MTPA.",
+            "link": "/materials/quartz"
+          },
+          {
+            "heading": "Heavy Mineral Sands",
+            "description": "We are in the process of acquiring mining licenses to extract ilmenite and rutile for key industries like aerospace, renewable energy, and titanium.",
+            "link": "/materials/heavy-mineral-sands"
+          },
+          {
+            "heading": "Diamond Wire",
+            "description": "Our precision-engineered diamond wire tools provide high-efficiency cutting solutions for the natural stone and construction industries.",
+            "link": "/materials/diamond-wire-tools"
+          }
+        ]
+      },
+      "processing": {
+        "title": "Processing",
+        "description": "Midwest operates processing units for natural stone, quartz, and diamond wire tools. Granite and quartz processing facilities are located in Andhra Pradesh, while the diamond wire tools facility is in Telangana. Additionally, the company holds exploration licenses for heavy mineral sands and is awaiting mining licenses to begin operations in this segment. These products cater to industries such as construction, solar glass, and aerospace, with a focus on meeting industry demands efficiently and reliably."
+      },
+      "link": {
+        "text": "Read More",
+        "href": "/processing"
+      }
+    }
+  }
+]

@@ -1,0 +1,83 @@
+.slider-section{
+    padding:0px !important;
+    margin:20px 0px 0px !important;
+    position: relative;
+    .slider-container {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        padding:0px !important;
+        margin:0px !important;
+        button {
+          height: fit-content;
+          margin: auto;
+          svg {
+            width: 12px;
+          }
+        }
+        
+        
+        .item {
+          
+          position: relative;
+          overflow: hidden;
+          width: 100% !important;
+          justify-self: center;
+          height: 100%;
+          aspect-ratio: 1 / 1;
+          cursor: pointer;
+          ul{
+            border:2px solid blue;
+          }
+          .image {
+            width: 100%;
+            height: 100%;
+          }
+          .overlay {
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(180deg, rgba(0, 0, 0, 0) 56%, rgba(0, 0, 0, 0.65) 92%);
+          }
+          p {
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 8px;
+            color: white;
+            font-size: 11px;
+            font-weight: 600;
+            width: 100%;
+            max-width: 80%;
+            margin: auto;
+            text-align: center;
+          }
+        }
+        .arrow-container {
+          display: none;
+        }
+      }
+}
+
+.arrowsContainer {
+  position: absolute;
+  bottom: 10px; // Adjust the spacing from the bottom
+  right: 18px;  // Adjust the spacing from the right
+  display: flex;
+  gap: 10px;
+  z-index: 10;  // Ensure arrows are above the slider images
+}
+
+.prevArrow, .nextArrow {
+  
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+

@@ -1,0 +1,279 @@
+[
+  {
+    "banner": {
+      "title": "Transforming Raw Materials into Global Solutions",
+      "background": "processing/banner.jpg",
+      "background-mobile": "processing/banner-mobile.jpg"
+    },
+    "description": {
+      "left-column": {
+        "title": "Our Processing"
+      },
+      "right-column": {
+        "text": "Our advanced processing facilities are equipped with advanced technology to ensure precision and efficiency, from granite slab production and Diamond Tools manufacturing to Quartz Processing.  With robust capacity and strategic reserves, we deliver high-quality materials that meet the demands of industries like construction and solar glass."
+      }
+    },
+    "sub-tabs": [
+      {
+        "title": "Natural Stone Processing",
+        "content": {
+          "infrastructure": {
+            "left-column": {
+              "title": "Infrastructure/ Plant Location"
+            },
+            "right-column": {
+              "description": "As the granite makes its way from the mines to our two processing units, the transformation begins. Advanced diamond wire technology slices through stone with precision, creating slabs ready for the world stage. Processing facilities helps to produce marketable products from rejects salvaged from dressing of large blocks. Our processing facility leverages advanced technologies to meet global demand while maintaining a consistent supply of high-quality natural stone."
+            },
+            "image": "processing/natural-stone-infra.jpg",
+            "image-mobile": "processing/natural-stone-infra-mobile.webp"
+          },
+          "innovation": {
+            "left-column": {
+              "title": "Technological Innovation"
+            },
+            "right-column": {
+              "description": "We leverage industry-leading ERP systems coupled with real-time sensor monitoring on our machinery, reducing manual intervention and ensuring data-driven decision-making across our operations."
+            },
+            "image": "processing/natural-stone-innovation.jpg",
+            "image-mobile": "processing/natural-stone-innovation.jpg"
+          },
+          "capacity": {
+            "heading": "Capacity in Numbers",
+            "list-columns": 2,
+            "list": [
+              {
+                "title": "Processing Facility at Chimakurthy",
+                "description": "Midwest operates a processing facility at Chimakurthy, Andhra Pradesh, with an installed capacity of 23,30,328 sft.",
+                "background": "backgrounds/orange.svg"
+              },
+              {
+                "title": "Processing Facility at Ongole",
+                "description": "In Ongole, Andhra Pradesh, Midwest has developed another processing facility, designed with an installed capacity of 3,00,000 sft.",
+                "background": "backgrounds/green.svg"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "title": "Quartz Processing",
+        "content": {
+          "infrastructure": {
+            "left-column": {
+              "title": "Infrastructure/ Plant Location"
+            },
+            "right-column": {
+              "description": "Our quartz processing facilities are strategically located in Andhra Pradesh, India, where Midwest has established production units for quartz grit and powder. These units are set up to serve the growing demand from industries such as solar glass, construction, and high-purity applications in electronics."
+            }
+          },
+          "innovation": {
+            "left-column": {
+              "title": "Technological Innovation"
+            },
+            "right-column": {
+              "description": "Midwest’s quartz processing units are equipped with advanced technologies for crushing, grinding, and sorting quartz into high-purity grades, ensuring superior quality products for industries like semiconductors, solar glass, and construction."
+            },
+            "image": "processing/quartz-innovation.jpg",
+            "image-mobile": "processing/quartz-innovation-mobile.jpg"
+          },
+          "capacity": {
+            "heading": "Capacity in Numbers",
+            "list-columns": 3,
+            "list": [
+              {
+                "title": "Quartz Resources:",
+                "description": "Midwest holds over 23.3 MMT of quartz resources across multiple deposits.",
+                "background": "backgrounds/orange.svg"
+              },
+              {
+                "title": "Production Capacity:",
+                "description": "Phase I has installed capacity of 303,600 metric tonnes, and Phase II is targeted to have a installed capacity 303,000 metric tonnes.",
+                "background": "backgrounds/green.svg"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "title": "Heavy Mineral Sands Processing",
+        "content": {
+          "infrastructure": {
+            "left-column": {
+              "title": "Infrastructure/ Plant Location"
+            },
+            "right-column": {
+              "description": "Midwest has obtained exploration licenses for heavy mineral sands and is currently awaiting mining licenses to commence operations. Once operational, the planned facility will focus on the extraction and processing of minerals such as ilmenite, rutile, and zircon. These minerals are used in industries such as aerospace and advanced manufacturing."
+            },
+            "image": "processing/hms-infra.jpg",
+            "image-mobile": "processing/hms-infra.jpg"
+          },
+          "capacity": {
+            "heading": "Capacity in Numbers",
+            "list-columns": 3,
+            "list": [
+              {
+                "title": "Mineral Sands Reserve:",
+                "description": "We have identified 3.95 MMT of heavy mineral sands reserves in Sri Lanka.",
+                "background": "backgrounds/orange.svg"
+              },
+              {
+                "title": "Proposed Production:",
+                "description": "Intend to produce intermediate products i.e., Titanium slag from the extracted ores. Titanium slag is used in pigments and paints.",
+                "background": "backgrounds/green.svg"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "title": "Coal Mining & Processing",
+        "content": {
+          "infrastructure": {
+            "left-column": {
+              "title": "Infrastructure/ Plant Location"
+            },
+            "right-column": {
+              "description": "Midwest Coal Resource Ltd holds 2 development and 2 exploration coal licenses in the  in the Moatize Basin of Mozambique, one of the world's most prominent coal mining regions."
+            },
+            "image": "processing/coal-infra.jpg",
+            "image-mobile": "processing/coal-infra-mobile.jpg"
+          },
+          "capacity": {
+            "heading": "Coal Reserve Insights",
+            "list-columns": 2,
+            "list": [
+              {
+                "title": "Stripping Ratio and Mining Depth:",
+                "description": "Based on the Coal JORC Report, these coal fields have shallow coal reserves at a stripping ratio of 1:2.5 (i.e., for every 1 million tonnes of coal, 2.5 million tonnes of overburden must be removed), suitable for open-pit mining within a depth of 250 meters.",
+                "background": "backgrounds/orange.svg"
+              },
+              {
+                "title": "Resource Classification:",
+                "description": "According to the JORC Report, the coal fields contain measured resources of 868 MMT, indicated resources of 1,942 MMT, and inferred mineral resources of 2,257 MMT.",
+                "background": "backgrounds/green.svg"
+              }
+            ]
+          },
+          "sustainability": {
+            "left-column": {
+              "title": "Sustainability in Asset Management"
+            },
+            "right-column": {
+              "description": "Given that sustainability and environmental consciousness are cornerstones of our operating strategy, we do not intend to exploit or operate these coal fields, and instead, we are exploring opportunities to monetize these assets through arrangements with other operators. This will also allow us to focus our capital and management attention on key business segments."
+            }
+          }
+        }
+      },
+      {
+        "title": "Diamond Wire Tool Processing",
+        "content": {
+          "infrastructure": {
+            "left-column": {
+              "title": "Infrastructure/ Plant Location"
+            },
+            "right-column": {
+              "description": "Midwest back integrated by setting up an environmentally friendly diamond tools unit, where in the Diamond wire is used in cutting and processing of the natural stone, for captive as well as industry consumption."
+            }
+          },
+          "innovation": {
+            "left-column": {
+              "title": "Technological Innovation"
+            },
+            "right-column": {
+              "description": "Our diamond wire production process involves  R&D efforts, focusing on metallurgy, matrix composition, coatings, and process optimization. This has enabled us to enhance the cutting speed, increase the useful life of the diamond wire, and reduce energy consumption. We continuously improve material compositions such as tungsten, iron, cobalt, and synthetic diamonds, ensuring superior product performance."
+            },
+            "image": "processing/dwt-innovation.jpg",
+            "image-mobile": "processing/dwt-innovation-mobile.jpg"
+          },
+          "capacity": {
+            "heading": "Capacity in Numbers",
+            "list-columns": 2,
+            "list": [
+              {
+                "title": "Annual Production Capacity:",
+                "description": "The manufacturing facility can manufacture 165,000 metres of Diamond Wire per annum.",
+                "background": "backgrounds/orange.svg"
+              },
+              {
+                "title": "Market Focus:",
+                "description": "Catering to both internal requirements and market demands in the mining and construction industries, our operations help reduce costs and improve operational efficiency.",
+                "background": "backgrounds/green.svg"
+              }
+            ]
+          },
+          "process": {
+            "left-column": {
+              "title": "Manufacturing Process Overview"
+            },
+            "right-column": {
+              "description": "Our Diamond Wire manufacturing process follows a rigorous, precision-based workflow designed to maximize quality and operational efficiency."
+            },
+            "list": [
+              {
+                "title": "Metal Matrix Prepation",
+                "background": "backgrounds/orange.svg"
+              },
+              {
+                "title": "Matrix Diamond Mixing",
+                "background": "backgrounds/green.svg"
+              },
+              {
+                "title": "Granulation",
+                "background": "backgrounds/blue.svg"
+              },
+              {
+                "title": "Cold Pressing",
+                "background": "backgrounds/gray.svg"
+              },
+              {
+                "title": "Sintering",
+                "background": "backgrounds/orange.svg"
+              },
+              {
+                "title": "Quality Control",
+                "background": "backgrounds/green.svg"
+              },
+              {
+                "title": "Wire Assembly & Plastic Injection",
+                "background": "backgrounds/blue.svg"
+              }
+            ],
+            "image": "processing/manufacturing-process.jpg",
+            "imageslist": [
+              "../images/processing/manufacturing-process-1.jpg",
+              "../images/processing/manufacturing-process-2.jpg"
+            ]
+          },
+          "highlights": {
+            "heading": "Key Highlights",
+            "list": [
+              {
+                "title": "Plant Capacity:",
+                "description": "165,000 metres of Diamond Wire produced annually.",
+                "background": "backgrounds/orange.svg"
+              },
+              {
+                "title": "Product Types:",
+                "description": "Quarry Wire, Stationery Wire, and Multi Wire.",
+                "background": "backgrounds/green.svg"
+              },
+              {
+                "title": "Efficiency:",
+                "description": "Enhanced energy efficiency, cutting speed, and tool lifespan, thanks to advanced material composition and process optimization.",
+                "background": "backgrounds/blue.svg"
+              }
+            ]
+          },
+          "marketing": {
+            "left-column": {
+              "title": "Sales and Marketing"
+            },
+            "right-column": {
+              "description": "In addition to product enhancements, we are expanding our dealer network and adopting a ‘concept selling’ strategy to target sectors that have yet to adopt Diamond Wire technology. By continually improving our products and marketing strategies, we aim to further increase our market share both domestically and globally."
+            }
+          }
+        }
+      }
+    ]
+  }
+]

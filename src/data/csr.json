@@ -1,0 +1,274 @@
+[
+  {
+    "banner": {
+      "background": "csr/banner.jpg",
+      "background-mobile": "csr/banner-mobile.jpg",
+      "heading": "Sustainable Progress.<br/>Empowered Communities.<br/>A Safer Future."
+    },
+    "value": {
+      "left-column": {
+        "title": "Creating Value Beyond Business"
+      },
+      "right-column": {
+        "description": "We believe that the purpose of existence, sustenance, and expansion of our business hinges heavily on our continued ability to serve society with increased vigor and efficacy. As a microcosm of nature and scirmion in character, we proactively identify societal challenges within the specific focus areas of our vision, objectives, and operational relevance. For us, a well-defined problem becomes an opportunity to create value through targeted remediation."
+      },
+      "content": {
+        "quote": {
+          "text": "Today, we have incrementally expanded to include materials and products critical to the clean energy ecosystem and energy transition—contributing to Net Zero goals for communities and institutions worldwide.",
+          "author": "- K Raghava Reddy",
+          "designation": "Founder & President, Midwest Ltd."
+        },
+        "text": "Our operational boundaries include Materials, Processes, Products, and Production Systems. Our legacy practice in mining and processing dimensional stone has made a substantial contribution to the ecosystem through advanced exploration, operational safety, environmental protection, and value addition. Today, we have incrementally expanded to include materials and products critical to the clean energy ecosystem and energy transition—contributing to Net Zero goals for communities and institutions worldwide. We strive to acquire and apply this knowledge in all business practices."
+      }
+    },
+    "value-business": {
+      "left-column": {
+        "title": "Creating Value Beyond Business"
+      },
+      "right-column": {
+        "description": "Our Ethos (SVADHA) is encapsulated in Ashta Prathibadhatha (eight commitments), guiding our work with a balanced focus on societal, environmental, and industrial needs:"
+      },
+      "list": [
+        {
+          "heading": "Workplace Safety:",
+          "description": "We prioritize workforce well-being, ensuring safe and ethical working conditions.",
+          "background": "backgrounds/green.svg"
+        },
+        {
+          "heading": "Conservation of Resources:",
+          "description": "Responsible mining, resource management, and recycling practices are core to our operations.",
+          "background": "backgrounds/orange.svg"
+        },
+        {
+          "heading": "Water & Ecology Preservation:",
+          "description": "Through rainwater harvesting, water recycling, and green cover creation, we work to prevent soil erosion and protect local ecosystems.",
+          "background": "backgrounds/blue.svg"
+        },
+        {
+          "heading": "Environmental Protection:",
+          "description": "We are committed to electrification, renewable energy integration, and energy conservation measures.",
+          "background": "backgrounds/gray.svg"
+        },
+        {
+          "heading": "Decarbonization:",
+          "description": "Producing materials for solar glass and lightweight battery anodes, we support global decarbonization efforts.",
+          "background": "backgrounds/orange.svg"
+        },
+        {
+          "heading": "Skilling & Knowledge Upgradation:",
+          "description": "Continuous learning and skill enhancement are central to our workforce development.",
+          "background": "backgrounds/green.svg"
+        },
+        {
+          "heading": "Community Service:",
+          "description": "Supporting local communities through employment, education, healthcare, and infrastructure sharing.",
+          "background": "backgrounds/gray.svg"
+        },
+        {
+          "heading": "Value Creation for Stakeholders:",
+          "description": "We engage stakeholders in planning, uphold transparency, and ensure reliable, ethical operations.",
+          "background": "backgrounds/blue.svg"
+        }
+      ]
+    },
+    "initiatives": {
+      "header": "CSR AT A GLANCE",
+      "left-column": {
+        "title": "An Overview of Midwest's Impactful Initiatives"
+      },
+      "list": [
+        {
+          "description": "Invested INR 1.92 crore in FY 2024 towards community support and infrastructure development.",
+          "background": "backgrounds/orange.svg"
+        },
+        {
+          "description": "Conducted 3,827 free COVID-19 vaccinations worth ₹60 Lakhs and donated ₹1 Crore to the AP CM Relief Fund and ₹50 Lakhs to the PM Relief Fund.",
+          "background": "backgrounds/green.svg"
+        },
+        {
+          "description": "Donated over 200 oxygen concentrators to healthcare facilities in Andhra Pradesh and Telangana during COVID-19.",
+          "background": "backgrounds/blue.svg"
+        },
+        {
+          "description": "Improved infrastructure across 21 rural schools, benefiting 700+ students with classrooms, sanitation facilities, and RO water installations.",
+          "background": "backgrounds/gray.svg"
+        },
+        {
+          "description": "Donated bicycles to rural girl students in Telangana to reduce dropout rates.",
+          "background": "backgrounds/orange.svg"
+        },
+        {
+          "description": "Supplied 1,000 sets of study materials for underprivileged students preparing for TSPSC exams.",
+          "background": "backgrounds/blue.svg"
+        },
+        {
+          "description": "Established 2 Primary Healthcare Centers in Kodad, Telangana, serving over 700 families.",
+          "background": "backgrounds/gray.svg"
+        },
+        {
+          "description": "Distributed over 100 organic farming kits, impacting 250+ farmers with sustainable agricultural practices.",
+          "background": "backgrounds/orange.svg"
+        },
+        {
+          "description": "Offered essential food supplies, including grains and vegetables, to families around operational sites during COVID-19.",
+          "background": "backgrounds/green.svg"
+        },
+        {
+          "description": "Provided life-support ambulances to Prakasam and Mahabubabad districts to enhance emergency services.",
+          "background": "backgrounds/blue.svg"
+        }
+      ]
+    },
+    "education": {
+      "left-column": {
+        "title": "Education and Skill Development"
+      },
+      "right-column": {
+        "description": "We believe education is the cornerstone of societal progress. Our educational initiatives are designed to provide accessible, quality learning experiences for rural communities, creating pathways for students to build brighter futures."
+      },
+      "list": [
+        {
+          "title": "School Infrastructure Support",
+          "image": "csr/skill-slide-1.jpg",
+          "description": "We have supported 21 rural schools by constructing essential facilities such as classrooms, lunchrooms, and sanitation units. These improvements include building toilets, water pipelines, and RO plants to ensure hygienic conditions."
+        },
+        {
+          "title": "Vocational and Skill Training",
+          "image": "csr/skill-slide-2.jpg",
+          "description": "In collaboration with local educational bodies, we have established training centers that focus on vocational skills to prepare young people for sustainable careers."
+        },
+        {
+          "title": "Learning Materials & Resources",
+          "image": "csr/skill-slide-3.jpg",
+          "description": "Annually, we distribute benches, books, and other educational resources to schools, benefiting over 1,000 students. Additionally, Midwest has provided bicycles to over 50 girl students, reducing dropout rates by addressing transportation challenges."
+        },
+        {
+          "title": "Digital Learning Tools",
+          "image": "csr/skill-slide-4.jpg",
+          "description": "We believe in equipping students with modern technology. We have provided computers, tablets, and smart screens to support digital literacy, especially benefiting differently-abled students."
+        }
+      ]
+    },
+    "support": {
+      "left-column": {
+        "title": "Disaster Relief and Community Support During COVID-19"
+      },
+      "right-column": {
+        "description": "During the unprecedented COVID-19 crisis, our team stepped up to support both employees and communities, providing critical resources and implementing safety measures."
+      },
+      "content": {
+        "info": {
+          "heading": "Comprehensive COVID-19 Response:",
+          "description": "In addition to financial donations, we supplied food grains, pulses, and vegetables to families affected by the pandemic, provided 200 oxygen concentrators to healthcare centers, and organized vaccination drives. Furthermore, extensive preventive measures, including regular health screenings, PCR tests, and COVID-19 insurance policies, were implemented to safeguard employee and community health.",
+          "background": "backgrounds/orange.svg"
+        },
+        "image": "csr/relief-1.jpg",
+        "imageslist": [
+          "../images/csr/relief-a.jpg",
+          "../images/csr/relief-b.jpg"
+        ]
+      }
+    },
+    "healthcare": {
+      "left-column": {
+        "title": "Healthcare Initiatives"
+      },
+      "right-column": {
+        "description": "Recognizing the critical need for healthcare access, Midwest has made substantial contributions to enhancing healthcare facilities and resources in rural areas."
+      },
+      "list": [
+        {
+          "heading": "Infrastructure Enhancement:",
+          "description": "We have funded the construction of visitor areas, meeting spaces, and operation theaters, alongside providing essential medical equipment such as air conditioners, operation tables, and water tanks to local hospitals.",
+          "background": "backgrounds/gray.svg"
+        },
+        {
+          "heading": "Emergency Medical Services:",
+          "description": "During the COVID-19 pandemic, we provided an ambulance to Prakasam and Mahabubabad districts to support emergency services, addressing crucial healthcare needs in underserved regions.",
+          "background": "backgrounds/green.svg"
+        }
+      ],
+      "image": "csr/healthcare-1.jpg",
+      "imageslist": [
+          "../images/csr/healthcare-1.jpg",
+          "../images/csr/healthcare-2.jpg",
+          "../images/csr/healthcare-3.jpg",
+          "../images/csr/healthcare-4.jpg"
+        ]
+    },
+    "rural-development": {
+      "left-column": {
+        "title": "Rural Development"
+      },
+      "right-column": {
+        "description": "We are committed to enhancing infrastructure to improve the quality of life for rural communities. Our rural development projects focus on building essential infrastructure that serves as the foundation for sustainable growth."
+      },
+      "list": [
+        {
+          "title": "Infrastructure Development",
+          "description": "We have constructed and repaired roads, including critical pathways in villages like Mangal Thanda and Kodad in Telangana. These roads facilitate easier access to schools, healthcare, and marketplaces, strengthening community connectivity.",
+          "image": "csr/rural-development-1.jpg"
+        },
+        {
+          "title": "Environmental Efforts",
+          "description": "In alignment with Telangana’s “Harithaharam” reforestation initiative, we donated 25,000+ saplings to promote green cover, enhancing the local ecosystem and contributing to climate resilience.",
+          "image": "csr/rural-development-2.jpg"
+        },
+        {
+          "title": "Clean Water Access",
+          "description": "RO plants have been installed in key locations, such as the Kodada office & Hanamkonda, ensuring access to clean drinking water & reducing the risk of waterborne diseases.",
+          "image": "csr/rural-development.jpg"
+        }
+      ]
+    },
+    "livelihood": {
+      "left-column": {
+        "title": "Sustainable Livelihood & Environmental Stewardship"
+      },
+      "right-column": {
+        "description": "Our sustainable livelihood initiatives are rooted in creating resilience within rural communities through innovative and environmentally friendly practices."
+      },
+      "list": [
+        {
+          "heading": "Rural Electrification:",
+          "description": "Solar lamps and streetlights were installed in tribal villages, improving safety and quality of life by providing reliable electricity access.",
+          "background": "backgrounds/orange.svg"
+        },
+        {
+          "heading": "Bicycle Distribution Program:",
+          "description": "By providing bicycles to rural students, we help reduce school dropout rates, especially among girls, who face long travel distances to attend school.",
+          "background": "backgrounds/gray.svg"
+        },
+        {
+          "heading": "COVID-19 Support:",
+          "description": "Midwest partnered with Synergene Crop Innovations to distribute over 250 organic farming kits, training 250+ farmers on sustainable agricultural methods. These efforts have helped farmers transition to organic practices, promoting healthier crops and soil.",
+          "background": "backgrounds/green.svg"
+        }
+      ],
+      "image": "csr/livelihood-1.jpg",
+      "imageslist": [
+          "../images/csr/livelihood-1.jpg",
+          "../images/csr/livelihood-2.jpg",
+          "../images/csr/livelihood-3.jpg",
+          "../images/csr/livelihood-4.jpg"
+        ]
+    },
+    "committee": {
+      "left-column": {
+        "title": "CSR Committee"
+      },
+      "right-column": {
+        "description": "Led by Chairperson Ms. Smita Amol Lahoti, the CSR committee is dedicated to formulating, monitoring, and implementing the company’s social responsibility initiatives. Focusing on sustainable social impact, the committee directs resources toward education, healthcare, infrastructure, and sustainable livelihoods within local communities. Their role includes setting annual action plans, recommending budgets, and reviewing project outcomes to ensure effective use of CSR funds. Through partnerships with community organizations and local governments, the committee’s work addresses critical societal needs, ultimately fostering long-term community resilience."
+      }
+    },
+    "future": {
+      "left-column": {
+        "title": "Towards a Sustainable Future"
+      },
+      "right-column": {
+        "description": "Our CSR efforts reflect Midwest’s dedication to creating a positive, long-lasting impact. Each project and initiative is a testament to our commitment to social responsibility, aiming to build a foundation where communities can prosper, health is prioritized, and education is accessible to all."
+      },
+      "text": "For more on our CSR initiatives, please download the full CSR Report or contact us for further details."
+    }
+  }
+]

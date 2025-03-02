@@ -1,0 +1,225 @@
+[
+  {
+    "banner": {
+      "background": "research/banner.jpg",
+      "title": "Pioneering Sustainable Growth."
+    },
+    "research": {
+      "header": "R&D",
+      "left-column": {
+        "icon": "icons/book-icon.svg",
+        "title": "Innovating Through R&D."
+      },
+      "right-column": {
+        "description": "At Midwest, R&D drives innovation through advanced exploration, sustainable practices, and technology integration. Our focus includes identifying new mineral deposits using satellite imagery and geological studies, while improving operational efficiency and product quality. Key initiatives include a co-developed Electric Squaring and Dressing Station to reduce emissions and costs, piloting Electric Tipper Trucks powered by renewable energy, and phasing out explosives with safer chemical alternatives that enhance yield and reduce dust pollution. Supported by digital tools like the SAP ERP system, we optimize fuel use and reduce operating costs, ensuring leadership in efficiency and sustainability."
+      }
+    },
+    "research-team": {
+      "header": "Our R&D Team",
+      "image": "research/research-team-image.webp",
+      "left-column": {
+        "title": "Expertise and Experience."
+      },
+      "right-column": {
+        "description": "Our R&D and Exploration team comprises 9 highly skilled experts, including 7 geologists, 1 quality control specialist, and 1 chemist, with an average of 14.53 years of industry experience. Together, they bring a wealth of knowledge and are responsible for implementing research initiatives that are critical to our growth strategy."
+      }
+    },
+    "innovation": {
+      "left-column": {
+        "title": "Driving Innovation in Diamond Wire Tools."
+      },
+      "right-column": {
+        "description": "The Diamond Wire Tools segment is a core focus of Midwest’s R&D activities. We aim to improve the performance and durability of these tools, focusing on refining metallurgy, matrix composition, coatings, and production systems to reduce costs while increasing efficiency."
+      },
+      "content": {
+        "key-improvements": [
+          {
+            "title": "Increased operating speed and lifespan:",
+            "description": "Through modifications to the composition of materials, including tungsten, iron, cobalt, and synthetic diamonds, we have increased the cutting speed and extended the useful life of our Diamond Wire tools.",
+            "color": "backgrounds/orange.svg"
+          },
+          {
+            "title": "Energy Efficiency:",
+            "description": "Our R&D efforts have led to reduced energy consumption, optimizing materials and improving overall production systems.",
+            "color": "backgrounds/green.svg"
+          },
+          {
+            "title": "Production Capacity:",
+            "description": "With a production capacity of 165,000 metres of Diamond Wire per annum, we are well-positioned to meet both in-house demands and market needs.",
+            "color": "backgrounds/blue.svg"
+          }
+        ],
+        "wire-types": [
+          {
+            "title": "Quarry Wire",
+            "description": "Used in dimensional stone quarries as a cutting tool in wire saw machines.",
+            "color": "backgrounds/orange.svg"
+          },
+          {
+            "title": "Stationery Wire",
+            "description": "Used for processing stone extracted from mines, working in tandem to cut and shape stones.",
+            "color": "backgrounds/green.svg"
+          },
+          {
+            "title": "Multi-Wire",
+            "description": "Utilized in processing plants to produce thin slabs of granite, quartzite, and other hard stones.",
+            "color": "backgrounds/blue.svg"
+          }
+        ],
+        "text": [
+          "Strengthening Market Presence:<br/>Expand operations in the Diamond Wire segment to capture a larger market share.",
+          "Advancing Cutting Technology through R&D:<br/>R&D focuses on improving cutting speed and durability by enhancing material compositions, including tungsten, iron, cobalt, and synthetic diamonds."
+        ],
+        "image": "research/investors-innovation-image.jpg"
+      }
+    },
+    "minerals-portfolio": {
+      "image": "research/exploration-image.jpg",
+      "image-mobile": "research/exploration-image-mobile.webp",
+      "left-column": {
+        "title": "Exploration of New Mineral Deposits."
+      },
+      "right-column": {
+        "description": "Exploration and expansion of our mineral resource portfolio are vital components of our R&D strategy. Through satellite imagery and geological data analysis, our team identifies new mineral deposits, focusing on Black Galaxy Granite, Absolute Black Granite, Quartz, and Heavy Mineral Sands."
+      },
+      "content": {
+        "key-projects": [
+          {
+            "title": "Black Galaxy Granite Block:",
+            "description": "Developing a new 10.94-hectare block at Chimakurthy, Andhra Pradesh, adjacent to our existing mines.",
+            "color": "backgrounds/gray.svg"
+          },
+          {
+            "title": "Quartzite Blocks:",
+            "description": "Ongoing development of Quartzite deposits at Hanumanthulapadu, Andhra Pradesh, an alternative to imported quartzite.",
+            "color": "backgrounds/orange.svg"
+          }
+        ],
+        "text": ""
+      }
+    },
+    "stations": {
+      "image": "research/stations-image.webp",
+      "image-mobile": "research/stations-image-mobile.webp",
+      "left-column": {
+        "title": "Advancing Efficiency with Electric Squaring and Dressing Stations."
+      },
+      "right-column": {
+        "description": "In partnership with an Italian company, Midwest has developed an Electric Squaring and Dressing Station to optimize the granite dressing process. This innovative station replaces three mechanical drills, reducing the need for diesel and lowering mine emissions."
+      },
+      "content": {
+        "impacts": {
+          "title": "Impacts",
+          "list": [
+            {
+              "title": "Cost and emission reduction:",
+              "description": "The use of electric power instead of diesel has lowered production costs and emissions.",
+              "color": "backgrounds/green.svg"
+            },
+            {
+              "title": "Improved safety:",
+              "description": "Fewer personnel are required in the mine pits, significantly reducing safety risks.",
+              "color": "backgrounds/blue.svg"
+            }
+          ]
+        }
+      }
+    },
+    "trucks": {
+      "header": "Electric Dump Trucks",
+      "image": "research/dump-truck.webp",
+      "left-column": {
+        "title": "A Step Towards Green Energy."
+      },
+      "right-column": {
+        "description": "In line with our commitment to reducing our environmental footprint, we introduced electric dump trucks into our mining operations. These trucks, deployed on a pilot basis, have cut operating and maintenance costs, reduced emissions, and improved operator comfort."
+      },
+      "content": {
+        "benefits": {
+          "title": "Key Benefits:",
+          "list": [
+            {
+              "description": "Lower operating costs per kilometre and reduced emissions.",
+              "color": "backgrounds/orange.svg"
+            },
+            {
+              "description": "Enhanced operator comfort with reduced heat, sound, and vibration.",
+              "color": "backgrounds/green.svg"
+            },
+            {
+              "description": "Solar power installations with a combined capacity of 0.66 MW at two mines to charge the trucks, further reducing emissions.",
+              "color": "backgrounds/blue.svg"
+            }
+          ]
+        }
+      }
+    },
+    "mining": {
+      "left-column": {
+        "title": "Phasing Out Explosives for Safer Mining."
+      },
+      "right-column": {
+        "description": "Midwest is transitioning away from traditional blasting methods in favour of expanding chemical powder for granite block separation. This shift minimizes dust pollution, safety hazards, and compliance challenges while maintaining operational efficiency."
+      },
+      "content": {
+        "title": "Key Outcomes:",
+        "list": [
+          {
+            "description": "Enhanced safety and reduced environmental impact.",
+            "color": "backgrounds/gray.svg"
+          },
+          {
+            "description": "Improved operational efficiency and minimized reliance on hazardous materials.",
+            "color": "backgrounds/orange.svg"
+          }
+        ],
+        "image": "research/mining-image.jpg"
+      }
+    },
+    "laboratory": {
+      "header": "Quartz Laboratory",
+      "left-column": {
+        "title": "Supporting Advanced Processing."
+      },
+      "right-column": {
+        "description": "We have established a Quartz Laboratory in APIIC Growth Center (Building Materials Special Economic Zone) at Annangi Village, Prakasam District, Andhra Pradesh, India, to support our expanding quartz processing operations. This facility allows us to assess quartz samples from our mines, design process parameters, and optimize yields based on market requirements."
+      },
+      "content": {
+        "title": "Laboratory Capabilities:",
+        "list": [
+          {
+            "description": "In-house testing of quartz samples to meet specific quality standards for solar glass and semiconductor markets.",
+            "color": "backgrounds/green.svg"
+          },
+          {
+            "description": "Reduced dependency on third-party testing facilities, improving efficiency and product quality.",
+            "color": "backgrounds/blue.svg"
+          }
+        ],
+        "image": "research/lab-image.jpg"
+      }
+    },
+    "technologies": {
+      "left-column": {
+        "title": "Optimizing Operations Through Emerging Technologies."
+      },
+      "right-column": {
+        "description": "Our R&D team continuously explores and integrates emerging technologies to enhance our operations. Our ERP systems and sensor monitoring technologies track fuel utilization and improve process flow, reducing costs and increasing efficiency."
+      },
+      "content": {
+        "title": "Technological Advancements:",
+        "list": [
+          {
+            "description": "Electric Dump Trucks and Squaring Stations to minimize emissions and improve workflow.",
+            "color": "backgrounds/gray.svg"
+          },
+          {
+            "description": "Real-time monitoring through ERP systems to optimize fuel use and reduce operational costs.",
+            "color": "backgrounds/orange.svg"
+          }
+        ],
+        "image": "research/tech-image.jpg"
+      }
+    }
+  }
+]

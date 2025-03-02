@@ -1,0 +1,57 @@
+[
+  {
+    "title": "Midwest Group",
+    "logo": "logo.svg",
+    "menu": [
+      {
+        "title": "Home",
+        "link": "/"
+      },
+      {
+        "title": "Who We Are",
+        "link": "/about"
+      },
+      {
+        "title": "Materials",
+        "sub-links": [
+          {
+            "title": "Natural Stone",
+            "link": "/materials/natural-stone"
+          },
+          {
+            "title": "Quartz",
+            "link": "/materials/quartz"
+          },
+          {
+            "title": "Heavy Mineral Sands",
+            "link": "/materials/heavy-mineral-sands"
+          },
+          {
+            "title": "Diamond Wire Tools",
+            "link": "/materials/diamond-wire-tools"
+          }
+        ]
+      },
+      {
+        "title": "Processing",
+        "link": "/processing"
+      },
+      {
+        "title": "Investors",
+        "link": "/investors"
+      },
+      {
+        "title": "R&D",
+        "link": "/research-and-development"
+      },
+      {
+        "title": "ESG",
+        "link": "/esg"
+      },
+      {
+        "title": "CSR",
+        "link": "/csr"
+      }
+    ]
+  }
+]

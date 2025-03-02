@@ -1,0 +1,187 @@
+{
+  "title": "Heavy Mineral Sands",
+  "slug": "heavy-mineral-sands",
+  "banner": {
+    "background": "heavy-mineral-sands/banner.jpg",
+    "background-mobile": "heavy-mineral-sands/banner-mobile.jpg",
+    "heading": "Essential Elements,<br/>Powering Advanced Industries."
+  },
+  "description": {
+    "left-column": {
+      "icon": "icons/stone-icon.svg",
+      "title": "Heavy Mineral Sands"
+    },
+    "right-column": {
+      "description": {
+        "type": "list",
+        "array": [
+          "Expansion into Heavy Mineral Sand Mining focuses on developing capabilities for extracting minerals such as Rutile, Ilmenite, Zircon, Garnet, Sillimanite, and Monazite.",
+          "These minerals serve as feedstock for Titanium Oxide pigments, Titanium metal production, and welding electrodes, with plans to produce Titanium slag as an intermediate product.*",
+          "Four exploration licenses obtained in Sri Lanka; further applications in progress, Operations expected to commence by Fiscal 2027, pending environmental clearances"
+        ]
+      }
+    },
+    "source": "*Source: CRISIL Report",
+    "image": "heavy-mineral-sands/stones.webp",
+    "image-mobile": "heavy-mineral-sands/stones-mobile.webp",
+    "list-flow": "column",
+    "list": [
+      {
+        "text": "**4 exploration licenses** acquired in Sri Lanka",
+        "color": "backgrounds/green.svg"
+      },
+      {
+        "text": "Exploration reports approved by Sri Lanka's Geological Survey and Mines Bureau.",
+        "color": "backgrounds/orange.svg"
+      },
+      {
+        "text": "Serving expanding Indian and global markets, with operations set to commence in FY 2027.",
+        "color": "backgrounds/blue.svg"
+      }
+    ]
+  },
+  "market": {
+    "title": "Market & Growth",
+    "content": {
+      "tabs": [
+        {
+          "title": "Market",
+          "list": [
+            "Heavy mineral sands contain key minerals such as ilmenite, rutile, zircon, and monazite, which are crucial for titanium-based products in industries like aerospace, electronics, and paints.",
+            "Midwest has expanded its heavy mineral sands operations through its subsidiaries in Sri Lanka, with a planned production capacity of 37,000 MTPA, strengthening its presence in the global market.",
+            "India plays a significant role in the heavy mineral sands market, with deposits concentrated along coastal areas."
+          ]
+        },
+        {
+          "title": "Growth",
+          "list": [
+            "The heavy mineral sands market is expected to grow at a CAGR of 6-7% through fiscal 2028, driven by demand for titanium dioxide and zircon.",
+            "Midwest's integrated supply chain, from mining to processing, gives it a competitive edge to meet the rising demand for titanium products, positioning it to capitalize on market growth.",
+            "Global demand for ilmenite, rutile, and zircon continues to rise due to their use in aerospace components, ceramics, and pigments."
+          ]
+        }
+      ]
+    }
+  },
+  "marketgrowth": {
+    "header": "MarketGrowth",
+    "left-column": {
+      "title": "Market & Growth"
+    },
+    "right-column": {
+      "list": [
+        "Rutile: Rutile production by FY29P: 16.1-17.1 KT, India. Global Rutile production by 2028P: 516-586 MT.*",
+        "Garnet: Global industrial garnet production was 971 KT in 2022; domestic abrasive garnet increased to 8.2 KT.*",
+        "Zircon: Global zircon production to reach 1,767-1,810 KT by 2028, growing at a CAGR of 2.0-2.5% Zircon Domestic Ilmenite production to reach 950-1,002 KT by 2029; global production to reach 9,735-9,974 MT by 2028.* ",
+        "Ilmenite: Domestic Ilmenite production to reach 950-1,002 KT by 2029; global production to reach 9,735-9,974 MT by 2028.*",
+        "Monazite: Monazite is a rare mineral. As per IBM, the production of monazite stood at 69.75KT in fiscal 2020.*"
+      ]
+    },
+    "list": [
+      {
+        "title": "Rutile Production Review",
+        "image": "heavy-mineral-sands/rutile-production-review.png"
+      },
+      {
+        "title": "Ilmenite Production Review",
+        "image": "heavy-mineral-sands/ilmenite-production-review.png"
+      },
+      {
+        "title": "Garnet Production Review",
+        "image": "heavy-mineral-sands/garnet-production-review.png"
+      },
+      {
+        "title": "Domestic Production Of Sillimenite",
+        "image": "heavy-mineral-sands/domestic-production-of-sillimenite.png"
+      },
+      {
+        "title": "Global Production of Zircon",
+        "image": "heavy-mineral-sands/global-production-of-zircon.png"
+      },
+      {
+        "title": "Domestic Consumption",
+        "image": "heavy-mineral-sands/domestic-consumption.png"
+      },
+      {
+        "title": "Global Consumption",
+        "image": "heavy-mineral-sands/global-consumption.png"
+      }
+    ]
+  },
+  "products": {
+    "heading": "Products",
+    "list": [
+      {
+        "title": "Rutile",
+        "image": "heavy-mineral-sands/rutile.jpg",
+        "details": {
+          "description": "A source of titanium metal, used in aerospace, semiconductors, and defense applications.",
+          "applications": [
+            "Titanium dioxide production: Titanium dioxide produced from rutile is suitable for application in high-performance segments such as the automotive and aerospace industry while also being suitable for use in pigments, plastics and welding rods as a coating material",
+            "Metallurgy: Titanium metal is derived from rutile, used in aerospace, military and medical applications",
+            "Welding rods: Rutile is used in the coating of welding rods",
+            "Gemstones: Production of synthetic star sapphires and rubies"
+          ],
+          "projects": []
+        }
+      },
+      {
+        "title": "Ilmenite",
+        "image": "heavy-mineral-sands/Ilmenite.jpeg",
+        "details": {
+          "description": "Used to produce titanium dioxide for paints, plastics, and paper.",
+          "applications": [
+            "Titanium dioxide production: The primary use of ilmenite is to produce titanium dioxide (TiO2), which is used as a white pigment in paints, plastics, paper and food colouring.",
+            "Titanium metal production: Ilmenite is also a key raw material for producing titanium metal, used in aerospace, medical, and other high-performance applications, due to its strength, light weight, and resistance to corrosion.",
+            "Welding rod coating: It is used in the manufacture of fluxes for welding rods."
+          ],
+          "projects": []
+        }
+      },
+      {
+        "title": "Zircon",
+        "image": "heavy-mineral-sands/zircon.jpg",
+        "details": {
+          "description": "Used in the ceramics industry and as a refractory material.",
+          "applications": [
+            "Production of ceramic products, such as tiles, bricks, and pottery.",
+            "Abrasives, lamp filaments, jet engines and space shuttle parts etc.",
+            "Optical applications, such as gemstones and optical lenses, including those used in eyeglasses and telescopes.",
+            "Used as Gemstone in the production of jewellery, particularly in rings, earrings, and other decorative items.",
+            "Used in the production of electronic components, such as capacitors and resistors."
+          ],
+          "projects": []
+        }
+      },
+      {
+        "title": "Garnet",
+        "image": "heavy-mineral-sands/garnet.jpg",
+        "details": {
+          "description": "Applied in abrasives and high-performance coatings.",
+          "applications": [
+            "Gemstone: Garnet is used as a gemstone and is prized for its deep red colour.",
+            "Abrasives: It is used in abrasives, such as sandpaper and grinding wheels, abrasive blasting media and in the production of refractory materials.",
+            "Ceramics: Production of glass and ceramics."
+          ],
+          "projects": []
+        }
+      },
+      {
+        "title": "Sillimanite",
+        "image": "heavy-mineral-sands/sillimanite.jpg",
+        "details": {
+          "description": "Ideal for heat-resistant refractories.",
+          "applications": [
+            "Refractories: Sillimanite is primarily used in the production of refractory materials makes it ideal for lining furnaces, kilns, and other high-temperature equipment.",
+            "Refractories made from sillimanite are used in industries such as steelmaking, glass manufacturing, and ceramics.",
+            "Ceramics: Used to manufacture high-quality porcelain and stoneware.",
+            "Abrasion-resistant Materials: Used as sandblasting media and producing grinding wheels.",
+            "Geological Studies: Serves as an index mineral for determining the metamorphic grade of rocks.",
+            "Engineering Applications"
+          ],
+          "projects": []
+        }
+      }
+    ]
+  }
+}

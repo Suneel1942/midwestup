@@ -1,0 +1,64 @@
+{
+  "name": "gatsby-starter-default",
+  "private": true,
+  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "version": "0.1.0",
+  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "dependencies": {
+    "@fontsource-variable/montserrat": "^5.1.0",
+    "@fontsource-variable/open-sans": "^5.1.0",
+    "@gsap/react": "^2.1.2",
+    "babel-plugin-styled-components": "^2.1.4",
+    "framer-motion": "^11.18.0",
+    "gatsby": "^5.14.1",
+    "gatsby-plugin-image": "^3.14.0",
+    "gatsby-plugin-manifest": "^5.14.0",
+    "gatsby-plugin-sass": "^6.14.0",
+    "gatsby-plugin-sharp": "^5.14.0",
+    "gatsby-plugin-styled-components": "^6.14.0",
+    "gatsby-source-filesystem": "^5.14.0",
+    "gatsby-transformer-json": "^5.14.0",
+    "gatsby-transformer-sharp": "^5.14.0",
+    "gsap": "^3.12.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-responsive-modal": "^6.4.2",
+    "react-slick": "^0.30.3",
+    "react-spring": "8.0.27",
+    "react-tabs": "^6.1.0",
+    "react-virtualized": "^9.22.5",
+    "sass": "^1.83.4",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^6.1.15"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.0.6",
+    "ajv": "^8.17.1",
+    "ajv-keywords": "^5.1.0",
+    "autoprefixer": "^10.4.20",
+    "gatsby-plugin-postcss": "^6.14.0",
+    "postcss": "^8.5.2",
+    "prettier": "^3.4.2",
+    "tailwindcss": "^4.0.6"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "0BSD",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md,css}\"",
+    "start": "gatsby develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}

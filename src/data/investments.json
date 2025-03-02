@@ -1,0 +1,435 @@
+[
+  {
+    "banner": {
+      "background": "investments/banner.jpg",
+      "background-mobile": "investments/banner-mobile.jpg",
+      "heading": "Strength in Value, Stability in Partnership."
+    },
+    "relations": {
+      "header": "Investor Relations",
+      "left-column": {
+        "title": "Building Value, Delivering Growth."
+      },
+      "right-column": {
+        "description": "Midwest is committed to creating long-term value for shareholders while upholding sustainable business practices. Our strategic investments in key growth sectors ensure stable returns and a responsible approach to development."
+      },
+      "list": [
+        {
+          "heading": "16.5%",
+          "text": "Rev. Y-o-Y Growth"
+        },
+        {
+          "heading": "25.00%",
+          "text": "ROCE"
+        },
+        {
+          "heading": "23.78%",
+          "text": "ROE"
+        },
+        {
+          "heading": "89 days",
+          "text": "Working Capital Cycle"
+        }
+      ]
+    },
+    "case-study": {
+      "header": "Investment case",
+      "left-column": {
+        "title": "Why Invest In Midwest?"
+      },
+      "list": [
+        {
+          "title": "Diversified Portfolio",
+          "description": "Midwest is a leader across multiple sectors, including granite, quartz, heavy mineral sands, and coal."
+        },
+        {
+          "title": "Global Reach",
+          "description": "Operations span India, Mozambique, and Sri Lanka, with a growing presence in key international markets."
+        },
+        {
+          "title": "Sustainable Practices",
+          "description": "We prioritize sustainability in every step, from extraction to processing, ensuring that we meet environmental standards and reduce our carbon footprint."
+        },
+        {
+          "title": "Financial Strength",
+          "description": "Consistent EBITDA growth, supported by expanding operations and an efficient capital allocation strategy."
+        }
+      ]
+    },
+    "financial-reports": {
+      "header": "Credit Rating and Governance",
+      "left-column": {
+        "title": "Financial Reports"
+      },
+      "right-column": {
+        "description": " "
+      },
+      "reports": [
+        {
+          "title": "CRISIL Report",
+          "list": [
+            {
+              "title": "CRISIL Report",
+              "pdf": "documents/financial-reports/Midwest_Final Report_30092024_CRISIL_Report.pdf",
+              "background": "backgrounds/orange.svg"
+            }
+          ]
+        },
+        {
+          "title": "Midwest Limited FS",
+          "list": [
+            {
+              "title": "Midwest Limited FS 2023-24",
+              "pdf": "documents/financial-reports/Midwest_Limited_FS_2023-24.pdf",
+              "background": "backgrounds/orange.svg"
+            },
+            {
+              "title": "Midwest Limited FS 2022-23",
+              "pdf": "documents/financial-reports/Midwest_Limited_FS_2022-23.pdf",
+              "background": "backgrounds/green.svg"
+            },
+            {
+              "title": "Midwest Limited FS 2021-22",
+              "pdf": "documents/financial-reports/Midwest_Limited_FS_2021-22.pdf",
+              "background": "backgrounds/blue.svg"
+            }
+          ]
+        },
+        {
+          "title": "Midwest Holdings Ltd FS",
+          "list": [
+            {
+              "title": "Midwest Holdings LTD FS 2023-24",
+              "pdf": "documents/financial-reports/Midwest_Holdings_Ltd_FS_2023-24.pdf",
+              "background": "backgrounds/orange.svg"
+            },
+            {
+              "title": "Midwest Holdings LTD FS 2022-23",
+              "pdf": "documents/financial-reports/Midwest_Holdings_Ltd_FS_2022-23.pdf",
+              "background": "backgrounds/green.svg"
+            },
+            {
+              "title": "Midwest Holdings LTD FS 2021-22",
+              "pdf": "documents/financial-reports/Midwest_Holdings_Ltd_FS_2021-22.pdf",
+              "background": "backgrounds/blue.svg"
+            }
+          ]
+        },
+        {
+          "title": "Andhra Pradesh Granite (Midwest) Pvt. Ltd. FS",
+          "list": [
+            {
+              "title": "APGMPL FS FY 2023-24",
+              "pdf": "documents/financial-reports/APGMPL_FS_FY_2023-24.pdf",
+              "background": "backgrounds/orange.svg"
+            },
+            {
+              "title": "APGMPL FS FY 2022-23",
+              "pdf": "documents/financial-reports/APGMPL_FS_FY_2022-23.pdf",
+              "background": "backgrounds/green.svg"
+            },
+            {
+              "title": "APGMPL FS FY 2021-22",
+              "pdf": "documents/financial-reports/APGMPL_FS_FY_2021-2022.pdf",
+              "background": "backgrounds/blue.svg"
+            }
+          ]
+        },
+        {
+          "title": "Material Creditors and Outstanding Balance",
+          "list": [
+            {
+              "title": "Material Creditors Outstanding Balance",
+              "pdf": "documents/financial-reports/Material_Creditors_Outstanding_Balance.pdf",
+              "background": "backgrounds/orange.svg"
+            }
+          ]
+        }
+      ]
+    },
+    "annual-reports": {
+      "header": "Annual Reports",
+      "list": [  
+        {
+          "year": "2023-24",
+          "pdf": "documents/annual-reports/Midwest_Limited-Annual_Report_2023-24.pdf",
+          "background": "backgrounds/orange.svg"
+        },
+        {
+          "year": "2022-23",
+          "pdf": "documents/annual-reports/Midwest_Limited-Annual_Report_2022-23.pdf",
+          "background": "backgrounds/green.svg"
+        },
+        {
+          "year": "2021-22",
+          "pdf": "documents/annual-reports/Midwest_Limited-Annual_Report_2021-22.pdf",
+          "background": "backgrounds/blue.svg"
+        },
+        {
+          "year": "2020-21",
+          "pdf": "documents/annual-reports/Midwest_Limited-Annual_Report_2020-21.pdf",
+          "background": "backgrounds/gray.svg"
+        },
+        {
+          "year": "2019-20",
+          "pdf": "documents/annual-reports/Midwest_Limited-Annual_Report_2019-20.pdf",
+          "background": "backgrounds/green.svg"
+        }
+      ]
+    },
+    "documents": [
+      {
+        "title": "DRHP Document",
+        "pdf": "documents/Midwest_Limited-Draft_Red_Herring_Prospectus-September_302024.pdf"
+      },
+      {
+        "title": "Group Companies",
+        "pdf": "documents/Financial_Information_Group_Companies.pdf"
+      }
+    ],
+    "policies": {
+      "header": "Codes & Policies",
+      "list": [
+        {
+          "title": "Archival Policy",
+          "pdf": "documents/codes-and-policies/ARCHIVAL_POLICY.pdf",
+          "background": "backgrounds/orange.svg"
+        },
+        {
+          "title": "Code of Conduct for Board of Directors and Senior Management Personnel",
+          "pdf": "documents/codes-and-policies/CODE_OF_CONDUCT_FOR_BOD_AND_SMP.pdf",
+          "background": "backgrounds/green.svg"
+        },
+        {
+          "title": "Code of Conduct to Regulate, Monitor and Report Trading by Designated Persons and Immediate Relative of Designated Person",
+          "pdf": "documents/codes-and-policies/CODE_OF_CONDUCT_TO_REGULATE_MONITOR_AND_REPORT_TRADING_BY_DESIGNATED_PERSONS.pdf",
+          "background": "backgrounds/blue.svg"
+        },
+        {
+          "title": "Code of Practices and Procedures for Fair Disclosure of Unpublished Price Sensitive Information",
+          "pdf": "documents/codes-and-policies/CODE_OF_PRACTICES_AND_PROCEDURES_FOR_FAIR_DISCLOSURE_OF_UPSI.pdf",
+          "background": "backgrounds/gray.svg"
+        },
+        {
+          "title": "Dividend Distribution Policy",
+          "pdf": "documents/codes-and-policies/DIVIDEND_DISTRIBUTION_POLICY.pdf",
+          "background": "backgrounds/blue.svg"
+        },
+        {
+          "title": "Nomination and Remuneration Policy",
+          "pdf": "documents/codes-and-policies/NOMINATION_AND_REMUNERATION_POLICY.pdf",
+          "background": "backgrounds/gray.svg"
+        },
+        {
+          "title": "Policy for Determination of Materiality Threshold for Disclosure of Events or Information",
+          "pdf": "documents/codes-and-policies/POLICY_FOR_DETERMINATION_OF_MATERIALITY_THRESHOLD_FOR_DISCLOSURE_OF_EVENTS_OR_INFORMATION.pdf",
+          "background": "backgrounds/orange.svg"
+        },
+        {
+          "title": "Policy for Procedure of Inquiry in Case of Leak of Unpublished Price Sensitive Information (“UPSI”)",
+          "pdf": "documents/codes-and-policies/POLICY_FOR_PROCEDURE_OF_INQUIRY_IN_CASE_OF_LEAK_OF_UPSI.pdf",
+          "background": "backgrounds/green.svg"
+        },
+        {
+          "title": "Policy on Familiarisation Programme for Independent Directors",
+          "pdf": "documents/codes-and-policies/POLICY_ON_FAMILIARISATION_PROGRAMME_FOR_INDEPENDENT_DIRECTORS.pdf",
+          "background": "backgrounds/orange.svg"
+        },
+        {
+          "title": "Policy on Related Party Transactions",
+          "pdf": "documents/codes-and-policies/POLICY_ON_RELATED_PARTY_TRANSACTIONS.pdf",
+          "background": "backgrounds/green.svg"
+        },
+        {
+          "title": "Risk Management Policy",
+          "pdf": "documents/codes-and-policies/POLICY_ON_RISK_MANAGEMENT_POLICY.pdf",
+          "background": "backgrounds/blue.svg"
+        },
+        {
+          "title": "Policy to Promote Diversity on the Board of Directors",
+          "pdf": "documents/codes-and-policies/POLICY_TO_PROMOTE_DIVERSITY_ON_THE_BOARD_OF_DIRECTORS.pdf",
+          "background": "backgrounds/gray.svg"
+        },
+        {
+          "title": "Terms and Conditions of Appointment of Independent Directors",
+          "pdf": "documents/codes-and-policies/TERMS_AND_CONDITIONS_OF_APPOINTMENT_OF_INDEPENDENT_DIRECTORS.pdf",
+          "background": "backgrounds/blue.svg"
+        },
+        {
+          "title": "Whistle Blower Policy",
+          "pdf": "documents/codes-and-policies/WHISTLE_BLOWER_POLICY.pdf",
+          "background": "backgrounds/gray.svg"
+        },
+        {
+          "title": "Policy for Determining Material Subsidiaries",
+          "pdf": "documents/codes-and-policies/POLICY_FOR_DETERMINING_MATERIAL_SUBSIDIARIES.pdf",
+          "background": "backgrounds/orange.svg"
+        },
+        {
+          "title": "Terms of Reference – Audit Committee",
+          "pdf": "documents/codes-and-policies/Terms_of_reference-Audit_Committee.pdf",
+          "background": "backgrounds/green.svg"
+        },
+        {
+          "title": "Terms of Reference - Corporate Social Responsibility and Environmental, Social & Governance Committee",
+          "pdf": "documents/codes-and-policies/Terms_of_reference-CSR_ESG_Committee.pdf",
+          "background": "backgrounds/orange.svg"
+        },
+        {
+          "title": "Terms of Reference -Nomination and Remuneration Committee",
+          "pdf": "documents/codes-and-policies/Terms_of_reference-NRC_Committee.pdf",
+          "background": "backgrounds/green.svg"
+        },
+        {
+          "title": "Terms of Reference -Risk Management Committee",
+          "pdf": "documents/codes-and-policies/Terms_of_reference-Risk_Committee.pdf",
+          "background": "backgrounds/blue.svg"
+        },
+        {
+          "title": "Terms of Reference -Stakeholders’ Relationship Committee",
+          "pdf": "documents/codes-and-policies/Terms_of_reference-SRC_Committee.pdf",
+          "background": "backgrounds/gray.svg"
+        },
+        {
+          "title": "Corporate Social Responsibility Policy",
+          "pdf": "documents/codes-and-policies/Corporate_Social_Responsibility_Policy.pdf",
+          "background": "backgrounds/blue.svg"
+        }
+      ]
+    },
+    "governance": {
+      "background-image": "investments/investments-governance-bg.jpg",
+      "header": "Corporate Governance",
+      "left-column": {
+        "title": "Guided by Decades of Industry Experience"
+      },
+      "right-column": {
+        "description": "Our board of directors and leadership team are dedicated to maintaining ethical governance, ensuring that we remain accountable to our shareholders and the communities we serve."
+      }
+    },
+    "contact": {
+      "header": "Contact Us",
+      "left-column": {
+        "title": "Stay Connected"
+      },
+      "right-column": {
+        "description": "For inquiries, please reach out to our investor relations team. We are committed to maintaining open communication with our investors, partners, and stakeholders."
+      },
+      "investors-contact": {
+        "name": "Rohit Tiberwal",
+        "designation": "Company Secretary & Compliance Officer",
+        "email": "cs@midwest.in"
+      },
+      "details": {
+        "company-name": "Midwest Limited",
+        "sub-text": "(Formerly Known as Midwest Granite Private Limited)",
+        "address": "#8-2-684/3/25&26, Road No.12, Banjara Hills, Hyderabad - 500034, Telangana, India.",
+        "telephone": "040-23305193/94/95",
+        "email": "info@midwest.in"
+      }
+    },
+    "committees": {
+      "header": "Committees",
+      "list": [
+        {
+          "title": "Audit Committee",
+          "chairman": {
+            "title": "Chairman",
+            "name": "Ms. Smitha Amol Lahoti",
+            "image": "members/smita.jpg"
+          },
+          "members": [
+            {
+              "name": "Mr. Rana Som",
+              "image": "members/rana-som.jpg"
+            },
+            {
+              "name": "Mr. Kollareddy Ramachandra",
+              "image": "members/kollareddy.jpg"
+            }
+          ]
+        },
+        {
+          "title": "Nomination and Remuneration Committee",
+          "chairman": {
+            "title": "Chairperson",
+            "name": "Mr. Duvva Pavan Kumar",
+            "image": "members/duvva.jpg"
+          },
+          "members": [
+            {
+              "name": "Mr. Rana Som",
+              "image": "members/rana-som.jpg"
+            },
+            {
+              "name": "Ms. Smita Amol Lahoti",
+              "image": "members/smita.jpg"
+            }
+          ]
+        },
+        {
+          "title": "Stakeholders Relationship Committee",
+          "chairman": {
+            "title": "Chairman",
+            "name": "Mr. Rana Som",
+            "image": "members/rana-som.jpg"
+          },
+          "members": [
+            {
+              "name": "Mrs. Kukreti Soumya",
+              "image": "members/kukreti.jpg"
+            },
+            {
+              "name": "Mrs. Uma Kollareddy",
+              "image": "members/uma.jpg"
+            }
+          ]
+        },
+        {
+          "title": "Risk Management Committee",
+          "chairman": {
+            "title": "Chairman",
+            "name": "Mr. Duvva Pavan Kumar",
+            "image": "members/duvva.jpg"
+          },
+          "members": [
+            {
+              "name": "Mr. Kollareddy Ramachandra",
+              "image": "members/kollareddy.jpg"
+            },
+            {
+              "name": "Mr. Rana Som",
+              "image": "members/rana-som.jpg"
+            },
+            {
+              "name": "Ms. Smita Amol Lahoti",
+              "image": "members/smita.jpg"
+            }
+          ]
+        },
+        {
+          "title": "Corporate Social Responsibility and ESG Committee",
+          "chairman": {
+            "title": "Chairperson",
+            "name": "Ms. Smita Amol Lahoti",
+            "image": "members/smita.jpg"
+          },
+          "members": [
+            {
+              "name": "Mr. Kollareddy Ramachandra",
+              "image": "members/kollareddy.jpg"
+            },
+            {
+              "name": "Mrs. Uma Kollareddy",
+              "image": "members/uma.jpg"
+            },
+            {
+              "name": "Mrs. Kukreti Soumya",
+              "image": "members/kukreti.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,551 @@
+[
+  {
+    "banner": {
+      "background": "about/banner.jpg",
+      "background-mobile": "about/banner-mobile.jpg",
+      "heading": "Grounded in Values, Operating with Purpose."
+    },
+    "about": {
+      "header": "About",
+      "background": "backgrounds/gray-light.svg",
+      "image": "about/about-section-bg.webp",
+      "left-column": {
+        "icon": "icons/hexa-icon.svg",
+        "title": "Emerging Businesses"
+      },
+      "right-column": {
+        "description": {
+          "paragraph1": "Midwest Ltd., founded in 1981, began with a focus on natural stones, particularly Granite, and has grown into India's largest producer and exporter of Black Granite and one of the largest in Absolute Black Granite. With over four decades of experience in mining and processing, we continue to provide high-quality natural stone products across 17 countries.",
+          "paragraph2": "In recent years, we have expanded our portfolio to include precision cutting tools through Diamond Wire manufacturing and commenced operations at our Quartz processing plant. Additionally, we have ventured into Heavy Mineral Sands, securing licenses for exploration and currently awaiting mining licenses to begin operations. While maintaining a strong presence in natural stone, Midwest continues to explore opportunities in advanced material processing to address the evolving demands of global markets."
+        }
+      }
+    },
+    "history": {
+      "header": "History",
+      "left-column": {
+        "icon": "icons/fan-icon.svg",
+        "title": "A Legacy of Transformation"
+      },
+      "content": {
+        "image": "about/history-image.jpg",
+        "description": "Founded in 1981 in the granite-rich lands of Southern India, Midwest began its journey as a natural stone company specializing in Black Galaxy Granite. Over the decades, Midwest has continuously adapted to industry demands, expanding into advanced materials processing while embedding sustainable practices into its operations. Guided by a commitment to responsible growth, Midwest aligns its actions with the priorities of its stakeholders and the environment. This adaptability has enabled the company to stay at the forefront of the industry while remaining grounded in its dedication to sustainability and community impact."
+      }
+    },
+    "statements": {
+      "background": "backgrounds/gray-light.svg",
+      "image": "about/statements-image.jpg",
+      "mission": {
+        "background": "backgrounds/orange.svg",
+        "title": "Our Mission",
+        "description": "To deliver high-value materials and solutions that meet the evolving needs of global industries, while fostering sustainable growth and creating long-term value for all stakeholders."
+      },
+      "vision": {
+        "background":"backgrounds/blue.svg",
+        "title": "Our Vision",
+        "description": "To lead in sustainable material processing, balancing industrial progress with environmental stewardship. We aim to support energy transition and create products that enhance safety, sustainability, and innovation."
+      }
+    },
+    "esg": {
+      "header": "esg",
+      "title": "Driving Ethical Growth with a Focus on Sustainability",
+      "description": "We are committed to integrating Environmental, Social, and Governance (ESG) principles into every facet of our operations. By prioritizing responsible resource management, ethical governance, and social impact, we ensure long-term value creation while minimizing our environmental footprint.",
+      "link": {
+        "url": "/esg",
+        "text": "Read More"
+      }
+    },
+    "csr": {
+      "header": "csr",
+      "title": "Empowering Communities Through Meaningful Impact",
+      "description": "Midwest's Corporate Social Responsibility (CSR) efforts focus on uplifting the communities where we operate. From education and healthcare to rural development and environmental conservation, our initiatives drive sustainable progress and improve the quality of life for local populations.",
+      "link": {
+        "url": "/csr",
+        "text": "Read More"
+      }
+    },
+    "story": {
+      "header": "Our Story",
+      "background": "backgrounds/gray.svg",
+      "left-column": {
+        "icon": "icons/spiral-icon-orange.svg",
+        "title": "A Spiritual Journey to Infinite Possibilities"
+      },
+      "content": {
+        "purpose": {
+          "title": "Our Purpose",
+          "description": "We believe that true progress stems from harmony—not just with the environment, but within ourselves and the broader universe. Our purpose is excavating the boundless possibilities in material creation. It mirrors our mission to bridge the gap between the East and West, blending our roots with modern innovation. Our journey is grounded in spirituality, where every action, process, and product reflects a deeper sense of purpose and connection to the earth."
+        },
+        "ethos": {
+          "title": "Our Ethos",
+          "description": "Our ethos is rooted in integrity, responsibility, and sustainability. We are committed to conducting business with transparency and ethical practices, ensuring that every decision we make honours the environment and the communities we impact. By integrating sustainable processes and mindful stewardship, we aim to create lasting value that extends beyond profit—balancing progress with respect for the planet and the people we serve."
+        }
+      }
+    },
+    "strategy": {
+      "header": "Strategy",
+      "left-column": {
+        "icon": "icons/target-icon.svg",
+        "title": "From Ground to Global, Delivering Stability and Scale"
+      },
+      "right-column": {
+        "description": "Midwest is more than just a processor—we are vertically integrated across the entire dimensional stone value chain. Our mine to market strategy leverages our capabilities that span across the dimensional stone value chain —from raw material extraction to processing and export."
+      },
+      "slides": {
+        "desktop": [
+          "about/strategy-desktop-slide-1.svg",
+          "about/strategy-desktop-slide-2.svg"
+        ],
+        "mobile": [
+          "about/strategy-mobile-slide-1.svg",
+          "about/strategy-mobile-slide-2.svg",
+          "about/strategy-mobile-slide-3.svg",
+          "about/strategy-mobile-slide-4.svg"
+        ]
+      }
+    },
+    "slides": {
+      "mobile": [
+        "about/about-slide-image-mobile-1.jpg",
+        "about/about-slide-image-mobile-2.jpg",
+        "about/about-slide-image-mobile-3.jpg"
+      ],
+      "desktop": [
+        "about/about-slide-image-1.jpg",
+        "about/about-slide-image-2.jpg",
+        "about/about-slide-image-3.jpg"
+     ]
+    },
+    "research": {
+      "header": "RND",
+      "left-column": {
+        "icon": "icons/spiral-icon-blue.svg",
+        "title": "Engineering the Future Through Innovation"
+      },
+      "right-column": {
+        "description": "Midwest’s R&D efforts focus on expanding mineral resources, enhancing operational efficiency, and driving sustainability. Our dedicated team continuously improves diamond wire tools, integrates electric-powered equipment to reduce emissions, and explores new methods like phasing out explosives for safer, greener mining. With innovations such as our in-house Quartz lab and electric squaring stations, we are committed to delivering high-quality, sustainable solutions for the future of material processing."
+      },
+      "list-title": "R&D at a Glance:",
+      "list": [
+        {
+          "background": "backgrounds/blue.svg",
+          "description": "9 experts in geology, quality control, and chemistry, with an average of 14.53 years of experience."
+        },
+        {
+          "background": "backgrounds/gray.svg",
+          "description": "Our diamond tool's R&D team enhances cutting efficiency and tool longevity by refining key material compositions."
+        },
+        {
+          "background": "backgrounds/green.svg",
+          "description": "Ongoing exploration of Black Galaxy Granite and Quartzite deposits."
+        },
+        {
+          "background": "backgrounds/orange.svg",
+          "description": "Introduction of Electric Dump Trucks and Electric Squaring Stations for greener and more efficient operations."
+        },
+        {
+          "background": "backgrounds/blue.svg",
+          "description": "Phasing out explosives for safer, cleaner mining practices."
+        },
+        {
+          "background": "backgrounds/gray.svg",
+          "description": "Advanced Quartz Laboratory for in-house sample analysis and process optimization."
+        }
+      ]
+    },
+    "achievements": {
+      "header": "Achievements",
+      "left-column": {
+        "icon": "icons/circle-icon.svg",
+        "title": "One Milestone At a Time"
+      },
+      "right-column": {
+        "description": "Midwest has consistently been acknowledged for its leadership in safety, environmental care, and community impact. Our accolades include prestigious awards for Most Mechanized Mine, Model Mine for Safety, and excellence in CSR, reflecting our unwavering commitment to responsible processing and industry best practices."
+      },
+      "list": [
+        {
+          "title": "Three Star Export House",
+          "type": "certificate",
+          "content": {
+            "image": "awards/three-star-export-house.jpg",
+            "text": "Awarded by Federation of Indian Mineral Industries (FIMI) in association with All India Granites and Stone Association (AIGSA) in the years 2003 2008-2009."
+          }
+        },
+        {
+          "title": "21st Mines Safety week celebrations",
+          "type": "award",
+          "content": {
+            "image": "awards/21st-mines-safety-week-celebrations.jpg",
+            "text": "Awarded by Federation of Indian Mineral Industries (FIMI) in association with All India Granites and Stone Association (AIGSA) in the year 2003."
+          }
+        },
+        {
+          "title": "Mine Workings Overall & Total Mines",
+          "type": "award",
+          "content": {
+            "image": "awards/mine-workings-overall-and-total-mines.jpg",
+            "text": "2nd prize in Mine Workings Overall 2nd prize in total mines. Awarded by Ministry of Labor and Employment through Directorate General of Mines Safety in the year 2022."
+          }
+        },
+        {
+          "title": "Appointment of Qualified Persons",
+          "type": "award",
+          "content": {
+            "image": "awards/appointment-of-qualified-persons-2.jpg",
+            "text": "1st prize in Appointment of Qualified Persons. Awarded by Ministry of Labor and Employment through Directorate General of Mines Safety in the year 2022."
+          }
+        },
+        {
+          "title": "Appointment of Qualified Persons",
+          "type": "award",
+          "content": {
+            "image": "awards/appointment-of-qualified-persons.jpg",
+            "text": "2nd prize in Appointment of Qualified Persons. Awarded by Ministry of Labor  and Employment through Directorate General of Mines Safety in the year 2019."
+          }
+        },
+        {
+          "title": "Registration and Record Maintainence",
+          "type": "award",
+          "content": {
+            "image": "awards/registers-and-record-maintainence.jpg",
+            "text": "1st prize in Registers & Records Maintenance. Awarded by Ministry of Labor and Employment through Directorate General of Mines Safety in the year 2018."
+          }
+        },
+        {
+          "title": "Publicity and Propaganda of Safety Measures",
+          "type": "award",
+          "content": {
+            "image": "awards/publicity-and-propaganda-of-safety-measures.jpg",
+            "text": "1st prize in Publicity and Propaganda of Safety Measures. Awarded by Ministry of Labor and Employment through Directorate General of Mines Safety in the year 2019."
+          }
+        },
+        {
+          "title": "Operation and Maintenance of Machinery",
+          "type": "award",
+          "content": {
+            "image": "awards/operation-and-maintenance-of-machinery.jpg",
+            "text": "2nd prize in Operation and Maintenance of Machinery. Awarded by Ministry of Labor and Employment through Directorate General of Mines Safety in the year 2019."
+          }
+        },
+        {
+          "title": "Star Export House",
+          "type": "certificate",
+          "content": {
+            "image": "awards/star-export-house.jpg",
+            "text": "Awarded by Ministry of Commerce and Industry (DGFT) in the years 2013-2018."
+          }
+        },
+        {
+          "title": "One Star Export House",
+          "type": "certificate",
+          "content": {
+            "image": "awards/one-star-export-house.jpg",
+            "text": "Awarded by Ministry of Commerce and Industry (DGFT) in the years 2015-2020."
+          }
+        },
+        {
+          "title": "Mine Workings & Operations & Machinery",
+          "type": "award",
+          "content": {
+            "image": "awards/mine-workings-and-operations-and-machinery.jpg",
+            "text": "1st prize for Mine Workings & Operation & Maintenance of Machinery. Awarded by Ministry of Labor and Employment through Directorate General of Mines Safety in the year 2017."
+          }
+        },
+        {
+          "title": "Appointment of Qualified Personnel",
+          "type": "award",
+          "content": {
+            "image": "awards/appointment-of-qualified-personnel.jpg",
+            "text": "3rd prize for Appointment of Qualified Personnel Overall 1st prize among all mines in the sector.  Awarded by Ministry of Labor and Employment through Directorate General of Mines Safety in the year 2016"
+          }
+        },
+        {
+          "title": "Maintainence of Quarry Roads and Footpaths",
+          "type": "award",
+          "content": {
+            "image": "awards/maintainence-of-quarry-roads-and-footpaths.jpg",
+            "text": "1st Prize awarded by the Safety Committee Appointed by Director of Mines Safety / Director of Mines Safety in the year 2012"
+          }
+        },
+        {
+          "title": "Longstanding Customer Award",
+          "type": "award",
+          "content": {
+            "image": "awards/longstanding-customer-award.jpg",
+            "text": "Awarded by the Export Credit Guarantee Corporation of India in the year 2012"
+          }
+        },
+        {
+          "title": "Export Perfomance Award",
+          "type": "award",
+          "content": {
+            "image": "awards/export-perfomance-award.jpg",
+            "text": "Awarded by Export Awards for EOUs, Andhra Pradesh, Chhattisgarh, Yanam in the years 2010-2011, 2011-2012, 2012-2013"
+          }
+        },
+        {
+          "title": "Export Excellence Award",
+          "type": "award",
+          "content": {
+            "image": "awards/export-excellence-award.jpg",
+            "text": "Awarded by Development Commissioner, Visakhapatnam Special Economic Zone in the years 2009-2010"
+          }
+        },
+        {
+          "title": "Model Granite Quarry Award",
+          "type": "award",
+          "content": {
+            "image": "awards/model-granite-quarry-award.jpg",
+            "text": "Awarded by Federation of Indian Mineral Industries (FIMI) in association with All India Granites and Stone Association (AIGSA) in the years 2003 2008-2009"
+          }
+        },
+        {
+          "title": "Export Promotion Award",
+          "type": "award",
+          "content": {
+            "image": "awards/export-promotion-award.jpg",
+            "text": "Awarded by Development Commissioner, Visakhapatnam Special Economic Zone in the years 2008-2009, 2010-2011, 2011-2012, 2012-2013"
+          }
+        },
+        {
+          "title": "Model Granite Quarry Award",
+          "type": "award",
+          "content": {
+            "image": "awards/model-granite-quarry-award-2.jpg",
+            "text": "Awarded by FIMI in association with AIGSA, in the years 2008-2009."
+          }
+        }
+      ]
+    },
+    "partners": {
+      "header": "Partners",
+      "left-column": {
+        "icon": "icons/round-flame-icon.svg",
+        "title": "Our Partners"
+      },
+      "list": [
+        {
+          "title": "Suppliers",
+          "logos": [
+            "partners/sandvik.jpg",
+            "partners/tata-hitachi.jpg",
+            "partners/volvo.jpg",
+            "partners/sany.jpg",
+            "partners/uptime.webp"
+          ]
+        },
+        {
+          "title": "Knowledge Partners",
+          "logos": [
+            "partners/lucid-labs.jpg"
+          ]
+        },
+        {
+          "title": "Processing Partners",
+          "logos": [
+            "partners/anjalee.jpg",
+            "partners/gima.jpg"
+          ]
+        }
+      ]
+    },
+    "management": {
+      "header": "Management",
+      "background": "backgrounds/gray-light.svg",
+      "left-column": {
+        "icon": "icons/checkered-icon.svg",
+        "title": "Driven by Experience"
+      },
+      "right-column": {
+        "description": "Midwest’s leadership oversees a team of 1,232 personnel, including geologists, mineral processing and production engineers, geophysicists, mine planners, and support staff, working collectively to achieve operational efficiency and sustainable practices."
+      },
+      "founder": {
+        "image": "homepage/founder-image.jpg",
+        "name": "Kollareddy Raghava Reddy",
+        "designation": "Founder & President",
+        "description": "With more than four decades of experience in the mining and natural stone industries, K Raghava Reddy leads Midwest Ltd. as the founder and one of the promoters of the company. Recognized as a visionary entrepreneur, he holds a Bachelor of Science degree from A.P. Agricultural University, Rajendranagar, Hyderabad.",
+        "quote": "During our progress, being pilgrims towards our purpose, we have religiously adopted and practised the great doctrines of ‘Maha Pragna’ and ‘Maha Karuna’."
+      },
+      "more-content": {
+        "left-column": {
+          "text": [
+            "At the time of Midwest’s nucleation in 1981, my vision was not limited to just building but to creating an institution of enduring value, rooted in clear purpose, objectives, and goals, prioritising the values of merit and integrity. While we began our journey with mining at a single location in South India, and although our reach has since expanded across industries and locations far and wide, the principles incorporated at the time of our founding have guided and shaped us throughout our journey.",
+            "During our progress, being pilgrims towards our purpose, we have religiously adopted and practised the great doctrines of “Maha Pragna” and “Maha Karuna”. While the former transcends beyond an ideal and encompasses our entire business practice, driving us to innovate, adopt, and apply knowledge, leading to consequent leadership in an ever-evolving and increasingly competitive industry landscape, the latter grounds us in empathy towards our stakeholder ecosystem as well as society as a whole. We even share knowledge with our competitors for the larger purpose of enhancing operational safety, improving environmental practices, conserving resources, and raising safety standards.",
+            "We strongly believe that our existence, sustenance, and expansion depend solely upon our increasing ability to serve society."
+          ]
+        },
+        "right-column": {
+          "text": [
+            "While our legacy business practice revolves around dimensional stone mining, we have contributed significantly to the ornamental building materials ecosystem by discovering new stone varieties and developing high-quality synthetic building materials, promoting material conservation. We have also developed environmentally friendly diamond tools to replace drilling and blasting in mining and construction sectors.",
+            "During the evolution of our business practice, our focus broadened to include functional materials such as ultra-high purity quartz and heavy mineral sands, which play a crucial role in supporting the energy transition aspirations of society towards a green, renewable, sustainable, circular, and decentralised ecosystem. Our journey has been marked by steady growth and a quiet transformation paired with a continued commitment to our social values of integrity and sustainability. We measure our progress not just in terms of mutual growth but more in terms of realising a positive impact for the benefit of society.",
+            "I am deeply grateful to our team, partners, and stakeholders who share our vision and have continued to work with us thus far. We will galvanise and team up with our stakeholders to carry forward our legacy of sustainable progress with a positive and greater impact."
+          ]
+        },
+        "name": "K Raghava Reddy",
+        "designation": "Founder & President, Midwest Ltd."
+      }
+    },
+    "board": {
+      "header": "Board Members",
+      "members": [
+        {
+          "image": "members/rana-som.jpg",
+          "name": "Mr. Rana Som,",
+          "designation": "Chairman & Independent Director",
+          "description": "Mr. Rana Som serves as the Chairman and Independent Director of Midwest. He holds a Bachelor’s and a Master’s degree in Arts (Economics) from the University of Calcutta, alongside a Post-Graduate Diploma in Personnel Management from the National Institute of Personnel Management. Mr. Som brings a wealth of leadership experience, having previously held key positions at Hindustan Copper Limited, NMDC Limited as Chairman and Managing Director, ArcelorMittal Nippon Steel India, and Essar Steel Minnesota LLC. His strategic insight continues to guide Midwest’s growth and governance."
+        },
+        {
+          "image": "members/kollareddy.jpg",
+          "name": "Mr. Kollareddy Ramachandra,",
+          "designation": "Whole-time Director & Chief Executive Officer",
+          "description": "Mr. Kollareddy Ramachandra has been the Whole-time Director and Chief Executive Officer of Midwest since April 2004. With over two decades of experience in the mining industry, Mr. Ramachandra plays a pivotal role in leading the company’s operations, including government liaison, cost optimization, resource management, and customer strategies. Under his leadership, Midwest’s profit after tax saw a remarkable 49.50% growth between Fiscals 2022 and 2024. He holds an Advanced Diploma in Computer Science and Engineering from Priyadarshini College of Computer Sciences and has served as a director on the board of NSPIRA Management Services Private Limited."
+        },
+        {
+          "image": "members/uma.jpg",
+          "name": "Mrs. Uma Kollareddy,",
+          "designation": "Whole-time Director",
+          "description": "With a strong foundation in investment banking and business strategy, Mrs. Uma Kollareddy has been a Whole-time Director at Midwest since December 2022. She began her career with Bank of America Securities in New York, working in the Fixed Income Derivatives and Trading Division. Since joining Midwest in 2009, she has spearheaded business strategy, joint venture negotiations, and fundraising initiatives. Mrs. Kollareddy is an alumna of Columbia University, holding a Master’s in Financial Engineering and an MBA. She has been conferred the 'Distinguished Alumni Award' by her Engineering college. Her leadership extends to her role on the Investment Committee of T-Hub, Telangana’s Startup Fund, and as an independent director at Awaze Limited."
+        },
+        {
+          "image": "members/kukreti.jpg",
+          "name": "Mrs. Kukreti Soumya,",
+          "designation": "Whole-time Director",
+          "description": "Mrs. Kukreti Soumya has been serving as Whole-time Director since 2012, bringing over 12 years of experience in the mining industry. She holds a Bachelor’s degree in Commerce from Osmania University. Mrs. Soumya has been instrumental in developing technology and research initiatives for Midwest and was a key figure in establishing the company’s diamond tools manufacturing operations in Sri Lanka. Her strategic initiatives have enhanced the backward integration of Midwest’s mining operations."
+        },
+        {
+          "image": "members/duvva.jpg",
+          "name": "Mr. Duvva Pavan Kumar,",
+          "designation": "Independent Director",
+          "description": "Mr. Duvva Pavan Kumar has been an Independent Director of Midwest since September 2024. He holds a bachelor’s degree in law from NALSAR University of Law, Hyderabad, where he was awarded two gold medals for ‘Best All-Round Student’ and ‘Best Student in Corporate Law’. With over 20 years of experience in the legal field, Mr. Kumar has been a practising advocate for 21 years. He has been associated with esteemed law firms such as Amarchand, Mangaldas & Suresh A Shroff & Co. in Mumbai and Trilegal, before founding The Law Chambers in 2017. His legal expertise ensures Midwest's adherence to top regulatory standards."
+        },
+        {
+          "image": "members/smita.jpg",
+          "name": "Ms. Smita Amol Lahoti,",
+          "designation": "Independent Director",
+          "description": "Ms. Smita Amol Lahoti has served as an Independent Director of Midwest since September 2024. She holds both a Bachelor’s and Master’s degree in Commerce from the University of Pune, where she graduated first in her class and earned several prestigious accolades, including the ‘Institute of Chartered Accountants of India’ prize and the ‘Anant Rangnath Kanade Memorial’ prize for excellence in advanced accountancy. A Fellow of the Institute of Chartered Accountants of India, Ms. Lahoti has over 25 years of experience in accounting and has been associated as a partner at M/s. Muttha & Lahoti, Chartered Accountants, since 2005."
+        }
+      ]
+    },
+    "presence": {
+      "header": "Presence",
+      "left-column": {
+        "icon": "icons/location-icon.svg",
+        "title": "Midwest on the Map"
+      },
+      "regions": [
+        {
+          "title": "Core Operations",
+          "description": "Our core operations are spread across the southern states of India,",
+          "map": "about/india-map-numbers.svg",
+          "list": [
+            {
+              "state": "Andhra Pradesh",
+              "code": "AP",
+              "description": "11 core operations",
+              "cities": [
+                "HM Padu, Prakasham Dist.",
+                "Chejela, Palnadu Dist.",
+                "Muneli, Cuddapah Dist.",
+                "Kongalaveedu, Cuddapah Dist.",
+                "NDR, Nellore Dist.",
+                "Midwest Neostone Pvt. Ltd & Midwest Granite Processing Plant, Annangi Village, Maddipadu Mandal,Prakasam Dist.",
+                "Makkapeta, Krishna Dist.",
+                "Kakatlapalle, Prakasham Dist.",
+                "Chimakurthy (Midwest Mine & APGMPL & Processing Plants – Chumakurthy, Ongole, Prakasham Dist.",
+                "Gundlamoola, Cuddapah Dist.",
+                "Ramakuppam, Chittoor Dist."
+              ]
+            },
+            {
+              "state": "Karnataka",
+              "code": "KA",
+              "description": "1 core operation",
+              "cities": [
+                "IlKal, Bagalkot Dist."
+              ]
+            },
+            {
+              "state": "Tamil Nadu",
+              "code": "TN",
+              "description": "1 core operation",
+              "cities": [
+                "Krishnagiri, Krishnagiri Dist."
+              ]
+            },
+            {
+              "state": "Telangana",
+              "code": "TG",
+              "description": "6 core operations",
+              "cities": [
+                "Vilasagar,  Rajanna Sircilla Dist.",
+                "Arpanapally & Teegalaveni, Mahabubabad Dist.",
+                "Yerraballigudem, Mahabubabad Dist.",
+                "Gurthur, Mahabubabad Dist.",
+                "Kodad, Suryapet Dist.",
+                "Diamond Rope Manufacturing Unit, IDA Patancheru, Sangareddy Dist."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Distribution",
+          "description": "Our distribution centres are spread across 5 continents",
+          "map": "about/world-map-numbers.svg",
+          "list": [
+            {
+              "continent": "Africa",
+              "code": "Africa",
+              "countries": [
+                "East Africa",
+                "Mozambique",
+                "Zimbabwe"
+              ]
+            },
+            {
+              "continent": "Asia",
+              "code": "Asia",
+              "countries": [
+                "India",
+                "Sri Lanka",
+                "China",
+                "Taiwan",
+                "Hong Kong",
+                "Thailand",
+                "Singapore",
+                "Maldives",
+                "Indonesia"
+              ]
+            },
+            {
+              "continent": "Europe",
+              "code": "Europe",
+              "countries": [
+                "Spain",
+                "Italy",
+                "Romania"
+              ]
+            },
+            {
+              "continent": "North America",
+              "code": "North America",
+              "countries": [
+                "United States",
+                "Canada",
+                "Mexico",
+                "Guatemala"
+              ]
+            },
+            {
+              "continent": "South America",
+              "code": "South America",
+              "countries": [
+                "Chile",
+                "Argentina",
+                "Brazil"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

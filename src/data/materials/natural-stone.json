@@ -1,0 +1,391 @@
+{
+  "title": "Natural Stone",
+  "slug": "natural-stone",
+  "banner": {
+    "background": "natural-stone/banner-2.jpg",
+    "background-mobile": "natural-stone/banner-2.jpg",
+    "heading": "Unyielding Strength,<br/>Timeless Appeal."
+  },
+  "description": {
+    "left-column": {
+      "icon": "icons/stone-icon.svg",
+      "title": "Natural Stone"
+    },
+    "right-column": {
+      "description": {
+        "type": "list",
+        "array": [
+          "A legacy of over four decades of experience in the dimensional natural stone industry, covering exploration, mining, processing, sales, distribution, and marketing of various natural stones.",
+          "Continuously evaluating opportunities for expansion by developing additional mines.",
+          "A network of distribution agents aids in more accurate demand estimation for better production and inventory planning.",
+          "Capable of delivering products ranging from ex mine to cost insurance freight basis.",
+          "Our customers are located across 17 countries and five continents, with China, Italy and Thailand being primary export markets."
+        ]
+      }
+    },
+    "image": "natural-stone/natural-stone.webp",
+    "image-mobile": "natural-stone/natural-stone.webp",
+    "list-flow": "row",
+    "list": [
+      {
+        "text": "**3.5 Million Tons** of Granite mined annually",
+        "color": "backgrounds/green.svg"
+      },
+      {
+        "text": "Contributing **10.8%** of Black Granite **production** in India",
+        "color": "backgrounds/orange.svg"
+      },
+      {
+        "text": "**23% share** of Black Galaxy Granite exports in 2024",
+        "color": "backgrounds/blue.svg"
+      },
+      {
+        "text": "Distributor model maintains optimal inventory levels near primary consumption markets (China and Italy)",
+        "color": "backgrounds/gray.svg"
+      },
+      {
+        "text": "Exclusive mining rights, proven reserves, and an established customer base position the company well to cater to the high value market.",
+        "color": "backgrounds/green.svg"
+      }
+    ]
+  },
+  "strength": {
+    "title": "Strength in Numbers: Mines, Machinery, and Resource Depth",
+    "right-column": {
+      "content-one": {
+        "description": "According to the CRISIL report, the specific requirements of the granite mining industry in India provide established players with a competitive advantage over new entrants.",
+        "image": "natural-stone/strength-flow-chart-1.svg",
+        "image-mobile": "natural-stone/strength-flow-chart-mobile-1.svg"
+      },
+      "content-two": {
+        "description": "20 Operational Mines producing at 19 locations across India",
+        "image": "natural-stone/strength-flow-chart-2.svg",
+        "image-mobile": "natural-stone/strength-flow-chart-mobile-2.svg"
+      },
+      "table": {
+        "title": "Ore Reserves, Resource Base and Expansion Strategy",
+        "cell-header": [
+          "Product",
+          "Proved Reserves",
+          "Blockable Reserves"
+        ],
+        "cell-body": [
+          [
+            "Black Galaxy Granite (in cubic meters)",
+            "30,778,909",
+            "6,873,065"
+          ],
+          [
+            "Absolute Black Granite (in cubic meters)",
+            "9,140,399",
+            "1,880,992"
+          ],
+          [
+            "Colour Granite (Tan Brown) (in cubic meters)",
+            "3,761,254",
+            "977,926"
+          ],
+          [
+            "Quartz (Million Tonnes)",
+            "2.1",
+            "Not applicable"
+          ]
+        ]
+      }
+    }
+  },
+  "market": {
+    "title": "Market & Growth",
+    "content": {
+      "tabs": [
+        {
+          "title": "Market",
+          "list": [
+            "The Indian granite market is valued at $40 billion and plays a significant role in the economies of states like Andhra Pradesh and Tamil Nadu.",
+            "Granite remains one of the most valued natural stones due to its durability, versatility, and aesthetic appeal. Midwest is recognized globally for its Black Galaxy Granite, contributing 35% of India’s total Black Galaxy granite exports.",
+            "Midwest contributes 20% of the Black Galaxy granite production in India, holding a 35% share in export volumes.",
+            "Domestic demand for granite in India grew at a 9.3% CAGR between fiscal 2022 and 2024, driven by rising demand in construction and residential sectors.",
+            "Export markets include the US, Europe, and Asia. India remains a net exporter, with granite export volumes consistently outpacing imports."
+          ]
+        },
+        {
+          "title": "Growth",
+          "list": [
+            "Midwest's granite operations are expected to grow significantly with expanding reserves and continued market leadership. Granite production is projected to see a CAGR of 12%, driven by Midwest’s leadership in the Black Galaxy segment.",
+            "Domestic demand for granite is projected to grow at a 6-7% CAGR through fiscal 2029, fuelled by the housing and construction sectors.",
+            "Rajasthan leads production, accounting for 57% of total granite output in fiscal 2024. Overall granite production is expected to reach 24,366-25,537 KT by fiscal 2029.",
+            "Black granite, especially Black Galaxy, is projected to see increased demand, growing at a CAGR of 8-11% by fiscal 2029."
+          ]
+        }
+      ]
+    }
+  },
+  "marketgrowth": {
+    "header": "MarketGrowth",
+    "left-column": {
+      "title": "Market & Growth"
+    },
+    "right-column": {
+      "list": [
+        "India’s largest producer of Black Galaxy Granite, a premium variety of Granite.*",
+        "Midwest’s black granite production: 10.8% (~97,624 cubic meters) of India's total black granite in FY24.*",
+        "Total domestic granite production in FY24: 18,208 KT.*"
+      ]
+    },
+    "list": [
+      {
+        "title": "Granite Production in FY24",
+        "image": "natural-stone/granite-production-in-fy24.png"
+      },
+      {
+        "title": "Granite Production Overview ",
+        "image": "natural-stone/granite-production-overview.png"
+      },
+      {
+        "title": "Domestic Consumption of Granite",
+        "image": "natural-stone/domestic-consumption-of-granite.png"
+      },
+      {
+        "title": "Granite Export Trend",
+        "image": "natural-stone/granite-export-trend.png"
+      },
+      {
+        "title": "Granite Import Trend",
+        "image": "natural-stone/granite-import-trend.png"
+      },
+      {
+        "title": "Black Granite Exports",
+        "image": "natural-stone/black-granite-exports.png"
+      },
+      {
+        "title": "Black Granite Shares",
+        "image": "natural-stone/black-granite-shares.png"
+      }
+    ]
+  },
+  "products": {
+    "heading": "Products",
+    "list": [
+      {
+        "title": "Black Galaxy Granite",
+        "image": "natural-stone/black-galaxy-granite.jpg",
+        "details": {
+          "list": [
+            {
+              "title": "Exclusive Source",
+              "text": "Sourced from a single village in Andhra Pradesh, India, the only location in the world producing Black Galaxy Granite."
+            },
+            {
+              "title": "Premium Demand",
+              "text": "Commands global demand with prices ranging between ₹50,000–1,00,000 per cubic meter."
+            },
+            {
+              "title": "Production Highlights",
+              "text_array": [
+                "Produced 57,519 cubic meters in Fiscal 2024.",
+                "Exported 48,249 cubic meters during the same period."
+              ]
+            },
+            {
+              "title": "Industry Leadership",
+              "text": "Midwest contributed ₹406 million in royalties during FY 2024, 31% of the total royalty paid for Black Galaxy Granite."
+            },
+            {
+              "title": "Future Expansion",
+              "text": "Developing an additional mine over 10.94 hectares, adjacent to existing operations in Chimakurthy, Andhra Pradesh, to meet growing demand."
+            }
+          ],
+          "projects": []
+        }
+      },
+      {
+        "title": "Absolute Black Granite",
+        "image": "natural-stone/absolute-black-granite.jpg",
+        "details": {
+          "list": [
+            {
+              "title": "Cost-Effective Alternative",
+              "text": "Positioned as a lower-cost alternative to Black Galaxy Granite in domestic markets."
+            },
+            {
+              "title": "Key Features",
+              "text_array": [
+                "Tolerance to stress, making it ideal for heavy-duty applications.",
+                "Resistance to wear and tear, ensuring durability.",
+                "Ultra-low coefficient of linear expansion, suitable for precision structures."
+              ]
+            },
+            {
+              "title": "Market Contribution",
+              "text": "Accounted for 10.8% of India’s overall black granite production in FY 2024."
+            },
+            {
+              "title": "Applications",
+              "initial_text": "Ideal for modern architectural applications, including:",
+              "text_array": [
+                "Steel foundations and plinths for heavy precision machine tools.",
+                "Other industrial and structural uses requiring strength and stability."
+              ]
+            },
+            {
+              "title": "Strategic Expansion",
+              "text": "Targeting growing domestic demand while exploring strategic acquisitions of adjacent mines to expand reserves."
+            }
+          ],
+          "projects": []
+        }
+      },
+      {
+        "title": "Laza Grey",
+        "image": "natural-stone/laza-gray-marble.jpg",
+        "details": {
+          "list": [
+            {
+              "title": "Premium Quartzite Variety",
+              "text": "Combines high durability with premium aesthetics, offering an ideal alternative to imported marble varieties."
+            },
+            {
+              "title": "Applications",
+              "text": "Designed for both functional and decorative uses, including: Premium aesthetics and other applications requiring heat resistance."
+            },
+            {
+              "title": "Competitive Edge",
+              "text": "Positioned to compete in the domestic and export markets through superior performance and visual appeal."
+            }
+          ],
+          "projects": []
+        }
+      },
+      {
+        "title": "Quartzite",
+        "image": "natural-stone/quartzite.jpg",
+        "details": {
+          "list": [
+            {
+              "title": "Strength and Versatility",
+              "text": "A robust quartzite offering unmatched strength, durability, and natural beauty."
+            },
+            {
+              "title": "Applications",
+              "initial_text": "Perfect for architectural and decorative uses, such as:",
+              "text_array": [
+                "Building facades, flooring, and countertops.",
+                "Stairway steps, wall cladding, and other structural applications."
+              ]
+            },
+            {
+              "title": "Market Focus",
+              "text": "Midwest is expanding relationships to cater to growing domestic and export demand for high-quality quartzite products."
+            },
+            {
+              "title": "Strategic Positioning",
+              "text": "Leveraging advanced processing and branding strategies to compete effectively with imported alternatives."
+            }
+          ],
+          "projects": []
+        }
+      }
+    ]
+  },
+  "applications": {
+    "heading": "Applications",
+    "image": "natural-stone/applications-image.jpg",
+    "list": [
+      "Kitchen counters",
+      "Floor tiles",
+      "Bathroom vanities",
+      "Window sills",
+      "Back splashes",
+      "Fireplace wraps",
+      "Accent walls",
+      "Sculptures",
+      "Coffee tables",
+      "Steps and facades"
+    ]
+  },
+  "projects": {
+    "heading": "Projects",
+    "slides": [
+      {
+        "image": "natural-stone/ns-project-img-1.jpg",
+        "image-mobile": "natural-stone/ns-project-img-mobile-1.jpg",
+        "description": "Longxi Bay No.1 Housing Estate, Ganzhou City, Jiangxi Province 8, CHINA"
+      },
+      {
+        "image": "natural-stone/ns-project-img-2.jpg",
+        "image-mobile": "natural-stone/ns-project-img-mobile-2.jpg",
+        "description": "Ban Krachao School Phanom Thuan Dist, Kanchanaburi Province 1, THAILAND"
+      },
+      {
+        "image": "natural-stone/ns-project-img-3.jpg",
+        "image-mobile": "natural-stone/ns-project-img-mobile-3.jpg",
+        "description": "CSSC Power (Group) Tower, Lingang New Zone, Shanghai CHINA."
+      },
+      {
+        "image": "natural-stone/ns-project-img-4.jpg",
+        "image-mobile": "natural-stone/ns-project-img-mobile-4.jpg",
+        "description": "Feili Center Building, Quanzhou City, Fujian province 3, CHINA"
+      },
+      {
+        "image": "natural-stone/ns-project-img-5.jpg",
+        "image-mobile": "natural-stone/ns-project-img-mobile-5.jpg",
+        "description": "Royal Irrigation Department, Chiang Rai Province, THAILAND"
+      },
+      {
+        "image": "natural-stone/ns-project-img-6.jpg",
+        "image-mobile": "natural-stone/ns-project-img-mobile-6.jpg",
+        "description": "Villa in Amsterdam, Netherlands with Black Galaxy"
+      }
+    ]
+  },
+  "sustainability": {
+    "heading": "Sustainability Measures",
+    "list": [
+      {
+        "title": "Energy and Emissions",
+        "content": [
+          {
+            "text": "Midwest has begun a shift from diesel to electricity and solar power in its granite mining operations, reducing greenhouse gas emissions.",
+            "background": "backgrounds/green.svg"
+          },
+          {
+            "text": "Electrification of machinery and the use of solar power plants have decreased dependency on non-renewable resources.",
+            "background": "backgrounds/orange.svg"
+          },
+          {
+            "text": "Solar power plants have been installed to meet energy needs, reducing carbon footprint and enhancing energy resilience.",
+            "background": "backgrounds/blue.svg"
+          }
+        ]
+      },
+      {
+        "title": "Water Stewardship",
+        "content": [
+          {
+            "text": "Midwest employs rainwater harvesting at its granite mining pits, creating an onsite water supply and contributing to groundwater recharge, reducing the need for external water sources.",
+            "background": "backgrounds/green.svg"
+          },
+          {
+            "image": "natural-stone/water-stewardship.jpg"
+          }
+        ]
+      },
+      {
+        "title": "Waste Management",
+        "content": [
+          {
+            "text": "Eco-friendly overburden management ensures responsible disposal of waste rock. Post-mining rehabilitation includes terracing and the development of green belts, improving local biodiversity.",
+            "background": "backgrounds/green.svg"
+          },
+          {
+            "text": "Dust suppression measures, including water sprinkling systems and advanced drilling techniques, minimize environmental impact.",
+            "background": "backgrounds/orange.svg"
+          },
+          {
+            "image": "natural-stone/waste-management.jpg"
+          }
+        ]
+      }
+    ]
+  }
+}

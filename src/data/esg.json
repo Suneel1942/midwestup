@@ -1,0 +1,346 @@
+[
+  {
+    "banner": {
+      "heading": "Driving sustainable progress through balanced environmental, social & governance practices.",
+      "background": "esg/banner.jpg",
+      "background-mobile": "esg/banner.jpg"
+    },
+    "about": {
+      "left-column": {
+        "heading": "Building a Legacy of Responsible Growth."
+      },
+      "right-column": {
+        "description": "Midwest Ltd. is committed to embedding Environmental, Social, and Governance (ESG) principles at every operational level. Our ESG strategy aligns with industry standards and stakeholder expectations."
+      },
+      "image": "esg/about.webp"
+    },
+    "value-business": {
+      "left-column": {
+        "title": "Creating Value Beyond Business"
+      },
+      "right-column": {
+        "description": "Our approach is centred on balancing societal, environmental, and industrial needs, which guides our work and decision-making processes."
+      },
+      "list": [
+        {
+          "heading": "Workplace Safety:",
+          "description": "We prioritize workforce well-being, ensuring safe and ethical working conditions.",
+          "background": "backgrounds/green.svg"
+        },
+        {
+          "heading": "Conservation of Resources:",
+          "description": "Responsible mining, resource management, and recycling practices are core to our operations.",
+          "background": "backgrounds/orange.svg"
+        },
+        {
+          "heading": "Water & Ecology Preservation:",
+          "description": "Through rainwater harvesting, water recycling, and green cover creation, we work to prevent soil erosion and protect local ecosystems.",
+          "background": "backgrounds/blue.svg"
+        },
+        {
+          "heading": "Environmental Protection:",
+          "description": "We are committed to electrification, renewable energy integration, and energy conservation measures.",
+          "background": "backgrounds/gray.svg"
+        },
+        {
+          "heading": "Decarbonization:",
+          "description": "Producing materials for solar glass and lightweight battery anodes, we support global decarbonization efforts.",
+          "background": "backgrounds/orange.svg"
+        },
+        {
+          "heading": "Skilling & Knowledge Upgradation:",
+          "description": "Continuous learning and skill enhancement are central to our workforce development.",
+          "background": "backgrounds/green.svg"
+        },
+        {
+          "heading": "Community Service:",
+          "description": "Supporting local communities through employment, education, healthcare, and infrastructure sharing.",
+          "background": "backgrounds/gray.svg"
+        },
+        {
+          "heading": "Value Creation for Stakeholders:",
+          "description": "We engage stakeholders in planning, uphold transparency, and ensure reliable, ethical operations.",
+          "background": "backgrounds/blue.svg"
+        }
+      ]
+    },
+    "commitment": {
+      "left-column": {
+        "icon": "icons/leaf-icon-2.svg",
+        "heading": "Our ESG Commitment"
+      },
+      "right-column": {
+        "description": "Our ESG strategy reflects Midwest’s pledge to embed sustainability in every operation. From reducing emissions to fostering community partnerships, we are driven by a vision of growth that respects the needs of future generations, making meaningful contributions across environmental, social, and governance pillars."
+      }
+    },
+    "pillars": {
+      "heading": "ESG Pillars",
+      "list": [
+        {
+          "title": "Environmental Stewardship:",
+          "description": "Our initiatives focus on reducing environmental impact, efficient resource utilization, and reclamation efforts.",
+          "background": "backgrounds/orange.svg"
+        },
+        {
+          "title": "Social Responsibility:",
+          "description": "Building community well-being and fostering a safe, inclusive workplace culture.",
+          "background": "backgrounds/green.svg"
+        },
+        {
+          "title": "Governance Excellence:",
+          "description": "Ensuring transparency, accountability, and ethical standards in all corporate practices.",
+          "background": "backgrounds/blue.svg"
+        }
+      ]
+    },
+    "principles": {
+      "header": "Midwest's 8 Core Principles",
+      "left-column": {
+        "title": "Leading with Purpose."
+      },
+      "right-column": {
+        "description": "As a high-value materials processing company, Midwest is committed to sustainable growth through principles that prioritize resource conservation, community support, and responsible practices. These guiding principles shape our operations, fostering a future that is both resilient and responsible."
+      },
+      "image": "esg/purpose.jpg",
+      "image-mobile": "esg/purpose-mobile.jpg"
+    },
+    "sections": [
+      {
+        "header": "One",
+        "left-column": {
+          "title": "Energy and Emissions Management"
+        },
+        "right-column": {
+          "description": "We recognize that reducing emissions is key to sustainable industry practices. We actively work to manage energy use and shift toward greener alternatives to meet our ambitious goals of carbon reduction."
+        },
+        "list": [
+          {
+            "title": "Fuel Efficiency Systems:",
+            "description": "Advanced machinery with low fuel consumption is employed across operations, reducing our reliance on diesel and optimizing operational efficiency.",
+            "background": "backgrounds/orange.svg"
+          },
+          {
+            "title": "Vehicle Electrification:",
+            "description": "With an aim to convert 12 out of 36 vehicles to electric by 2026, this initiative highlights our commitment to reducing fossil fuel dependence.",
+            "background": "backgrounds/green.svg"
+          },
+          {
+            "title": "Market Share:",
+            "description": "Diesel compressors are progressively being replaced with electric models, offering a cleaner, more energy-efficient solution.",
+            "background": "backgrounds/blue.svg"
+          },
+          {
+            "title": "Expanding Reserves:",
+            "description": "A 1.1 MW solar plant in Arpanpally currently powers two mines, with expansion plans across Kodada and additional sites in Telangana, marking our commitment to renewable energy.",
+            "background": "backgrounds/gray.svg"
+          }
+        ]
+      },
+      {
+        "header": "Two",
+        "left-column": {
+          "title": "Greenhouse Gas (GHG) Emissions"
+        },
+        "right-column": {
+          "description": "Addressing climate impact is fundamental to our ESG strategy, and we are committed to actively measuring, monitoring, and reducing our greenhouse gas emissions."
+        },
+        "list": [
+          {
+            "title": "Scope 1 Emissions:",
+            "description": "Direct emissions from site activities in FY 2024 were recorded at 16,290.34 MTCO2e. We are reducing these emissions through electrification initiatives and optimized fuel consumption.",
+            "background": "backgrounds/orange.svg"
+          },
+          {
+            "title": "Scope 2 Emissions:",
+            "description": "Indirect emissions from purchased electricity accounted for 6,760.97 MTCO2e in FY 2024. By expanding renewable energy sources, we aim to lower this footprint substantially.",
+            "background": "backgrounds/green.svg"
+          }
+        ],
+        "image": "esg/greenhouse-1.jpg",
+        "imageslist": [
+          "../images/esg/greenhouse-1.jpg",
+          "../images/esg/greenhouse-2.jpg",
+          "../images/esg/greenhouse-3.jpg",
+          "../images/esg/greenhouse-4.jpg"
+        ]
+      },
+      {
+        "header": "Three",
+        "left-column": {
+          "title": "Water Stewardship"
+        },
+        "right-column": {
+          "description": "Water is a valuable and limited resource, especially in mining operations, and we implement stringent water stewardship measures to manage its use responsibly and sustainably."
+        },
+        "list": [
+          {
+            "title": "Rainwater Harvesting:",
+            "description": "Through the use of on-site mining pits, Midwest collects and stores over 543,520 cubic meters of rainwater annually, significantly reducing dependence on groundwater.",
+            "background": "backgrounds/blue.svg"
+          },
+          {
+            "title": "Recycling and Efficiency:",
+            "description": "Water recycling systems across facilities allow for more efficient water use, minimizing waste and conserving freshwater resources.",
+            "background": "backgrounds/gray.svg"
+          },
+          {
+            "title": "Community Engagement:",
+            "description": "We partner with local communities to protect and improve water bodies, supporting water quality, and ensuring availability for both ecological and community needs.",
+            "background": "backgrounds/orange.svg"
+          }
+        ],
+        "image": "esg/water.jpg"
+      },
+      {
+        "header": "Four",
+        "left-column": {
+          "title": "Waste Management"
+        },
+        "right-column": {
+          "description": "Our waste management strategy is designed to reduce, recycle, and responsibly dispose of operational byproducts, thereby minimizing environmental impact and promoting a circular economy."
+        },
+        "list": [
+          {
+            "title": "Waste Audits:",
+            "description": "Routine audits of waste practices identify opportunities for reduction and help establish a zero-waste culture.",
+            "background": "backgrounds/green.svg"
+          },
+          {
+            "title": "Segregation and Recycling:",
+            "description": "Waste is separated at the source to enhance recycling rates, reduce landfill contributions, and optimize resource recovery. 307.8 MT of scrap was recycled into TMT bars by authorized agencies.",
+            "background": "backgrounds/blue.svg"
+          },
+          {
+            "title": "Community Partnerships:",
+            "description": "Local community involvement is integral to our waste strategy, including recycling programs and exploring waste-to-energy opportunities for shared benefits.",
+            "background": "backgrounds/gray.svg"
+          }
+        ],
+        "image": "esg/waste.jpg"
+      },
+      {
+        "header": "Five",
+        "left-column": {
+          "title": "Green Belt Development"
+        },
+        "right-column": {
+          "description": "We actively contribute to local biodiversity and ecosystem resilience through green belt development around its mining areas. These green belts act as ecological buffers and contribute to regional greening initiatives."
+        },
+        "list": [
+          {
+            "title": "Community Collaboration:",
+            "description": "We have developed 43 acres of green belts, working with local communities and using native species that support resilience and ecological harmony.",
+            "background": "backgrounds/orange.svg"
+          },
+          {
+            "title": "State Contributions:",
+            "description": "As part of Telangana’s “Harithaharam” reforestation program, Midwest has donated over 25,000 saplings to help increase the green cover and strengthen environmental stewardship.",
+            "background": "backgrounds/green.svg"
+          }
+        ],
+        "image": "esg/green-belt.jpg",
+        "imageslist": [
+          "../images/esg/green-belt-develop-1.jpg",
+          "../images/esg/green-belt-develop-2.jpg",
+          "../images/esg/green-belt-develop-3.jpg"
+        ]
+      },
+      {
+        "header": "Six",
+        "left-column": {
+          "title": "Reclamation Strategy"
+        },
+        "right-column": {
+          "description": "We are committed to leaving a positive environmental legacy by restoring and reclaiming land post-mining. Our reclamation strategy revitalizes the landscape, promotes biodiversity, and provides lasting value to the surrounding areas."
+        },
+        "list": [
+          {
+            "title": "Overburden Management:",
+            "description": "Safe disposal of overburden materials in designated areas protects the environment and minimizes ecological disruption.",
+            "background": "backgrounds/blue.svg"
+          },
+          {
+            "title": "Soil Rehabilitation:",
+            "description": "Rehabilitated land is enriched with nutrient-rich soil, facilitating the growth of native flora, promoting biodiversity, and enhancing landscape stability.",
+            "background": "backgrounds/gray.svg"
+          }
+        ],
+        "image": "esg/reclamation-1.jpg",
+        "imageslist": [
+          "../images/esg/reclamation-strategy-1.jpg",
+          "../images/esg/reclamation-strategy-2.jpg"
+        ]
+      },
+      {
+        "header": "Seven",
+        "left-column": {
+          "title": "Dust Suppression Systems"
+        },
+        "right-column": {
+          "description": "To mitigate dust and maintain air quality, we employ advanced dust suppression measures across its operational sites, reflecting our dedication to health and environmental standards."
+        },
+        "list": [
+          {
+            "title": "Water Sprinkling:",
+            "description": "Extensive use of motorized sprinklers along haul roads ensures that dust levels remain controlled and air quality is protected.",
+            "background": "backgrounds/orange.svg"
+          },
+          {
+            "title": "Advanced Drilling Equipment:",
+            "description": "Equipped with vacuum-suction-enabled drills and rock-cutting chemicals, we reduce dust generated during extraction activities, improving site safety and environmental quality.",
+            "background": "backgrounds/green.svg"
+          }
+        ],
+        "image": "esg/dust-seperation-desktop.jpg",
+        "imageslist": [
+          "../images/esg/dust-seperation-1.jpg",
+          "../images/esg/dust-seperation-2.jpg",
+          "../images/esg/dust-seperation-3.jpg"
+        ]
+      },
+      {
+        "header": "Eight",
+        "left-column": {
+          "title": "Employee and Community Well-being"
+        },
+        "right-column": {
+          "description": "We are committed to leaving a positive environmental legacy by restoring and reclaiming land post-mining. Our reclamation strategy revitalizes the landscape, promotes biodiversity, and provides lasting value to the surrounding areas."
+        },
+        "list": [
+          {
+            "title": "Safety and Health Programs:",
+            "description": "Employees benefit from comprehensive safety training, high-quality PPE, and regular health monitoring to ensure a safe and healthy work environment.",
+            "background": "backgrounds/blue.svg"
+          },
+          {
+            "title": "Community Support Initiatives:",
+            "description": "We engage in community-based projects that support education, healthcare, and sustainable livelihoods, creating positive, lasting impacts in local communities.",
+            "background": "backgrounds/gray.svg"
+          }
+        ],
+        "image": "esg/employee-1.jpg",
+        "imageslist": [
+          "../images/esg/emp-comm-well-being-1.jpg",
+          "../images/esg/emp-comm-well-being-2.jpg"
+        ]
+      }
+    ],
+    "committee": {
+      "left-column": {
+        "title": "ESG Committee"
+      },
+      "right-column": {
+        "description": "Our ESG Committee, chaired by Chief Operations Officer K. Mallikarjuna Rao, is responsible for setting strategic priorities and establishing practices that align with global sustainability standards. By shifting operations towards renewable energy, reducing carbon emissions, and enhancing safety standards, the committee ensures Midwest’s actions resonate with ESG principles. The committee also conducts regular assessments to meet and exceed regulatory requirements, prioritizing transparency, community engagement, and ethical governance across all operations."
+      }
+    },
+    "future": {
+      "left-column": {
+        "title": "Towards a Greener, Responsible Future."
+      },
+      "right-column": {
+        "description": "Midwest remains committed to sustainable practices, balancing economic growth with environmental stewardship. Through our ESG initiatives, we aim to inspire positive change, not only within our operations but across the industry, demonstrating that responsible business practices benefit both the community and the planet."
+      },
+      "text": "For more on Midwest’s ESG impact, download our comprehensive Sustainability Report or contact us."
+    }
+  }
+]

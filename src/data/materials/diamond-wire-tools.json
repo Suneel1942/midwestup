@@ -1,0 +1,156 @@
+{
+  "title": "Diamond Wire Tools",
+  "slug": "diamond-wire-tools",
+  "banner": {
+    "background": "diamond-wire-tools/banner.jpg",
+    "background-mobile": "diamond-wire-tools/banner-mobile.jpg",
+    "heading": "Advanced Cutting,<br/>Crafted for Precision."
+  },
+  "description": {
+    "left-column": {
+      "icon": "icons/stone-icon.svg",
+      "title": "Diamond Wire Tools"
+    },
+    "right-column": {
+      "description": {
+        "type": "text",
+        "text": "Midwest's Diamond Wire Tools segment is dedicated to the design, development, and manufacture of advanced diamond wires, which are used for precision cutting in the natural stone, construction, and related industries. Originally established to support the company’s Natural Stone segment, the Diamond Wire Tools division has since expanded to cater to both captive consumption and external market demand across India's mining and construction sectors."
+      }
+    },
+    "image": "diamond-wire-tools/granite-bookends.webp",
+    "image-mobile": "diamond-wire-tools/granite-bookends.webp",
+    "list-flow": "row",
+    "list": [
+      {
+        "text": "**165,000 metres** of diamond wire produced annually.",
+        "color": "backgrounds/green.svg"
+      },
+      {
+        "text": "In-house R&D team focuses on material **innovations** and process **improvements.**",
+        "color": "backgrounds/orange.svg"
+      },
+      {
+        "text": "Expanding domestic market share with future plans for overseas expansion.",
+        "color": "backgrounds/blue.svg"
+      }
+    ]
+  },
+  "market": {
+    "title": "Market & Growth",
+    "content": {
+      "tabs": [
+        {
+          "title": "Market",
+          "list": [
+            "Heavy mineral sands contain key minerals such as ilmenite, rutile, zircon, and monazite, which are crucial for titanium-based products in industries like aerospace, electronics, and paints.",
+            "Midwest has expanded its heavy mineral sands operations through its subsidiaries in Sri Lanka, with a planned production capacity of 37,000 MTPA, strengthening its presence in the global market.",
+            "India plays a significant role in the heavy mineral sands market, with deposits concentrated along coastal areas."
+          ]
+        },
+        {
+          "title": "Growth",
+          "list": [
+            "The heavy mineral sands market is expected to grow at a CAGR of 6-7% through fiscal 2028, driven by demand for titanium dioxide and zircon.",
+            "Midwest's integrated supply chain, from mining to processing, gives it a competitive edge to meet the rising demand for titanium products, positioning it to capitalize on market growth.",
+            "Global demand for ilmenite, rutile, and zircon continues to rise due to their use in aerospace components, ceramics, and pigments."
+          ]
+        }
+      ]
+    }
+  },
+  "marketgrowth": {
+    "header": "MarketGrowth",
+    "left-column": {
+      "title": "Market & Growth"
+    },
+    "right-column": {
+      "list": [
+        "Production of Diamond Wire at a facility in Hyderabad, catering to both captive and external customer needs in the mining and construction industries.",
+        "Aiming to increase market share through product enhancements and targeting new operators with a ‘concept selling’ strategy.",
+        "Focused R&D team dedicated to improving cutting speed and useful life of Diamond Wire by modifying key material compositions."
+      ]
+    },
+    "list": [
+      {
+        "title": "Production of Diamond Wire",
+        "image": "diamond-wire-tools/diamond-wire-sold.png"
+      },
+      {
+        "title": "Diamond Wire Sold",
+        "image": "diamond-wire-tools/production-of-diamond-wire.png"
+      }
+    ]
+  },
+  "products": {
+    "heading": "Products",
+    "list": [
+      {
+        "title": "Quarry Wire",
+        "image": "diamond-wire-tools/quarry-wire.jpg",
+        "details": {
+          "description": "Specifically designed for dimensional stone quarries, this wire functions as a cutting tool in wire saw machines.",
+          "projects": []
+        }
+      },
+      {
+        "title": "Stationery Wire",
+        "image": "diamond-wire-tools/stationery-wire.jpg",
+        "details": {
+          "description": "Employed in processing plants to cut blocks into thin slabs of granite, quartzite, and other hard stones.",
+          "projects": []
+        }
+      },
+      {
+        "title": "Multi Wire",
+        "image": "diamond-wire-tools/multi-wire.jpg",
+        "details": {
+          "description": "Utilized in further processing stones extracted from a mine, often working in tandem to cut and shape stone.",
+          "projects": []
+        }
+      }
+    ]
+  },
+  "applications": {
+    "heading": "Applications",
+    "slides": [
+      "diamond-wire-tools/applications-image-1.jpg",
+      "diamond-wire-tools/applications-image-2.jpg",
+      "diamond-wire-tools/applications-image-3.jpg",
+      "diamond-wire-tools/applications-image-4.jpg"
+    ],
+    "items": [
+      {
+        "text-array" : ["Quarries", "Processing facilities", "Construction sites"]
+      },
+      {
+        "text": "Quarry Wire: Cutting of Granite blocks in Mine"
+      },
+      {
+        "text": "Multi Wire: Cutting of Blocks into slabs in factory"
+      },
+      {
+        "text": "Mono Wire: Trimming of block edges in factory"
+      }
+    ]
+  },
+  "features": {
+    "heading": "Key Features & Benefits",
+    "list": [
+      {
+        "title": "Material Composition:",
+        "text": "Made using premium materials, including tungsten, iron, cobalt, and synthetic diamonds, optimized for cutting speed and tool longevity.",
+        "background": "backgrounds/green.svg"
+      },
+      {
+        "title": "Energy Efficiency:",
+        "text": "Reduced energy consumption due to advancements in process parameters, which also contribute to cost efficiency.",
+        "background": "backgrounds/orange.svg"
+      },
+      {
+        "title": "Customizable Design:",
+        "text": "Tailored for specific mining and processing needs, ensuring maximum operational efficiency.",
+        "background": "backgrounds/blue.svg"
+      }
+    ]
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "title": "Quartz",
+  "slug": "quartz",
+  "banner": {
+    "background": "quartz/banner.jpg",
+    "background-mobile": "quartz/banner-mobile.jpg",
+    "heading": "Crystal Clear Performance,<br/>Limitless Applications."
+  },
+  "description": {
+    "left-column": {
+      "icon": "icons/stone-icon.svg",
+      "title": "Quartz"
+    },
+    "right-column": {
+      "description": {
+        "type": "list",
+        "array": [
+          "Quartz (SiO2) is a widely abundant mineral with a multitude of applications.",
+          "Midwest Neostone is building a Quartz processing facility in Andhra Pradesh, with Commenced Phase I facility targeting 303,600 metric tonnes capacity.*",
+          "Phase II will increase capacity to 606,600 metric tonnes, refining rejects for high-purity Quartz used in engineered stone and solar glass.*",
+          "With the operationalization of Phase I, Midwest will be one of the few players worldwide to incorporate a mine-to-market integrated business model for the production of Quartz grit and powder, i.e., offering capabilities across mining, processing, packing, distribution, and branding of Quartz.*"
+        ]
+      }
+    },
+    "source": "*Source: CRISIL Report",
+    "image": "quartz/quartz-stones.webp",
+    "image-mobile": "quartz/quartz-stones-mobile.webp",
+    "list-flow": "column",
+    "list": [
+      {
+        "text": "Over **23.3 MMT** of quartz resources",
+        "color": "backgrounds/green.svg"
+      },
+      {
+        "text": "With Phase I, Company will be one of the few players worldwide, which incorporate a mine to market integrated business model 2 for production of Quartz grit and powder*",
+        "color": "backgrounds/orange.svg"
+      },
+      {
+        "text": "Phase II will expand capacity to **606,600 MT**, refining rejects into high-purity Quartz for the semiconductor and solar industries.",
+        "color": "backgrounds/blue.svg"
+      }
+    ]
+  },
+  "market": {
+    "title": "Market & Growth",
+    "content": {
+      "tabs": [
+        {
+          "title": "Market",
+          "list": [
+            "Quartz is widely used in industries such as solar glass, engineered stone, and semiconductors.",
+            "Domestic production of quartz in India reached 4,989 KT in fiscal 2024, growing at a 17.8% CAGR from fiscal 2022.",
+            "Rajasthan is the largest producer, accounting for 49% of India's total quartz output in fiscal 2024, followed by Telangana (23%) and Andhra Pradesh (21%).",
+            "Quartz exports to markets such as China, Malaysia, Vietnam, and Korea grew by 47% in fiscal 2024, with China accounting for 45% of India's total export volume.",
+            "India remains a net exporter, consistently exporting larger volumes of quartz than it imports, with export values increasing by 164% in fiscal 2024."
+          ]
+        },
+        {
+          "title": "Growth",
+          "list": [
+            "The quartz market is projected to grow at a CAGR of 8-8.5% through fiscal 2029, with production expected to reach 7,331-7,502 KT.",
+            "Domestic demand for quartz is projected to reach 6,166-6,516 KT by fiscal 2029, driven by the growth of the solar glass, electronics, and engineered stone industries.",
+            "The demand for quartz in solar panel manufacturing is expected to rise sharply, with quartz grit accounting for 65-70% of the raw materials in solar panel glass."
+          ]
+        }
+      ]
+    }
+  },
+  "marketgrowth": {
+    "header": "MarketGrowth",
+    "left-column": {
+      "title": "Market & Growth"
+    },
+    "right-column": {
+      "list": [
+        "India is among the leading exporters, alongside China and Turkey, with a 21.5% YoY growth in Quartz slab exports.*",
+        "India currently imports 65% of its solar glass needs, but domestic supply is expected to rise to 70-80% by FY 2029.*",
+        "Quartz demand for solar glass is expected to grow at a CAGR of 30.7-31.4%, reaching 2,100-2,160 KT by FY 2029.*",
+        "Midwest plans to add 0.5 mnT of quartz grit capacity for solar glass, meeting 15-18% of FY 2029 demand.*"
+      ]
+    },
+    "list": [
+      {
+        "title": "Engineered Quartz Slabs",
+        "image": "quartz/engineered-quartz-slabs.png"
+      },
+      {
+        "title": "Export Opportunity of Quartz",
+        "image": "quartz/export-opportunity.png"
+      },
+      {
+        "title": "Surge in Demand By Solar Growth",
+        "image": "quartz/surge-in-demand-by-solar-growth.png"
+      },
+      {
+        "title": "Quartz Production & Consumption",
+        "image": "quartz/quartz-production-consumption.png"
+      },
+      {
+        "title": "Quartz Import",
+        "image": "quartz/quartz-import.png"
+      },
+      {
+        "title": "Quartz Export",
+        "image": "quartz/quartz-export.png"
+      }
+    ]
+  },
+  "products": {
+    "heading": "Products",
+    "list": [
+      {
+        "title": "Quartz Grit",
+        "image": "quartz/quartz-grit.png",
+        "details": {
+          "description": "Fine powder, typically ranging from 0.1mm to 1.2mm. Ideal for construction and decorative surfaces like countertops and flooring.",
+          "applications": [
+            "Abrasive blasting: Used to clean and polish surfaces through abrasive blasting, which involves blowing compressed air or water through a nozzle to remove impurities and smooth out surfaces.",
+            "Abrasive cutting: Used in abrasive cutting tools, such as saw blades and grinding wheels, to cut through hard materials, such as metal, stone and manufacture engineered stone.",
+            "Water filtration: Used in water filtration systems to remove impurities and contaminants from water.",
+            "Used in manufacturing of Engineered Slab Industry, Solar and Glass Industries.",
+            "Solar glass manufacturing: For production of solar glass used in solar panels."
+          ],
+          "projects": []
+        }
+      },
+      {
+        "title": "Quartz Powder",
+        "image": "quartz/quartz-powder.jpeg",
+        "details": {
+          "description": "Used in glass manufacturing, paints, and coatings.",
+          "applications": [
+            "Quartz powder of size 400 mesh is used in the Engineering slab industry."
+          ],
+          "projects": []
+        }
+      },
+      {
+        "title": "High-Purity Quartz",
+        "image": "quartz/high-purity-quartz.jpg",
+        "details": {
+          "description": "High purity level, typically having SiO₂ purity above 99.99%. Essential for electronics, semiconductors, and optical industries.",
+          "applications": [
+            "Electronics: Used in semiconductors and transistors, owing to its high purity level and electrical insulation properties.",
+            "Optical: Used in optical lenses and prisms because of its high refractive index and optical transparency.",
+            "Advanced material: Used in piezoelectric material and optical fibres.",
+            "Solar cells: Used in the production of solar cells. Low-iron sands and dolomite are used to make the glass cover for solar panels. The low-iron properties help increase light transmission, which maximises the level of electricity generation."
+          ],
+          "projects": []
+        }
+      },
+      {
+        "title": "Cristobalite",
+        "image": "quartz/cristobalite.jpg",
+        "details": {
+          "description": "Applied in specialized industrial applications, such as high-temperature furnaces and refractory materials.",
+          "applications": [
+            "Electronics: Used in electronic components, such as semiconductors and transistors, owing to its high thermal conductivity and electrical insulation properties.",
+            "Optical: Used in optical lenses and prisms because of its high refractive index and optical transparency.",
+            "High-power electronics: Used in high-power electronic devices, such as power transistors and diodes, owing to its high thermal conductivity and electrical insulation properties."
+          ],
+          "projects": []
+        }
+      }
+    ]
+  }
+}
