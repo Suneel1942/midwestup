@@ -1,3 +1,5 @@
+@use "mixins";
+
 .background-sections {
   max-width: 1920px;
   margin: 0 auto;
@@ -285,6 +287,10 @@
   padding-bottom: 0;
   .section-wrapper {
     padding: 0 54px;
+
+    @include mixins.for-phone-only {
+      padding: 0;
+    }
   }
   .background {
     position: absolute;
@@ -398,6 +404,10 @@
   padding-bottom: 0;
   .section-wrapper {
     padding: 0 54px;
+
+    @include mixins.for-phone-only {
+      padding: 0;
+    }
   }
   .image {
     width: 100%;
