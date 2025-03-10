@@ -55,8 +55,7 @@ const IndexPage = ({ data }) => {
           <h2>{banner?.title_heading_1}</h2>
           {/* <h1>{banner?.title_heading_2}</h1> */}
         </Banner>
-        <h1>Staging testing 2</h1>
-        <section className={`custom-section-layout ${styles.introductionSection}`}>
+        <section className={`bruno custom-section-layout ${styles.introductionSection}`}>
           <span className="header-text">{introduction?.header}</span>
           <div className="columns-container">
             <div className="left-column">
