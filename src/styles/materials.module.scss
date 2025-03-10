@@ -1,3 +1,5 @@
+@use "mixins";
+
 .diamond-wire-tools-custom-section{
   border:2rem solid blue;
 }
@@ -9,6 +11,10 @@
   
   .section-wrapper {
     padding: 0 54px;
+
+    @include mixins.for-phone-only {
+      padding: 0;
+    }
   }
   @media (min-width:1600px) {
     .diamondImage{
@@ -373,6 +379,10 @@
   padding: 50px 0;
   .section-wrapper {
     padding: 0 54px;
+
+    @include mixins.for-phone-only {
+      padding: 0;
+    }
   }
   .content {
     margin-top: 25px;

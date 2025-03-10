@@ -1,3 +1,5 @@
+@use "_mixins";
+
 // .home-container {
 //   display: flex;
 //   flex-direction: column;
@@ -62,6 +64,7 @@
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 14px;
+
     li {
       position: relative;
       padding: 15px;
@@ -77,6 +80,17 @@
         width: 100%;
         object-fit: cover;
         z-index: -1;
+      }
+    }
+
+    @include mixins.for-phone-only {
+      grid-template-columns: 1fr;
+      gap: 0.5rem;
+      margin-top: 1rem;
+
+      li {
+        font-size: 1rem;
+        padding: 1rem;
       }
     }
   }
@@ -154,11 +168,18 @@
   
   & > div {
     max-height: calc(100vh - 50px);
-    height: calc(100% - 50px) !important;;
+    height: calc(100% - 50px) !important;
     padding: 50px 54px 0px 54px !important;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
+    @include mixins.for-phone-only {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+      height: unset;
+      max-height: unset;
+    }
   }
 
   .background {
@@ -183,6 +204,12 @@
     img {
       height: 435px;
       transform: translateX(15%);
+
+      @include mixins.for-phone-only {
+        height: auto;
+        width: 100%;
+        transform: none;
+      }
     }
   }
   @media (min-width:399px) {
@@ -238,6 +265,10 @@
   padding: 50px 0;
   .section-wrapper {
     padding: 0 54px;
+
+    @include mixins.for-phone-only {
+      padding: 0;
+    }
   }
   .icon {
     width: 35px;
@@ -276,6 +307,10 @@
           margin-top: 29px;
         }
       }
+    }
+
+    @include mixins.for-phone-only {
+      padding: 0;
     }
   }
   @media (min-width:640px) {
@@ -445,6 +480,19 @@
           margin-top: 12px;
         }
       }
+
+      @include mixins.for-phone-only {
+        grid-template-columns: 1fr;
+        gap: 0.5rem;
+        
+        li {
+          padding: 1rem;
+
+          h3 {
+            font-size: 1.25rem;
+          }
+        }
+      }
     }
     .link {
       width: fit-content;
@@ -533,6 +581,13 @@
         width: 356px;
         font-weight: 600;
       }
+
+      @include mixins.for-phone-only {
+        max-width: 100%;
+        button {
+          font-size: 1rem;  
+        }
+      }
     }
     .list-container {
       display: grid;
@@ -579,11 +634,26 @@
           inset: 0;
         }
       }
+
+      @include mixins.for-phone-only {
+        grid-template-columns: 1fr;
+
+        li {
+          padding: 1rem;
+          p {
+            font-size: 1rem;
+            margin: 0;
+          }
+        }
+      }
     }
     .processing-container {
       margin-top: 33px;
       p {
         font-size: 11px;
+        @include mixins.for-phone-only {
+          font-size: 1rem;
+        }
       }
       .link {
         width: fit-content;

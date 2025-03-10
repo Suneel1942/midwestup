@@ -1,3 +1,4 @@
+@use "mixins";
 
 .about-section {
   position: relative;
@@ -10,6 +11,10 @@
   overflow: hidden;
   .section-wrapper {
     padding: 0 54px;
+
+    @include mixins.for-phone-only {
+      padding: 0;
+    }
   }
   .header {
     color: white;
@@ -120,6 +125,12 @@
       font-size: 11px;
       width: 100%;
     }
+
+    @include mixins.for-phone-only {
+      .text {
+        font-size: 1rem;
+      }
+    }
   }
   @media (min-width:640px) {
     .icon {
@@ -196,6 +207,20 @@
         }
         p {
           font-size: 11px;
+        }
+      }
+    }
+
+    @include mixins.for-phone-only {
+      padding: 1rem 0;
+      .content {
+        gap: 0.5rem;
+        grid-template-columns: 1fr;
+        .mission, .vision {
+          opacity: 0.9;
+          p {
+            font-size: 1rem;
+          }
         }
       }
     }
@@ -370,9 +395,17 @@
   padding: 50px 0;
   .section-wrapper {
     padding: 0 54px;
+
+    @include mixins.for-phone-only {
+      padding: 2rem 0 2rem 0;
+    }
   }
   .content {
     padding: 50px 22px 0;
+
+    @include mixins.for-phone-only {
+      padding: 0;
+    }
   }
   @media (min-width:640px) {
     padding: 70px 0;
@@ -481,6 +514,16 @@
         font-size: 11px;
       }
     }
+
+    @include mixins.for-phone-only {
+      grid-template-columns: 1fr;
+      gap: 0.5rem;
+      li {
+        p {
+          font-size: 1rem;
+        }
+      }
+    }
   }
   .link {
     width: fit-content;
@@ -547,6 +590,10 @@
   padding: 20px 0;
   .section-wrapper {
     padding: 0 54px;
+
+    @include mixins.for-phone-only {
+      padding: 0;
+    }
   }
   .content {
     margin-top: 22px;
@@ -596,6 +643,20 @@
         p {
           font-size: 11px;
           margin-top: 10px;
+        }
+      }
+    }
+    @include mixins.for-phone-only {
+      .list-container {
+        gap: 1rem;
+        padding: 0;
+        button {
+          font-size: 1rem;
+        }
+      }
+      .tab-content {
+        .mobile-slider {
+          padding: 0;
         }
       }
     }
@@ -839,6 +900,10 @@
       p {
         margin-top: 34px;
         font-size: 11px;
+
+        @include mixins.for-phone-only {
+          font-size: 16px;
+        }
       }
     }
   }
@@ -904,6 +969,10 @@
   padding: 50px 0 0;
   .section-wrapper {
     padding: 0 54px;
+
+    @include mixins.for-phone-only {
+      padding: 0;
+    }
   }
   .list-container {
     display: flex;
@@ -946,6 +1015,17 @@
         p {
           font-size: 11px;
           margin-top: 5px;
+        }
+      }
+    }
+
+    @include mixins.for-phone-only {
+      padding: 0 0 2rem 0;
+      .slide {
+        .text-container {
+          p {
+            font-size: 1rem;
+          }
         }
       }
     }
@@ -1099,7 +1179,7 @@
         li {
           margin-left: 12px;
           list-style-type: disc;
-          font-size: 11px;
+          font-size: 1rem;
           h3 {
             font-size: var(--text-lg);
             font-weight: 600;
