@@ -4,7 +4,7 @@
     // max-width: 300px;
   }
   @media (min-width:640px) {
-    height: 100vh;
+    height: calc(100vh - 150px);
     h1 {
       max-width: 500px;
     }

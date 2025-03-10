@@ -54,8 +54,7 @@
     }
   }
   @media (min-width:640px) {
-    height: 100vh;
-    min-height: 100vh;
+    height: calc(100vh - 150px);
     .text-container {
       left: 80px;
       bottom: 10%;
