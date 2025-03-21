@@ -2,16 +2,10 @@
 
 .about-section {
   position: relative;
-  // padding-top: 60px;
-  // padding-bottom: 30px;
   padding: 60px 0 0;
-  overflow: hidden;
-  // height: calc(100vh - 116px);
-  // height: 100vh;
   overflow: hidden;
   .section-wrapper {
     padding: 0 54px;
-
     @include mixins.for-phone-only {
       padding: 0;
     }
@@ -88,6 +82,25 @@
   @media (min-width:1920px) {
     .image-container {
       height: 635px;
+    }
+  }
+  //bruno
+  @include mixins.for-phone-only {
+    padding: 60px 0 !important;
+    .section-wrapper {
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+    .image-container {
+      overflow: unset;
+      margin-top: 0;
+      .image-background {
+        position: relative;
+        left: unset;
+        bottom: 0;
+        overflow: unset;
+
+      }
     }
   }
 }
@@ -419,6 +432,11 @@
       padding: 100px 80px 0;
     }
   }
+  @include mixins.for-phone-only {
+    .section-wrapper, .content {
+      padding: 0;
+    }
+  }
 }
 
 .slides-section {
@@ -535,7 +553,7 @@
       grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
     }
   }
-  @media (min-width:640px) {
+  @media (min-width:768px) {
     padding-top: 70px;
     .right-column {
       padding-top: 35px;
@@ -552,6 +570,15 @@
         p {
           font-size: var(--text-lg);
         }
+      }
+    }
+  }
+  @include mixins.for-phone-only {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+    li {
+      p {
+        font-size: 1rem;
       }
     }
   }
@@ -608,6 +635,12 @@
         button {
           font-weight: 600;
           width: 100%;
+        }
+      }
+      @include mixins.for-phone-only {
+        flex-direction: column;
+        button {
+          padding: 0.75rem;
         }
       }
     }
