@@ -194,6 +194,17 @@
       }
     }
   }
+  // BRUNO: Materials scss is not working.
+  @include mixins.for-phone-only {
+    .columns-container {
+      .right-column {
+        .description-list {
+          background-color: aqua;
+          padding-left: 1rem;
+        }
+      }
+    }
+  }
 }
 
 .natural-stone-strength-section {
