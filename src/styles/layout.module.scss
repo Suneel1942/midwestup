@@ -98,6 +98,10 @@
       }
     }
   }
+
+  @include mixins.for-phone-only {
+    padding: 1.5rem 1rem;
+  }
 }
 
 
