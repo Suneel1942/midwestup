@@ -1,3 +1,5 @@
+@use "mixins";
+
 .header {
   // position: fixed;
   // top: 0;
@@ -151,7 +153,6 @@
   .left-content {
     ul {
       display: flex;
-      // flex-direction: column;
       flex-wrap: wrap;
       gap: 5px;
       padding: 0;
@@ -203,6 +204,30 @@
   }
   @media screen and (min-width:768px) and (max-width:1180px) {
     padding: 33px 54px;
+  }
+  @include mixins.for-phone-only {
+    padding: 2rem 1rem;
+    .left-content, .right-content {
+      width: 100%;
+      h3 {
+        font-size: 1.5rem;
+      }
+      ul {
+        gap: 1rem;
+        li {
+          width: calc(50% - 1rem);
+          font-size: 1rem;
+        }
+      }
+    }
+    .right-content {
+      ul {
+        li {
+          width: 100%;
+          margin-bottom: 1rem;
+        }
+      }
+    }
   }
 }
 
@@ -276,6 +301,19 @@
       input, textarea {
         padding: 30px 21px;
         font-size: var(--text-xl);
+      }
+    }
+  }
+  @include mixins.for-phone-only {
+    form {
+      input, textarea {
+        font-size: 1rem;
+        font-family: var(--font-montserrat);
+      }
+      button {
+        font-size: 1rem;
+        max-width: fit-content;
+        padding: 0.75rem 2rem;
       }
     }
   }
