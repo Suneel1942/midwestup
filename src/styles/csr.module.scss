@@ -263,6 +263,15 @@
       }
     }
   }
+  @include mixins.for-phone-only {
+    .content {
+      .buttons-container {
+        button {
+          font-size: 0.75rem;
+        }
+      }
+    }
+  }
 }
 
 .education-section, .rural-development-section {
