@@ -107,6 +107,9 @@ const List = styled.ul`
   list-style: disc !important;
   list-style:inside;
   list-style-type: disc !important;
+  @media (max-width:767px) {
+    padding-left: 0.75rem;
+  }
 `;
 
 const ListItem = styled.li`
@@ -125,8 +128,9 @@ const ListItem = styled.li`
   @media (min-width:768px) {
     font-size:20px !important;
   } 
-
-
+  @media (max-width:767px) {
+    font-size: 1rem !important;
+  }
 `;
 
 const TabContent = styled.div`
@@ -146,16 +150,9 @@ const TabletMobileTabs = styled.div`
 } `
 
 const MarketGrowthComponent = ({ data }) => {
- 
-  
-
-
   const { left_column, right_column, list } = data
   return (
-
     <>
-
-
       <section className={`custom-section-layout ${styles.naturalStoneStrengthSection}`}>
 
         <div className={styles.sectionWrapper}>
