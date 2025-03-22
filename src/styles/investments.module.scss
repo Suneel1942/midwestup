@@ -1,3 +1,5 @@
+@use "mixins";
+
 .relations-section {
   max-width: 1760px;
   margin: 0 auto;
@@ -53,6 +55,23 @@
         p {
           font-size: var(--text-base);
           max-width: 85%;
+        }
+      }
+    }
+  }
+  @include mixins.for-phone-only {
+    .card-list {
+      gap: 0.5rem;
+      flex-wrap: wrap;
+      li {
+        box-sizing: border-box;
+        padding: 0.5rem;
+        width: calc(50% - 0.5rem);
+        h4 {
+          font-size: 1rem;
+        }
+        p {
+          font-size: 0.8rem;
         }
       }
     }
@@ -264,6 +283,19 @@
       }
     }
   }
+  @include mixins.for-phone-only {
+    overflow: unset;
+    .content {
+      .list-container {
+        li {
+          padding: 0.5rem 1rem;
+          p {
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+  }
 }
 
 .annual-reports-section {
@@ -338,6 +370,16 @@
       ul {
         li {
           font-size: var(--text-xl);
+        }
+      }
+    }
+  }
+  @include mixins.for-phone-only {
+    .content {
+      ul {
+        li {
+          padding: 0.5rem 1rem;
+          font-size: 1rem;
         }
       }
     }
@@ -504,6 +546,16 @@
       }
     }
   }
+  @include mixins.for-phone-only {
+    .content {
+      .list-container {
+        li {
+          padding: 0.5rem 1rem;
+          font-size: 1rem;
+        }
+      }
+    }
+  }
 }
 
 .governance-section {
@@ -532,6 +584,18 @@
     height: 100vh;
     max-height: 100vh;
   }
+  // Bruno TODO: remove width:1 from HTML in this image.
+  // @include mixins.for-phone-only {
+  // background-color: #d1d5d8;
+  // .content {
+  //   .list-container {
+  //     li {
+  //       padding: 0.5rem 1rem;
+  //       font-size: 1rem;
+  //     }
+  //   }
+  // }
+  // }
 }
 
 .committees-section {
@@ -742,6 +806,35 @@
       }
     }
   }
+  @include mixins.for-phone-only {
+    .content {
+      .tab-content {
+        gap: 1rem;
+        .tab-header {
+          div {
+            max-width: unset;
+          }
+          .image {
+            width: 50%;
+          }
+          p {
+            font-size: 0.825rem;
+          }
+        }
+        .tab-body {
+          ul {
+            gap: 1rem;
+            li {
+              width: calc(50% - 0.5rem);
+              p {
+                font-size: 0.825rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 .contact-section {
@@ -811,6 +904,13 @@
     .details-container {
       .right {
         font-size: var(--text-xl);
+      }
+    }
+  }
+  @include mixins.for-phone-only {
+    .details-container {
+      .right {
+        font-size: 1rem;
       }
     }
   }

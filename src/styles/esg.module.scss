@@ -1,3 +1,5 @@
+@use "mixins";
+
 .custom-banner {
   h1 {
     max-width: 320px;
@@ -126,6 +128,16 @@
       }
     }
   }
+  @include mixins.for-phone-only {
+    ul {
+      grid-template-columns: unset;
+      li {
+        h3, p {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
 }
 
 .commitment-section {
@@ -199,6 +211,17 @@
       li {
         font-size: var(--text-xl);
         line-height: 30px;
+      }
+    }
+  }
+  @include mixins.for-phone-only {
+    ul {
+      grid-template-columns: unset;
+      li {
+        h3, p {
+          font-size: 1rem;
+          line-height: 1.2em;
+        }
       }
     }
   }
@@ -330,6 +353,20 @@
         li {
           font-size: var(--text-xl);
           line-height: 30px;
+        }
+      }
+    }
+  }
+  @include mixins.for-phone-only {
+    .right-column {
+      ul {
+        grid-template-columns: unset;
+        li {
+          font-size: 1rem;
+          h3, p {
+            font-size: 1rem;
+            line-height: 1.2em;
+          }
         }
       }
     }

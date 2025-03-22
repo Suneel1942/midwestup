@@ -1,3 +1,5 @@
+@use "_mixins"; 
+
 :root {
   --border-radius: 8px;
   --color-text-heading: #000000;
@@ -169,7 +171,7 @@ ul {
       .left-column, .right-column {
         width: 100% !important;    
         .section-column-description {
-          font-size: 11px;
+          font-size: 1rem;
         }    
       } 
     }
@@ -415,7 +417,7 @@ ul {
   }
 }
 .hamburger {
-  position: absolute;
+  // position: absolute;
   right: 54px;
   top: 38px;
   display: flex;
@@ -543,3 +545,12 @@ ul {
 }
 
 .abtus.section-column-description {margin-bottom: 40px;}
+
+@include mixins.for-phone-only {
+  main {
+    section.custom-section-layout {
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+  }
+}

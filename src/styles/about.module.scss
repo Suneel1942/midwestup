@@ -1,15 +1,14 @@
+@use "mixins";
 
 .about-section {
   position: relative;
-  // padding-top: 60px;
-  // padding-bottom: 30px;
   padding: 60px 0 0;
-  overflow: hidden;
-  // height: calc(100vh - 116px);
-  // height: 100vh;
   overflow: hidden;
   .section-wrapper {
     padding: 0 54px;
+    @include mixins.for-phone-only {
+      padding: 0;
+    }
   }
   .header {
     color: white;
@@ -85,6 +84,25 @@
       height: 635px;
     }
   }
+  //bruno
+  @include mixins.for-phone-only {
+    padding: 60px 0 !important;
+    .section-wrapper {
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+    .image-container {
+      overflow: unset;
+      margin-top: 0;
+      .image-background {
+        position: relative;
+        left: unset;
+        bottom: 0;
+        overflow: unset;
+
+      }
+    }
+  }
 }
 
 .history-section {
@@ -119,6 +137,12 @@
     .text {
       font-size: 11px;
       width: 100%;
+    }
+
+    @include mixins.for-phone-only {
+      .text {
+        font-size: 1rem;
+      }
     }
   }
   @media (min-width:640px) {
@@ -196,6 +220,20 @@
         }
         p {
           font-size: 11px;
+        }
+      }
+    }
+
+    @include mixins.for-phone-only {
+      padding: 1rem 0;
+      .content {
+        gap: 0.5rem;
+        grid-template-columns: 1fr;
+        .mission, .vision {
+          opacity: 0.9;
+          p {
+            font-size: 1rem;
+          }
         }
       }
     }
@@ -370,9 +408,17 @@
   padding: 50px 0;
   .section-wrapper {
     padding: 0 54px;
+
+    @include mixins.for-phone-only {
+      padding: 2rem 0 2rem 0;
+    }
   }
   .content {
     padding: 50px 22px 0;
+
+    @include mixins.for-phone-only {
+      padding: 0;
+    }
   }
   @media (min-width:640px) {
     padding: 70px 0;
@@ -384,6 +430,11 @@
     }
     .content {
       padding: 100px 80px 0;
+    }
+  }
+  @include mixins.for-phone-only {
+    .section-wrapper, .content {
+      padding: 0;
     }
   }
 }
@@ -481,6 +532,16 @@
         font-size: 11px;
       }
     }
+
+    @include mixins.for-phone-only {
+      grid-template-columns: 1fr;
+      gap: 0.5rem;
+      li {
+        p {
+          font-size: 1rem;
+        }
+      }
+    }
   }
   .link {
     width: fit-content;
@@ -492,7 +553,7 @@
       grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
     }
   }
-  @media (min-width:640px) {
+  @media (min-width:768px) {
     padding-top: 70px;
     .right-column {
       padding-top: 35px;
@@ -509,6 +570,15 @@
         p {
           font-size: var(--text-lg);
         }
+      }
+    }
+  }
+  @include mixins.for-phone-only {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+    li {
+      p {
+        font-size: 1rem;
       }
     }
   }
@@ -547,6 +617,10 @@
   padding: 20px 0;
   .section-wrapper {
     padding: 0 54px;
+
+    @include mixins.for-phone-only {
+      padding: 0;
+    }
   }
   .content {
     margin-top: 22px;
@@ -561,6 +635,12 @@
         button {
           font-weight: 600;
           width: 100%;
+        }
+      }
+      @include mixins.for-phone-only {
+        flex-direction: column;
+        button {
+          padding: 0.75rem;
         }
       }
     }
@@ -596,6 +676,20 @@
         p {
           font-size: 11px;
           margin-top: 10px;
+        }
+      }
+    }
+    @include mixins.for-phone-only {
+      .list-container {
+        gap: 1rem;
+        padding: 0;
+        button {
+          font-size: 1rem;
+        }
+      }
+      .tab-content {
+        .mobile-slider {
+          padding: 0;
         }
       }
     }
@@ -839,6 +933,10 @@
       p {
         margin-top: 34px;
         font-size: 11px;
+
+        @include mixins.for-phone-only {
+          font-size: 16px;
+        }
       }
     }
   }
@@ -904,6 +1002,10 @@
   padding: 50px 0 0;
   .section-wrapper {
     padding: 0 54px;
+
+    @include mixins.for-phone-only {
+      padding: 0;
+    }
   }
   .list-container {
     display: flex;
@@ -946,6 +1048,17 @@
         p {
           font-size: 11px;
           margin-top: 5px;
+        }
+      }
+    }
+
+    @include mixins.for-phone-only {
+      padding: 0 0 2rem 0;
+      .slide {
+        .text-container {
+          p {
+            font-size: 1rem;
+          }
         }
       }
     }
@@ -1099,7 +1212,7 @@
         li {
           margin-left: 12px;
           list-style-type: disc;
-          font-size: 11px;
+          font-size: 1rem;
           h3 {
             font-size: var(--text-lg);
             font-weight: 600;

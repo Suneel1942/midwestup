@@ -1,3 +1,5 @@
+@use "mixins";
+
 .value-section {
   position: relative;
   overflow: hidden;
@@ -227,6 +229,16 @@
       }
     }
   }
+  @include mixins.for-phone-only {
+    ul {
+      li {
+        aspect-ratio: unset;
+        p {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
 }
 
 .rural-development-section {
@@ -247,6 +259,15 @@
         button {
           padding-left: 15px;
           padding-right: 15px;
+        }
+      }
+    }
+  }
+  @include mixins.for-phone-only {
+    .content {
+      .buttons-container {
+        button {
+          font-size: 0.75rem;
         }
       }
     }
@@ -341,6 +362,15 @@
       }
     }
   }
+  @include mixins.for-phone-only {
+    .content {
+      .tab-content-container {
+        p {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
 }
 
 .support-section {
@@ -393,6 +423,15 @@
       .info-card {
         h3, p {
           font-size: var(--text-xl);
+        }
+      }
+    }
+  }
+  @include mixins.for-phone-only {
+    .content {
+      .info-card {
+        p, h3 {
+          font-size: 1rem;
         }
       }
     }
@@ -459,6 +498,18 @@
         li {
           h3, p {
             font-size: var(--text-xl);
+          }
+        }
+      }
+    }
+  }
+  @include mixins.for-phone-only {
+    .content {
+      ul {
+        li {
+          aspect-ratio: unset;
+          p, h3 {
+            font-size: 1rem;
           }
         }
       }
