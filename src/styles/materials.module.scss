@@ -194,14 +194,26 @@
       }
     }
   }
-  // BRUNO: Materials scss is not working.
   @include mixins.for-phone-only {
-    .columns-container {
-      .right-column {
-        .description-list {
-          background-color: aqua;
-          padding-left: 1rem;
+    .section-wrapper {
+      .description-list {
+        padding-left: 0.75rem;
+      }
+      .content {
+        ul {
+          li {
+            padding: 1rem;
+            aspect-ratio: unset;
+            p {
+              font-size: 1rem;
+            }
+          }
         }
+      }
+    }
+    .content {
+      ul.grid {
+        grid-template-columns: 1fr;
       }
     }
   }
@@ -316,6 +328,26 @@
     .right-column {
       .content-one, .content-two {
         font-size: var(--text-xl);
+      }
+    }
+  }
+  @include mixins.for-phone-only {
+    .right-column {
+      .content-one,
+      .content-two {
+        font-size: 1rem;
+      }
+      .table-container {
+        table {
+          td, th {
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+    .buttons-container {
+      button {
+        font-size: 1rem !important;
       }
     }
   }
@@ -474,7 +506,6 @@
   }
   @media screen and (min-width:768px) and (max-width:1139px) {
     .content {
-
       .details-container {
         .details-content {
           p, ul {
@@ -483,7 +514,6 @@
         }
       }
     }
-
   }
   @media (min-width:1139px) {
     padding: 70px 0;
@@ -609,6 +639,29 @@
       }
     }
   }
+  @include mixins.for-phone-only {
+    .details-container {
+      padding: 1rem 0 !important;
+      .buttons {
+        button {
+          font-size: 1rem;
+        }
+      }
+      .details-content {
+        p, ul li {
+          font-size: 1rem;
+        }
+        ul {
+          padding-left: 0.5rem;
+        }
+      }
+    }
+    .content {
+      .slider-container {
+        padding: 0;
+      }
+    }
+  }
 }
 
 .natural-stone-products-section, .diamond-wire-products-section {
@@ -714,6 +767,21 @@
       }
     }
   }
+  @include mixins.for-phone-only {
+    .buttons-container {
+      button {
+        font-size: 1rem;
+      }
+    }
+  }
+  @media (max-width: 767px) {
+    .right-column {
+      .product-details-list {
+        font-size: 1rem;
+        padding-left: 0.75rem;
+      }
+    }
+  }
 }
 .diamond-wire-products-section {
   .right-column {
@@ -803,6 +871,13 @@
     .content {
       .list, .source-text {
         font-size: var(--text-xl);
+      }
+    }
+  }
+  @include mixins.for-phone-only {
+    ul {
+      li {
+        font-size: 1rem;
       }
     }
   }
@@ -1094,6 +1169,16 @@
       }
     }
   }
+  @include mixins.for-phone-only {
+    .right-column {
+      .card {
+        padding: 1rem;
+        p, h4 {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
 }
 
 .contact-section {
@@ -1281,7 +1366,14 @@
       }
     }
   }
-
+  @include mixins.for-phone-only {
+    .right-column {
+      ul {
+        .card {
+          padding: 1rem !important;
+          font-size: 1rem;
+        }
+      }
+    }
+  }
 }
-
-

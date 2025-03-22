@@ -53,7 +53,7 @@ const ThumbnailsWrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  gap: 0.5rem;
   width: 100%;
 `;
 
@@ -61,35 +61,35 @@ const Thumbnails = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  gap: 0.5rem;
   overflow: hidden;
   width: 100%;
 `;
 
 const Thumbnail = styled.button`
-min-width:42%;
-padding:15px !important;
-font-family: var(--font-montserrat);
-@media screen and (max-width:767px) {
-           font-size:12px;
-}
-font-size:1.125rem;
+  min-width:42%;
+  padding:0.5rem !important;
+  font-family: var(--font-montserrat);
+  @media screen and (max-width:767px) {
+    font-size:0.825rem;
+  }
+  font-size:1.125rem;
   background-color: ${({ active }) => (active ? "#91CB00;" : "transparent")};
   color: ${({ active }) => (active ? "#ffffff" : "#c6c6c8")};
   border: ${({ active }) => (active ? "1px solid #91CB00" : "1px solid #bbbcbe")};
   opacity: ${({ active }) => (active ? "1" : "0.6")};
 
-    // transition: opacity 0.3s ease-in-out;
+  // transition: opacity 0.3s ease-in-out;
 
-    border-radius: 8px;
-    text-align: center;
-    cursor: pointer;
-    margin:0px 5px;
-    height:fit-content;
+  border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
+  margin:0px 5px;
+  height:fit-content;
 `;
 
 const Arrow = styled.button`
-background-color:transparent;
+  background-color:transparent;
   color: white;
   border: none;
   cursor: pointer;
