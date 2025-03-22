@@ -277,6 +277,19 @@
       }
     }
   }
+  @include mixins.for-phone-only {
+    .content {
+      .improvement-list, .wire-list {
+        li {
+          font-size: 1rem;
+        }
+      }
+      .text-array {
+        font-size: 1rem;
+        padding-left: 0.75rem;
+      }
+    }
+  }
 }
 
 .minerals-section {
@@ -391,6 +404,21 @@
       }
       .text {
         font-size: var(--text-xl);
+      }
+    }
+  }
+  @include mixins.for-phone-only {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    .section-wrapper {
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+    .content {
+      ul {
+        li {
+          font-size: 1rem;
+        }
       }
     }
   }
@@ -541,6 +569,24 @@
       }
     }
   }
+  @include mixins.for-phone-only {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    .section-wrapper {
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+    .content {
+      h3 {
+        font-size: 1rem;
+      }
+      ul {
+        li {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
 }
 
 .trucks-section {
@@ -685,6 +731,24 @@
       }
     }
   }
+  @include mixins.for-phone-only {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+
+    .section-wrapper {
+      padding-left: 1rem !important;
+      padding-right: 1rem !important;
+    }
+
+    .content {
+      ul {
+        grid-template-columns: 1fr;
+        li {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
 }
 
 .mining-section, .laboratory-section, .tech-section {
@@ -746,6 +810,16 @@
       ul {
         li {
           font-size: var(--text-xl);
+        }
+      }
+    }
+  }
+  @include mixins.for-phone-only {
+    .content {
+      ul {
+        grid-template-columns: 1fr;
+        li {
+          font-size: 1rem;
         }
       }
     }
