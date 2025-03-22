@@ -260,9 +260,12 @@
   }
   @include mixins.for-phone-only {
     .right-column {
-      ul.two-columns {
+      ul.two-columns, ul {
         grid-template-columns: 1fr;
         gap: 0.5rem;
+        li {
+          font-size: 1rem;
+        }
       }
     }
   }
