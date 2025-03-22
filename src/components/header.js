@@ -76,6 +76,9 @@ const Header = ({ siteTitle, logo, navLinks }) => {
                   )}
                 </React.Fragment>
               ))}
+              <Link to="/#home-contact-form" className={styles.contactLink}>
+                Contact
+              </Link>
             </nav>
           </motion.div>
         )}
