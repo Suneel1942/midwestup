@@ -161,7 +161,7 @@ const MarketGrowthComponent = ({ data }) => {
             <div className="right-column ">
               <List>
                 {right_column && right_column?.list?.map((item, index) => (
-                  <ListItem key={index}>{item}555</ListItem>
+                  <ListItem key={index}>{item}</ListItem>
                 ))}
               </List>
             </div>
