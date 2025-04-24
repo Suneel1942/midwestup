@@ -22,7 +22,7 @@ export const Image = ({ src, alt, ...props }) => {
 
   const image = images.find(node => node.relativePath === src)
 
-  console.log('imageimageimageimage', image)
+  // console.log('imageimageimageimage', image)
   const imageData = getImage(image)
 
   return <GatsbyImage image={imageData} alt={alt} {...props} />

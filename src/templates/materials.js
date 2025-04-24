@@ -40,7 +40,7 @@ const MaterialsPage = ({ data: { materialsJson } }) => {
     features
   } = materialsJson
 
-  console.log('marketgrowthmarketgrowth',marketgrowth)
+  // console.log('marketgrowthmarketgrowth',marketgrowth)
 
   const [marketTab, setMarketTab] = useState(0)
   const [productTab, setProductTab] = useState(0)
