@@ -273,9 +273,9 @@
   .icon {
     width: 35px;
   }
-  .desktop-slider {
-    display: none;
-  }
+  // .desktop-slider {
+  //   display: none;
+  // }
   .mobile-slider {
     display: flex;
     width: 100%;
@@ -328,6 +328,7 @@
       display: flex;
       gap: 40px;
       margin-top: 100px;
+      
       .slide {
         display: flex;
         flex-direction: column;
