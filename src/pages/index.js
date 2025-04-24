@@ -123,31 +123,35 @@ const IndexPage = ({ data }) => {
                 </p>
               </div>
             </div>
-            {!isMobile && <SliderComponent
+            {/* {!isMobile && <SliderComponent */}
+            <SliderComponent
               slides={deliver?.list ?? []}
               options={{
-                slidesToShow: 4,
-                slidesToScroll: 4,
+                slidesToShow: 2,
+                slidesToScroll: 2,
+                arrows: true,
+                mobileFirst: true,
                 responsive: [
-                  {
+                  /* {
                     breakpoint: 1200,
                     settings: {
                       slidesToShow: 2,
                       slidesToScroll: 2,
                     }
-                  },
-                  {
+                  }, */
+                  /* {
                     breakpoint: 600,
                     settings: {
                       slidesToShow: 1,
                       slidesToScroll: 1,
                     }
-                  },
+                  }, */
                   {
-                    breakpoint: 480,
+                    breakpoint: 768,
                     settings: {
                       slidesToShow: 1,
-                      slidesToScroll: 1
+                      slidesToScroll: 1,
+                      arrows: false
                     }
                   }
                 ]
@@ -160,9 +164,9 @@ const IndexPage = ({ data }) => {
                   <p>{data.description}</p>
                 </div>
               )}
-            </SliderComponent>}
+            </SliderComponent>
           </div>
-          {isMobile && <SimpleSlider className={styles.mobileSlider}>
+          {/* {isMobile && <SimpleSlider className={styles.mobileSlider}>
             {chunkArray(deliver?.list || [], 4).map((slideGroup, index) => (
               <div key={index} className={styles.slide}>
                 {slideGroup.map((data, itemIndex) => (
@@ -173,7 +177,7 @@ const IndexPage = ({ data }) => {
                 ))}
               </div>
             ))}
-          </SimpleSlider>}
+          </SimpleSlider>} */}
         </section>
         <section className={`custom-section-layout ${styles.storySection}`}>
           <span className="header-text">{story.header}</span>
