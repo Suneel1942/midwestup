@@ -86,7 +86,7 @@
     "list": [
       {
         "title": "Quarry Wire",
-        "image": "diamond-wire-tools/quarry-wire.jpg",
+        "image": "diamond-wire-tools/quarry-wire.webp",
         "details": {
           "description": "Specifically designed for dimensional stone quarries, this wire functions as a cutting tool in wire saw machines.",
           "projects": []
@@ -94,7 +94,7 @@
       },
       {
         "title": "Stationery Wire",
-        "image": "diamond-wire-tools/stationery-wire.jpg",
+        "image": "diamond-wire-tools/stationery-wire.webp",
         "details": {
           "description": "Employed in processing plants to cut blocks into thin slabs of granite, quartzite, and other hard stones.",
           "projects": []
