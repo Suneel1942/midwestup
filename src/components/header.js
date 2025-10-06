@@ -4,11 +4,13 @@ import { motion, AnimatePresence } from "framer-motion"
 import { ImageSvg } from "@components/imageSvg"
 import { MenuButton } from "./menu-button"
 import { MenuDropdown } from "./menu-dropdown"
+import { useHeaderScroll } from "@utils/useHeaderScroll"
 import cln from "classnames"
 import * as styles from "@styles/layout.module.scss"
 
 const Header = ({ siteTitle, logo, navLinks }) => {
   const [menuOpen, setMenuOpen] = useState(false)
+  const { shouldHideHeader } = useHeaderScroll()
   const menuSlide = {
     initial: { x: "calc(100% + 200px)" },
     enter: { x: "0", transition: { duration: 0.8, ease: [0.76, 0, 0.24, 1] } },
@@ -19,8 +21,15 @@ const Header = ({ siteTitle, logo, navLinks }) => {
     document.getElementsByTagName("html")[0].classList.toggle("no-scroll")
   }
   const pathname = typeof window !== "undefined" ? window.location.pathname : ""
+
+  // Dynamic header classes based on scroll state
+  const headerClasses = cln(styles.header, "transition-all duration-400 ease-in-out", {
+    "-translate-y-full": shouldHideHeader,
+    "translate-y-0": !shouldHideHeader,
+  })
+
   return (
-    <header className={styles.header}>
+    <header className={headerClasses}>
       <Link to="/" className={styles.headerLogo}>
         <ImageSvg src={logo} alt="MIDWEST" />
       </Link>

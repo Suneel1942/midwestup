@@ -8,6 +8,11 @@
   justify-content: space-between;
   background: #ffffff;
   padding: 24px 54px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10000;
   @media (min-width: 640px) {
     padding: 32px 80px 32px;
   }
@@ -94,6 +99,11 @@
   @include mixins.for-phone-only {
     padding: 1.5rem 1rem;
   }
+}
+
+// Add padding to main content to account for fixed header
+main {
+  padding-top: 108px; // Height of the header
 }
 
 .back-to-top {
