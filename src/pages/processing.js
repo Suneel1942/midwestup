@@ -1,23 +1,19 @@
-import React, { useState, useEffect } from "react";
-import { graphql } from "gatsby";
+import React, { useState, useEffect } from "react"
+import { graphql } from "gatsby"
 
-import Layout from "@components/layout";
-import Seo from "@components/seo";
-import Banner from "@components/banner";
-import { Image } from "@components/Image";
-import { ImageSvg } from "@components/imageSvg";
-import { SliderComponent } from "@components/slider";
-import { useWindowSize } from "@utils/useWindowSize";
-import ImagesSlider from "../components/ImagesSlider";
+import Layout from "@components/layout"
+import Seo from "@components/seo"
+import Banner from "@components/banner"
+import { Image } from "@components/Image"
+import { ImageSvg } from "@components/imageSvg"
+import { SliderComponent } from "@components/slider"
+import { useWindowSize } from "@utils/useWindowSize"
+import ImagesSlider from "../components/ImagesSlider"
 
-import * as styles from "@styles/processing.module.scss";
+import * as styles from "@styles/processing.module.scss"
 
 const ProcessingPage = ({ data }) => {
-  const {
-    banner,
-    description,
-    sub_tabs
-  } = data.processing
+  const { banner, description, sub_tabs } = data.processing
 
   const [tab, setTab] = useState(0)
 
@@ -31,11 +27,11 @@ const ProcessingPage = ({ data }) => {
       setMobileTable(width < 1025)
     }
     resize()
-    window.addEventListener('resize', resize)
+    window.addEventListener("resize", resize)
     return () => {
-      window.removeEventListener('resize', resize)
+      window.removeEventListener("resize", resize)
     }
-  },[width])
+  }, [width])
 
   const subTabs = sub_tabs?.filter(el => el.title !== "Heavy Mineral Sands Processing")
 
@@ -54,25 +50,25 @@ const ProcessingPage = ({ data }) => {
             <h2 className="section-column-title">{description?.left_column?.title}</h2>
           </div>
           <div className="right-column">
-            <p className="section-column-description">
-              {description?.right_column?.text}
-            </p>
+            <p className="section-column-description">{description?.right_column?.text}</p>
           </div>
         </div>
       </section>
       <div className={styles.subtabsContainer}>
-        {!isMobile && <ul style={{ gridTemplateColumns: `repeat(${subTabs?.length}, minmax(0, 1fr))` }}>
-          {subTabs?.map((el,index) => (
-            <li
-              key={index}
-              role="button"
-              onClick={() => setTab(index)}
-              className={tab === index ? styles.active : ``}
-            >
-              <p>{el.title}</p>
-            </li>
-          ))}
-        </ul>}
+        {!isMobile && (
+          <ul style={{ gridTemplateColumns: `repeat(${subTabs?.length}, minmax(0, 1fr))` }}>
+            {subTabs?.map((el, index) => (
+              <li
+                key={index}
+                role="button"
+                onClick={() => setTab(index)}
+                className={tab === index ? styles.active : ``}
+              >
+                <p>{el.title}</p>
+              </li>
+            ))}
+          </ul>
+        )}
         {isMobile && (
           <SliderComponent
             slides={subTabs}
@@ -97,13 +93,16 @@ const ProcessingPage = ({ data }) => {
       </div>
       <section
         className={`custom-section-layout ${styles.infrastructureSection}`}
-        style={subTabs[tab]?.title === "Heavy Mineral Sands Processing" ? 
-        {
-          color: "white",
-          height: "calc(100vh - 116px)"
-        } : { paddingBottom: isMobile && subTabs[tab]?.content?.infrastructure?.image ? 0 : "" }}
+        style={
+          subTabs[tab]?.title === "Heavy Mineral Sands Processing"
+            ? {
+                color: "white",
+                height: "calc(100vh - 116px)",
+              }
+            : { paddingBottom: isMobile && subTabs[tab]?.content?.infrastructure?.image ? 0 : "" }
+        }
       >
-        <div className="columns-container">
+        <div className="columns-container !mb-6">
           <div className="left-column">
             <h2 className="section-column-title">
               {subTabs[tab]?.content?.infrastructure?.left_column?.title}
@@ -117,39 +116,62 @@ const ProcessingPage = ({ data }) => {
         </div>
         {subTabs[tab]?.content?.infrastructure?.image && (
           <>
-          <Image
-            src={isMobile ? 
-                subTabs[tab]?.content?.infrastructure?.image_mobile
-              : subTabs[tab]?.content?.infrastructure?.image}
-            alt=""
-            className={
-              (subTabs[tab]?.title === "Heavy Mineral Sands Processing")
-                ? styles.imageAbsolute : styles.image}
-          />
-          {(subTabs[tab]?.title === "Heavy Mineral Sands Processing") && (
-            <div className={styles.overlay} />
-          )}
+            <Image
+              src={
+                isMobile
+                  ? subTabs[tab]?.content?.infrastructure?.image_mobile
+                  : subTabs[tab]?.content?.infrastructure?.image
+              }
+              alt=""
+              className={
+                subTabs[tab]?.title === "Heavy Mineral Sands Processing"
+                  ? styles.imageAbsolute
+                  : styles.image
+              }
+            />
+            {subTabs[tab]?.title === "Heavy Mineral Sands Processing" && (
+              <div className={styles.overlay} />
+            )}
           </>
         )}
       </section>
       {subTabs[tab]?.content?.innovation && (
         <section
           className={`custom-section-layout ${styles.innovationSection}`}
-          style={(subTabs[tab]?.title === "Natural Stone Processing" && isMobileTablet) ? 
-            { height: "auto", paddingBottom: 0 } : {}
+          style={
+            subTabs[tab]?.title === "Natural Stone Processing" && isMobileTablet
+              ? { height: "auto", paddingBottom: 0 }
+              : {}
           }
         >
-          <div style={(subTabs[tab]?.title === "Natural Stone Processing" && isMobile) ? 
-            { order: 2, marginTop: "17px" } : {}}
+          <div
+            style={
+              subTabs[tab]?.title === "Natural Stone Processing" && isMobile
+                ? { order: 2, marginTop: "17px" }
+                : {}
+            }
           >
             <Image
-              src={isMobile ? subTabs[tab]?.content?.innovation?.image_mobile : subTabs[tab]?.content?.innovation?.image}
+              src={
+                isMobile
+                  ? subTabs[tab]?.content?.innovation?.image_mobile
+                  : subTabs[tab]?.content?.innovation?.image
+              }
               alt=""
-              className={(subTabs[tab]?.title === "Natural Stone Processing" && isMobile) ? styles.imageBlock : styles.image}
+              className={
+                subTabs[tab]?.title === "Natural Stone Processing" && isMobile
+                  ? styles.imageBlock
+                  : styles.image
+              }
             />
-            <div className={styles.overlay} style={ (subTabs[tab]?.title === "Natural Stone Processing" && isMobile) ?
-              { display: "none" } : {}
-            } />
+            <div
+              className={styles.overlay}
+              style={
+                subTabs[tab]?.title === "Natural Stone Processing" && isMobile
+                  ? { display: "none" }
+                  : {}
+              }
+            />
           </div>
           <div className="columns-container">
             <div className="left-column">
@@ -168,20 +190,22 @@ const ProcessingPage = ({ data }) => {
       <section className={`custom-section-layout ${styles.capacitySection}`}>
         <div className="columns-container">
           <div className="left-column">
-            <h2 className="section-column-title">
-              {subTabs[tab]?.content?.capacity?.heading}
-            </h2>
+            <h2 className="section-column-title">{subTabs[tab]?.content?.capacity?.heading}</h2>
           </div>
           <div className={`right-column ${styles.rightColumn}`}>
-            <ul className={subTabs[tab]?.content?.capacity?.list_columns === 2 ? styles.twoColumns : "" }>
-              {subTabs[tab]?.content?.capacity?.list?.map((el,i) => (
+            <ul
+              className={
+                subTabs[tab]?.content?.capacity?.list_columns === 2 ? styles.twoColumns : ""
+              }
+            >
+              {subTabs[tab]?.content?.capacity?.list?.map((el, i) => (
                 <li key={i}>
                   <ImageSvg src={el.background} alt="" className={styles.background} />
                   <div>
                     <h4>{el.title}</h4>
                     <p>{el.description}</p>
                   </div>
-              </li>
+                </li>
               ))}
             </ul>
           </div>
@@ -229,7 +253,9 @@ const ProcessingPage = ({ data }) => {
             <div className={`columns-container ${styles.imageContainer}`}>
               <div className="left-column"></div>
               <div className="right-column">
-                {subTabs[tab]?.content?.process?.imageslist &&<ImagesSlider slides={subTabs[tab]?.content?.process?.imageslist} />}
+                {subTabs[tab]?.content?.process?.imageslist && (
+                  <ImagesSlider slides={subTabs[tab]?.content?.process?.imageslist} />
+                )}
                 {/* <Image src={subTabs[tab]?.content?.process?.image} alt="" className={styles.image} /> */}
               </div>
             </div>

@@ -10,7 +10,7 @@
 module.exports = {
   trailingSlash: "never",
   flags: {
-    PARALLEL_QUERY_RUNNING: true
+    PARALLEL_QUERY_RUNNING: true,
   },
   siteMetadata: {
     title: `Midwest Group`,
@@ -19,6 +19,8 @@ module.exports = {
     siteUrl: `https://midwest.in`,
   },
   plugins: [
+    // Enables PostCSS (required for Tailwind CSS to run)
+    `gatsby-plugin-postcss`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -39,20 +41,20 @@ module.exports = {
         name: `data`,
         path: `${__dirname}/src/data`,
       },
-    },   
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `data`,
         path: `${__dirname}/src/data/materials`,
       },
-    },  
+    },
     `gatsby-plugin-styled-components`,
     `gatsby-transformer-json`,
     `gatsby-plugin-sass`,
     `gatsby-plugin-image`,
     `gatsby-transformer-sharp`,
-     
+
     {
       resolve: `gatsby-plugin-sharp`,
       options: {
@@ -77,5 +79,5 @@ module.exports = {
         icon: `src/images/favicon.png`, // This path is relative to the root of the site.
       },
     },
-  ]
+  ],
 }
