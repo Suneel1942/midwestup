@@ -45,7 +45,9 @@ const IndexPage = ({ data }) => {
   return (
     <Layout>
       <div className={styles.homeContainer}>
-        <Carousel images={banner.images} options={OPTIONS} title={banner.title_heading_1} />
+        <Carousel images={banner.images} options={OPTIONS}>
+          {banner.title_heading_1}
+        </Carousel>
         <section className={`custom-section-layout ${styles.introductionSection}`}>
           <span className="header-text">{introduction?.header}</span>
           <div className="columns-container">

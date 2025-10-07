@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react"
 import { graphql } from "gatsby"
-import Slider from "react-slick";
+import Slider from "react-slick"
 
 import Layout from "@components/layout"
 import Banner from "@components/banner"
@@ -12,13 +12,14 @@ import { KnowMoreLink } from "@components/know-more"
 import { SliderComponent, SimpleSlider } from "@components/slider"
 import { AchievementsList } from "@components/achievements-list"
 import { useWindowSize } from "@utils/useWindowSize"
-import { IndiaMap } from "../components/india-map";
-import { WorldMap } from "../components/world-map";
+import { IndiaMap } from "../components/india-map"
+import { WorldMap } from "../components/world-map"
 
 import * as styles from "@styles/about.module.scss"
+import Carousel from "@components/carousel"
 
 const AboutPage = ({ data }) => {
-  const  {
+  const {
     banner,
     about,
     history,
@@ -33,7 +34,7 @@ const AboutPage = ({ data }) => {
     // partners,
     management,
     board,
-    presence
+    presence,
   } = data.about
 
   // const [storyTab, setStoryTab] = useState("purpose")
@@ -43,19 +44,19 @@ const AboutPage = ({ data }) => {
   const [indiaMapCode, setIndiaMapCode] = useState("AP")
   const [worldMapCode, setWorldMapCode] = useState("Asia")
 
-  let sliderRef = React.useRef(null);
+  let sliderRef = React.useRef(null)
   const next = () => {
-    sliderRef.slickNext();
-  };
+    sliderRef.slickNext()
+  }
   const prev = () => {
-    sliderRef.slickPrev();
-  };
+    sliderRef.slickPrev()
+  }
 
-  const [currentSlide, setCurrentSlide] = React.useState(0);
+  const [currentSlide, setCurrentSlide] = React.useState(0)
 
   const sliderSettings = {
     nextArrow: <button style={{ display: "none" }} />,
-    prevArrow: <button style={{ display: "none" }}/>,
+    prevArrow: <button style={{ display: "none" }} />,
     dots: true,
     fade: true,
     infinite: true,
@@ -64,7 +65,7 @@ const AboutPage = ({ data }) => {
     slidesToScroll: 1,
     waitForAnimate: false,
     autoplay: true,
-    beforeChange: (prev,next) => setCurrentSlide(next),
+    beforeChange: (prev, next) => setCurrentSlide(next),
     appendDots: dots => (
       <div
         style={{
@@ -72,13 +73,15 @@ const AboutPage = ({ data }) => {
           bottom: isMobile ? "27px" : "53px",
           left: isMobile ? "35px" : "80px",
           height: "fit-content",
-          width: "fit-content"
+          width: "fit-content",
         }}
       >
-        <ul style={{
-          display: "flex",
-          gap: "10px"
-        }}>
+        <ul
+          style={{
+            display: "flex",
+            gap: "10px",
+          }}
+        >
           {dots}
         </ul>
       </div>
@@ -91,10 +94,10 @@ const AboutPage = ({ data }) => {
           borderRadius: "100%",
           border: "1px solid white",
           background: i === currentSlide ? "white" : "transparent",
-          cursor: "pointer"
+          cursor: "pointer",
         }}
       />
-    )
+    ),
   }
 
   const { width } = useWindowSize()
@@ -109,16 +112,20 @@ const AboutPage = ({ data }) => {
       setMobileTablet(width < 1025)
     }
     resize()
-    window.addEventListener('resize', resize)
+    window.addEventListener("resize", resize)
     return () => {
-      window.removeEventListener('resize', resize)
+      window.removeEventListener("resize", resize)
     }
-  },[width])
+  }, [width])
 
   return (
     <Layout>
       <Banner media={isMobile ? banner.background_mobile : banner.background}>
-        <h1>Grounded in Values,<br/>Operating with Purpose.</h1>
+        <h1>
+          Grounded in Values,
+          <br />
+          Operating with Purpose.
+        </h1>
       </Banner>
       <section className={`custom-section-layout  ${styles.aboutSection}`}>
         <ImageSvg src={about.background} alt="" className={styles.background} />
@@ -145,7 +152,11 @@ const AboutPage = ({ data }) => {
         <span className="header-text">{history.header}</span>
         <div className={`columns-container`}>
           <div className="left-column">
-            <ImageSvg src={history.left_column?.icon} alt="about icon" className={`icon ${styles.icon}`} />
+            <ImageSvg
+              src={history.left_column?.icon}
+              alt="about icon"
+              className={`icon ${styles.icon}`}
+            />
             <h2 className="section-column-title">{history.left_column?.title}</h2>
           </div>
           <div className={`right-column ${styles.rightColumn}`}>
@@ -258,41 +269,15 @@ const AboutPage = ({ data }) => {
         </div>
         <div className={styles.content}>
           <SimpleSlider className="strategy-slider">
-            {strategy.slides[isMobile ? "mobile" : "desktop"].map((el,index) => (
+            {strategy.slides[isMobile ? "mobile" : "desktop"].map((el, index) => (
               <div key={index} className="strategy-slide-container">
-                <ImageSvg src={el} alt={"slide " + index+1} className="strategy-slide" />
+                <ImageSvg src={el} alt={"slide " + index + 1} className="strategy-slide" />
               </div>
             ))}
           </SimpleSlider>
         </div>
       </section>
-      <section className={styles.slidesSection}>
-        <Slider
-          {...sliderSettings}
-          ref={slider => {
-            sliderRef = slider;
-          }}
-        >
-          {slides["desktop"].map((el, index) => (
-            <React.Fragment key={index}>
-              <Image src={el} alt={"slide " + index+1} className={styles.image} />
-              <div className={styles.overlay} />
-            </React.Fragment>
-          ))}
-        </Slider>
-        <div className={styles.buttonsContainer}>
-          <button onClick={prev}>
-            <svg width="20" height="31" viewBox="0 0 20 31" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M18 2.19922L1 15.7989L18 29.3987" stroke="white" strokeWidth="2" strokeLinecap="square" strokeLinejoin="round"/>
-            </svg>
-          </button>
-          <button onClick={next}>
-            <svg width="20" height="31" viewBox="0 0 20 31" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M2 29.1992L19 15.5995L2 1.99977" stroke="white" strokeWidth="2" strokeLinecap="square" strokeLinejoin="round"/>
-            </svg>
-          </button>
-        </div>
-      </section>
+      <Carousel images={slides["desktop"]} options={{ loop: true }} />
       <section className={`custom-section-layout ${styles.researchSection}`}>
         <span className="header-text">{research.header}</span>
         <div className="columns-container">
@@ -330,18 +315,20 @@ const AboutPage = ({ data }) => {
           </div>
         </div>
         <div className={styles.content}>
-          {isMobileTablet && <ul className={styles.listContainer}>
-            {["Certificates","Awards"].map((item,index) => (
-              <li key={index}>
-                <Button
-                  color="#91CB00"
-                  text={item}
-                  active={achievementTab === index}
-                  onClick={() => setAchievementTab(index)}
-                />
-              </li>
-            ))}
-          </ul>}
+          {isMobileTablet && (
+            <ul className={styles.listContainer}>
+              {["Certificates", "Awards"].map((item, index) => (
+                <li key={index}>
+                  <Button
+                    color="#91CB00"
+                    text={item}
+                    active={achievementTab === index}
+                    onClick={() => setAchievementTab(index)}
+                  />
+                </li>
+              ))}
+            </ul>
+          )}
           {!isMobileTablet && (
             <AchievementsList
               data={achievements.list}
@@ -358,18 +345,24 @@ const AboutPage = ({ data }) => {
                 <div
                   className={styles.image}
                   style={{
-                    "--award-border": achievements.list[achievementTab].type === "certificate" ? "1px solid gray" : 0,
+                    "--award-border":
+                      achievements.list[achievementTab].type === "certificate"
+                        ? "1px solid gray"
+                        : 0,
                   }}
                 >
                   <Image
                     src={achievements.list[achievementTab].content.image}
                     alt={achievements.list[achievementTab].title}
                     style={{
-                      "--award-img-fit": achievements.list[achievementTab].type === "certificate" ? "contain" : "cover"
+                      "--award-img-fit":
+                        achievements.list[achievementTab].type === "certificate"
+                          ? "contain"
+                          : "cover",
                     }}
                   />
                 </div>
-                <p>{achievements.list[achievementTab].content.text}</p>  
+                <p>{achievements.list[achievementTab].content.text}</p>
               </>
             )}
             {isMobileTablet && (
@@ -386,7 +379,9 @@ const AboutPage = ({ data }) => {
                       <Image
                         src={data?.content?.image}
                         alt={data?.title}
-                        style={{ "--award-img-fit": data?.type === "certificate" ? "contain" : "cover" }}
+                        style={{
+                          "--award-img-fit": data?.type === "certificate" ? "contain" : "cover",
+                        }}
                       />
                     </div>
                     <p>{data?.content?.text}</p>
@@ -436,9 +431,7 @@ const AboutPage = ({ data }) => {
             <h2 className="section-column-title">{management.left_column?.title}</h2>
           </div>
           <div className={`right-column ${styles.rightColumn}`}>
-            <p className="section-column-description">
-              {management.right_column.description}
-            </p>
+            <p className="section-column-description">{management.right_column.description}</p>
           </div>
         </div>
         <div className={styles.content}>
@@ -480,10 +473,10 @@ const AboutPage = ({ data }) => {
                 breakpoint: 1100,
                 settings: {
                   slidesToShow: 1,
-                  slidesToScroll: 1
-                }
-              }
-            ]
+                  slidesToScroll: 1,
+                },
+              },
+            ],
           }}
           slides={board.members ?? []}
           slideClassName={styles.slideWrapper}
@@ -510,7 +503,11 @@ const AboutPage = ({ data }) => {
           `}
         >
           <div className={`left-column ${styles.leftColumn}`}>
-            <ImageSvg src={presence.left_column?.icon} alt="partners icon" className={`icon ${styles.icon}`} />
+            <ImageSvg
+              src={presence.left_column?.icon}
+              alt="partners icon"
+              className={`icon ${styles.icon}`}
+            />
             <h2 className="section-column-title">{presence.left_column?.title}</h2>
             <ul className={styles.buttonsContainer}>
               {presence.regions.map((region, index) => (
@@ -526,34 +523,52 @@ const AboutPage = ({ data }) => {
             </ul>
             {!isMobile && (
               <>
-                {(regionsTab === 0 && indiaMapCode) && (
+                {regionsTab === 0 && indiaMapCode && (
                   <div className={styles.mapContent}>
-                    <h2>{presence?.regions[regionsTab]?.list?.find(el => el.code === indiaMapCode)?.state}</h2>
+                    <h2>
+                      {
+                        presence?.regions[regionsTab]?.list?.find(el => el.code === indiaMapCode)
+                          ?.state
+                      }
+                    </h2>
                     <ul>
-                      {presence?.regions[regionsTab]?.list?.find(el => el.code === indiaMapCode)?.cities?.map((el,i) => (
-                        <li key={i}>{el}</li>
-                      ))}
-    
+                      {presence?.regions[regionsTab]?.list
+                        ?.find(el => el.code === indiaMapCode)
+                        ?.cities?.map((el, i) => (
+                          <li key={i}>{el}</li>
+                        ))}
                     </ul>
                   </div>
                 )}
-                {(regionsTab === 1 && worldMapCode) && (
+                {regionsTab === 1 && worldMapCode && (
                   <div className={styles.mapContent}>
-                    <h2>{presence?.regions[regionsTab]?.list?.find(el => el.code === worldMapCode)?.continent}</h2>
+                    <h2>
+                      {
+                        presence?.regions[regionsTab]?.list?.find(el => el.code === worldMapCode)
+                          ?.continent
+                      }
+                    </h2>
                     <ul style={{ maxHeight: "auto", flexWrap: "nowrap" }}>
-                      {presence?.regions[regionsTab]?.list?.find(el => el.code === worldMapCode)?.countries?.map((el,i) => (
-                        <li key={i}>{el}</li>
-                      ))}
-    
+                      {presence?.regions[regionsTab]?.list
+                        ?.find(el => el.code === worldMapCode)
+                        ?.countries?.map((el, i) => (
+                          <li key={i}>{el}</li>
+                        ))}
                     </ul>
                   </div>
                 )}
               </>
             )}
           </div>
-          <div className={`right-column ${styles.rightColumn} ${regionsTab === 0  && styles.indiaColumn} ${regionsTab === 1  && styles.worldColumn}`}>
-            {regionsTab === 0 && <IndiaMap onPathSelect={(code) => setIndiaMapCode(code)} className={styles.indiaMap} />}
-            {regionsTab === 1 && <WorldMap onPathSelect={(code) => setWorldMapCode(code)} className={styles.worldMap} />}
+          <div
+            className={`right-column ${styles.rightColumn} ${regionsTab === 0 && styles.indiaColumn} ${regionsTab === 1 && styles.worldColumn}`}
+          >
+            {regionsTab === 0 && (
+              <IndiaMap onPathSelect={code => setIndiaMapCode(code)} className={styles.indiaMap} />
+            )}
+            {regionsTab === 1 && (
+              <WorldMap onPathSelect={code => setWorldMapCode(code)} className={styles.worldMap} />
+            )}
           </div>
           {isMobile && (
             <>
@@ -563,25 +578,37 @@ const AboutPage = ({ data }) => {
               {regionsTab === 1 && !worldMapCode && (
                 <h2 className={styles.mapHeading}>{presence?.regions[1]?.description}</h2>
               )}
-             {(regionsTab === 0 && indiaMapCode) && (
+              {regionsTab === 0 && indiaMapCode && (
                 <div className={styles.mapContent}>
-                  <h2>{presence?.regions[regionsTab]?.list?.find(el => el.code === indiaMapCode)?.state}</h2>
+                  <h2>
+                    {
+                      presence?.regions[regionsTab]?.list?.find(el => el.code === indiaMapCode)
+                        ?.state
+                    }
+                  </h2>
                   <ul>
-                    {presence?.regions[regionsTab]?.list?.find(el => el.code === indiaMapCode)?.cities?.map((el,i) => (
-                      <li key={i}>{el}</li>
-                    ))}
-
+                    {presence?.regions[regionsTab]?.list
+                      ?.find(el => el.code === indiaMapCode)
+                      ?.cities?.map((el, i) => (
+                        <li key={i}>{el}</li>
+                      ))}
                   </ul>
                 </div>
               )}
-              {(regionsTab === 1 && worldMapCode) && (
+              {regionsTab === 1 && worldMapCode && (
                 <div className={styles.mapContent}>
-                  <h2>{presence?.regions[regionsTab]?.list?.find(el => el.code === worldMapCode)?.continent}</h2>
+                  <h2>
+                    {
+                      presence?.regions[regionsTab]?.list?.find(el => el.code === worldMapCode)
+                        ?.continent
+                    }
+                  </h2>
                   <ul style={{ maxHeight: "auto", flexWrap: "nowrap" }}>
-                    {presence?.regions[regionsTab]?.list?.find(el => el.code === worldMapCode)?.countries?.map((el,i) => (
-                      <li key={i}>{el}</li>
-                    ))}
-
+                    {presence?.regions[regionsTab]?.list
+                      ?.find(el => el.code === worldMapCode)
+                      ?.countries?.map((el, i) => (
+                        <li key={i}>{el}</li>
+                      ))}
                   </ul>
                 </div>
               )}

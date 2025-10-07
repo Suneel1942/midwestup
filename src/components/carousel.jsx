@@ -7,7 +7,7 @@ import { Image } from "@components/Image"
 import { ChevronLeft, ChevronRight } from "lucide-react"
 import clsx from "clsx"
 
-const Title = ({ title, className }) => {
+const Title = ({ children, className }) => {
   return (
     <h2
       className={clsx(
@@ -15,7 +15,7 @@ const Title = ({ title, className }) => {
         className
       )}
     >
-      {title}
+      {children}
     </h2>
   )
 }
@@ -77,7 +77,7 @@ const NavigationButtons = ({ emblaApi, className }) => {
 }
 
 const Carousel = props => {
-  const { images, title, options } = props
+  const { images, children, options } = props
   const [emblaRef, emblaApi] = useEmblaCarousel(options, [Autoplay()])
 
   return (
@@ -96,10 +96,12 @@ const Carousel = props => {
         {/* OVERLAY */}
         <div className="absolute inset-0 bg-gradient-to-b from-[#D9D9D900] to-[#000000B2]"></div>
 
-        <Title title={title} className="lg:hidden text-center absolute bottom-5 px-8 w-full" />
+        <Title children={children} className="lg:hidden text-center absolute bottom-5 px-8 w-full">
+          {children}
+        </Title>
 
         <div className="absolute bottom-10 left-10 right-10 hidden lg:flex justify-between items-center gap-5">
-          {title && <Title title={title} />}
+          <div>{children && <Title children={children} />}</div>
           <NavigationButtons emblaApi={emblaApi} />
         </div>
       </div>
