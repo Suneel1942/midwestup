@@ -9,9 +9,8 @@ import { Button } from "@components/button"
 import { SliderComponent, SimpleSlider } from "@components/slider"
 // import { FlipCard } from "@components/flip-card"
 import { withBoldText } from "@utils/withBoldText"
-import { chunkArray } from "@utils/chunkArray"
 import { useWindowSize } from "@utils/useWindowSize"
-
+import Carousel from "@components/carousel"
 import * as styles from "@styles/index.module.scss"
 
 const textureBg = {
@@ -21,15 +20,10 @@ const textureBg = {
   "backgrounds/gray.svg": { alt: "gray" },
 }
 
+const OPTIONS = { loop: true }
+
 const IndexPage = ({ data }) => {
-  const {
-    banner,
-    introduction,
-    about,
-    deliver,
-    story,
-    offerings
-  } = data.home
+  const { banner, introduction, about, deliver, story, offerings } = data.home
 
   const { width } = useWindowSize()
   const [isMobile, setMobile] = useState(width < 640)
@@ -40,21 +34,20 @@ const IndexPage = ({ data }) => {
       setMobile(width < 577)
     }
     resize()
-    window.addEventListener('resize', resize)
+    window.addEventListener("resize", resize)
     return () => {
-      window.removeEventListener('resize', resize)
+      window.removeEventListener("resize", resize)
     }
-  },[width])
+  }, [width])
 
   const [offeringsTab, setOfferingsTab] = useState("materials")
 
   return (
     <Layout>
       <div className={styles.homeContainer}>
-        <Banner slides={banner.images} classnames={styles.customBanner}>
-          <h2>{banner?.title_heading_1}</h2>
-          {/* <h1>{banner?.title_heading_2}</h1> */}
-        </Banner>
+        <Carousel images={banner.images} options={OPTIONS}>
+          {banner.title_heading_1}
+        </Carousel>
         <section className={`custom-section-layout ${styles.introductionSection}`}>
           <span className="header-text">{introduction?.header}</span>
           <div className="columns-container">
@@ -85,15 +78,15 @@ const IndexPage = ({ data }) => {
           {/* <ImageSvg src="backgrounds/gray.svg" alt="gray background" className={styles.background} /> */}
           <div>
             <div>
-              <span className="header-text" style={{ color: "white" }}>{about.header}</span>
+              <span className="header-text" style={{ color: "white" }}>
+                {about.header}
+              </span>
               <div className="columns-container">
                 <div className="left-column">
                   <h2 className="section-column-title">{about.left_column?.title}</h2>
                 </div>
                 <div className={`right-column ${styles.rightColumn}`}>
-                  <p className="section-column-description">
-                    {about.right_column?.description}
-                  </p>
+                  <p className="section-column-description">{about.right_column?.description}</p>
                 </div>
               </div>
             </div>
@@ -114,13 +107,15 @@ const IndexPage = ({ data }) => {
             <span className="header-text">{deliver.header}</span>
             <div className="columns-container">
               <div className="left-column">
-                <ImageSvg src={deliver.left_column?.icon} alt="approach icon" className={`icon ${styles.icon}`} />
+                <ImageSvg
+                  src={deliver.left_column?.icon}
+                  alt="approach icon"
+                  className={`icon ${styles.icon}`}
+                />
                 <h2 className="section-column-title">{deliver.left_column?.title}</h2>
               </div>
               <div className={`right-column ${styles.rightColumn}`}>
-                <p className="section-column-description">
-                  {deliver.right_column?.description}
-                </p>
+                <p className="section-column-description">{deliver.right_column?.description}</p>
               </div>
             </div>
             {/* {!isMobile && <SliderComponent */}
@@ -151,11 +146,11 @@ const IndexPage = ({ data }) => {
                     settings: {
                       slidesToShow: 1,
                       slidesToScroll: 1,
-                      arrows: false
-                    }
-                  }
-                ]
-              }} 
+                      arrows: false,
+                    },
+                  },
+                ],
+              }}
               className={styles.desktopSlider}
             >
               {({ data }) => (
@@ -187,30 +182,32 @@ const IndexPage = ({ data }) => {
               <h2 className="section-column-title">{story.left_column?.title}</h2>
             </div>
             <div className={`right-column ${styles.rightColumn}`}>
-              <p className="section-column-description">
-                {story.right_column?.description}
-              </p>
+              <p className="section-column-description">{story.right_column?.description}</p>
               <ul>
                 {story.right_column?.list?.map((card, index) => (
                   <li key={index}>
                     {/* <FlipCard key={index} card={index}>
                       {({ isFlipped }) => (
                         <> */}
-                          <ImageSvg
-                            src={card.background}
-                            alt={textureBg[card.background]?.alt}
-                            className={styles.cardBackground}
-                          />
-                          <h3>{card.title}</h3>
-                          <p className={styles.initialText}>{card.initial_text}</p>
-                          <p className={styles.description}>{card.description}</p>
-                        {/* </>
+                    <ImageSvg
+                      src={card.background}
+                      alt={textureBg[card.background]?.alt}
+                      className={styles.cardBackground}
+                    />
+                    <h3>{card.title}</h3>
+                    <p className={styles.initialText}>{card.initial_text}</p>
+                    <p className={styles.description}>{card.description}</p>
+                    {/* </>
                       )}
                     </FlipCard> */}
                   </li>
                 ))}
               </ul>
-              <KnowMoreLink text={story.right_column?.link?.text} href={story.right_column?.link?.href} classnames={styles.link} />
+              <KnowMoreLink
+                text={story.right_column?.link?.text}
+                href={story.right_column?.link?.href}
+                classnames={styles.link}
+              />
             </div>
           </div>
         </section>
@@ -242,30 +239,67 @@ const IndexPage = ({ data }) => {
                 onClick={() => setOfferingsTab("processing")}
               />
             </div>
-            {offeringsTab === "materials" && <ul className={styles.listContainer}>
-              {offerings?.materials?.list?.map((item, index) => (
-                <li key={index}>
-                  <ImageSvg src="backgrounds/green.svg" alt="" className={styles.background} />
-                  <h3>{item.heading ? item.heading : "Lorem Ipsum"}</h3>
-                  {item.description && <p>{item.description}</p>}
-                  {isMobile ? (
-                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M10.8518 15L10.89 5.01285L1.00005 4.9743" stroke="white" strokeWidth="1.25" strokeLinecap="square" strokeLinejoin="round"/>
-                      <line x1="10.4945" y1="5.34402" x2="1.42196" y2="13.7187" stroke="white" strokeWidth="1.25"/>
-                    </svg>                    
-                  ) : (
-                    <svg width="14" height="24" viewBox="0 0 14 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M2 22.2393L12.0692 12.0704L2 2.09847" stroke="white" strokeWidth="2" strokeLinecap="square" strokeLinejoin="round"/>
-                    </svg>
-                  )}
-                  <Link to={item.link} className={styles.link} />
-                </li>
-              ))}
-            </ul>}
+            {offeringsTab === "materials" && (
+              <ul className={styles.listContainer}>
+                {offerings?.materials?.list?.map((item, index) => (
+                  <li key={index}>
+                    <ImageSvg src="backgrounds/green.svg" alt="" className={styles.background} />
+                    <h3>{item.heading ? item.heading : "Lorem Ipsum"}</h3>
+                    {item.description && <p>{item.description}</p>}
+                    {isMobile ? (
+                      <svg
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M10.8518 15L10.89 5.01285L1.00005 4.9743"
+                          stroke="white"
+                          strokeWidth="1.25"
+                          strokeLinecap="square"
+                          strokeLinejoin="round"
+                        />
+                        <line
+                          x1="10.4945"
+                          y1="5.34402"
+                          x2="1.42196"
+                          y2="13.7187"
+                          stroke="white"
+                          strokeWidth="1.25"
+                        />
+                      </svg>
+                    ) : (
+                      <svg
+                        width="14"
+                        height="24"
+                        viewBox="0 0 14 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M2 22.2393L12.0692 12.0704L2 2.09847"
+                          stroke="white"
+                          strokeWidth="2"
+                          strokeLinecap="square"
+                          strokeLinejoin="round"
+                        />
+                      </svg>
+                    )}
+                    <Link to={item.link} className={styles.link} />
+                  </li>
+                ))}
+              </ul>
+            )}
             {offeringsTab === "processing" && (
               <div className={styles.processingContainer}>
                 <p>{offerings?.processing?.description}</p>
-                <KnowMoreLink text={offerings.link?.text} href={offerings.link?.href} classnames={styles.link} />
+                <KnowMoreLink
+                  text={offerings.link?.text}
+                  href={offerings.link?.href}
+                  classnames={styles.link}
+                />
               </div>
             )}
           </div>
@@ -381,6 +415,6 @@ export const homepageQuery = graphql`
       }
     }
   }
-`;
+`
 
 export default IndexPage
