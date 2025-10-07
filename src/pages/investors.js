@@ -193,7 +193,7 @@ const InvestmentsPage = ({ data }) => {
         <div className={styles.content}>
           <ul>
             {annualReports?.list?.map((item, index) => (
-              <li key={index} className="border-red-600 border-6">
+              <li key={index}>
                 <a href={item.pdf?.publicURL} target="_blank" rel="noreferrer noopener">
                   <span className="sr-only">{item.year}</span>
                 </a>
