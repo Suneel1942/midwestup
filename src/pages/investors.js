@@ -15,7 +15,7 @@ import { ConfirmationModal } from "@components/confirmation-modal"
 import * as styles from "@styles/investments.module.scss"
 
 const InvestmentsPage = ({ data }) => {
-  const  {
+  const {
     banner,
     relations,
     case_study: caseStudy,
@@ -25,7 +25,7 @@ const InvestmentsPage = ({ data }) => {
     policies,
     governance,
     committees,
-    contact
+    contact,
   } = data.investments
 
   const [financialReportTab, setFinancialReportTab] = useState(0)
@@ -54,8 +54,8 @@ const InvestmentsPage = ({ data }) => {
 
     if (typeof event !== "object" && event) {
       const drhpDoc = documents.find(el => el.title === "DRHP Document")
-      const newTabUrl = window.location.origin + drhpDoc?.pdf?.publicURL;
-      window.open(newTabUrl, "_blank", "noopener,noreferrer");
+      const newTabUrl = window.location.origin + drhpDoc?.pdf?.publicURL
+      window.open(newTabUrl, "_blank", "noopener,noreferrer")
       setOpenModal(false)
       toggleScroll()
     }
@@ -69,16 +69,20 @@ const InvestmentsPage = ({ data }) => {
       setMobile(width < 577)
     }
     resize()
-    window.addEventListener('resize', resize)
+    window.addEventListener("resize", resize)
     return () => {
-      window.removeEventListener('resize', resize)
+      window.removeEventListener("resize", resize)
     }
-  },[width])
+  }, [width])
 
   return (
     <Layout>
       <Banner media={isMobile ? banner.background_mobile : banner.background}>
-        <h1>Strength in Value,<br />Stability in Partnership.</h1>
+        <h1>
+          Strength in Value,
+          <br />
+          Stability in Partnership.
+        </h1>
       </Banner>
       <section className={`custom-section-layout ${styles.relationsSection}`}>
         <ImageSvg src="backgrounds/gray-light.svg" alt="" className={styles.background} />
@@ -88,11 +92,9 @@ const InvestmentsPage = ({ data }) => {
             <h2 className="section-column-title">{relations?.left_column?.title}</h2>
           </div>
           <div className="right-column">
-            <p className="section-column-description">
-              {relations?.right_column?.description}
-            </p>
+            <p className="section-column-description">{relations?.right_column?.description}</p>
             <ul className={styles.cardList}>
-              {relations?.list?.map((el,i) => (
+              {relations?.list?.map((el, i) => (
                 <li key={i}>
                   <ImageSvg src="backgrounds/blue.svg" alt="" className={styles.background} />
                   <h4>{el.heading}</h4>
@@ -135,21 +137,22 @@ const InvestmentsPage = ({ data }) => {
         </div>
         <div className={styles.content}>
           <div className={styles.buttonsContainer}>
-            {!isMobile && financialReports?.reports?.map((el,i) => (
-              <div key={i}>
-                <Button
-                  text={el.title}
-                  color="#91CB00"
-                  active={financialReportTab === i}
-                  onClick={() => setFinancialReportTab(i)}
-                />
-              </div>
-            ))}
+            {!isMobile &&
+              financialReports?.reports?.map((el, i) => (
+                <div key={i}>
+                  <Button
+                    text={el.title}
+                    color="#91CB00"
+                    active={financialReportTab === i}
+                    onClick={() => setFinancialReportTab(i)}
+                  />
+                </div>
+              ))}
             {isMobile && (
               <Dropdown
                 backgroundColor="#91CB00"
                 items={financialReports?.reports?.map(el => el.title)}
-                setItem={(i) => setFinancialReportTab(i)}
+                setItem={i => setFinancialReportTab(i)}
               />
             )}
           </div>
@@ -161,8 +164,20 @@ const InvestmentsPage = ({ data }) => {
                 </a>
                 <ImageSvg src={item?.background} alt="color" className={styles.background} />
                 <p>{item.title}</p>
-                <svg width="19" height="29" viewBox="0 0 19 29" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M1 27.8485L18 14.4243L1 1.00002" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                <svg
+                  width="19"
+                  height="29"
+                  viewBox="0 0 19 29"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1 27.8485L18 14.4243L1 1.00002"
+                    stroke="white"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
                 </svg>
               </li>
             ))}
@@ -184,9 +199,27 @@ const InvestmentsPage = ({ data }) => {
                 </a>
                 <ImageSvg src={item?.background} alt="color" className={styles.background} />
                 {item.year}
-                <svg width="31" height="23" viewBox="0 0 31 23" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M1 22H15L29.4278 22" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                  <path d="M1 1L15.2139 16L29.4278 1" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                <svg
+                  width="31"
+                  height="23"
+                  viewBox="0 0 31 23"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1 22H15L29.4278 22"
+                    stroke="white"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                  <path
+                    d="M1 1L15.2139 16L29.4278 1"
+                    stroke="white"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
                 </svg>
               </li>
             ))}
@@ -200,12 +233,28 @@ const InvestmentsPage = ({ data }) => {
               <h3>{item.title}</h3>
               <div>
                 {item.title === "DRHP Document" ? (
-                  <button onClick={handleModal} className={styles.linkButton}>View Report</button>
+                  <button onClick={handleModal} className={styles.linkButton}>
+                    View Report
+                  </button>
                 ) : (
-                  <a href={item.pdf?.publicURL} target="_blank" rel="noreferrer noopener">View Report</a>
+                  <a href={item.pdf?.publicURL} target="_blank" rel="noreferrer noopener">
+                    View Report
+                  </a>
                 )}
-                <svg xmlns="http://www.w3.org/2000/svg" width="27" height="42" viewBox="0 0 27 42" fill="none">
-                  <path d="M1 40.4824L26 20.7409L1 0.999342" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="27"
+                  height="42"
+                  viewBox="0 0 27 42"
+                  fill="none"
+                >
+                  <path
+                    d="M1 40.4824L26 20.7409L1 0.999342"
+                    stroke="black"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
                 </svg>
               </div>
             </li>
@@ -228,9 +277,27 @@ const InvestmentsPage = ({ data }) => {
                 </a>
                 <ImageSvg src={item?.background} alt="color" className={styles.background} />
                 {item.title}
-                <svg width="31" height="23" viewBox="0 0 31 23" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M1 22H15L29.4278 22" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                  <path d="M1 1L15.2139 16L29.4278 1" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                <svg
+                  width="31"
+                  height="23"
+                  viewBox="0 0 31 23"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1 22H15L29.4278 22"
+                    stroke="white"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                  <path
+                    d="M1 1L15.2139 16L29.4278 1"
+                    stroke="white"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
                 </svg>
               </li>
             ))}
@@ -245,9 +312,7 @@ const InvestmentsPage = ({ data }) => {
             <h2 className="section-column-title">{governance?.left_column?.title}</h2>
           </div>
           <div className="right-column">
-            <p className="section-column-description">
-              {governance?.right_column?.description}
-            </p>
+            <p className="section-column-description">{governance?.right_column?.description}</p>
           </div>
         </div>
       </section>
@@ -258,23 +323,25 @@ const InvestmentsPage = ({ data }) => {
           </div>
         </div>
         <div className={styles.content}>
-          {!isMobile &&<ul className={styles.tabsList}>
-            {committees.list.map((el,i) => (
-              <li key={i}>
-                <Button
-                  color="#2590BE"
-                  text={el.title}
-                  active={committeeTab === i}
-                  onClick={() => setCommitteeTab(i)}
-                />
-              </li>
-            ))}
-          </ul>}
+          {!isMobile && (
+            <ul className={styles.tabsList}>
+              {committees.list.map((el, i) => (
+                <li key={i}>
+                  <Button
+                    color="#2590BE"
+                    text={el.title}
+                    active={committeeTab === i}
+                    onClick={() => setCommitteeTab(i)}
+                  />
+                </li>
+              ))}
+            </ul>
+          )}
           {isMobile && (
             <Dropdown
               backgroundColor="#2590BE"
               items={committees.list.map(el => el.title)}
-              setItem={(i) => setCommitteeTab(i)}
+              setItem={i => setCommitteeTab(i)}
             />
           )}
           <div className={styles.tabContent}>
@@ -312,9 +379,7 @@ const InvestmentsPage = ({ data }) => {
             <h2 className="section-column-title">{contact?.left_column?.title}</h2>
           </div>
           <div className="right-column">
-            <p className="section-column-description">
-              {contact?.right_column?.description}
-            </p>
+            <p className="section-column-description">{contact?.right_column?.description}</p>
           </div>
         </div>
         <div className={styles.detailsContainer}>
@@ -460,7 +525,7 @@ export const aboutPageQuery = graphql`
         left_column {
           title
         }
-          right_column {
+        right_column {
           description
         }
         investors_contact {

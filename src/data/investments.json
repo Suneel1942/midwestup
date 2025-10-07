@@ -149,7 +149,12 @@
     },
     "annual-reports": {
       "header": "Annual Reports",
-      "list": [  
+      "list": [
+        {
+          "year": "2024-25",
+          "pdf": "documents/annual-reports/Midwest_Limited-Annual_Report_2024-25.pdf",
+          "background": "backgrounds/gray.svg"
+        },
         {
           "year": "2023-24",
           "pdf": "documents/annual-reports/Midwest_Limited-Annual_Report_2023-24.pdf",
