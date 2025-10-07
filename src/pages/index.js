@@ -9,9 +9,8 @@ import { Button } from "@components/button"
 import { SliderComponent, SimpleSlider } from "@components/slider"
 // import { FlipCard } from "@components/flip-card"
 import { withBoldText } from "@utils/withBoldText"
-import { chunkArray } from "@utils/chunkArray"
 import { useWindowSize } from "@utils/useWindowSize"
-
+import Carousel from "@components/carousel"
 import * as styles from "@styles/index.module.scss"
 
 const textureBg = {
@@ -20,6 +19,8 @@ const textureBg = {
   "backgrounds/blue.svg": { alt: "blue" },
   "backgrounds/gray.svg": { alt: "gray" },
 }
+
+const OPTIONS = { loop: true }
 
 const IndexPage = ({ data }) => {
   const { banner, introduction, about, deliver, story, offerings } = data.home
@@ -44,9 +45,7 @@ const IndexPage = ({ data }) => {
   return (
     <Layout>
       <div className={styles.homeContainer}>
-        <Banner slides={banner.images} classnames={styles.customBanner}>
-          <h2>{banner?.title_heading_1}</h2>
-        </Banner>
+        <Carousel images={banner.images} options={OPTIONS} title={banner.title_heading_1} />
         <section className={`custom-section-layout ${styles.introductionSection}`}>
           <span className="header-text">{introduction?.header}</span>
           <div className="columns-container">
