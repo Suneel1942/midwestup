@@ -36,7 +36,7 @@ const NavigationButtons = ({ emblaApi, className }) => {
   const { selectedIndex, scrollSnaps, onDotButtonClick } = useDotButton(emblaApi, onNavButtonClick)
 
   return (
-    <div className={clsx("flex items-center gap-5 lg:gap-9", className)}>
+    <div className={clsx("flex items-center gap-4 lg:gap-8", className)}>
       <button
         onClick={onPrevButtonClick}
         disabled={prevBtnDisabled}
