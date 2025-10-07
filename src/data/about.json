@@ -40,7 +40,7 @@
         "description": "To deliver high-value materials and solutions that meet the evolving needs of global industries, while fostering sustainable growth and creating long-term value for all stakeholders."
       },
       "vision": {
-        "background":"backgrounds/blue.svg",
+        "background": "backgrounds/blue.svg",
         "title": "Our Vision",
         "description": "To lead in sustainable material processing, balancing industrial progress with environmental stewardship. We aim to support energy transition and create products that enhance safety, sustainability, and innovation."
       }
@@ -91,10 +91,7 @@
         "description": "Midwest is more than just a processor—we are vertically integrated across the entire dimensional stone value chain. Our mine to market strategy leverages our capabilities that span across the dimensional stone value chain —from raw material extraction to processing and export."
       },
       "slides": {
-        "desktop": [
-          "about/strategy-desktop-slide-1.svg",
-          "about/strategy-desktop-slide-2.svg"
-        ],
+        "desktop": ["about/strategy-desktop-slide-1.svg", "about/strategy-desktop-slide-2.svg"],
         "mobile": [
           "about/strategy-mobile-slide-1.svg",
           "about/strategy-mobile-slide-2.svg",
@@ -113,7 +110,7 @@
         "about/about-slide-image-1.jpg",
         "about/about-slide-image-2.jpg",
         "about/about-slide-image-3.jpg"
-     ]
+      ]
     },
     "research": {
       "header": "RND",
@@ -335,16 +332,11 @@
         },
         {
           "title": "Knowledge Partners",
-          "logos": [
-            "partners/lucid-labs.jpg"
-          ]
+          "logos": ["partners/lucid-labs.jpg"]
         },
         {
           "title": "Processing Partners",
-          "logos": [
-            "partners/anjalee.jpg",
-            "partners/gima.jpg"
-          ]
+          "logos": ["partners/anjalee.jpg", "partners/gima.jpg"]
         }
       ]
     },
@@ -412,7 +404,7 @@
           "description": "Mrs. Kukreti Soumya has been serving as Whole-time Director since 2012, bringing over 12 years of experience in the mining industry. She holds a Bachelor’s degree in Commerce from Osmania University. Mrs. Soumya has been instrumental in developing technology and research initiatives for Midwest and was a key figure in establishing the company’s diamond tools manufacturing operations in Sri Lanka. Her strategic initiatives have enhanced the backward integration of Midwest’s mining operations."
         },
         {
-          "image": "members/duvva.jpg",
+          "image": "members/duvva.webp",
           "name": "Mr. Duvva Pavan Kumar,",
           "designation": "Independent Director",
           "description": "Mr. Duvva Pavan Kumar has been an Independent Director of Midwest since September 2024. He holds a bachelor’s degree in law from NALSAR University of Law, Hyderabad, where he was awarded two gold medals for ‘Best All-Round Student’ and ‘Best Student in Corporate Law’. With over 20 years of experience in the legal field, Mr. Kumar has been a practising advocate for 21 years. He has been associated with esteemed law firms such as Amarchand, Mangaldas & Suresh A Shroff & Co. in Mumbai and Trilegal, before founding The Law Chambers in 2017. His legal expertise ensures Midwest's adherence to top regulatory standards."
@@ -459,17 +451,13 @@
               "state": "Karnataka",
               "code": "KA",
               "description": "1 core operation",
-              "cities": [
-                "IlKal, Bagalkot Dist."
-              ]
+              "cities": ["IlKal, Bagalkot Dist."]
             },
             {
               "state": "Tamil Nadu",
               "code": "TN",
               "description": "1 core operation",
-              "cities": [
-                "Krishnagiri, Krishnagiri Dist."
-              ]
+              "cities": ["Krishnagiri, Krishnagiri Dist."]
             },
             {
               "state": "Telangana",
@@ -494,11 +482,7 @@
             {
               "continent": "Africa",
               "code": "Africa",
-              "countries": [
-                "East Africa",
-                "Mozambique",
-                "Zimbabwe"
-              ]
+              "countries": ["East Africa", "Mozambique", "Zimbabwe"]
             },
             {
               "continent": "Asia",
@@ -518,30 +502,17 @@
             {
               "continent": "Europe",
               "code": "Europe",
-              "countries": [
-                "Spain",
-                "Italy",
-                "Romania"
-              ]
+              "countries": ["Spain", "Italy", "Romania"]
             },
             {
               "continent": "North America",
               "code": "North America",
-              "countries": [
-                "United States",
-                "Canada",
-                "Mexico",
-                "Guatemala"
-              ]
+              "countries": ["United States", "Canada", "Mexico", "Guatemala"]
             },
             {
               "continent": "South America",
               "code": "South America",
-              "countries": [
-                "Chile",
-                "Argentina",
-                "Brazil"
-              ]
+              "countries": ["Chile", "Argentina", "Brazil"]
             }
           ]
         }
