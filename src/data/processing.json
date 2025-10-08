@@ -2,8 +2,7 @@
   {
     "banner": {
       "title": "Transforming Raw Materials into Global Solutions",
-      "background": "processing/banner.jpg",
-      "background-mobile": "processing/banner-mobile.jpg"
+      "background": "processing/banner.webp"
     },
     "description": {
       "left-column": {
