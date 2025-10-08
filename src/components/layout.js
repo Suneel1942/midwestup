@@ -42,18 +42,34 @@ const Layout = ({ children, footerDark }) => {
     }
   `)
 
-  const { meta: { siteMetadata }, site: { logo, menu }} = data
+  const {
+    meta: { siteMetadata },
+    site: { logo, menu },
+  } = data
 
   return (
     <>
-      <Header siteTitle={siteMetadata?.title || `Midwest Group`} logo={logo ?? ""} navLinks={menu ?? []} />
+      <Header
+        siteTitle={siteMetadata?.title || `Midwest Group`}
+        logo={logo ?? ""}
+        navLinks={menu ?? []}
+      />
       <div>
         <main>
           {children}
-          <section className={`custom-section-layout ${styles.contactSection}`} id="home-contact-form">
-            <ImageSvg src="backgrounds/gray.svg" alt="gray background" className={styles.background} />
+          <section
+            className={`custom-section-layout ${styles.contactSection}`}
+            id="home-contact-form"
+          >
+            <ImageSvg
+              src="backgrounds/gray.svg"
+              alt="gray background"
+              className={styles.background}
+            />
             <div>
-              <span className="header-text" style={{ color: "white" }}>Contact Us</span>
+              <span className="header-text" style={{ color: "white" }}>
+                Contact Us
+              </span>
               <div className="columns-container">
                 <div className="left-column">
                   <h2 className="section-column-title">Get in touch</h2>
