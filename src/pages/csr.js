@@ -1,17 +1,17 @@
-import React, { useState, useEffect } from "react";
-import { graphql } from "gatsby";
+import React, { useState, useEffect } from "react"
+import { graphql } from "gatsby"
 
-import Layout from "@components/layout";
-import SEO from "@components/seo";
-import Banner from "@components/banner";
-import { Image } from "@components/Image";
-import { ImageSvg } from "@components/imageSvg";
-import { Button } from "@components/button";
+import Layout from "@components/layout"
+import SEO from "@components/seo"
+import Banner from "@components/banner"
+import { Image } from "@components/Image"
+import { ImageSvg } from "@components/imageSvg"
+import { Button } from "@components/button"
 import { Dropdown } from "@components/dropdown"
-import { useWindowSize } from "@utils/useWindowSize";
-import ImagesSlider from "../components/ImagesSlider";
+import { useWindowSize } from "@utils/useWindowSize"
+import ImagesSlider from "../components/ImagesSlider"
 
-import * as styles from "@styles/csr.module.scss";
+import * as styles from "@styles/csr.module.scss"
 
 const CsrPage = ({ data }) => {
   const {
@@ -25,8 +25,8 @@ const CsrPage = ({ data }) => {
     rural_development,
     livelihood,
     committee,
-    future
-  } = data.csr;
+    future,
+  } = data.csr
 
   const [educationTab, setEducationTab] = useState(0)
   const [developmentTab, setDevelopmentTab] = useState(0)
@@ -39,11 +39,11 @@ const CsrPage = ({ data }) => {
       setMobile(width < 640)
     }
     resize()
-    window.addEventListener('resize', resize)
+    window.addEventListener("resize", resize)
     return () => {
-      window.removeEventListener('resize', resize)
+      window.removeEventListener("resize", resize)
     }
-  },[width])
+  }, [width])
 
   return (
     <Layout>
@@ -51,7 +51,7 @@ const CsrPage = ({ data }) => {
         media={isMobile ? banner.background_mobile : banner.background}
         // classnames={styles.customBanner}
       >
-        {banner?.heading?.split("<br/>").map((heading,index) => (
+        {banner?.heading?.split("<br/>").map((heading, index) => (
           <h1 key={index}>{heading}</h1>
         ))}
         {/* <h1>{banner.heading}</h1> */}
@@ -110,9 +110,7 @@ const CsrPage = ({ data }) => {
         <span className="header-text">{initiatives?.header}</span>
         <div className="columns-container">
           <div className="left-column">
-            <h2 className="section-column-title">
-              {initiatives?.left_column?.title}
-            </h2>
+            <h2 className="section-column-title">{initiatives?.left_column?.title}</h2>
           </div>
         </div>
         <ul>
@@ -127,40 +125,33 @@ const CsrPage = ({ data }) => {
       <section className={`custom-section-layout ${styles.educationSection}`}>
         <div className="columns-container">
           <div className="left-column">
-            <h2 className="section-column-title">
-              {education?.left_column?.title}
-            </h2>
+            <h2 className="section-column-title">{education?.left_column?.title}</h2>
           </div>
           <div className="right-column">
-            <p className="section-column-description">
-              {education?.right_column?.description}
-            </p>
+            <p className="section-column-description">{education?.right_column?.description}</p>
           </div>
         </div>
         <div className={styles.content}>
           <div className={styles.buttonsContainer}>
-            {!isMobile && education?.list?.map((item, index) => (
-              <Button
-                text={item?.title}
-                color="#91CB00"
-                active={index === educationTab}
-                onClick={() => setEducationTab(index)}
-              />
-            ))}
+            {!isMobile &&
+              education?.list?.map((item, index) => (
+                <Button
+                  text={item?.title}
+                  color="#91CB00"
+                  active={index === educationTab}
+                  onClick={() => setEducationTab(index)}
+                />
+              ))}
             {isMobile && (
               <Dropdown
                 backgroundColor="#91CB00"
                 items={education?.list?.map(el => el.title)}
-                setItem={(i) => setEducationTab(i)}
+                setItem={i => setEducationTab(i)}
               />
             )}
           </div>
           <div className={styles.tabContentContainer}>
-            <Image
-              src={education?.list?.[educationTab]?.image}
-              alt={education?.list?.[educationTab]?.title}
-              className={styles.image}
-            />
+            <ImagesSlider slides={education?.list?.[educationTab]?.imageslist} />
             <p>{education?.list?.[educationTab]?.description}</p>
           </div>
         </div>
@@ -168,17 +159,17 @@ const CsrPage = ({ data }) => {
       <section className={`custom-section-layout ${styles.supportSection}`}>
         <div className="columns-container">
           <div className="left-column">
-            <h2 className="section-column-title">
-              {support?.left_column?.title}
-            </h2>
+            <h2 className="section-column-title">{support?.left_column?.title}</h2>
           </div>
-          <div className="right-column" style={{ maxWidth:"820px"}}>
-            <p className="section-column-description">
-              {support?.right_column?.description}
-            </p>
+          <div className="right-column" style={{ maxWidth: "820px" }}>
+            <p className="section-column-description">{support?.right_column?.description}</p>
             <div className={styles.content}>
               <div className={styles.infoCard}>
-                <ImageSvg src={support?.content?.info?.background} alt="" className={styles.background} />
+                <ImageSvg
+                  src={support?.content?.info?.background}
+                  alt=""
+                  className={styles.background}
+                />
                 <h3>{support?.content?.info?.heading}</h3>
                 <p>{support?.content?.info?.description}</p>
               </div>
@@ -191,14 +182,10 @@ const CsrPage = ({ data }) => {
       <section className={`custom-section-layout ${styles.healthcareSection}`}>
         <div className="columns-container">
           <div className="left-column">
-            <h2 className="section-column-title">
-              {healthcare?.left_column?.title}
-            </h2>
+            <h2 className="section-column-title">{healthcare?.left_column?.title}</h2>
           </div>
-          <div className="right-column" style={{ maxWidth:"820px"}}>
-            <p className="section-column-description">
-              {healthcare?.right_column?.description}
-            </p>
+          <div className="right-column" style={{ maxWidth: "820px" }}>
+            <p className="section-column-description">{healthcare?.right_column?.description}</p>
             <div className={styles.content}>
               <ul>
                 {healthcare?.list?.map((item, index) => (
@@ -217,9 +204,7 @@ const CsrPage = ({ data }) => {
       <section className={`custom-section-layout ${styles.ruralDevelopmentSection}`}>
         <div className="columns-container">
           <div className="left-column">
-            <h2 className="section-column-title">
-              {rural_development?.left_column?.title}
-            </h2>
+            <h2 className="section-column-title">{rural_development?.left_column?.title}</h2>
           </div>
           <div className="right-column">
             <p className="section-column-description">
@@ -251,14 +236,10 @@ const CsrPage = ({ data }) => {
       <section className={`custom-section-layout ${styles.livelihoodSection}`}>
         <div className="columns-container">
           <div className="left-column">
-            <h2 className="section-column-title">
-              {livelihood?.left_column?.title}
-            </h2>
+            <h2 className="section-column-title">{livelihood?.left_column?.title}</h2>
           </div>
-          <div className="right-column" style={{ maxWidth:"820px"}}>
-            <p className="section-column-description">
-              {livelihood?.right_column?.description}
-            </p>
+          <div className="right-column" style={{ maxWidth: "820px" }}>
+            <p className="section-column-description">{livelihood?.right_column?.description}</p>
             <div className={styles.content}>
               <ul>
                 {livelihood?.list?.map((item, index) => (
@@ -280,14 +261,10 @@ const CsrPage = ({ data }) => {
           {/* <ImageSvg src="backgrounds/gray.svg" alt="" className={styles.background} /> */}
           <div className="columns-container">
             <div className="left-column">
-              <h2 className="section-column-title">
-                {committee?.left_column?.title}
-              </h2>
+              <h2 className="section-column-title">{committee?.left_column?.title}</h2>
             </div>
             <div className="right-column">
-              <p className="section-column-description">
-                {committee?.right_column?.description}
-              </p>
+              <p className="section-column-description">{committee?.right_column?.description}</p>
             </div>
           </div>
         </section>
@@ -295,24 +272,20 @@ const CsrPage = ({ data }) => {
           {/* <ImageSvg src="backgrounds/gray.svg" alt="" className={styles.background} /> */}
           <div className="columns-container">
             <div className="left-column">
-              <h2 className="section-column-title">
-                {future?.left_column?.title}
-              </h2>
+              <h2 className="section-column-title">{future?.left_column?.title}</h2>
             </div>
             <div className="right-column">
-              <p className="section-column-description">
-                {future?.right_column?.description}
-              </p>
+              <p className="section-column-description">{future?.right_column?.description}</p>
               <p className={styles.contentText}>{future?.text}</p>
             </div>
           </div>
         </section>
       </div>
     </Layout>
-  );
-};
+  )
+}
 
-export const Head = () => <SEO title="CSR" />;
+export const Head = () => <SEO title="CSR" />
 
 export const CsrPageQuery = graphql`
   query content {
@@ -369,9 +342,13 @@ export const CsrPageQuery = graphql`
           description
         }
         list {
-          image
           title
           description
+          imageslist {
+            childImageSharp {
+              gatsbyImageData(layout: CONSTRAINED, width: 900)
+            }
+          }
         }
       }
       support {
@@ -409,10 +386,10 @@ export const CsrPageQuery = graphql`
         }
         image
         imageslist {
-            childImageSharp {
-              gatsbyImageData(layout: CONSTRAINED, width: 900)
-            }
+          childImageSharp {
+            gatsbyImageData(layout: CONSTRAINED, width: 900)
           }
+        }
       }
       rural_development {
         left_column {
@@ -441,10 +418,10 @@ export const CsrPageQuery = graphql`
         }
         image
         imageslist {
-            childImageSharp {
-              gatsbyImageData(layout: CONSTRAINED, width: 900)
-            }
+          childImageSharp {
+            gatsbyImageData(layout: CONSTRAINED, width: 900)
           }
+        }
       }
       committee {
         left_column {
@@ -467,4 +444,4 @@ export const CsrPageQuery = graphql`
   }
 `
 
-export default CsrPage;
+export default CsrPage

@@ -189,7 +189,8 @@
             "background": "backgrounds/orange.svg"
           }
         ],
-        "image": "esg/water.jpg"
+        "image": "esg/water.jpg",
+        "imageslist": ["../images/esg/water-stewardship.webp"]
       },
       {
         "header": "Four",
@@ -216,7 +217,8 @@
             "background": "backgrounds/gray.svg"
           }
         ],
-        "image": "esg/waste.jpg"
+        "image": "esg/waste.jpg",
+        "imageslist": ["../images/esg/waste-removal.webp"]
       },
       {
         "header": "Five",
