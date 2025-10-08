@@ -24,10 +24,8 @@ const NavigationButtons = ({ emblaApi, className }) => {
   const onNavButtonClick = useCallback(emblaApi => {
     const autoplay = emblaApi?.plugins()?.autoplay
     if (!autoplay) return
-
     const resetOrStop =
       autoplay.options.stopOnInteraction === false ? autoplay.reset : autoplay.stop
-
     resetOrStop()
   }, [])
 
@@ -87,7 +85,11 @@ const Carousel = props => {
           <div className="flex">
             {images.map((image, index) => (
               <div className="min-w-0 basis-full  grow-0 shrink-0" key={index}>
-                <Image src={image} alt={`slide ${index + 1}`} />
+                <Image
+                  src={image}
+                  alt={`slide ${index + 1}`}
+                  className="h-full [&>img]:!object-center"
+                />
               </div>
             ))}
           </div>

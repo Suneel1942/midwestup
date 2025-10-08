@@ -2,12 +2,10 @@ import React, { useState, useEffect } from "react"
 import { graphql, Link } from "gatsby"
 import Layout from "@components/layout"
 import Seo from "@components/seo"
-import Banner from "@components/banner"
 import { ImageSvg } from "@components/imageSvg"
 import { KnowMoreLink } from "@components/know-more"
 import { Button } from "@components/button"
-import { SliderComponent, SimpleSlider } from "@components/slider"
-// import { FlipCard } from "@components/flip-card"
+import { SliderComponent } from "@components/slider"
 import { withBoldText } from "@utils/withBoldText"
 import { useWindowSize } from "@utils/useWindowSize"
 import Carousel from "@components/carousel"
@@ -20,7 +18,7 @@ const textureBg = {
   "backgrounds/gray.svg": { alt: "gray" },
 }
 
-const OPTIONS = { loop: true }
+const OPTIONS = { loop: true, autoPlay: false }
 
 const IndexPage = ({ data }) => {
   const { banner, introduction, about, deliver, story, offerings } = data.home
