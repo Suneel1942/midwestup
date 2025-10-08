@@ -129,22 +129,39 @@
       "list": [
         {
           "title": "School Infrastructure Support",
-          "image": "csr/skill-slide-1.jpg",
+          "imageslist": [
+            "../images/csr/school-infrastructure-support/school-infrastructure-support-1.webp",
+            "../images/csr/school-infrastructure-support/school-infrastructure-support-2.webp",
+            "../images/csr/school-infrastructure-support/school-infrastructure-support-3.webp"
+          ],
           "description": "We have supported 21 rural schools by constructing essential facilities such as classrooms, lunchrooms, and sanitation units. These improvements include building toilets, water pipelines, and RO plants to ensure hygienic conditions."
         },
         {
           "title": "Vocational and Skill Training",
-          "image": "csr/skill-slide-2.jpg",
+          "imageslist": [
+            "../images/csr/vocational-and-skill-training/skill-slide-1.webp",
+            "../images/csr/vocational-and-skill-training/skill-slide-2.webp",
+            "../images/csr/vocational-and-skill-training/skill-slide-3.webp"
+          ],
           "description": "In collaboration with local educational bodies, we have established training centers that focus on vocational skills to prepare young people for sustainable careers."
         },
         {
           "title": "Learning Materials & Resources",
-          "image": "csr/skill-slide-3.jpg",
+          "imageslist": [
+            "../images/csr/learning-material-&-resources/learning-material-&-resources-1.webp",
+            "../images/csr/learning-material-&-resources/learning-material-&-resources-2.webp",
+            "../images/csr/learning-material-&-resources/learning-material-&-resources-3.webp",
+            "../images/csr/learning-material-&-resources/learning-material-&-resources-4.webp"
+          ],
           "description": "Annually, we distribute benches, books, and other educational resources to schools, benefiting over 1,000 students. Additionally, Midwest has provided bicycles to over 50 girl students, reducing dropout rates by addressing transportation challenges."
         },
         {
           "title": "Digital Learning Tools",
-          "image": "csr/skill-slide-4.jpg",
+          "imageslist": [
+            "../images/csr/digital-learning-tools/digital-learning-tools-1.webp",
+            "../images/csr/digital-learning-tools/digital-learning-tools-2.webp",
+            "../images/csr/digital-learning-tools/digital-learning-tools-3.webp"
+          ],
           "description": "We believe in equipping students with modern technology. We have provided computers, tablets, and smart screens to support digital literacy, especially benefiting differently-abled students."
         }
       ]
@@ -163,10 +180,7 @@
           "background": "backgrounds/orange.svg"
         },
         "image": "csr/relief-1.jpg",
-        "imageslist": [
-          "../images/csr/relief-a.jpg",
-          "../images/csr/relief-b.jpg"
-        ]
+        "imageslist": ["../images/csr/relief-a.jpg", "../images/csr/relief-b.jpg"]
       }
     },
     "healthcare": {
@@ -190,11 +204,11 @@
       ],
       "image": "csr/healthcare-1.jpg",
       "imageslist": [
-          "../images/csr/healthcare-1.jpg",
-          "../images/csr/healthcare-2.jpg",
-          "../images/csr/healthcare-3.jpg",
-          "../images/csr/healthcare-4.jpg"
-        ]
+        "../images/csr/healthcare-1.jpg",
+        "../images/csr/healthcare-2.jpg",
+        "../images/csr/healthcare-3.jpg",
+        "../images/csr/healthcare-4.jpg"
+      ]
     },
     "rural-development": {
       "left-column": {
@@ -247,11 +261,11 @@
       ],
       "image": "csr/livelihood-1.jpg",
       "imageslist": [
-          "../images/csr/livelihood-1.jpg",
-          "../images/csr/livelihood-2.jpg",
-          "../images/csr/livelihood-3.jpg",
-          "../images/csr/livelihood-4.jpg"
-        ]
+        "../images/csr/livelihood-1.jpg",
+        "../images/csr/livelihood-2.jpg",
+        "../images/csr/livelihood-3.jpg",
+        "../images/csr/livelihood-4.jpg"
+      ]
     },
     "committee": {
       "left-column": {
