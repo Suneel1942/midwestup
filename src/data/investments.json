@@ -192,6 +192,43 @@
         "pdf": "documents/Financial_Information_Group_Companies.pdf"
       }
     ],
+    "contracts": {
+      "header": "Material Contracts and Documents",
+      "list": [
+        {
+          "name": "Document 1",
+          "pdf": "documents/material-contracts/contract-1.pdf"
+        },
+        {
+          "name": "Document 2",
+          "pdf": "documents/material-contracts/contract-1.pdf"
+        },
+        {
+          "name": "Document 3",
+          "pdf": "documents/material-contracts/contract-1.pdf"
+        },
+        {
+          "name": "Document 4",
+          "pdf": "documents/material-contracts/contract-1.pdf"
+        },
+        {
+          "name": "Document 5",
+          "pdf": "documents/material-contracts/contract-1.pdf"
+        },
+        {
+          "name": "Document 6",
+          "pdf": "documents/material-contracts/contract-1.pdf"
+        },
+        {
+          "name": "Document 7",
+          "pdf": "documents/material-contracts/contract-1.pdf"
+        },
+        {
+          "name": "Document 8",
+          "pdf": "documents/material-contracts/contract-1.pdf"
+        }
+      ]
+    },
     "policies": {
       "header": "Codes & Policies",
       "list": [

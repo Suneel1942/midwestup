@@ -22,6 +22,7 @@ const InvestmentsPage = ({ data }) => {
     financial_reports: financialReports,
     annual_reports: annualReports,
     documents,
+    contracts,
     policies,
     governance,
     committees,
@@ -262,6 +263,41 @@ const InvestmentsPage = ({ data }) => {
         </ul>
         <ConfirmationModal isOpen={openModal} handleClose={handleModal} />
       </section>
+      <section className="custom-section-layout">
+        <h3 className="font-semibold text-5xl !mb-20 max-w-[500px] text-wrap">
+          {contracts.header}
+        </h3>
+        <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+          {contracts?.list?.map((item, index) => (
+            <li key={index} className="flex flex-col gap-8 border-t border-t-[#91CB00] !pt-4 !pb-5">
+              <h6 className="font-semibold text-2xl">{item.name}</h6>
+              <a
+                href={item.pdf?.publicURL}
+                target="_blank"
+                rel="noreferrer noopener"
+                className="font-normal text-2xl flex items-center gap-5 !no-underline"
+              >
+                <span>View Document</span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width={40}
+                  height={(40 * 27) / 42}
+                  viewBox="0 0 27 42"
+                  fill="none"
+                >
+                  <path
+                    d="M1 40.4824L26 20.7409L1 0.999342"
+                    stroke="black"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
       <section className={`custom-section-layout ${styles.policiesSection}`}>
         <div className="columns-container">
           <div className="left-column">
@@ -483,6 +519,15 @@ export const aboutPageQuery = graphql`
         title
         pdf {
           publicURL
+        }
+      }
+      contracts {
+        header
+        list {
+          name
+          pdf {
+            publicURL
+          }
         }
       }
       policies {
