@@ -37,10 +37,7 @@ const ProcessingPage = ({ data }) => {
 
   return (
     <Layout>
-      <Banner
-        media={isMobile ? banner.background_mobile : banner.background}
-        classnames={styles.customBanner}
-      >
+      <Banner media={banner.background} classnames={styles.customBanner}>
         <h1>{banner.title}</h1>
       </Banner>
       <section className={`custom-section-layout ${styles.descriptionSection}`}>
@@ -309,7 +306,6 @@ export const processingPageQuery = graphql`
       banner {
         title
         background
-        background_mobile
       }
       description {
         left_column {

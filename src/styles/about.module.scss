@@ -41,31 +41,31 @@
       gap: 20px;
     }
   }
-  @media (max-width:991px) and (min-width:768px) {
+  @media (max-width: 991px) and (min-width: 768px) {
     .image-container {
       height: 420px;
     }
   }
-  @media (max-width:1139px) and (min-width:992px) {
+  @media (max-width: 1139px) and (min-width: 992px) {
     .image-container {
       height: 520px;
     }
   }
-  @media (max-width:430px) and (min-width:767px) {
+  @media (max-width: 430px) and (min-width: 767px) {
     .image-container {
       .image-background {
         bottom: -45%;
       }
     }
   }
-  @media (min-width:1140px) {
+  @media (min-width: 1140px) {
     padding: 70px 0 0;
     // height: 100vh;
     .section-wrapper {
       padding: 0 80px;
     }
     .image-container {
-      height: 500px;
+      height: 600px;
       margin-top: 0;
       .image-background {
         top: -25%;
@@ -79,7 +79,7 @@
       }
     }
   }
-  @media (min-width:1920px) {
+  @media (min-width: 1920px) {
     .image-container {
       height: 635px;
     }
@@ -99,7 +99,6 @@
         left: unset;
         bottom: 0;
         overflow: unset;
-
       }
     }
   }
@@ -145,7 +144,7 @@
       }
     }
   }
-  @media (min-width:640px) {
+  @media (min-width: 640px) {
     .icon {
       width: 80px !important;
       transform: translateX(-20%);
@@ -168,7 +167,7 @@
       }
     }
   }
-  @media (min-width:1536px) {
+  @media (min-width: 1536px) {
     .right-column {
       .image {
         max-height: 440px;
@@ -201,7 +200,8 @@
       display: grid;
       grid-template-columns: repeat(2, minmax(0, 1fr));
       gap: 7px;
-      .mission, .vision {
+      .mission,
+      .vision {
         position: relative;
         overflow: hidden;
         padding: 13px 10px 13px 16px;
@@ -229,7 +229,8 @@
       .content {
         gap: 0.5rem;
         grid-template-columns: 1fr;
-        .mission, .vision {
+        .mission,
+        .vision {
           opacity: 0.9;
           p {
             font-size: 1rem;
@@ -246,14 +247,15 @@
     object-fit: cover;
     z-index: -1;
   }
-  @media (min-width:640px) {
+  @media (min-width: 640px) {
     .section-wrapper {
       align-self: flex-end;
       padding: 70px 80px;
       .content {
         max-width: 100%;
         gap: 27px;
-        .mission, .vision {
+        .mission,
+        .vision {
           padding: 35px 22px;
           h3 {
             font-size: var(--text-xl);
@@ -266,14 +268,15 @@
       }
     }
   }
-  @media (min-width:1102px) {
+  @media (min-width: 1102px) {
     .section-wrapper {
       align-self: flex-end;
       padding: 70px 80px;
       .content {
         max-width: 60%;
         gap: 27px;
-        .mission, .vision {
+        .mission,
+        .vision {
           padding: 35px 22px;
           h3 {
             font-size: var(--text-xl);
@@ -286,10 +289,11 @@
       }
     }
   }
-  @media (min-width:1536px) {
+  @media (min-width: 1536px) {
     .section-wrapper {
       .content {
-        .mission, .vision {
+        .mission,
+        .vision {
           h3 {
             font-size: var(--text-2xl);
           }
@@ -302,7 +306,8 @@
   }
 }
 
-.esg-section, .csr-section {
+.esg-section,
+.csr-section {
   .right-column {
     display: flex;
     align-items: center;
@@ -315,7 +320,7 @@
 }
 .csr-section {
   padding-top: 0;
-  @media (min-width:640px) {
+  @media (min-width: 640px) {
     padding-top: 70px;
   }
 }
@@ -367,7 +372,7 @@
       }
     }
   }
-  @media (min-width:640px) {
+  @media (min-width: 640px) {
     height: 100vh;
     .section-container {
       padding-top: 70px;
@@ -382,7 +387,6 @@
           flex-direction: column;
           max-width: auto;
           width: 40%;
-
         }
         .tab-description {
           width: 60%;
@@ -391,7 +395,7 @@
       }
     }
   }
-  @media (min-width:1536px) {
+  @media (min-width: 1536px) {
     .content {
       .tabs-container {
         .tab-description {
@@ -420,7 +424,7 @@
       padding: 0;
     }
   }
-  @media (min-width:640px) {
+  @media (min-width: 640px) {
     padding: 70px 0;
     .section-wrapper {
       padding: 0 80px;
@@ -433,7 +437,8 @@
     }
   }
   @include mixins.for-phone-only {
-    .section-wrapper, .content {
+    .section-wrapper,
+    .content {
       padding: 0;
     }
   }
@@ -479,7 +484,7 @@
       }
     }
   }
-  @media (min-width:640px) {
+  @media (min-width: 640px) {
     height: 100vh;
     .buttons-container {
       bottom: unset;
@@ -501,12 +506,12 @@
     margin-top: 25px;
     margin-bottom: 12px;
   }
-  @media (max-width:480px) {
+  @media (max-width: 480px) {
     .list-container {
       grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
     }
   }
-  @media screen and (min-width:480px) and (max-width:640px) {
+  @media screen and (min-width: 480px) and (max-width: 640px) {
     .list-container {
       grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
     }
@@ -548,12 +553,12 @@
     margin-left: auto;
     margin-top: 36px;
   }
-  @media (max-width:1280px) and (min-width:1025px) {
+  @media (max-width: 1280px) and (min-width: 1025px) {
     .list-container {
       grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
     }
   }
-  @media (min-width:768px) {
+  @media (min-width: 768px) {
     padding-top: 70px;
     .right-column {
       padding-top: 35px;
@@ -582,7 +587,7 @@
       }
     }
   }
-  @media (min-width:1102px) {
+  @media (min-width: 1102px) {
     padding-top: 70px;
     .right-column {
       padding-top: 35px;
@@ -602,7 +607,7 @@
       }
     }
   }
-  @media (min-width:1536px) {
+  @media (min-width: 1536px) {
     .list-container {
       li {
         p {
@@ -694,7 +699,7 @@
       }
     }
   }
-  @media (max-width:1024px) and (min-width:768px) {
+  @media (max-width: 1024px) and (min-width: 768px) {
     .content {
       .list-container {
         display: flex;
@@ -707,7 +712,7 @@
       }
     }
   }
-  @media (min-width:767px) {
+  @media (min-width: 767px) {
     padding: 70px 0;
     .section-wrapper {
       padding: 0 80px;
@@ -731,7 +736,7 @@
       .list-container {
         flex-direction: column;
         width: 100%;
-       overflow: hidden;
+        overflow: hidden;
         padding: 0;
         .list > div {
           button {
@@ -765,7 +770,7 @@
       }
     }
   }
-  @media (min-width:1102px) {
+  @media (min-width: 1102px) {
     padding: 70px 0;
     .section-wrapper {
       padding: 0 80px;
@@ -856,7 +861,7 @@
       }
     }
   }
-  @media (min-width:640px) {
+  @media (min-width: 640px) {
     .buttons-container {
       flex-direction: column;
       max-width: 485px;
@@ -877,7 +882,7 @@
       }
     }
   }
-  @media (min-width:1536px) {
+  @media (min-width: 1536px) {
     .right-column {
       .list-container {
         gap: 30px;
@@ -940,7 +945,7 @@
       }
     }
   }
-  @media (min-width:640px) {
+  @media (min-width: 640px) {
     .right-column {
       padding-top: 40px;
     }
@@ -981,7 +986,7 @@
       cursor: pointer;
     }
   }
-  @media (min-width:1536px) {
+  @media (min-width: 1536px) {
     .content {
       .founder-details {
         .founder {
@@ -1036,7 +1041,7 @@
       }
       .text-container {
         padding-top: 24px;
-        border-top: 1px solid #91CB00;
+        border-top: 1px solid #91cb00;
         h3 {
           font-weight: 600;
           font-size: 11px;
@@ -1063,7 +1068,7 @@
       }
     }
   }
-  @media (min-width:640px) {
+  @media (min-width: 640px) {
     padding: 70px 0;
     .section-wrapper {
       padding: 0 80px;
@@ -1107,7 +1112,7 @@
       }
     }
   }
-  @media (min-width:1536px) {
+  @media (min-width: 1536px) {
     .list-container {
       .slide {
         .text-container {
@@ -1131,9 +1136,9 @@
   margin: 0 auto;
   position: relative;
   overflow: hidden;
-  
-  @media (max-width:1024px) and (min-width:768px) {
-    display:none;
+
+  @media (max-width: 1024px) and (min-width: 768px) {
+    display: none;
     visibility: hidden;
   }
   color: white;
@@ -1173,8 +1178,9 @@
       width: 100%;
     }
   }
-  .india-column, .world-column {
-    border-bottom: 2px solid #91CB00;
+  .india-column,
+  .world-column {
+    border-bottom: 2px solid #91cb00;
     padding-bottom: 50px;
     svg {
       width: 100%;
@@ -1202,7 +1208,7 @@
       }
     }
   }
-  @media (max-width:767px) {
+  @media (max-width: 767px) {
     .map-content {
       ul {
         display: grid;
@@ -1225,20 +1231,19 @@
       }
     }
   }
-  @media (max-width:1024px) and (min-width:768px) {
-   
-    .india-column, .world-column {
+  @media (max-width: 1024px) and (min-width: 768px) {
+    .india-column,
+    .world-column {
       border-bottom: 0;
       padding-bottom: 0;
       display: none;
       visibility: hidden;
-      
     }
     .map-content {
-      padding:10px 0px;
+      padding: 10px 0px;
     }
   }
-  @media (min-width:1025px) {
+  @media (min-width: 1025px) {
     padding-bottom: 35px !important;
     .icon {
       width: 40px !important;
@@ -1264,7 +1269,8 @@
         width: 100%;
       }
     }
-    .india-column, .world-column {
+    .india-column,
+    .world-column {
       border-bottom: 0;
       padding-bottom: 0;
     }
@@ -1288,7 +1294,7 @@
         max-height: 350px;
         flex-wrap: wrap;
         list-style-type: disc;
-        border-top: 2px solid #91CB00;
+        border-top: 2px solid #91cb00;
         li {
           h3 {
             font-size: var(--text-2xl);
@@ -1304,7 +1310,7 @@
       }
     }
   }
-  @media (min-width:1101px) {
+  @media (min-width: 1101px) {
     padding-bottom: 35px !important;
     .icon {
       width: 40px !important;
@@ -1330,7 +1336,8 @@
         width: 100%;
       }
     }
-    .india-column, .world-column {
+    .india-column,
+    .world-column {
       border-bottom: 0;
       padding-bottom: 0;
     }
@@ -1354,7 +1361,7 @@
         max-height: 350px;
         flex-wrap: wrap;
         list-style-type: disc;
-        border-top: 2px solid #91CB00;
+        border-top: 2px solid #91cb00;
         li {
           h3 {
             font-size: var(--text-2xl);
@@ -1371,5 +1378,3 @@
     }
   }
 }
-
-

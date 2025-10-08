@@ -103,7 +103,15 @@
 
 // Add padding to main content to account for fixed header
 main {
-  padding-top: 108px; // Height of the header
+  padding-top: 84px; // Height of the header
+
+  @media (min-width: 768px) {
+    padding-top: 100px; // Height of the header
+  }
+
+  @media (min-width: 1181px) {
+    padding-top: 112px; // Height of the header
+  }
 }
 
 .back-to-top {
