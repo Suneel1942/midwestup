@@ -263,7 +263,7 @@ const InvestmentsPage = ({ data }) => {
         </ul>
         <ConfirmationModal isOpen={openModal} handleClose={handleModal} />
       </section>
-      <section className="custom-section-layout">
+      {/* <section className="custom-section-layout">
         <h3 className="font-semibold text-5xl !mb-20 max-w-[500px] text-wrap">
           {contracts.header}
         </h3>
@@ -297,7 +297,7 @@ const InvestmentsPage = ({ data }) => {
             </li>
           ))}
         </ul>
-      </section>
+      </section> */}
       <section className={`custom-section-layout ${styles.policiesSection}`}>
         <div className="columns-container">
           <div className="left-column">
