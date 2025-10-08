@@ -34,7 +34,7 @@
           }
         }
         &::before {
-          content: '“';
+          content: "“";
           font-weight: 700;
           font-size: 25px;
           line-height: 1;
@@ -55,7 +55,7 @@
       font-size: 11px;
     }
   }
-  @media (min-width:640px) {
+  @media (min-width: 640px) {
     .content {
       margin-top: 55px;
       gap: 55px;
@@ -86,10 +86,12 @@
       }
     }
   }
-  @media (min-width:1536px) {
+  @media (min-width: 1536px) {
     .content {
       .quote-container {
-        blockquote > h3, .author, .content-text {
+        blockquote > h3,
+        .author,
+        .content-text {
           font-size: var(--text-xl);
         }
         .author {
@@ -111,7 +113,8 @@
       overflow: hidden;
       color: white;
       padding: 12px 8px;
-      h3, p {
+      h3,
+      p {
         font-size: 11px;
       }
       h3 {
@@ -127,14 +130,15 @@
       }
     }
   }
-  @media (min-width:640px) {
+  @media (min-width: 640px) {
     ul {
       margin-top: 75px;
       grid-template-columns: repeat(4, minmax(0, 1fr));
       gap: 32px;
       li {
         padding: 21px 32px;
-        h3, p {
+        h3,
+        p {
           font-size: var(--text-lg);
         }
         h3 {
@@ -143,16 +147,17 @@
       }
     }
   }
-  @media (min-width:1536px) {
+  @media (min-width: 1536px) {
     ul {
       li {
-        h3, p {
+        h3,
+        p {
           font-size: var(--text-xl);
         }
       }
     }
   }
-  @media (min-width:1920px) {
+  @media (min-width: 1920px) {
     ul {
       li {
         aspect-ratio: 1 / 0.9;
@@ -186,7 +191,7 @@
       }
     }
   }
-  @media (min-width:640px) {
+  @media (min-width: 640px) {
     ul {
       margin-top: 55px;
       grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -199,7 +204,7 @@
       }
     }
   }
-  @media (min-width:1101px) {
+  @media (min-width: 1101px) {
     ul {
       margin-top: 55px;
       grid-template-columns: repeat(5, minmax(0, 1fr));
@@ -213,7 +218,7 @@
       }
     }
   }
-  @media (min-width:1536px) {
+  @media (min-width: 1536px) {
     ul {
       li {
         p {
@@ -222,7 +227,7 @@
       }
     }
   }
-  @media (min-width:1920px) {
+  @media (min-width: 1920px) {
     ul {
       li {
         aspect-ratio: 1 / 1;
@@ -253,7 +258,7 @@
       }
     }
   }
-  @media (min-width:640px) {
+  @media (min-width: 640px) {
     .content {
       .buttons-container {
         button {
@@ -274,7 +279,8 @@
   }
 }
 
-.education-section, .rural-development-section {
+.education-section,
+.rural-development-section {
   .content {
     display: flex;
     flex-direction: column;
@@ -292,7 +298,7 @@
       }
     }
   }
-  @media (min-width:640px) {
+  @media (min-width: 640px) {
     .content {
       display: flex;
       flex-direction: row;
@@ -323,7 +329,7 @@
     }
   }
 
-  @media (min-width:1102px) {
+  @media (min-width: 1102px) {
     .content {
       display: flex;
       flex-direction: row;
@@ -343,6 +349,7 @@
       }
       .tab-content-container {
         width: 60%;
+        max-width: 900px;
         .image {
           aspect-ratio: auto;
         }
@@ -353,7 +360,7 @@
       }
     }
   }
-  @media (min-width:1536px) {
+  @media (min-width: 1536px) {
     .content {
       .tab-content-container {
         p {
@@ -381,7 +388,8 @@
       overflow: hidden;
       color: white;
       padding: 12px 17px;
-      h3, p {
+      h3,
+      p {
         font-size: 11px;
       }
       h3 {
@@ -401,12 +409,13 @@
       aspect-ratio: 16 / 9;
     }
   }
-  @media (min-width:640px) {
+  @media (min-width: 640px) {
     .content {
       margin-top: 61px;
       .info-card {
         padding: 29px 28px;
-        h3, p {
+        h3,
+        p {
           font-size: var(--text-lg);
         }
         p {
@@ -418,10 +427,11 @@
       }
     }
   }
-  @media (min-width:1536px) {
+  @media (min-width: 1536px) {
     .content {
       .info-card {
-        h3, p {
+        h3,
+        p {
           font-size: var(--text-xl);
         }
       }
@@ -430,7 +440,8 @@
   @include mixins.for-phone-only {
     .content {
       .info-card {
-        p, h3 {
+        p,
+        h3 {
           font-size: 1rem;
         }
       }
@@ -438,7 +449,8 @@
   }
 }
 
-.healthcare-section, .livelihood-section {
+.healthcare-section,
+.livelihood-section {
   .content {
     margin-top: 21px;
     ul {
@@ -450,7 +462,8 @@
         color: white;
         padding: 12px 17px;
         aspect-ratio: 16 / 7;
-        h3, p {
+        h3,
+        p {
           font-size: 11px;
         }
         h3 {
@@ -470,7 +483,7 @@
       }
     }
   }
-  @media (min-width:640px) {
+  @media (min-width: 640px) {
     .content {
       margin-top: 57px;
       ul {
@@ -479,7 +492,8 @@
         li {
           padding: 29px 28px;
           aspect-ratio: auto;
-          h3, p {
+          h3,
+          p {
             font-size: var(--text-lg);
           }
           p {
@@ -492,11 +506,12 @@
       }
     }
   }
-  @media (min-width:1536px) {
+  @media (min-width: 1536px) {
     .content {
       ul {
         li {
-          h3, p {
+          h3,
+          p {
             font-size: var(--text-xl);
           }
         }
@@ -508,7 +523,8 @@
       ul {
         li {
           aspect-ratio: unset;
-          p, h3 {
+          p,
+          h3 {
             font-size: 1rem;
           }
         }
@@ -521,7 +537,7 @@
     margin-top: 10px;
     aspect-ratio: 16 / 9;
   }
-  @media (min-width:640px) {
+  @media (min-width: 640px) {
     .image {
       margin-top: 21px;
     }
@@ -534,7 +550,7 @@
       aspect-ratio: 16 / 9;
     }
   }
-  @media (min-width:640px) {
+  @media (min-width: 640px) {
     .content {
       ul {
         li:last-child {
@@ -564,12 +580,13 @@
   }
 }
 
-.committee-section, .future-section {
+.committee-section,
+.future-section {
   position: relative;
   overflow: hidden;
   color: white;
   padding-bottom: 0;
-  @media (min-width:640px) {
+  @media (min-width: 640px) {
     padding-bottom: 70px;
   }
 }
@@ -581,7 +598,7 @@
     font-size: 11px;
     line-height: 16.5px;
   }
-  @media (min-width:640px) {
+  @media (min-width: 640px) {
     .content-text {
       margin-top: 95px;
       font-size: var(--text-lg);
@@ -589,7 +606,7 @@
       max-width: 500px;
     }
   }
-  @media (min-width:1536px) {
+  @media (min-width: 1536px) {
     .content-text {
       font-size: var(--text-xl);
       line-height: 30px;
