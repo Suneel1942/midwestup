@@ -80,16 +80,12 @@ const Carousel = props => {
 
   return (
     <section className="flex flex-col gap-3 justify-center items-center">
-      <div className="relative mx-auto w-screen max-w-[1920px] overflow-hidden max-h-[calc(100vh-112px)]">
-        <div ref={emblaRef}>
-          <div className="flex">
+      <div className="relative mx-auto w-screen max-w-[1920px] overflow-hidden aspect-[16/9] max-h-[calc(100vh-112px)]">
+        <div ref={emblaRef} className="h-full">
+          <div className="flex h-full">
             {images.map((image, index) => (
-              <div className="min-w-0 basis-full  grow-0 shrink-0" key={index}>
-                <Image
-                  src={image}
-                  alt={`slide ${index + 1}`}
-                  className="h-full [&>img]:!object-center"
-                />
+              <div className="min-w-0 basis-full grow-0 shrink-0 h-full" key={index}>
+                <Image src={image} alt={`slide ${index + 1}`} className="w-full h-full" />
               </div>
             ))}
           </div>
