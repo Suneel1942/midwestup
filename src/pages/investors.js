@@ -11,7 +11,7 @@ import { Dropdown } from "@components/dropdown"
 import { useWindowSize } from "@utils/useWindowSize"
 // import BackToTop from "@components/back-to-top"
 import { ConfirmationModal } from "@components/confirmation-modal"
-
+import Accordion, { AccordionGroup } from "@components/accordion"
 import * as styles from "@styles/investments.module.scss"
 
 const InvestmentsPage = ({ data }) => {
@@ -267,6 +267,40 @@ const InvestmentsPage = ({ data }) => {
         <h3 className="font-semibold text-5xl !mb-20 max-w-[500px] text-wrap">
           {materials.header}
         </h3>
+        <AccordionGroup>
+          <Accordion title={materials.contracts.header} defaultOpen>
+            <ul className="flex flex-col gap-5">
+              {materials.contracts.list.map((item, index) => (
+                <li key={index}>
+                  <a
+                    href={item.pdf.publicURL}
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    className="!text-2xl hover:!text-[#91CB00] !no-underline"
+                  >
+                    {item.name}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </Accordion>
+          <Accordion title={materials.documents.header}>
+            <ul className="flex flex-col gap-5">
+              {materials.documents.list.map((item, index) => (
+                <li key={index}>
+                  <a
+                    href={item?.pdf?.publicURL}
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    className="!text-2xl hover:!text-[#91CB00] !no-underline"
+                  >
+                    {item.name}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </Accordion>
+        </AccordionGroup>
       </section>
       <section className={`custom-section-layout ${styles.policiesSection}`}>
         <div className="columns-container">
