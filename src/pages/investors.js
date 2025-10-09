@@ -276,7 +276,7 @@ const InvestmentsPage = ({ data }) => {
                     href={item.pdf.publicURL}
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="!text-2xl hover:!text-[#91CB00] !no-underline"
+                    className="!text-xl hover:!text-[#91CB00] !no-underline"
                   >
                     {item.name}
                   </a>
@@ -292,7 +292,7 @@ const InvestmentsPage = ({ data }) => {
                     href={item?.pdf?.publicURL}
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="!text-2xl hover:!text-[#91CB00] !no-underline"
+                    className="!text-xl hover:!text-[#91CB00] !no-underline"
                   >
                     {item.name}
                   </a>
