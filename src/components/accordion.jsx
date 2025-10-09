@@ -114,7 +114,24 @@ export const AccordionGroup = ({
   allowMultiple = false,
   defaultOpenIndex = null,
 }) => {
-  const [openIndex, setOpenIndex] = useState(defaultOpenIndex)
+  // Find the first accordion with defaultOpen prop if no defaultOpenIndex is specified
+  const getDefaultOpenIndex = () => {
+    if (defaultOpenIndex !== null) return defaultOpenIndex
+
+    let firstDefaultOpenIndex = null
+    React.Children.forEach(children, (child, index) => {
+      if (
+        React.isValidElement(child) &&
+        child.props.defaultOpen &&
+        firstDefaultOpenIndex === null
+      ) {
+        firstDefaultOpenIndex = index
+      }
+    })
+    return firstDefaultOpenIndex
+  }
+
+  const [openIndex, setOpenIndex] = useState(getDefaultOpenIndex())
 
   const toggleAccordion = index => {
     if (allowMultiple) {
