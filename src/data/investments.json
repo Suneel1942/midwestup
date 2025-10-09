@@ -192,40 +192,125 @@
         "pdf": "documents/Financial_Information_Group_Companies.pdf"
       }
     ],
-    "contracts": {
+    "material-contracts": {
       "header": "Material Contracts and Documents",
       "list": [
         {
           "name": "Document 1",
-          "pdf": "documents/material-contracts/contract-1.pdf"
+          "pdf": "documents/material-contracts/A1_Offer_Agreement.pdf"
         },
         {
           "name": "Document 2",
-          "pdf": "documents/material-contracts/contract-1.pdf"
+          "pdf": "documents/material-contracts/A2_Registrar_Agreement_28-09-2024.pdf"
         },
         {
           "name": "Document 3",
-          "pdf": "documents/material-contracts/contract-1.pdf"
+          "pdf": "documents/material-contracts/A6_Share Escrow_Agreement_(Executed).pdf"
         },
         {
           "name": "Document 4",
-          "pdf": "documents/material-contracts/contract-1.pdf"
+          "pdf": "documents/material-contracts/A7_Monitoring_Agency_Agreement.pdf"
+        }
+      ]
+    },
+    "material-documents": {
+      "header": "Material Contracts and Documents",
+      "list": [
+        {
+          "name": "Document 1",
+          "pdf": "documents/material-documnets/1_COI_MOA_AOA.pdf"
+        },
+        {
+          "name": "Document 2",
+          "pdf": "documents/material-documnets/2_Certificate_of_Incorporation-MGPL.pdf"
+        },
+        {
+          "name": "Document 3",
+          "pdf": "documents/material-documnets/3_COI-Midwest_Private_Limited.pdf"
+        },
+        {
+          "name": "Document 4",
+          "pdf": "documents/material-documnets/4_INC-27_Certificate_of_Incorporation_28_Aug_2024.pdf"
         },
         {
           "name": "Document 5",
-          "pdf": "documents/material-contracts/contract-1.pdf"
+          "pdf": "documents/material-documnets/5_CTC_Board Resolution_for_IPO.pdf"
         },
         {
           "name": "Document 6",
-          "pdf": "documents/material-contracts/contract-1.pdf"
+          "pdf": "documents/material-documnets/6_CTC_Shareholders_Resolution_for_IPO.pdf.pdf"
         },
         {
           "name": "Document 7",
-          "pdf": "documents/material-contracts/contract-1.pdf"
+          "pdf": "documents/material-documnets/7_CTC_BR_Taking_on_Record_Offer_for Sale_03.10.2025.pdf"
         },
         {
           "name": "Document 8",
-          "pdf": "documents/material-contracts/contract-1.pdf"
+          "pdf": "documents/material-documnets/8_CTC_BR_DRHP_Approval.pdf"
+        },
+        {
+          "name": "Document 8",
+          "pdf": "documents/material-documnets/9_CTC_BR_RHP_Approval.pdf"
+        },
+        {
+          "name": "Document 8",
+          "pdf": "documents/material-documnets/10_1 Consent_Letter_Selling_Shareholder.pdf"
+        },
+        {
+          "name": "Document 8",
+          "pdf": "documents/material-documnets/10_2_Consent_Letter_Selling Shareholder.pdf"
+        },
+        {
+          "name": "Document 8",
+          "pdf": "documents/material-documnets/11_1_Annual_Report 2022-23.pdf"
+        },
+        {
+          "name": "Document 8",
+          "pdf": "documents/material-documnets/11_2_Annual_Report_2023-24.pdf"
+        },
+        {
+          "name": "Document 8",
+          "pdf": "documents/material-documnets/11_3_Annual_Report_2024-25.pdf"
+        },
+        {
+          "name": "Document 8",
+          "pdf": "documents/material-documnets/12_Assessment_of_the_granite_quartz_and heavy_mineral_sand_industry.pdf"
+        },
+        {
+          "name": "Document 8",
+          "pdf": "documents/material-documnets/15_1_JORC_Report-Original_Report.pdf"
+        },
+        {
+          "name": "Document 8",
+          "pdf": "documents/material-documnets/15_2_JORC_Report-Addendum.pdf"
+        },
+        {
+          "name": "Document 8",
+          "pdf": "documents/material-documnets/16_1_Coal_JORC_Report_Original.pdf"
+        },
+        {
+          "name": "Document 8",
+          "pdf": "documents/material-documnets/16_2_Coal_JORC_Report-Addendum.pdf"
+        },
+        {
+          "name": "Document 8",
+          "pdf": "documents/material-documnets/17_Geovale_Audit_Report.pdf"
+        },
+        {
+          "name": "Document 8",
+          "pdf": "documents/material-documnets/18_1_Consent_letter_from_Dr_G_Laxminarayana_(JORC_Report).pdf"
+        },
+        {
+          "name": "Document 8",
+          "pdf": "documents/material-documnets/18_2_Consent_Letter_from_Dr_G_Laxminarayana(Coal_JORC_Report).pdf"
+        },
+        {
+          "name": "Document 8",
+          "pdf": "documents/material-documnets/19_Consent_letter_from_Grovale_Services_Private_Limited.pdf"
+        },
+        {
+          "name": "Document 8",
+          "pdf": "documents/material-documnets/20_ICE_Certificate_and_Consent_Letter.pdf"
         }
       ]
     },
