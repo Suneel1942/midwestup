@@ -79,6 +79,11 @@
           "title": "Midwest Limited FS",
           "list": [
             {
+              "title": "Midwest Limited FS 2024-25",
+              "pdf": "documents/financial-reports/Midwest_Limited_FS_2024-25.pdf",
+              "background": "backgrounds/blue.svg"
+            },
+            {
               "title": "Midwest Limited FS 2023-24",
               "pdf": "documents/financial-reports/Midwest_Limited_FS_2023-24.pdf",
               "background": "backgrounds/orange.svg"
@@ -87,17 +92,17 @@
               "title": "Midwest Limited FS 2022-23",
               "pdf": "documents/financial-reports/Midwest_Limited_FS_2022-23.pdf",
               "background": "backgrounds/green.svg"
-            },
-            {
-              "title": "Midwest Limited FS 2021-22",
-              "pdf": "documents/financial-reports/Midwest_Limited_FS_2021-22.pdf",
-              "background": "backgrounds/blue.svg"
             }
           ]
         },
         {
           "title": "Midwest Holdings Ltd FS",
           "list": [
+            {
+              "title": "Midwest Holdings LTD FS 2024-25",
+              "pdf": "documents/financial-reports/Midwest_Holdings_Ltd_FS_2024-25.pdf",
+              "background": "backgrounds/blue.svg"
+            },
             {
               "title": "Midwest Holdings LTD FS 2023-24",
               "pdf": "documents/financial-reports/Midwest_Holdings_Ltd_FS_2023-24.pdf",
@@ -107,17 +112,17 @@
               "title": "Midwest Holdings LTD FS 2022-23",
               "pdf": "documents/financial-reports/Midwest_Holdings_Ltd_FS_2022-23.pdf",
               "background": "backgrounds/green.svg"
-            },
-            {
-              "title": "Midwest Holdings LTD FS 2021-22",
-              "pdf": "documents/financial-reports/Midwest_Holdings_Ltd_FS_2021-22.pdf",
-              "background": "backgrounds/blue.svg"
             }
           ]
         },
         {
           "title": "Andhra Pradesh Granite (Midwest) Pvt. Ltd. FS",
           "list": [
+            {
+              "title": "APGMPL FS FY 2024-25",
+              "pdf": "documents/financial-reports/APGMPL_FS_FY_2024-25.pdf",
+              "background": "backgrounds/blue.svg"
+            },
             {
               "title": "APGMPL FS FY 2023-24",
               "pdf": "documents/financial-reports/APGMPL_FS_FY_2023-24.pdf",
@@ -127,11 +132,6 @@
               "title": "APGMPL FS FY 2022-23",
               "pdf": "documents/financial-reports/APGMPL_FS_FY_2022-23.pdf",
               "background": "backgrounds/green.svg"
-            },
-            {
-              "title": "APGMPL FS FY 2021-22",
-              "pdf": "documents/financial-reports/APGMPL_FS_FY_2021-2022.pdf",
-              "background": "backgrounds/blue.svg"
             }
           ]
         },
@@ -192,42 +192,278 @@
         "pdf": "documents/Financial_Information_Group_Companies.pdf"
       }
     ],
-    "contracts": {
+    "materials": {
       "header": "Material Contracts and Documents",
-      "list": [
-        {
-          "name": "Document 1",
-          "pdf": "documents/material-contracts/contract-1.pdf"
-        },
-        {
-          "name": "Document 2",
-          "pdf": "documents/material-contracts/contract-1.pdf"
-        },
-        {
-          "name": "Document 3",
-          "pdf": "documents/material-contracts/contract-1.pdf"
-        },
-        {
-          "name": "Document 4",
-          "pdf": "documents/material-contracts/contract-1.pdf"
-        },
-        {
-          "name": "Document 5",
-          "pdf": "documents/material-contracts/contract-1.pdf"
-        },
-        {
-          "name": "Document 6",
-          "pdf": "documents/material-contracts/contract-1.pdf"
-        },
-        {
-          "name": "Document 7",
-          "pdf": "documents/material-contracts/contract-1.pdf"
-        },
-        {
-          "name": "Document 8",
-          "pdf": "documents/material-contracts/contract-1.pdf"
-        }
-      ]
+      "contracts": {
+        "header": "A. Material Contracts",
+        "list": [
+          {
+            "name": "01 — Offer Agreement dated September 30, 2024 entered into among our Company, the Selling Shareholders and the BRLMs",
+            "pdf": "documents/material-contracts/A1_Offer_Agreement.pdf"
+          },
+          {
+            "name": "02 — Registrar Agreement dated September 28, 2024 entered into among our Company, the Selling Shareholders and the Registrar to the Offer",
+            "pdf": "documents/material-contracts/A2_Registrar_Agreement_28-09-2024.pdf"
+          },
+          {
+            "name": "03 — Cash Escrow and Sponsor Bank Agreement dated October 9, 2025 entered into among our Company, the Selling Shareholders, the BRLMs, the Syndicate Members, the Bankers to the Offer and the Registrar to the Offer",
+            "pdf": "documents/material-contracts/A3_Cash_Escrow_and_Sponsor_Bank_Agreement_(Executed-Version).pdf"
+          },
+          {
+            "name": "04 — Syndicate Agreement dated October 9, 2025 entered into among our Company, the Selling Shareholders, the BRLMs and the Syndicate Members",
+            "pdf": "documents/material-contracts/A4_Syndicate_Agreement.pdf"
+          },
+          {
+            "name": "06 — Share Escrow Agreement dated October 7, 2025 entered into among our Company, the Selling Shareholders and the Share Escrow Agent",
+            "pdf": "documents/material-contracts/A6_Share Escrow_Agreement_(Executed).pdf"
+          },
+          {
+            "name": "07 — Monitoring Agency Agreement dated October 3, 2025 entered into between our Company and the Monitoring Agency",
+            "pdf": "documents/material-contracts/A7_Monitoring_Agency_Agreement.pdf"
+          }
+        ]
+      },
+      "documents": {
+        "header": "B. Material Documents",
+        "list": [
+          {
+            "name": "01 — Certified copies of the Memorandum of Association and Articles of Association of our Company, each as amended",
+            "pdf": "documents/material-documents/1_COI_MOA_AOA.pdf"
+          },
+          {
+            "name": "02 — Certificate of incorporation dated December 11, 1981 issued to our Company by the Registrar of Companies, Andhra Pradesh, in the name of Midwest Granite Private Limited",
+            "pdf": "documents/material-documents/2_Certificate_of_Incorporation-MGPL.pdf"
+          },
+          {
+            "name": "03 — Fresh certificate of incorporation dated July 2, 2024 consequent upon change of name from Midwest Granite Private Limited to Midwest Private Limited issued to our Company by the Registrar of Companies, Central Processing Centre",
+            "pdf": "documents/material-documents/3_COI-Midwest_Private_Limited.pdf"
+          },
+          {
+            "name": "04— Fresh certificate of incorporation dated August 28, 2024 consequent upon conversion into a public limited company issued to our Company by the Registrar of Companies, Central Processing Centre.",
+            "pdf": "documents/material-documents/4_INC-27_Certificate_of_Incorporation_28_Aug_2024.pdf"
+          },
+          {
+            "name": "05 — Resolution of our Board dated September 19, 2024 authorizing the Offer and other related matters.",
+            "pdf": "documents/material-documents/5_CTC_Board Resolution_for_IPO.pdf"
+          },
+          {
+            "name": "06 — Resolution of our Shareholders dated September 19, 2024 authorizing the Offer and other related matters",
+            "pdf": "documents/material-documents/6_CTC_Shareholders_Resolution_for_IPO.pdf.pdf"
+          },
+          {
+            "name": "07 — Resolution of our Board dated September 27, 2024 taking on record the participation of Selling Shareholders in the Offer for Sale.",
+            "pdf": "documents/material-documents/7_CTC_BR_Taking_on_Record_Offer_for Sale_03.10.2025.pdf"
+          },
+          {
+            "name": "08 — Resolution of our Board dated September 30, 2024 approving the Draft Red Herring Prospectus",
+            "pdf": "documents/material-documents/8_CTC_BR_DRHP_Approval.pdf"
+          },
+          {
+            "name": "09 — Resolution of our Board dated October 9, 2025 approving this Red Herring Prospectus",
+            "pdf": "documents/material-documents/9_CTC_BR_RHP_Approval.pdf"
+          },
+          {
+            "name": "10.1 — Consent Letter Selling Shareholder",
+            "pdf": "documents/material-documents/10_1 Consent_Letter_Selling_Shareholder.pdf"
+          },
+          {
+            "name": "10.2 — Consent Letter Selling Shareholder",
+            "pdf": "documents/material-documents/10_2_Consent_Letter_Selling Shareholder.pdf"
+          },
+          {
+            "name": "11.1 — Annual reports of our Company for the Financial Year 2022-23",
+            "pdf": "documents/material-documents/11_1_Annual_Report 2022-23.pdf"
+          },
+          {
+            "name": "11.2 — Annual reports of our Company for the Financial Year 2023-24",
+            "pdf": "documents/material-documents/11_2_Annual_Report_2023-24.pdf"
+          },
+          {
+            "name": "11.3 — Annual reports of our Company for the Financial Year 2024-25",
+            "pdf": "documents/material-documents/11_3_Annual_Report_2024-25.pdf"
+          },
+          {
+            "name": "12.1 — CRISIL Report",
+            "pdf": "documents/material-documents/12_1_Assessment_of_the_granite_quartz_and heavy_mineral_sand_industry 12.1 CRISIL Report 12.2 Consent Letter.pdf"
+          },
+          {
+            "name": "12.2 — Consent Letter",
+            "pdf": "documents/12.2_Consent_Letter_011025.pdf"
+          },
+          {
+            "name": "15.1 — Executive summary of the JORC Report",
+            "pdf": "documents/material-documents/15_1_JORC_Report-Original_Report.pdf"
+          },
+          {
+            "name": "15.2 — JORC Report - Addendum",
+            "pdf": "documents/material-documents/15_2_JORC_Report-Addendum.pdf"
+          },
+          {
+            "name": "16.1 — Executive summary of the Coal JORC Report.",
+            "pdf": "documents/material-documents/16_1_Coal_JORC_Report_Original.pdf"
+          },
+          {
+            "name": "16.2 — Coal JORC Report - Addendum",
+            "pdf": "documents/material-documents/16_2_Coal_JORC_Report-Addendum.pdf"
+          },
+          {
+            "name": "17 — Geovale Audit Report",
+            "pdf": "documents/material-documents/17_Geovale_Audit_Report.pdf"
+          },
+          {
+            "name": "18.1 — Consent letter from Dr G Laxminarayana (JORC Report)",
+            "pdf": "documents/material-documents/18_1_Consent_letter_from_Dr_G_Laxminarayana_(JORC_Report).pdf"
+          },
+          {
+            "name": "18.2 — Consent Letter from Dr G Laxminarayana(Coal JORC Report)",
+            "pdf": "documents/material-documents/18_2_Consent_Letter_from_Dr_G_Laxminarayana(Coal_JORC_Report).pdf"
+          },
+          {
+            "name": "19 — Written consent dated October 7, 2025 from Geovale Services Private Limited, to include their name in this Red Herring Prospectus and be named as an “expert” as defined under Section 2(38) of the Companies Act, 2013 in respect of the Geovale Audit Report",
+            "pdf": "documents/material-documents/19_Consent_letter_from_Grovale_Services_Private_Limited.pdf"
+          },
+          {
+            "name": "20 — Certificate dated October 7, 2025 from E. Raghunath, independent chartered engineer, in connection with the installed capacity and capacity utilization of our Company, and providing their consent to include their name in this Red Herring Prospectus and be named as an “expert” as defined under Section 2(38) of the Companies Act, 2013",
+            "pdf": "documents/material-documents/20_ICE_Certificate_and_Consent_Letter.pdf"
+          },
+          {
+            "name": "21 — Written consent dated October 9, 2025 from Majeti &; Co., Chartered Accountants, firm registration number 015975S, the independent chartered accountant to include their name in this Red Herring Prospectus and be named as an “expert” as defined under Section 2(38) of the Companies Act, 2013 in respect of their certificates in connection with the Offer",
+            "pdf": "documents/material-documents/21_Consent_Letter_from_Majeti _Co.pdf"
+          },
+          {
+            "name": "22 — Written consent dated September 18, 2024 from Divya Mohta, practicing company secretary, to include their name in this Red Herring Prospectus and be named as an “expert” as defined under Section 2(38) of the Companies Act, 2013 in respect of their certificate in connection with the Offer",
+            "pdf": "documents/material-documents/22_Consent_letter_from_PCS.pdf"
+          },
+          {
+            "name": "23.1 — D&B Final DPR_MNPL_27th Sep 2024",
+            "pdf": "documents/material-documents/23_1 D-B_Final_DPR_MNPL_27th_Sep 2024.pdf"
+          },
+          {
+            "name": "23.2 — D&B – Addendum Cost assessment report of P-II of Quartz Processing Plant 7th Oct 25",
+            "pdf": "documents/material-documents/23_2_D-B-Addendum_Cost assessment_report_of_P-II_of_Quartz Processing_Plant_7th_Oct_25.pdf"
+          },
+          {
+            "name": "24.1 — D&B Final DPR Report_ML_27th Sep 24",
+            "pdf": "documents/material-documents/24_1_D_B_Final_DPR_Report_ML_27th_Sep 24.pdf"
+          },
+          {
+            "name": "24.2 — D&B – Addendum Cost assessment report of Solar Installation_7th Oct 25",
+            "pdf": "documents/material-documents/24_2_D-B-Addendum_Cost assessment_report_of_Solar_Installation_7th_Oct_25.pdf"
+          },
+          {
+            "name": "25.1 — Consent letter from D&B for Quartz",
+            "pdf": "documents/material-documents/25_1_Consent_letter_from_D-B_for_Quartz.pdf"
+          },
+          {
+            "name": "25.2 — Consent letter from D&B for Solar Installation",
+            "pdf": "documents/material-documents/25_2_Consent_letter_from_D-B_for_Solar_Installation.pdf"
+          },
+          {
+            "name": "26 — The examination report dated September 30, 2025 of the Statutory Auditors on the Restated Consolidated Financial Statements",
+            "pdf": "documents/material-documents/26_Examination_Report.pdf"
+          },
+          {
+            "name": "27.1 — Certificate on SOTB",
+            "pdf": "documents/material-documents/27_1_Certificate_on_SOTB.pdf"
+          },
+          {
+            "name": "27.2 — Annexure to SOTB",
+            "pdf": "documents/material-documents/27_2_Annexure_to_SOTB.pdf"
+          },
+          {
+            "name": "28 — Certificate relating to key performance indicators dated October 9, 2025 issued by Majeti & Co., Chartered Accountants, firm registration number 015975S",
+            "pdf": "documents/material-documents/28_Key_Performance_Indicators_forming part_of_Basis_forOffer_Price_section.pdf"
+          },
+          {
+            "name": "29 — Certificate dated October 2, 2025 issued by Majeti & Co., Chartered Accountants, firm registration number 015975S, for confirming financial indebtedness",
+            "pdf": "documents/material-documents/29_Certificate_on_Financial_Indebtness.pdf"
+          },
+          {
+            "name": "30.1 — Certificate on WACA of Equity Shares of Promoters",
+            "pdf": "documents/material-documents/30_1_Certificate_on_WACA_of_Equity Shares_of_Promoters"
+          },
+          {
+            "name": "30.2 — Certificate on Related Party Transactions",
+            "pdf": "documents/material-documents/30_2_Certificate_on_Related_Party_Transactions.pdf"
+          },
+          {
+            "name": "30.3 — Certificate on Basis of Offer Price",
+            "pdf": "documents/material-documents/30_3_Certificate_on_Basis_of_Offer_Price.pdf"
+          },
+          {
+            "name": "30.4 — Certificate on Dividend Declaration and Dividend Policy",
+            "pdf": "documents/material-documents/30_4_Certificate_on_Dividend_Declaration_and_Dividend_Policy.pdf"
+          },
+          {
+            "name": "30.5 — Certificate on Utilisation of Loans",
+            "pdf": "documents/material-documents/30_5_Certificate_on_Utilisation_of_Loan.pdf"
+          },
+          {
+            "name": "31 — Scheme of amalgamation of RDT Diamond Tools Private Limited and Midwest Mining Private Limited into our Company.",
+            "pdf": "documents/material-documents/31_Scheme_of_Amalgamation_RDT-Diamond_Tools_Private_Limited.pdf"
+          },
+          {
+            "name": "32.1 — APMDC Main Agreement DT_04 06 2007",
+            "pdf": "documents/material-documents/32_1_APMDC_Main_Agreement_DT_04_06_2007.pdf"
+          },
+          {
+            "name": "32.2 — APMDC_ supplementary agreement_15-02-2014",
+            "pdf": "documents/material-documents/32_2_APMDC_ supplementary_agreement_15-02-2014.pdf"
+          },
+          {
+            "name": "33 — Share purchase agreement dated June 10, 2024 between our Company and Mr. Kollareddy Rama Raghava Reddy in relation to the Midwest Gold Divestment",
+            "pdf": "documents/material-documents/33_Share_Purchase_Agreement_KRRR-Midwest-Limited.pdf"
+          },
+          {
+            "name": "34 — Share Purchase Agreement dated September 27, 2024 between our Company, Kollareddy Ranganayakamma and SVADHA India Emerging Opportunities Scheme 1",
+            "pdf": "documents/material-documents/34_Share_Purchase_Agreement_27-09-2024.pdf"
+          },
+          {
+            "name": "35 — Shareholders’ resolution dated September 27, 2024 approving the terms of remuneration ofKollareddy Ramachandra, our Whole-time Director and Chief Executive Officer",
+            "pdf": "documents/material-documents/35_CTC_Resolution_Kollareddy_Ramachandra.pdf"
+          },
+          {
+            "name": "36 — Resolution of the shareholders of the APGM dated September 24, 2022 approving the terms of remuneration of Kollareddy Ramachandra, our Whole-time Director and Chief Executive Officer, in his capacity as the managing director of APGM",
+            "pdf": "documents/material-documents/36_CTC_K-Ramachandra_APGM.pdf"
+          },
+          {
+            "name": "37 — Shareholders’ resolution dated September 27, 2024 approving the terms of remuneration of Kukreti Soumya, one of our Whole-time Directors",
+            "pdf": "documents/material-documents/37_CTC_K-Soumya.pdf"
+          },
+          {
+            "name": "38 — Shareholders’ resolution dated September 27, 2024 approving the terms of remuneration of Uma Priyadarshini Kollareddy, one of our Whole-time Directors",
+            "pdf": "documents/material-documents/38_CTC_Uma-Priyadarshani-Kollareddy.pdf"
+          },
+          {
+            "name": "39 — Tripartite agreement dated June 14, 2024 among our Company, NSDL and the Registrar to the Offer",
+            "pdf": "documents/material-documents/39_NSDL_Tripatriate_Agreement.pdf"
+          },
+          {
+            "name": "40 — Tripartite agreement dated May 23, 2024 among our Company, CDSL and the Registrar to the Offer",
+            "pdf": "documents/material-documents/40_Tripartite-Agreement-CDSL.pdf"
+          },
+          {
+            "name": "41 — Due diligence certificate dated September 30, 2024 addressed to the SEBI from the BRLMs",
+            "pdf": "documents/material-documents/41_Due_Diligence_Certificate.pdf"
+          },
+          {
+            "name": "42.1 — BSE In Principle Approval",
+            "pdf": "documents/material-documents/42_1_BSE_In_Principle_Approval.pdf"
+          },
+          {
+            "name": "42.2 — In principle Approval NSE",
+            "pdf": "documents/material-documents/42_2_InprincipleApproval_NSE.pdf"
+          },
+          {
+            "name": "43 — SEBI final observation letter bearing number SEBI/HO/CFD/RAC-DIL2/P/OW/2025/3882/1 dated February 4, 2025 addressed to the BRLMs from SEBI",
+            "pdf": "documents/material-documents/43_Buyback_Case.pdf"
+          },
+          {
+            "name": "44 — SEBI Final Observation letter 040225",
+            "pdf": "documents/material-documents/44_SEBI_Final_Observation_letter_040225.pdf"
+          }
+        ]
+      }
     },
     "policies": {
       "header": "Codes & Policies",

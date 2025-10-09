@@ -11,7 +11,7 @@ import { Dropdown } from "@components/dropdown"
 import { useWindowSize } from "@utils/useWindowSize"
 // import BackToTop from "@components/back-to-top"
 import { ConfirmationModal } from "@components/confirmation-modal"
-
+import Accordion, { AccordionGroup } from "@components/accordion"
 import * as styles from "@styles/investments.module.scss"
 
 const InvestmentsPage = ({ data }) => {
@@ -22,7 +22,7 @@ const InvestmentsPage = ({ data }) => {
     financial_reports: financialReports,
     annual_reports: annualReports,
     documents,
-    contracts,
+    materials,
     policies,
     governance,
     committees,
@@ -263,41 +263,45 @@ const InvestmentsPage = ({ data }) => {
         </ul>
         <ConfirmationModal isOpen={openModal} handleClose={handleModal} />
       </section>
-      {/* <section className="custom-section-layout">
+      <section className="custom-section-layout">
         <h3 className="font-semibold text-5xl !mb-20 max-w-[500px] text-wrap">
-          {contracts.header}
+          {materials.header}
         </h3>
-        <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
-          {contracts?.list?.map((item, index) => (
-            <li key={index} className="flex flex-col gap-8 border-t border-t-[#91CB00] !pt-4 !pb-5">
-              <h6 className="font-semibold text-2xl">{item.name}</h6>
-              <a
-                href={item.pdf?.publicURL}
-                target="_blank"
-                rel="noreferrer noopener"
-                className="font-normal text-2xl flex items-center gap-5 !no-underline"
-              >
-                <span>View Document</span>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width={40}
-                  height={(40 * 27) / 42}
-                  viewBox="0 0 27 42"
-                  fill="none"
-                >
-                  <path
-                    d="M1 40.4824L26 20.7409L1 0.999342"
-                    stroke="black"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
-              </a>
-            </li>
-          ))}
-        </ul>
-      </section> */}
+        <AccordionGroup>
+          <Accordion title={materials.contracts.header} defaultOpen>
+            <ul className="flex flex-col gap-5">
+              {materials.contracts.list.map((item, index) => (
+                <li key={index}>
+                  <a
+                    href={item.pdf.publicURL}
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    className="!text-xl hover:!text-[#91CB00] !no-underline"
+                  >
+                    {item.name}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </Accordion>
+          <Accordion title={materials.documents.header}>
+            <ul className="flex flex-col gap-5">
+              {materials.documents.list.map((item, index) => (
+                <li key={index}>
+                  <a
+                    href={item?.pdf?.publicURL}
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    className="!text-xl hover:!text-[#91CB00] !no-underline"
+                  >
+                    {item.name}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </Accordion>
+        </AccordionGroup>
+      </section>
       <section className={`custom-section-layout ${styles.policiesSection}`}>
         <div className="columns-container">
           <div className="left-column">
@@ -521,12 +525,24 @@ export const aboutPageQuery = graphql`
           publicURL
         }
       }
-      contracts {
+      materials {
         header
-        list {
-          name
-          pdf {
-            publicURL
+        contracts {
+          header
+          list {
+            name
+            pdf {
+              publicURL
+            }
+          }
+        }
+        documents {
+          header
+          list {
+            name
+            pdf {
+              publicURL
+            }
           }
         }
       }
