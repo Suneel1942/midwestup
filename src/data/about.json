@@ -2,7 +2,6 @@
   {
     "banner": {
       "background": "about/banner.jpg",
-      "background-mobile": "about/banner-mobile.jpg",
       "heading": "Grounded in Values, Operating with Purpose."
     },
     "about": {

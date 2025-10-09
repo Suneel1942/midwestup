@@ -2,17 +2,10 @@
 
 .custom-banner {
   height: auto;
-  h1 {
-    // max-width: 300px;
-  }
-  @media (min-width:640px) {
-    height: calc(100vh - 150px);
+  @media (min-width: 640px) {
     h1 {
       max-width: 500px;
     }
-  }
-  @media screen and (min-width:2560px) and (min-height:1440px) {
-    height: auto;
   }
 }
 
@@ -35,7 +28,7 @@
 .subtabs-container {
   max-width: 1920px;
   margin: 0 auto;
-  background: #91CB00;
+  background: #91cb00;
   padding: 31px 24px;
   .tab-slider {
     display: flex;
@@ -52,7 +45,7 @@
       width: 100%;
       .slide {
         padding: 3.5px 0;
-        border: 1px solid #4E4E4E;
+        border: 1px solid #4e4e4e;
         border-radius: 8px;
         display: flex;
         align-items: center;
@@ -70,7 +63,7 @@
         }
       }
       .slide.active {
-        background: #4E4E4E;
+        background: #4e4e4e;
         p {
           color: white;
           font-weight: 600;
@@ -78,7 +71,7 @@
       }
     }
   }
-  @media (min-width:1025px) {
+  @media (min-width: 1025px) {
     padding: 0;
     ul {
       display: grid;
@@ -89,7 +82,7 @@
         align-items: center;
         justify-content: center;
         padding: 7px 0;
-        border: 1px solid #4E4E4E;
+        border: 1px solid #4e4e4e;
         border-radius: 8px;
         cursor: pointer;
         transition-property: all;
@@ -98,15 +91,16 @@
         p {
           font-size: var(--text-lg);
           text-align: center;
-          color: #4E4E4E;
+          color: #4e4e4e;
           max-width: 165px;
           transition-property: all;
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-duration: 150ms;
         }
       }
-      li:hover, li.active {
-        background: #4E4E4E;
+      li:hover,
+      li.active {
+        background: #4e4e4e;
         p {
           color: white;
           font-weight: 600;
@@ -114,7 +108,7 @@
       }
     }
   }
-  @include mixins.for-phone-only{
+  @include mixins.for-phone-only {
     padding: 2rem 1rem;
     .tab-slider {
       .slide-wrapper {
@@ -129,14 +123,14 @@
 }
 
 .infrastructure-section {
-  
   position: relative;
   overflow: hidden;
   // .image {
   //   margin-top: 13px;
   //   aspect-ratio: 2 / 3;
   // }
-  .image-absolute, .overlay {
+  .image-absolute,
+  .overlay {
     position: absolute;
     left: 0;
     top: 0;
@@ -152,11 +146,11 @@
   h2 {
     text-wrap: balance;
   }
-  @media (min-width:641px) and (max-width:1024px) { 
+  @media (min-width: 641px) and (max-width: 1024px) {
     padding: 50px;
   }
-  @media (min-width:1025px) {
-    padding: 60px;   
+  @media (min-width: 1025px) {
+    padding: 60px;
   }
 }
 
@@ -166,7 +160,7 @@
   position: relative;
   overflow: hidden;
   height: 100vh;
-  display:  flex;
+  display: flex;
   flex-direction: column;
   .image-block {
     height: auto;
@@ -221,7 +215,7 @@
       grid-auto-flow: unset;
     }
   }
-  @media (min-width:640px) {
+  @media (min-width: 640px) {
     // padding-bottom: 70px !important;
     .right-column {
       ul {
@@ -239,7 +233,7 @@
       }
     }
   }
-  @media (min-width:1536px) {
+  @media (min-width: 1536px) {
     .right-column {
       ul.two-columns {
         li {
@@ -249,7 +243,7 @@
       }
     }
   }
-  @media (min-width:1920px) {
+  @media (min-width: 1920px) {
     .right-column {
       ul.two-columns {
         li {
@@ -260,7 +254,8 @@
   }
   @include mixins.for-phone-only {
     .right-column {
-      ul.two-columns, ul {
+      ul.two-columns,
+      ul {
         grid-template-columns: 1fr;
         gap: 0.5rem;
         li {
@@ -300,13 +295,12 @@
   .image-container {
     margin-top: 17px;
   }
-  @media (max-width:1024px) and (min-width:768px) {
+  @media (max-width: 1024px) and (min-width: 768px) {
     ul {
       grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
-      
     }
-}
-  @media (min-width:640px) {
+  }
+  @media (min-width: 640px) {
     ul {
       grid-template-columns: repeat(7, minmax(0, 1fr));
       gap: 18px;
@@ -322,7 +316,7 @@
       margin-top: 67px;
     }
   }
-  @media (min-width:1536px) {
+  @media (min-width: 1536px) {
     ul {
       li {
         p {
@@ -360,7 +354,7 @@
       }
     }
   }
-  @media (min-width:640px) {
+  @media (min-width: 640px) {
     .cards-container {
       grid-template-columns: repeat(3, minmax(0, 1fr));
       gap: 21px;
@@ -369,7 +363,7 @@
       }
     }
   }
-  @media (min-width:1536px) {
+  @media (min-width: 1536px) {
     .cards-container {
       li {
         font-size: var(--text-xl);
