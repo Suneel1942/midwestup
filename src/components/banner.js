@@ -1,8 +1,8 @@
 import React from "react"
-import Slider from "react-slick";
+import Slider from "react-slick"
 import { Image } from "@components/Image"
 
-import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick.css"
 import * as styles from "@styles/banner.module.scss"
 
 export default function Banner(props) {
@@ -16,7 +16,7 @@ export default function Banner(props) {
     slidesToScroll: 1,
     waitForAnimate: false,
     autoplay: true,
-  };
+  }
   return (
     <section className={`${styles.banner} ${classnames}`} {...props}>
       {slides && (
@@ -30,9 +30,7 @@ export default function Banner(props) {
       )}
       {media && <Image src={media} alt="banner background image" className={styles.bannerImage} />}
       <div className={styles.bannerOverlay} />
-      <div className={styles.textContainer}>
-        {children}
-      </div>
+      <div className={styles.textContainer}>{children}</div>
     </section>
   )
 }

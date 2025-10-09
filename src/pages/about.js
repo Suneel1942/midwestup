@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react"
 import { graphql } from "gatsby"
-import Slider from "react-slick"
 
 import Layout from "@components/layout"
 import Banner from "@components/banner"
@@ -120,7 +119,7 @@ const AboutPage = ({ data }) => {
 
   return (
     <Layout>
-      <Banner media={isMobile ? banner.background_mobile : banner.background}>
+      <Banner media={banner.background}>
         <h1>
           Grounded in Values,
           <br />
@@ -649,7 +648,6 @@ export const aboutPageQuery = graphql`
     about: aboutJson {
       banner {
         background
-        background_mobile
         heading
       }
       about {

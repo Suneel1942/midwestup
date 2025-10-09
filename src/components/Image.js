@@ -15,7 +15,7 @@ export const Image = ({ src, alt, ...props }) => {
               layout: FULL_WIDTH
               placeholder: BLURRED
               formats: [AUTO, WEBP]
-              quality: 100
+              quality: 90
               breakpoints: [750, 1080, 1366, 1920]
             )
           }
