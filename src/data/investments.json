@@ -79,6 +79,11 @@
           "title": "Midwest Limited FS",
           "list": [
             {
+              "title": "Midwest Limited FS 2024-25",
+              "pdf": "documents/financial-reports/Midwest_Limited_FS_2024-25.pdf",
+              "background": "backgrounds/blue.svg"
+            },
+            {
               "title": "Midwest Limited FS 2023-24",
               "pdf": "documents/financial-reports/Midwest_Limited_FS_2023-24.pdf",
               "background": "backgrounds/orange.svg"
@@ -87,17 +92,17 @@
               "title": "Midwest Limited FS 2022-23",
               "pdf": "documents/financial-reports/Midwest_Limited_FS_2022-23.pdf",
               "background": "backgrounds/green.svg"
-            },
-            {
-              "title": "Midwest Limited FS 2021-22",
-              "pdf": "documents/financial-reports/Midwest_Limited_FS_2021-22.pdf",
-              "background": "backgrounds/blue.svg"
             }
           ]
         },
         {
           "title": "Midwest Holdings Ltd FS",
           "list": [
+            {
+              "title": "Midwest Holdings LTD FS 2024-25",
+              "pdf": "documents/financial-reports/Midwest_Holdings_Ltd_FS_2024-25.pdf",
+              "background": "backgrounds/blue.svg"
+            },
             {
               "title": "Midwest Holdings LTD FS 2023-24",
               "pdf": "documents/financial-reports/Midwest_Holdings_Ltd_FS_2023-24.pdf",
@@ -107,17 +112,17 @@
               "title": "Midwest Holdings LTD FS 2022-23",
               "pdf": "documents/financial-reports/Midwest_Holdings_Ltd_FS_2022-23.pdf",
               "background": "backgrounds/green.svg"
-            },
-            {
-              "title": "Midwest Holdings LTD FS 2021-22",
-              "pdf": "documents/financial-reports/Midwest_Holdings_Ltd_FS_2021-22.pdf",
-              "background": "backgrounds/blue.svg"
             }
           ]
         },
         {
           "title": "Andhra Pradesh Granite (Midwest) Pvt. Ltd. FS",
           "list": [
+            {
+              "title": "APGMPL FS FY 2024-25",
+              "pdf": "documents/financial-reports/APGMPL_FS_FY_2024-25.pdf",
+              "background": "backgrounds/blue.svg"
+            },
             {
               "title": "APGMPL FS FY 2023-24",
               "pdf": "documents/financial-reports/APGMPL_FS_FY_2023-24.pdf",
@@ -127,11 +132,6 @@
               "title": "APGMPL FS FY 2022-23",
               "pdf": "documents/financial-reports/APGMPL_FS_FY_2022-23.pdf",
               "background": "backgrounds/green.svg"
-            },
-            {
-              "title": "APGMPL FS FY 2021-22",
-              "pdf": "documents/financial-reports/APGMPL_FS_FY_2021-2022.pdf",
-              "background": "backgrounds/blue.svg"
             }
           ]
         },
