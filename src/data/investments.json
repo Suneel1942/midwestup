@@ -218,6 +218,10 @@
             "pdf": "documents/material-contracts/A4_Syndicate_Agreement.pdf"
           },
           {
+            "name": "05 — Underwriting Agreement dated entered into among our Company, the Selling Shareholders and the Underwriters.",
+            "pdf": "#"
+          },
+          {
             "name": "06 — Share Escrow Agreement dated October 7, 2025 entered into among our Company, the Selling Shareholders and the Share Escrow Agent",
             "pdf": "documents/material-contracts/A6_Share Escrow_Agreement_(Executed).pdf"
           },
@@ -252,10 +256,10 @@
           },
           {
             "name": "06 — Resolution of our Shareholders dated September 19, 2024 authorizing the Offer and other related matters",
-            "pdf": "documents/material-documents/6_CTC_Shareholders_Resolution_for_IPO.pdf.pdf"
+            "pdf": "documents/material-documents/6_CTC_Shareholders_Resolution_for_IPO.pdf"
           },
           {
-            "name": "07 — Resolution of our Board dated September 27, 2024 taking on record the participation of Selling Shareholders in the Offer for Sale.",
+            "name": "07 — Resolution of our Board dated October 03, 2025 taking on record the participation of Selling Shareholders in the Offer for Sale.",
             "pdf": "documents/material-documents/7_CTC_BR_Taking_on_Record_Offer_for Sale_03.10.2025.pdf"
           },
           {
@@ -288,15 +292,23 @@
           },
           {
             "name": "12.1 — CRISIL Report",
-            "pdf": "documents/material-documents/12_1_Assessment_of_the_granite_quartz_and heavy_mineral_sand_industry 12.1 CRISIL Report 12.2 Consent Letter.pdf"
+            "pdf": "documents/financial-reports/Midwest_Final Report_CRISIL_Report.pdf"
           },
           {
             "name": "12.2 — Consent Letter",
-            "pdf": "documents/12.2_Consent_Letter_011025.pdf"
+            "pdf": "documents/material-documents/12_2_Consent_Letter_011025.pdf"
           },
           {
-            "name": "15.1 — Executive summary of the JORC Report",
-            "pdf": "documents/material-documents/15_1_JORC_Report-Original_Report.pdf"
+            "name": "12.2 — Consent Letter",
+            "pdf": "documents/material-documents/12_2_Consent_Letter_011025.pdf"
+          },
+          {
+            "name": "13 — Consents of our Directors, the BRLMs, the Selling Shareholders, the legal counsel to our Company as to Indian Law, the Registrar to the Offer, the Bankers to our Company, the Company Secretary and Compliance Officer, the Syndicate Members, Monitoring Agency and the Bankers to the Offer in their respective capacities.",
+            "pdf": "documents/material-documents/13_Consent_Letter.pdf"
+          },
+          {
+            "name": "14 — Written consent dated October 9, 2025 from M S K A & Associates, Chartered Accountants, to include their name as required under section 26(1) of the Companies Act, 2013 read with SEBI ICDR Regulations, in this Red Herring Prospectus, and as an “expert” as defined under section 2(38) of the Companies Act, 2013 to the extent and in their capacity as our Statutory Auditors, and in respect of their (i) examination report, dated September 30, 2025 on the Restated Consolidated Financial Statements; and (ii) their report dated October 3, 2025 on the statement of special tax benefits available to our Company, Andhra Pradesh Granite (Midwest) Private Limited and their respective shareholders in the Draft Red Herring Prospectus. ",
+            "pdf": "documents/material-documents/14_Written_Consent_from_MSKA_Associates.pdf"
           },
           {
             "name": "15.2 — JORC Report - Addendum",
@@ -311,8 +323,12 @@
             "pdf": "documents/material-documents/16_2_Coal_JORC_Report-Addendum.pdf"
           },
           {
-            "name": "17 — Geovale Audit Report",
-            "pdf": "documents/material-documents/17_Geovale_Audit_Report.pdf"
+            "name": "17.1 — Geovale Audit Report dated 24.07.2024",
+            "pdf": "documents/material-documents/17_1_Geovale_Audit_Report_July_2024"
+          },
+          {
+            "name": "17.2 — Geovale Audit Report dated 01.09.2025",
+            "pdf": "documents/material-documents/17_2_Geovale_Audit_Report_Sep_2025.pdf"
           },
           {
             "name": "18.1 — Consent letter from Dr G Laxminarayana (JORC Report)",
@@ -384,7 +400,7 @@
           },
           {
             "name": "30.1 — Certificate on WACA of Equity Shares of Promoters",
-            "pdf": "documents/material-documents/30_1_Certificate_on_WACA_of_Equity Shares_of_Promoters"
+            "pdf": "documents/material-documents/30_1_Certificate_on_WACA_of_Equity Shares_of_Promoters.pdf"
           },
           {
             "name": "30.2 — Certificate on Related Party Transactions",
@@ -459,11 +475,11 @@
             "pdf": "documents/material-documents/42_2_InprincipleApproval_NSE.pdf"
           },
           {
-            "name": "43 — SEBI final observation letter bearing number SEBI/HO/CFD/RAC-DIL2/P/OW/2025/3882/1 dated February 4, 2025 addressed to the BRLMs from SEBI",
+            "name": "43 — Buyback case - V. Nagi Reddy Malireddy",
             "pdf": "documents/material-documents/43_Buyback_Case.pdf"
           },
           {
-            "name": "44 — SEBI Final Observation letter 040225",
+            "name": "44 — SEBI final observation letter bearing number SEBI/HO/CFD/RAC-DIL2/P/OW/2025/3882/1 dated February 4, 2025 addressed to the BRLMs from SEBI",
             "pdf": "documents/material-documents/44_SEBI_Final_Observation_letter_040225.pdf"
           }
         ]
