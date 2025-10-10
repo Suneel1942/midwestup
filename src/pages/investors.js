@@ -10,7 +10,8 @@ import { Button } from "@components/button"
 import { Dropdown } from "@components/dropdown"
 import { useWindowSize } from "@utils/useWindowSize"
 // import BackToTop from "@components/back-to-top"
-import { ConfirmationModal } from "@components/confirmation-modal"
+import { DRHPConfirmationModal } from "@components/drhp-confirmation-modal"
+import { RHPConfirmationModal } from "@components/rhp-confirmation-modal"
 import Accordion, { AccordionGroup } from "@components/accordion"
 import * as styles from "@styles/investments.module.scss"
 
@@ -31,34 +32,41 @@ const InvestmentsPage = ({ data }) => {
 
   const [financialReportTab, setFinancialReportTab] = useState(0)
   const [committeeTab, setCommitteeTab] = useState(0)
-  const [openModal, setOpenModal] = useState(false)
+  const [openModal, setOpenModal] = useState({ drhp: false, rhp: false })
 
   function toggleScroll() {
     document.getElementsByTagName("html")[0].classList.toggle("no-scroll")
   }
 
-  function handleModal(event) {
-    if (typeof event === "object" && !openModal) {
-      setOpenModal(true)
-      toggleScroll()
-    }
+  function openDRHPModal() {
+    setOpenModal(prev => ({ ...prev, drhp: true }))
+    toggleScroll()
+  }
 
-    if (typeof event === "object" && openModal) {
-      setOpenModal(false)
-      toggleScroll()
-    }
+  function openRHPModal() {
+    setOpenModal(prev => ({ ...prev, rhp: true }))
+    toggleScroll()
+  }
 
-    if (typeof event !== "object" && !event) {
-      setOpenModal(false)
-      toggleScroll()
-    }
+  function closeDRHPModal(confirmed) {
+    setOpenModal(prev => ({ ...prev, drhp: false }))
+    toggleScroll()
 
-    if (typeof event !== "object" && event) {
-      const drhpDoc = documents.find(el => el.title === "DRHP Document")
-      const newTabUrl = window.location.origin + drhpDoc?.pdf?.publicURL
+    if (confirmed) {
+      const doc = documents.find(el => el.title === "DRHP Document")
+      const newTabUrl = window.location.origin + doc?.pdf?.publicURL
       window.open(newTabUrl, "_blank", "noopener,noreferrer")
-      setOpenModal(false)
-      toggleScroll()
+    }
+  }
+
+  function closeRHPModal(confirmed) {
+    setOpenModal(prev => ({ ...prev, rhp: false }))
+    toggleScroll()
+
+    if (confirmed) {
+      const doc = documents.find(el => el.title === "RHP Document")
+      const newTabUrl = window.location.origin + doc?.pdf?.publicURL
+      window.open(newTabUrl, "_blank", "noopener,noreferrer")
     }
   }
 
@@ -229,39 +237,56 @@ const InvestmentsPage = ({ data }) => {
       </section>
       <section className={`custom-section-layout ${styles.documentsSection}`}>
         <ul>
-          {documents?.map((item, index) => (
-            <li key={index}>
-              <h3>{item.title}</h3>
-              <div>
-                {item.title === "DRHP Document" ? (
-                  <button onClick={handleModal} className={styles.linkButton}>
-                    View Report
-                  </button>
-                ) : (
-                  <a href={item.pdf?.publicURL} target="_blank" rel="noreferrer noopener">
-                    View Report
-                  </a>
-                )}
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="27"
-                  height="42"
-                  viewBox="0 0 27 42"
-                  fill="none"
+          {documents?.map((item, index) => {
+            const isDrhp = item.title === "DRHP Document"
+            const isRhp = item.title === "RHP Document"
+
+            let link = null
+
+            if (isDrhp || isRhp) {
+              link = (
+                <button
+                  onClick={isDrhp ? openDRHPModal : openRHPModal}
+                  className={styles.linkButton}
                 >
-                  <path
-                    d="M1 40.4824L26 20.7409L1 0.999342"
-                    stroke="black"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
-              </div>
-            </li>
-          ))}
+                  View Report
+                </button>
+              )
+            } else {
+              link = (
+                <a href={item.pdf?.publicURL} target="_blank" rel="noreferrer noopener">
+                  View Report
+                </a>
+              )
+            }
+
+            return (
+              <li key={index}>
+                <h3 className="!max-w-[250px] !text-wrap">{item.title}</h3>
+                <div>
+                  {link}
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="27"
+                    height="42"
+                    viewBox="0 0 27 42"
+                    fill="none"
+                  >
+                    <path
+                      d="M1 40.4824L26 20.7409L1 0.999342"
+                      stroke="black"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                  </svg>
+                </div>
+              </li>
+            )
+          })}
         </ul>
-        <ConfirmationModal isOpen={openModal} handleClose={handleModal} />
+        <DRHPConfirmationModal isOpen={openModal.drhp} handleClose={closeDRHPModal} />
+        <RHPConfirmationModal isOpen={openModal.rhp} handleClose={closeRHPModal} />
       </section>
       <section className="custom-section-layout">
         <h3 className="font-semibold text-5xl !mb-20 max-w-[500px] text-wrap">
