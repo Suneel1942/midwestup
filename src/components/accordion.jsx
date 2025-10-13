@@ -8,6 +8,7 @@ const Accordion = ({
   title,
   children,
   defaultOpen = false,
+  isOpen: externalIsOpen,
   className = "",
   titleClassName = "",
   contentClassName = "",
@@ -17,10 +18,15 @@ const Accordion = ({
   const context = useContext(AccordionContext)
   const [isOpen, setIsOpen] = useState(defaultOpen)
 
-  // Use group context if available, otherwise use local state
-  const isAccordionOpen = context ? context.openIndex === index : isOpen
+  // Use external isOpen prop if provided, otherwise use group context or local state
+  const isAccordionOpen =
+    externalIsOpen !== undefined ? externalIsOpen : context ? context.openIndex === index : isOpen
 
   const toggleAccordion = () => {
+    if (externalIsOpen !== undefined) {
+      // If external isOpen is provided, don't allow toggling (controlled component)
+      return
+    }
     if (context) {
       // If in a group, use group's toggle function
       context.toggleAccordion(index)

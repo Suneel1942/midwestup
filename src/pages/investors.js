@@ -12,7 +12,8 @@ import { useWindowSize } from "@utils/useWindowSize"
 // import BackToTop from "@components/back-to-top"
 import { DRHPConfirmationModal } from "@components/drhp-confirmation-modal"
 import { RHPConfirmationModal } from "@components/rhp-confirmation-modal"
-import Accordion, { AccordionGroup } from "@components/accordion"
+import { MCMDConfirmationModal } from "@components/mcmd-confirmation-modal"
+import Accordion from "@components/accordion"
 import * as styles from "@styles/investments.module.scss"
 
 const InvestmentsPage = ({ data }) => {
@@ -32,7 +33,8 @@ const InvestmentsPage = ({ data }) => {
 
   const [financialReportTab, setFinancialReportTab] = useState(0)
   const [committeeTab, setCommitteeTab] = useState(0)
-  const [openModal, setOpenModal] = useState({ drhp: false, rhp: false })
+  const [openModal, setOpenModal] = useState({ drhp: false, rhp: false, mcmd: false })
+  const [mcmdConfirmed, setMCMDConfirmed] = useState(false)
 
   function toggleScroll() {
     document.getElementsByTagName("html")[0].classList.toggle("no-scroll")
@@ -45,6 +47,13 @@ const InvestmentsPage = ({ data }) => {
 
   function openRHPModal() {
     setOpenModal(prev => ({ ...prev, rhp: true }))
+    toggleScroll()
+  }
+
+  function openMCMDModal() {
+    if (mcmdConfirmed) return
+
+    setOpenModal(prev => ({ ...prev, mcmd: true }))
     toggleScroll()
   }
 
@@ -68,6 +77,15 @@ const InvestmentsPage = ({ data }) => {
       const newTabUrl = window.location.origin + doc?.pdf?.publicURL
       window.open(newTabUrl, "_blank", "noopener,noreferrer")
     }
+  }
+
+  function closeMCMDModal(confirmed) {
+    console.log("confirmed", confirmed)
+    console.log("mcmdConfirmed", mcmdConfirmed)
+
+    setMCMDConfirmed(confirmed)
+    setOpenModal(prev => ({ ...prev, mcmd: false }))
+    toggleScroll()
   }
 
   const { width } = useWindowSize()
@@ -292,8 +310,12 @@ const InvestmentsPage = ({ data }) => {
         <h3 className="font-semibold text-5xl !mb-20 max-w-[500px] text-wrap">
           {materials.header}
         </h3>
-        <AccordionGroup>
-          <Accordion title={materials.contracts.header} defaultOpen>
+        <div onClick={() => openMCMDModal()}>
+          <Accordion
+            title={materials.contracts.header}
+            isOpen={mcmdConfirmed}
+            className={mcmdConfirmed ? "" : "pointer-events-none"}
+          >
             <ul className="flex flex-col gap-5">
               {materials.contracts.list.map((item, index) => (
                 <li key={index}>
@@ -309,7 +331,11 @@ const InvestmentsPage = ({ data }) => {
               ))}
             </ul>
           </Accordion>
-          <Accordion title={materials.documents.header}>
+          <Accordion
+            title={materials.documents.header}
+            isOpen={mcmdConfirmed}
+            className={mcmdConfirmed ? "" : "pointer-events-none"}
+          >
             <ul className="flex flex-col gap-5">
               {materials.documents.list.map((item, index) => (
                 <li key={index}>
@@ -325,7 +351,8 @@ const InvestmentsPage = ({ data }) => {
               ))}
             </ul>
           </Accordion>
-        </AccordionGroup>
+        </div>
+        <MCMDConfirmationModal isOpen={openModal.mcmd} handleClose={closeMCMDModal} />
       </section>
       <section className={`custom-section-layout ${styles.policiesSection}`}>
         <div className="columns-container">
