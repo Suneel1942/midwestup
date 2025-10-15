@@ -190,7 +190,7 @@
             "list": [
               {
                 "title": "Annual Production Capacity:",
-                "description": "The manufacturing facility can manufacture 165,000 metres of Diamond Wire per annum.",
+                "description": "The manufacturing facility can manufacture 200,000 metres of Diamond Wire per annum.",
                 "background": "backgrounds/orange.svg"
               },
               {
@@ -248,7 +248,7 @@
             "list": [
               {
                 "title": "Plant Capacity:",
-                "description": "165,000 metres of Diamond Wire produced annually.",
+                "description": "200,000 metres of Diamond Wire produced annually.",
                 "background": "backgrounds/orange.svg"
               },
               {
