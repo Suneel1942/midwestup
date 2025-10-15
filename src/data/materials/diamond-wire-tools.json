@@ -73,11 +73,11 @@
     "list": [
       {
         "title": "Production of Diamond Wire",
-        "image": "diamond-wire-tools/diamond-wire-sold.png"
+        "image": "diamond-wire-tools/production-of-diamond-wire.png"
       },
       {
         "title": "Diamond Wire Sold",
-        "image": "diamond-wire-tools/production-of-diamond-wire.png"
+        "image": "diamond-wire-tools/diamond-wire-sold.png"
       }
     ]
   },
