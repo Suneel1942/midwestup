@@ -184,6 +184,10 @@
     },
     "documents": [
       {
+        "title": "Prospectus Document",
+        "pdf": "documents/MidwestLimited_Prospectus_October_17_2025.pdf"
+      },
+      {
         "title": "RHP Document",
         "pdf": "documents/Midwest_Limited_Red_Herring_Prospectus.pdf"
       },
