@@ -34,10 +34,27 @@ const InvestmentsPage = ({ data }) => {
   const [financialReportTab, setFinancialReportTab] = useState(0)
   const [committeeTab, setCommitteeTab] = useState(0)
   const [openModal, setOpenModal] = useState({ drhp: false, rhp: false, mcmd: false })
-  const [mcmdConfirmed, setMCMDConfirmed] = useState(false)
+  const [accordionState, setAccordionState] = useState({
+    isMaterialAccordionOpen: false,
+    isDocumentsAccordionOpen: false,
+    mcmdConfirmed: false,
+  })
 
   function toggleScroll() {
     document.getElementsByTagName("html")[0].classList.toggle("no-scroll")
+  }
+
+  function toggleMaterialAccordion() {
+    if (!accordionState.mcmdConfirmed) return
+    setAccordionState(prev => ({ ...prev, isMaterialAccordionOpen: !prev.isMaterialAccordionOpen }))
+  }
+
+  function toggleDocumentsAccordion() {
+    if (!accordionState.mcmdConfirmed) return
+    setAccordionState(prev => ({
+      ...prev,
+      isDocumentsAccordionOpen: !prev.isDocumentsAccordionOpen,
+    }))
   }
 
   function openDRHPModal() {
@@ -51,7 +68,7 @@ const InvestmentsPage = ({ data }) => {
   }
 
   function openMCMDModal() {
-    if (mcmdConfirmed) return
+    if (accordionState.mcmdConfirmed) return
 
     setOpenModal(prev => ({ ...prev, mcmd: true }))
     toggleScroll()
@@ -80,10 +97,17 @@ const InvestmentsPage = ({ data }) => {
   }
 
   function closeMCMDModal(confirmed) {
-    console.log("confirmed", confirmed)
-    console.log("mcmdConfirmed", mcmdConfirmed)
-
-    setMCMDConfirmed(confirmed)
+    setAccordionState(prev => {
+      if (confirmed) {
+        return {
+          ...prev,
+          mcmdConfirmed: true,
+          isMaterialAccordionOpen: true,
+          isDocumentsAccordionOpen: true,
+        }
+      }
+      return prev
+    })
     setOpenModal(prev => ({ ...prev, mcmd: false }))
     toggleScroll()
   }
@@ -313,8 +337,9 @@ const InvestmentsPage = ({ data }) => {
         <div onClick={() => openMCMDModal()}>
           <Accordion
             title={materials.contracts.header}
-            isOpen={mcmdConfirmed}
-            className={mcmdConfirmed ? "" : "pointer-events-none"}
+            isOpen={accordionState.isMaterialAccordionOpen}
+            onOpen={toggleMaterialAccordion}
+            className={accordionState.mcmdConfirmed ? "" : "pointer-events-none"}
           >
             <ul className="flex flex-col gap-5">
               {materials.contracts.list.map((item, index) => (
@@ -333,8 +358,9 @@ const InvestmentsPage = ({ data }) => {
           </Accordion>
           <Accordion
             title={materials.documents.header}
-            isOpen={mcmdConfirmed}
-            className={mcmdConfirmed ? "" : "pointer-events-none"}
+            isOpen={accordionState.isDocumentsAccordionOpen}
+            onOpen={toggleDocumentsAccordion}
+            className={accordionState.mcmdConfirmed ? "" : "pointer-events-none"}
           >
             <ul className="flex flex-col gap-5">
               {materials.documents.list.map((item, index) => (
