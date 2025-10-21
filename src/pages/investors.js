@@ -13,6 +13,7 @@ import { useWindowSize } from "@utils/useWindowSize"
 import { DRHPConfirmationModal } from "@components/drhp-confirmation-modal"
 import { RHPConfirmationModal } from "@components/rhp-confirmation-modal"
 import { MCMDConfirmationModal } from "@components/mcmd-confirmation-modal"
+import { ProspectiveConfirmationModal } from "@components/prospective-confirmation-modal"
 import Accordion from "@components/accordion"
 import * as styles from "@styles/investments.module.scss"
 
@@ -33,11 +34,38 @@ const InvestmentsPage = ({ data }) => {
 
   const [financialReportTab, setFinancialReportTab] = useState(0)
   const [committeeTab, setCommitteeTab] = useState(0)
-  const [openModal, setOpenModal] = useState({ drhp: false, rhp: false, mcmd: false })
-  const [mcmdConfirmed, setMCMDConfirmed] = useState(false)
+  const [openModal, setOpenModal] = useState({
+    drhp: false,
+    rhp: false,
+    mcmd: false,
+    prospective: false,
+  })
+  const [accordionState, setAccordionState] = useState({
+    isMaterialAccordionOpen: false,
+    isDocumentsAccordionOpen: false,
+    mcmdConfirmed: false,
+  })
 
   function toggleScroll() {
     document.getElementsByTagName("html")[0].classList.toggle("no-scroll")
+  }
+
+  function toggleMaterialAccordion() {
+    if (!accordionState.mcmdConfirmed) return
+    setAccordionState(prev => ({ ...prev, isMaterialAccordionOpen: !prev.isMaterialAccordionOpen }))
+  }
+
+  function toggleDocumentsAccordion() {
+    if (!accordionState.mcmdConfirmed) return
+    setAccordionState(prev => ({
+      ...prev,
+      isDocumentsAccordionOpen: !prev.isDocumentsAccordionOpen,
+    }))
+  }
+
+  function openProspectiveModal() {
+    setOpenModal(prev => ({ ...prev, prospective: true }))
+    toggleScroll()
   }
 
   function openDRHPModal() {
@@ -51,10 +79,20 @@ const InvestmentsPage = ({ data }) => {
   }
 
   function openMCMDModal() {
-    if (mcmdConfirmed) return
+    if (accordionState.mcmdConfirmed) return
 
     setOpenModal(prev => ({ ...prev, mcmd: true }))
     toggleScroll()
+  }
+
+  function closeProspectiveModal(confirmed) {
+    setOpenModal(prev => ({ ...prev, prospective: false }))
+    toggleScroll()
+    if (confirmed) {
+      const doc = documents.find(el => el.title === "Prospectus Document")
+      const newTabUrl = window.location.origin + doc?.pdf?.publicURL
+      window.open(newTabUrl, "_blank", "noopener,noreferrer")
+    }
   }
 
   function closeDRHPModal(confirmed) {
@@ -80,10 +118,17 @@ const InvestmentsPage = ({ data }) => {
   }
 
   function closeMCMDModal(confirmed) {
-    console.log("confirmed", confirmed)
-    console.log("mcmdConfirmed", mcmdConfirmed)
-
-    setMCMDConfirmed(confirmed)
+    setAccordionState(prev => {
+      if (confirmed) {
+        return {
+          ...prev,
+          mcmdConfirmed: true,
+          isMaterialAccordionOpen: true,
+          isDocumentsAccordionOpen: true,
+        }
+      }
+      return prev
+    })
     setOpenModal(prev => ({ ...prev, mcmd: false }))
     toggleScroll()
   }
@@ -258,13 +303,14 @@ const InvestmentsPage = ({ data }) => {
           {documents?.map((item, index) => {
             const isDrhp = item.title === "DRHP Document"
             const isRhp = item.title === "RHP Document"
+            const isProspective = item.title === "Prospectus Document"
 
             let link = null
 
-            if (isDrhp || isRhp) {
+            if (isDrhp || isRhp || isProspective) {
               link = (
                 <button
-                  onClick={isDrhp ? openDRHPModal : openRHPModal}
+                  onClick={isDrhp ? openDRHPModal : isRhp ? openRHPModal : openProspectiveModal}
                   className={styles.linkButton}
                 >
                   View Report
@@ -305,6 +351,10 @@ const InvestmentsPage = ({ data }) => {
         </ul>
         <DRHPConfirmationModal isOpen={openModal.drhp} handleClose={closeDRHPModal} />
         <RHPConfirmationModal isOpen={openModal.rhp} handleClose={closeRHPModal} />
+        <ProspectiveConfirmationModal
+          isOpen={openModal.prospective}
+          handleClose={closeProspectiveModal}
+        />
       </section>
       <section className="custom-section-layout">
         <h3 className="font-semibold text-5xl !mb-20 max-w-[500px] text-wrap">
@@ -313,8 +363,9 @@ const InvestmentsPage = ({ data }) => {
         <div onClick={() => openMCMDModal()}>
           <Accordion
             title={materials.contracts.header}
-            isOpen={mcmdConfirmed}
-            className={mcmdConfirmed ? "" : "pointer-events-none"}
+            isOpen={accordionState.isMaterialAccordionOpen}
+            onOpen={toggleMaterialAccordion}
+            className={accordionState.mcmdConfirmed ? "" : "pointer-events-none"}
           >
             <ul className="flex flex-col gap-5">
               {materials.contracts.list.map((item, index) => (
@@ -333,8 +384,9 @@ const InvestmentsPage = ({ data }) => {
           </Accordion>
           <Accordion
             title={materials.documents.header}
-            isOpen={mcmdConfirmed}
-            className={mcmdConfirmed ? "" : "pointer-events-none"}
+            isOpen={accordionState.isDocumentsAccordionOpen}
+            onOpen={toggleDocumentsAccordion}
+            className={accordionState.mcmdConfirmed ? "" : "pointer-events-none"}
           >
             <ul className="flex flex-col gap-5">
               {materials.documents.list.map((item, index) => (

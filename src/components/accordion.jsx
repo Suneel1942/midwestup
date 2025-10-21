@@ -7,50 +7,28 @@ const AccordionContext = createContext()
 const Accordion = ({
   title,
   children,
-  defaultOpen = false,
-  isOpen: externalIsOpen,
+  isOpen,
+  onOpen,
   className = "",
   titleClassName = "",
   contentClassName = "",
   iconClassName = "",
-  index,
 }) => {
-  const context = useContext(AccordionContext)
-  const [isOpen, setIsOpen] = useState(defaultOpen)
-
-  // Use external isOpen prop if provided, otherwise use group context or local state
-  const isAccordionOpen =
-    externalIsOpen !== undefined ? externalIsOpen : context ? context.openIndex === index : isOpen
-
-  const toggleAccordion = () => {
-    if (externalIsOpen !== undefined) {
-      // If external isOpen is provided, don't allow toggling (controlled component)
-      return
-    }
-    if (context) {
-      // If in a group, use group's toggle function
-      context.toggleAccordion(index)
-    } else {
-      // If standalone, use local state
-      setIsOpen(!isOpen)
-    }
-  }
-
   return (
     <div className={`overflow-hidden ${className}`}>
       {/* Accordion Header */}
       <button
-        onClick={toggleAccordion}
+        onClick={onOpen}
         className={`
           w-full !p-4 text-left bg-[#4E4E4E] !text-white cursor-pointer text-2xl font-semibold transition-colors duration-200 flex items-center justify-between
           ${titleClassName}
         `}
-        aria-expanded={isAccordionOpen}
+        aria-expanded={isOpen}
       >
         <span className="pr-4">{title || "Accordion"}</span>
 
         <motion.div
-          animate={{ rotate: isAccordionOpen ? 180 : 0 }}
+          animate={{ rotate: isOpen ? 180 : 0 }}
           transition={{ duration: 0.3, ease: "easeInOut" }}
           className={`flex-shrink-0 ${iconClassName}`}
         >
@@ -75,7 +53,7 @@ const Accordion = ({
 
       {/* Accordion Content */}
       <AnimatePresence initial={false}>
-        {isAccordionOpen && (
+        {isOpen && (
           <motion.div
             key={`accordion-content-${title ? title.replace(/\s+/g, "-").toLowerCase() : "accordion"}`}
             initial={{ height: 0, opacity: 0 }}
@@ -110,62 +88,6 @@ const Accordion = ({
         )}
       </AnimatePresence>
     </div>
-  )
-}
-
-// Accordion Group Component for multiple accordions
-export const AccordionGroup = ({
-  children,
-  className = "",
-  allowMultiple = false,
-  defaultOpenIndex = null,
-}) => {
-  // Find the first accordion with defaultOpen prop if no defaultOpenIndex is specified
-  const getDefaultOpenIndex = () => {
-    if (defaultOpenIndex !== null) return defaultOpenIndex
-
-    let firstDefaultOpenIndex = null
-    React.Children.forEach(children, (child, index) => {
-      if (
-        React.isValidElement(child) &&
-        child.props.defaultOpen &&
-        firstDefaultOpenIndex === null
-      ) {
-        firstDefaultOpenIndex = index
-      }
-    })
-    return firstDefaultOpenIndex
-  }
-
-  const [openIndex, setOpenIndex] = useState(getDefaultOpenIndex())
-
-  const toggleAccordion = index => {
-    if (allowMultiple) {
-      // If multiple allowed, toggle individual accordions
-      setOpenIndex(openIndex === index ? null : index)
-    } else {
-      // If only one allowed, close others when opening a new one
-      setOpenIndex(openIndex === index ? null : index)
-    }
-  }
-
-  const contextValue = {
-    openIndex,
-    toggleAccordion,
-    allowMultiple,
-  }
-
-  return (
-    <AccordionContext.Provider value={contextValue}>
-      <div className={`space-y-2 ${className}`}>
-        {React.Children.map(children, (child, index) => {
-          if (React.isValidElement(child)) {
-            return React.cloneElement(child, { index })
-          }
-          return child
-        })}
-      </div>
-    </AccordionContext.Provider>
   )
 }
 
