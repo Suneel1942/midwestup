@@ -13,6 +13,7 @@ import { useWindowSize } from "@utils/useWindowSize"
 import { DRHPConfirmationModal } from "@components/drhp-confirmation-modal"
 import { RHPConfirmationModal } from "@components/rhp-confirmation-modal"
 import { MCMDConfirmationModal } from "@components/mcmd-confirmation-modal"
+import { ProspectiveConfirmationModal } from "@components/prospective-confirmation-modal"
 import Accordion from "@components/accordion"
 import * as styles from "@styles/investments.module.scss"
 
@@ -33,7 +34,12 @@ const InvestmentsPage = ({ data }) => {
 
   const [financialReportTab, setFinancialReportTab] = useState(0)
   const [committeeTab, setCommitteeTab] = useState(0)
-  const [openModal, setOpenModal] = useState({ drhp: false, rhp: false, mcmd: false })
+  const [openModal, setOpenModal] = useState({
+    drhp: false,
+    rhp: false,
+    mcmd: false,
+    prospective: false,
+  })
   const [accordionState, setAccordionState] = useState({
     isMaterialAccordionOpen: false,
     isDocumentsAccordionOpen: false,
@@ -57,6 +63,11 @@ const InvestmentsPage = ({ data }) => {
     }))
   }
 
+  function openProspectiveModal() {
+    setOpenModal(prev => ({ ...prev, prospective: true }))
+    toggleScroll()
+  }
+
   function openDRHPModal() {
     setOpenModal(prev => ({ ...prev, drhp: true }))
     toggleScroll()
@@ -72,6 +83,16 @@ const InvestmentsPage = ({ data }) => {
 
     setOpenModal(prev => ({ ...prev, mcmd: true }))
     toggleScroll()
+  }
+
+  function closeProspectiveModal(confirmed) {
+    setOpenModal(prev => ({ ...prev, prospective: false }))
+    toggleScroll()
+    if (confirmed) {
+      const doc = documents.find(el => el.title === "Prospectus Document")
+      const newTabUrl = window.location.origin + doc?.pdf?.publicURL
+      window.open(newTabUrl, "_blank", "noopener,noreferrer")
+    }
   }
 
   function closeDRHPModal(confirmed) {
@@ -282,13 +303,14 @@ const InvestmentsPage = ({ data }) => {
           {documents?.map((item, index) => {
             const isDrhp = item.title === "DRHP Document"
             const isRhp = item.title === "RHP Document"
+            const isProspective = item.title === "Prospectus Document"
 
             let link = null
 
-            if (isDrhp || isRhp) {
+            if (isDrhp || isRhp || isProspective) {
               link = (
                 <button
-                  onClick={isDrhp ? openDRHPModal : openRHPModal}
+                  onClick={isDrhp ? openDRHPModal : isRhp ? openRHPModal : openProspectiveModal}
                   className={styles.linkButton}
                 >
                   View Report
@@ -329,6 +351,10 @@ const InvestmentsPage = ({ data }) => {
         </ul>
         <DRHPConfirmationModal isOpen={openModal.drhp} handleClose={closeDRHPModal} />
         <RHPConfirmationModal isOpen={openModal.rhp} handleClose={closeRHPModal} />
+        <ProspectiveConfirmationModal
+          isOpen={openModal.prospective}
+          handleClose={closeProspectiveModal}
+        />
       </section>
       <section className="custom-section-layout">
         <h3 className="font-semibold text-5xl !mb-20 max-w-[500px] text-wrap">
