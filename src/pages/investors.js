@@ -12,7 +12,7 @@ import { useWindowSize } from "@utils/useWindowSize"
 // import BackToTop from "@components/back-to-top"
 import { DRHPConfirmationModal } from "@components/drhp-confirmation-modal"
 import { RHPConfirmationModal } from "@components/rhp-confirmation-modal"
-import { MCMDConfirmationModal } from "@components/mcmd-confirmation-modal"
+// import { MCMDConfirmationModal } from "@components/mcmd-confirmation-modal"
 import { ProspectiveConfirmationModal } from "@components/prospective-confirmation-modal"
 import Accordion from "@components/accordion"
 import * as styles from "@styles/investments.module.scss"
@@ -25,7 +25,7 @@ const InvestmentsPage = ({ data }) => {
     financial_reports: financialReports,
     annual_reports: annualReports,
     documents,
-    materials,
+    // materials,
     policies,
     governance,
     committees,
@@ -356,7 +356,7 @@ const InvestmentsPage = ({ data }) => {
           handleClose={closeProspectiveModal}
         />
       </section>
-      <section className="custom-section-layout">
+      {/*<section className="custom-section-layout">
         <h3 className="font-semibold text-5xl !mb-20 max-w-[500px] text-wrap">
           {materials.header}
         </h3>
@@ -405,7 +405,7 @@ const InvestmentsPage = ({ data }) => {
           </Accordion>
         </div>
         <MCMDConfirmationModal isOpen={openModal.mcmd} handleClose={closeMCMDModal} />
-      </section>
+      </section>*/}
       <section className={`custom-section-layout ${styles.policiesSection}`}>
         <div className="columns-container">
           <div className="left-column">
