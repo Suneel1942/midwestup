@@ -16,6 +16,7 @@ import { RHPConfirmationModal } from "@components/rhp-confirmation-modal"
 import { ProspectiveConfirmationModal } from "@components/prospective-confirmation-modal"
 import Accordion from "@components/accordion"
 import * as styles from "@styles/investments.module.scss"
+import { navigate } from "gatsby"
 
 const InvestmentsPage = ({ data }) => {
   const {
@@ -27,6 +28,7 @@ const InvestmentsPage = ({ data }) => {
     documents,
     // materials,
     policies,
+    disclosure,
     governance,
     committees,
     contact,
@@ -45,6 +47,7 @@ const InvestmentsPage = ({ data }) => {
     isDocumentsAccordionOpen: false,
     mcmdConfirmed: false,
   })
+  const [isDisclosureAccordionOpen, setIsDisclosureAccordionOpen] = useState(false)
 
   function toggleScroll() {
     document.getElementsByTagName("html")[0].classList.toggle("no-scroll")
@@ -133,6 +136,15 @@ const InvestmentsPage = ({ data }) => {
     toggleScroll()
   }
 
+  function toggleDisclosureAccordion() {
+    setIsDisclosureAccordionOpen(!isDisclosureAccordionOpen)
+  }
+
+  function handleViewDocumentClick(pdf) {
+    const newTabUrl = window.location.origin + pdf?.publicURL
+    window.open(newTabUrl, "_blank", "noopener,noreferrer")
+  }
+
   const { width } = useWindowSize()
   const [isMobile, setMobile] = useState(width < 640)
 
@@ -194,7 +206,10 @@ const InvestmentsPage = ({ data }) => {
           ))}
         </ul>
       </section> */}
-      <section className={`custom-section-layout ${styles.financialReportsSection}`}>
+      <section
+        id="financial-reports"
+        className={`custom-section-layout ${styles.financialReportsSection}`}
+      >
         <ImageSvg src="backgrounds/gray-light.svg" alt="" className={styles.background} />
         <span className={`header-text ${styles.header}`}>{financialReports.header}</span>
         <div className="columns-container">
@@ -448,6 +463,62 @@ const InvestmentsPage = ({ data }) => {
           </ul>
         </div>
       </section>
+      <section className="custom-section-layout">
+        <h3 className="font-semibold text-5xl !mb-16 max-w-[500px] text-wrap">
+          {disclosure.header}
+        </h3>
+        <Accordion
+          title={disclosure.accordion_title}
+          isOpen={isDisclosureAccordionOpen}
+          onOpen={toggleDisclosureAccordion}
+          contentClassName="!py-0"
+        >
+          <ul className="flex flex-col">
+            {/* FIRST ITEM */}
+            {disclosure.list.map(item => {
+              let button = null
+              if (item.internal_link) {
+                button = (
+                  <Button
+                    className="!px-6 !py-3 text-nowrap"
+                    text={item.button_title}
+                    color="#91CB00"
+                    onClick={() => navigate(item?.internal_link)}
+                  />
+                )
+              } else if (item.pdf) {
+                button = (
+                  <Button
+                    className="!px-6 !py-3 text-nowrap"
+                    text={item.button_title}
+                    color="#91CB00"
+                    onClick={() => handleViewDocumentClick(item?.pdf)}
+                  />
+                )
+              } else {
+                button = (
+                  <Button
+                    className="!px-6 !py-3 text-nowrap"
+                    text={item.button_title}
+                    color="#91CB00"
+                    disabled
+                  />
+                )
+              }
+
+              return (
+                <li
+                  key={item.title}
+                  className="!py-2 flex justify-between items-center gap-4 border-b border-[#C9CED2]"
+                >
+                  <p className="text-2xl leading-[115%]">{item.title}</p>
+                  {button}
+                </li>
+              )
+            })}
+          </ul>
+        </Accordion>
+      </section>
       <section className={`custom-section-layout ${styles.governanceSection}`}>
         <Image src={governance?.background_image} alt="" className={styles.background} />
         <span className="header-text">{governance?.header}</span>
@@ -460,7 +531,7 @@ const InvestmentsPage = ({ data }) => {
           </div>
         </div>
       </section>
-      <section className={`custom-section-layout ${styles.committeesSection}`}>
+      <section id="committees" className={`custom-section-layout ${styles.committeesSection}`}>
         <div className="columns-container">
           <div className="left-column">
             <h2 className="section-column-title">{committees.header}</h2>
@@ -516,7 +587,7 @@ const InvestmentsPage = ({ data }) => {
           </div>
         </div>
       </section>
-      <section className={`custom-section-layout ${styles.contactSection}`}>
+      <section id="contact" className={`custom-section-layout ${styles.contactSection}`}>
         <span className="header-text">{contact?.header}</span>
         <div className="columns-container">
           <div className="left-column">
@@ -658,6 +729,18 @@ export const aboutPageQuery = graphql`
             publicURL
           }
           background
+        }
+      }
+      disclosure {
+        header
+        accordion_title
+        list {
+          title
+          button_title
+          pdf {
+            publicURL
+          }
+          internal_link
         }
       }
       governance {
