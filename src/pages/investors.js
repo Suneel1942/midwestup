@@ -16,6 +16,7 @@ import { RHPConfirmationModal } from "@components/rhp-confirmation-modal"
 import { ProspectiveConfirmationModal } from "@components/prospective-confirmation-modal"
 import Accordion from "@components/accordion"
 import * as styles from "@styles/investments.module.scss"
+import { navigate } from "gatsby"
 
 const InvestmentsPage = ({ data }) => {
   const {
@@ -137,6 +138,11 @@ const InvestmentsPage = ({ data }) => {
 
   function toggleDisclosureAccordion() {
     setIsDisclosureAccordionOpen(!isDisclosureAccordionOpen)
+  }
+
+  function handleViewDocumentClick(pdf) {
+    const newTabUrl = window.location.origin + pdf?.publicURL
+    window.open(newTabUrl, "_blank", "noopener,noreferrer")
   }
 
   const { width } = useWindowSize()
@@ -472,7 +478,7 @@ const InvestmentsPage = ({ data }) => {
                 className="!px-6 !py-3"
                 text={disclosure.list[0].button_title}
                 color="#91CB00"
-                onClick={() => console.log("clicked")}
+                onClick={() => handleViewDocumentClick(disclosure.list[0]?.pdf)}
               />
             </li>
             {/* SECOND ITEM */}
@@ -492,7 +498,7 @@ const InvestmentsPage = ({ data }) => {
                 className="!px-6 !py-3"
                 text={disclosure.list[2].button_title}
                 color="#91CB00"
-                onClick={() => console.log("clicked")}
+                onClick={() => navigate(disclosure.list[2]?.internal_link)}
               />
             </li>
           </ul>
@@ -716,6 +722,10 @@ export const aboutPageQuery = graphql`
         list {
           title
           button_title
+          pdf {
+            publicURL
+          }
+          internal_link
         }
       }
       governance {

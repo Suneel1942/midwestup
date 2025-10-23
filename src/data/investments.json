@@ -625,15 +625,17 @@
       "list": [
         {
           "title": "Doc name here",
-          "button_title": "View Document"
+          "button-title": "View Document",
+          "pdf": "documents/material-documents/38_CTC_Uma-Priyadarshani-Kollareddy.pdf"
         },
         {
           "title": "Doc name here",
-          "button_title": "Not Applicable"
+          "button-title": "Not Applicable"
         },
         {
           "title": "Doc name here",
-          "button_title": "View Details"
+          "button-title": "View Details",
+          "internal-link": "/about"
         }
       ]
     },
