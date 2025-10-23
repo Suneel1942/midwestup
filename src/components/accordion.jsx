@@ -77,8 +77,7 @@ const Accordion = ({
           >
             <div
               id={`accordion-content-${title ? title.replace(/\s+/g, "-").toLowerCase() : "accordion"}`}
-              className={`
-                !py-[30px]
+              className={`py-[30px]
                 ${contentClassName}
               `}
             >

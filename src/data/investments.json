@@ -619,6 +619,24 @@
         }
       ]
     },
+    "disclosure": {
+      "header": "Disclosures under Regulation 46 of LODR",
+      "accordion-title": "View Documents",
+      "list": [
+        {
+          "title": "Doc name here",
+          "button_title": "View Document"
+        },
+        {
+          "title": "Doc name here",
+          "button_title": "Not Applicable"
+        },
+        {
+          "title": "Doc name here",
+          "button_title": "View Details"
+        }
+      ]
+    },
     "governance": {
       "background-image": "investments/investments-governance-bg.jpg",
       "header": "Corporate Governance",

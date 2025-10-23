@@ -27,6 +27,7 @@ const InvestmentsPage = ({ data }) => {
     documents,
     // materials,
     policies,
+    disclosure,
     governance,
     committees,
     contact,
@@ -45,6 +46,7 @@ const InvestmentsPage = ({ data }) => {
     isDocumentsAccordionOpen: false,
     mcmdConfirmed: false,
   })
+  const [isDisclosureAccordionOpen, setIsDisclosureAccordionOpen] = useState(false)
 
   function toggleScroll() {
     document.getElementsByTagName("html")[0].classList.toggle("no-scroll")
@@ -131,6 +133,10 @@ const InvestmentsPage = ({ data }) => {
     })
     setOpenModal(prev => ({ ...prev, mcmd: false }))
     toggleScroll()
+  }
+
+  function toggleDisclosureAccordion() {
+    setIsDisclosureAccordionOpen(!isDisclosureAccordionOpen)
   }
 
   const { width } = useWindowSize()
@@ -448,6 +454,50 @@ const InvestmentsPage = ({ data }) => {
           </ul>
         </div>
       </section>
+      <section className="custom-section-layout">
+        <h3 className="font-semibold text-5xl !mb-16 max-w-[500px] text-wrap">
+          {disclosure.header}
+        </h3>
+        <Accordion
+          title={disclosure.accordion_title}
+          isOpen={isDisclosureAccordionOpen}
+          onOpen={toggleDisclosureAccordion}
+          contentClassName="!py-0"
+        >
+          <ul className="flex flex-col">
+            {/* FIRST ITEM */}
+            <li className="!py-2 flex justify-between items-center border-b border-[#C9CED2]">
+              <p className="text-2xl leading-[115%]">{disclosure.list[0].title}</p>
+              <Button
+                className="!px-6 !py-3"
+                text={disclosure.list[0].button_title}
+                color="#91CB00"
+                onClick={() => console.log("clicked")}
+              />
+            </li>
+            {/* SECOND ITEM */}
+            <li className="!py-2 flex justify-between items-center border-b border-[#C9CED2]">
+              <p className="text-2xl leading-[115%]">{disclosure.list[1].title}</p>
+              <Button
+                className="!px-6 !py-3"
+                text={disclosure.list[1].button_title}
+                color="#91CB00"
+                disabled
+              />
+            </li>
+            {/* THIRD ITEM */}
+            <li className="!py-2 flex justify-between items-center border-b border-[#C9CED2]">
+              <p className="text-2xl leading-[115%]">{disclosure.list[2].title}</p>
+              <Button
+                className="!px-6 !py-3"
+                text={disclosure.list[2].button_title}
+                color="#91CB00"
+                onClick={() => console.log("clicked")}
+              />
+            </li>
+          </ul>
+        </Accordion>
+      </section>
       <section className={`custom-section-layout ${styles.governanceSection}`}>
         <Image src={governance?.background_image} alt="" className={styles.background} />
         <span className="header-text">{governance?.header}</span>
@@ -658,6 +708,14 @@ export const aboutPageQuery = graphql`
             publicURL
           }
           background
+        }
+      }
+      disclosure {
+        header
+        accordion_title
+        list {
+          title
+          button_title
         }
       }
       governance {
