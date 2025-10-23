@@ -624,18 +624,134 @@
       "accordion-title": "View Documents",
       "list": [
         {
-          "title": "Doc name here",
-          "button-title": "View Document",
-          "pdf": "documents/material-documents/38_CTC_Uma-Priyadarshani-Kollareddy.pdf"
+          "title": "Details of Business",
+          "button-title": "View Details",
+          "internal-link": "/about"
         },
         {
-          "title": "Doc name here",
+          "title": "Board of Directors - Brief Profile",
+          "button-title": "View Details",
+          "internal-link": "/about#management"
+        },
+        {
+          "title": "Details of Directorship and Full-time Positions in Body Corporates held by Directors",
+          "button-title": "Download",
+          "pdf": "documents/disclosure/list-of-directorship.pdf"
+        },
+        {
+          "title": "Memorandum of Association & Articles of Association",
+          "button-title": "Download",
+          "pdf": "documents/material-documents/1_COI_MOA_AOA.pdf"
+        },
+        {
+          "title": "Terms and Conditions of Appointment of Independent Directors",
+          "button-title": "Download",
+          "pdf": "documents/codes-and-policies/TERMS_AND_CONDITIONS_OF_APPOINTMENT_OF_INDEPENDENT_DIRECTORS.pdf"
+        },
+        {
+          "title": "Composition of Various Committees of Board of Directors",
+          "button-title": "View Details",
+          "internal-link": "/investors#committees"
+        },
+        {
+          "title": "Code of Conduct of Board of Directors and Senior Management Personnel",
+          "button-title": "Download",
+          "pdf": "documents/codes-and-policies/CODE_OF_CONDUCT_FOR_BOD_AND_SMP.pdf"
+        },
+        {
+          "title": "Details of Establishment of Vigil Mechanism / Whistle Blower Policy",
+          "button-title": "Download",
+          "pdf": "documents/codes-and-policies/WHISTLE_BLOWER_POLICY.pdf"
+        },
+        {
+          "title": "Criteria of making payments to non-executive directors",
+          "button-title": "Download",
+          "pdf": "documents/codes-and-policies/NOMINATION_AND_REMUNERATION_POLICY.pdf"
+        },
+        {
+          "title": "Policy on Dealing with Related Party Transactions",
+          "button-title": "Download",
+          "pdf": "documents/codes-and-policies/POLICY_ON_RELATED_PARTY_TRANSACTIONS.pdf"
+        },
+        {
+          "title": "Policy for Determining ‘Material’ Subsidiaries",
+          "button-title": "Download",
+          "pdf": "documents/codes-and-policies/POLICY_FOR_DETERMINING_MATERIAL_SUBSIDIARIES.pdf"
+        },
+        {
+          "title": "Details of Familiarization Programmes Imparted to Independent Directors",
           "button-title": "Not Applicable"
         },
         {
-          "title": "Doc name here",
+          "title": "The Email Address for Grievance Redressal and Other Relevant Details",
           "button-title": "View Details",
-          "internal-link": "/about"
+          "internal-link": "/investors#contact"
+        },
+        {
+          "title": "Contact Information of Designated Officials Responsible for Assisting and Handling Investor Grievances",
+          "button-title": "View Details",
+          "internal-link": "/investors#contact"
+        },
+        {
+          "title": "Details of agreements entered into with the media companies and/or their associates, etc;",
+          "button-title": "Not Applicable"
+        },
+        {
+          "title": "Schedule of analysts or institutional investors meet",
+          "button-title": "Not Applicable"
+        },
+        {
+          "title": "Presentations prepared by the listed entity for analysts or institutional investors meet, post earnings or quarterly calls prior to beginning of such events.",
+          "button-title": "Not Applicable"
+        },
+        {
+          "title": "Audio recordings, video recordings, if any, and transcripts of post earnings or quarterly calls, by whatever name called, conducted physically or through digital means, in the following manner:",
+          "button-title": "Not Applicable"
+        },
+        {
+          "title": "New name and the old name of the listed entity for a continuous period of one year, from the date of the last name change",
+          "button-title": "Download",
+          "pdf": "documents/disclosure/COI-Midwest_Private_Limited.pdf"
+        },
+        {
+          "title": "Separate audited financial statements of each subsidiary of the listed entity in respect of a relevant financial year, uploaded at least 21 days prior to the date of the annual general meeting which has been called to inter alia consider accounts of that financial year",
+          "button-title": "View Details",
+          "internal-link": "/investors#financial-reports"
+        },
+        {
+          "title": "Secretarial compliance report as per sub-regulation (2) of regulation 24A of these regulations;",
+          "button-title": "Not Applicable"
+        },
+        {
+          "title": "Disclosure of the policy for determination of materiality of events or information required under clause (ii), sub-regulation (4) of regulation 30 of these regulations;",
+          "button-title": "Download",
+          "pdf": "documents/codes-and-policies/CODE_OF_CONDUCT_TO_REGULATE_MONITOR_AND_REPORT_TRADING_BY_DESIGNATED_PERSONS.pdf"
+        },
+        {
+          "title": "Disclosure of contact details of key managerial personnel who are authorized for the purpose of determining materiality of an event or information and for the purpose of making disclosures to stock exchange(s) as required under sub-regulation (5) of regulation 30 of these regulations;",
+          "button-title": "Download"
+        },
+        {
+          "title": "Disclosures under sub-regulation (8) of regulation 30 of these regulations;",
+          "button-title": "View Details"
+        },
+        {
+          "title": "Statements of deviation(s) or variation(s) as specified in regulation 32 of these regulations;",
+          "button-title": "Not Applicable"
+        },
+        {
+          "title": "Dividend distribution policy by listed entities based on market capitalisation as specified in sub-regulation (1) of regulation 43A; ",
+          "button-title": "Download",
+          "pdf": "documents/codes-and-policies/DIVIDEND_DISTRIBUTION_POLICY.pdf"
+        },
+        {
+          "title": "Annual return as provided under section 92 of the Companies Act, 2013 and the rules made thereunder",
+          "button-title": "Download",
+          "pdf": "documents/disclosure/Annual Return_2023-24.pdf"
+        },
+        {
+          "title": "Employee Benefit Scheme Documents, excluding commercial secrets and such other information that would affect competitive position of the listed entity, framed in terms of the provisions of Securities and Exchange Board of India (Share Based Employee Benefits and Sweat Equity) Regulations, 2021",
+          "button-title": "Not Applicable"
         }
       ]
     },

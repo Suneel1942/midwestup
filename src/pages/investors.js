@@ -206,7 +206,10 @@ const InvestmentsPage = ({ data }) => {
           ))}
         </ul>
       </section> */}
-      <section className={`custom-section-layout ${styles.financialReportsSection}`}>
+      <section
+        id="financial-reports"
+        className={`custom-section-layout ${styles.financialReportsSection}`}
+      >
         <ImageSvg src="backgrounds/gray-light.svg" alt="" className={styles.background} />
         <span className={`header-text ${styles.header}`}>{financialReports.header}</span>
         <div className="columns-container">
@@ -472,35 +475,47 @@ const InvestmentsPage = ({ data }) => {
         >
           <ul className="flex flex-col">
             {/* FIRST ITEM */}
-            <li className="!py-2 flex justify-between items-center border-b border-[#C9CED2]">
-              <p className="text-2xl leading-[115%]">{disclosure.list[0].title}</p>
-              <Button
-                className="!px-6 !py-3"
-                text={disclosure.list[0].button_title}
-                color="#91CB00"
-                onClick={() => handleViewDocumentClick(disclosure.list[0]?.pdf)}
-              />
-            </li>
-            {/* SECOND ITEM */}
-            <li className="!py-2 flex justify-between items-center border-b border-[#C9CED2]">
-              <p className="text-2xl leading-[115%]">{disclosure.list[1].title}</p>
-              <Button
-                className="!px-6 !py-3"
-                text={disclosure.list[1].button_title}
-                color="#91CB00"
-                disabled
-              />
-            </li>
-            {/* THIRD ITEM */}
-            <li className="!py-2 flex justify-between items-center border-b border-[#C9CED2]">
-              <p className="text-2xl leading-[115%]">{disclosure.list[2].title}</p>
-              <Button
-                className="!px-6 !py-3"
-                text={disclosure.list[2].button_title}
-                color="#91CB00"
-                onClick={() => navigate(disclosure.list[2]?.internal_link)}
-              />
-            </li>
+            {disclosure.list.map(item => {
+              let button = null
+              if (item.internal_link) {
+                button = (
+                  <Button
+                    className="!px-6 !py-3 text-nowrap"
+                    text={item.button_title}
+                    color="#91CB00"
+                    onClick={() => navigate(item?.internal_link)}
+                  />
+                )
+              } else if (item.pdf) {
+                button = (
+                  <Button
+                    className="!px-6 !py-3 text-nowrap"
+                    text={item.button_title}
+                    color="#91CB00"
+                    onClick={() => handleViewDocumentClick(item?.pdf)}
+                  />
+                )
+              } else {
+                button = (
+                  <Button
+                    className="!px-6 !py-3 text-nowrap"
+                    text={item.button_title}
+                    color="#91CB00"
+                    disabled
+                  />
+                )
+              }
+
+              return (
+                <li
+                  key={item.title}
+                  className="!py-2 flex justify-between items-center gap-4 border-b border-[#C9CED2]"
+                >
+                  <p className="text-2xl leading-[115%]">{item.title}</p>
+                  {button}
+                </li>
+              )
+            })}
           </ul>
         </Accordion>
       </section>
@@ -516,7 +531,7 @@ const InvestmentsPage = ({ data }) => {
           </div>
         </div>
       </section>
-      <section className={`custom-section-layout ${styles.committeesSection}`}>
+      <section id="committees" className={`custom-section-layout ${styles.committeesSection}`}>
         <div className="columns-container">
           <div className="left-column">
             <h2 className="section-column-title">{committees.header}</h2>
@@ -572,7 +587,7 @@ const InvestmentsPage = ({ data }) => {
           </div>
         </div>
       </section>
-      <section className={`custom-section-layout ${styles.contactSection}`}>
+      <section id="contact" className={`custom-section-layout ${styles.contactSection}`}>
         <span className="header-text">{contact?.header}</span>
         <div className="columns-container">
           <div className="left-column">

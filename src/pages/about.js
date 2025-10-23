@@ -421,7 +421,7 @@ const AboutPage = ({ data }) => {
           </div>
         </div>
       </section> */}
-      <section className={`custom-section-layout ${styles.managementSection}`}>
+      <section id="management" className={`custom-section-layout ${styles.managementSection}`}>
         <ImageSvg src={management.background} alt="" className={styles.background} />
         <span className={`header-text ${styles.header}`}>{management.header}</span>
         <div className="columns-container">
