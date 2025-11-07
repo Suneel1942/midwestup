@@ -714,6 +714,16 @@
           "pdf": "documents/disclosure/COI-Midwest_Private_Limited.pdf"
         },
         {
+          "title": "Credit Ratings",
+          "button-title": "Download",
+          "pdf": "documents/disclosure/Intimation_of_Credit_Ratings.pdf"
+        },
+        {
+          "title": "Prior Intimation of Board Meeting - 12.10.2025",
+          "button-title": "Download",
+          "pdf": "documents/disclosure/Prior_Intimation.pdf"
+        },
+        {
           "title": "Separate audited financial statements of each subsidiary of the listed entity in respect of a relevant financial year, uploaded at least 21 days prior to the date of the annual general meeting which has been called to inter alia consider accounts of that financial year",
           "button-title": "View Details",
           "internal-link": "/investors#financial-reports"
