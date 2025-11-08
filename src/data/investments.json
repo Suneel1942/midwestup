@@ -698,7 +698,8 @@
         },
         {
           "title": "Schedule of analysts or institutional investors meet",
-          "button-title": "Not Applicable"
+          "button-title": "Download",
+          "pdf": "documents/disclosure/schedule_of_analysts_institutional_investors_meet.pdf"
         },
         {
           "title": "Presentations prepared by the listed entity for analysts or institutional investors meet, post earnings or quarterly calls prior to beginning of such events.",
