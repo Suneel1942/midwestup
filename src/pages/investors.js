@@ -28,7 +28,7 @@ const InvestmentsPage = ({ data }) => {
     documents,
     // materials,
     policies,
-    disclosure,
+    disclosures,
     governance,
     committees,
     contact,
@@ -47,7 +47,7 @@ const InvestmentsPage = ({ data }) => {
     isDocumentsAccordionOpen: false,
     mcmdConfirmed: false,
   })
-  const [isDisclosureAccordionOpen, setIsDisclosureAccordionOpen] = useState(false)
+  const [openDisclosureAccordionId, setOpenDisclosureAccordionId] = useState(null)
 
   function toggleScroll() {
     document.getElementsByTagName("html")[0].classList.toggle("no-scroll")
@@ -81,12 +81,12 @@ const InvestmentsPage = ({ data }) => {
     toggleScroll()
   }
 
-  function openMCMDModal() {
-    if (accordionState.mcmdConfirmed) return
+  // function openMCMDModal() {
+  //   if (accordionState.mcmdConfirmed) return
 
-    setOpenModal(prev => ({ ...prev, mcmd: true }))
-    toggleScroll()
-  }
+  //   setOpenModal(prev => ({ ...prev, mcmd: true }))
+  //   toggleScroll()
+  // }
 
   function closeProspectiveModal(confirmed) {
     setOpenModal(prev => ({ ...prev, prospective: false }))
@@ -136,8 +136,8 @@ const InvestmentsPage = ({ data }) => {
     toggleScroll()
   }
 
-  function toggleDisclosureAccordion() {
-    setIsDisclosureAccordionOpen(!isDisclosureAccordionOpen)
+  function toggleDisclosureAccordion(accordionId) {
+    setOpenDisclosureAccordionId(prev => (prev === accordionId ? null : accordionId))
   }
 
   function handleViewDocumentClick(pdf) {
@@ -463,61 +463,70 @@ const InvestmentsPage = ({ data }) => {
           </ul>
         </div>
       </section>
-      <section className="custom-section-layout">
-        <h3 className="font-semibold text-5xl !mb-16 max-w-[500px] text-wrap">
-          {disclosure.header}
-        </h3>
-        <Accordion
-          title={disclosure.accordion_title}
-          isOpen={isDisclosureAccordionOpen}
-          onOpen={toggleDisclosureAccordion}
-          contentClassName="!py-0"
-        >
-          <ul className="flex flex-col">
-            {/* FIRST ITEM */}
-            {disclosure.list.map(item => {
-              let button = null
-              if (item.internal_link) {
-                button = (
-                  <Button
-                    className="!px-6 !py-3 text-nowrap"
-                    text={item.button_title}
-                    color="#91CB00"
-                    onClick={() => navigate(item?.internal_link)}
-                  />
-                )
-              } else if (item.pdf) {
-                button = (
-                  <Button
-                    className="!px-6 !py-3 text-nowrap"
-                    text={item.button_title}
-                    color="#91CB00"
-                    onClick={() => handleViewDocumentClick(item?.pdf)}
-                  />
-                )
-              } else {
-                button = (
-                  <Button
-                    className="!px-6 !py-3 text-nowrap"
-                    text={item.button_title}
-                    color="#91CB00"
-                    disabled
-                  />
-                )
-              }
+      <section className="custom-section-layout" style={{ overflowAnchor: "none" }}>
+        {disclosures?.header && (
+          <h3 className="font-semibold text-5xl !mb-16 max-w-[500px] text-wrap">
+            {disclosures.header}
+          </h3>
+        )}
+        {disclosures?.accordions?.map((accordion, index) => (
+          <div
+            key={accordion.id}
+            id={`accordion-${accordion.id}`}
+            style={{ overflowAnchor: "none" }}
+          >
+            <Accordion
+              title={accordion.title}
+              isOpen={openDisclosureAccordionId === accordion.id}
+              onOpen={() => toggleDisclosureAccordion(accordion.id)}
+              contentClassName="!py-0"
+            >
+              <ul className="flex flex-col">
+                {accordion.list.map(item => {
+                  let button = null
+                  if (item.internal_link) {
+                    button = (
+                      <Button
+                        className="!px-6 !py-3 text-nowrap"
+                        text={item.button_title}
+                        color="#91CB00"
+                        onClick={() => navigate(item?.internal_link)}
+                      />
+                    )
+                  } else if (item.pdf) {
+                    button = (
+                      <Button
+                        className="!px-6 !py-3 text-nowrap"
+                        text={item.button_title}
+                        color="#91CB00"
+                        onClick={() => handleViewDocumentClick(item?.pdf)}
+                      />
+                    )
+                  } else {
+                    button = (
+                      <Button
+                        className="!px-6 !py-3 text-nowrap"
+                        text={item.button_title}
+                        color="#91CB00"
+                        disabled
+                      />
+                    )
+                  }
 
-              return (
-                <li
-                  key={item.title}
-                  className="!py-2 flex justify-between items-center gap-4 border-b border-[#C9CED2]"
-                >
-                  <p className="text-2xl leading-[115%]">{item.title}</p>
-                  {button}
-                </li>
-              )
-            })}
-          </ul>
-        </Accordion>
+                  return (
+                    <li
+                      key={item.title}
+                      className="!py-2 flex justify-between items-center gap-4 border-b border-[#C9CED2]"
+                    >
+                      <p className="text-2xl leading-[115%]">{item.title}</p>
+                      {button}
+                    </li>
+                  )
+                })}
+              </ul>
+            </Accordion>
+          </div>
+        ))}
       </section>
       <section className={`custom-section-layout ${styles.governanceSection}`}>
         <Image src={governance?.background_image} alt="" className={styles.background} />
@@ -731,16 +740,19 @@ export const aboutPageQuery = graphql`
           background
         }
       }
-      disclosure {
+      disclosures {
         header
-        accordion_title
-        list {
+        accordions {
+          id
           title
-          button_title
-          pdf {
-            publicURL
+          list {
+            title
+            button_title
+            pdf {
+              publicURL
+            }
+            internal_link
           }
-          internal_link
         }
       }
       governance {
