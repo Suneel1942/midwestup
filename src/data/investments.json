@@ -777,6 +777,17 @@
           ]
         },
         {
+          "id": "financial-results",
+          "title": "Financial Results",
+          "list": [
+            {
+              "title": "Un-audited Financial Results for Q2 - FY 2025-26",
+              "button-title": "Download",
+              "pdf": "documents/disclosure/Un-audited_Financial_Results_Q2-FY2025-26.pdf"
+            }
+          ]
+        },
+        {
           "id": "annual-returns",
           "title": "Annual Returns",
           "list": [
