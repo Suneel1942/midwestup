@@ -700,18 +700,6 @@
               "button-title": "Not Applicable"
             },
             {
-              "title": "Schedule of analysts or institutional investors meet",
-              "button-title": "Not Applicable"
-            },
-            {
-              "title": "Presentations prepared by the listed entity for analysts or institutional investors meet, post earnings or quarterly calls prior to beginning of such events.",
-              "button-title": "Not Applicable"
-            },
-            {
-              "title": "Audio recordings, video recordings, if any, and transcripts of post earnings or quarterly calls, by whatever name called, conducted physically or through digital means, in the following manner:",
-              "button-title": "Not Applicable"
-            },
-            {
               "title": "New name and the old name of the listed entity for a continuous period of one year, from the date of the last name change",
               "button-title": "Download",
               "pdf": "documents/disclosure/COI-Midwest_Private_Limited.pdf"
@@ -794,6 +782,17 @@
               "title": "Un-audited Financial Results for Q2 - FY 2025-26",
               "button-title": "Download",
               "pdf": "documents/disclosure/Un-audited_Financial_Results_Q2-FY2025-26.pdf"
+            }
+          ]
+        },
+        {
+          "id": "investor-call",
+          "title": "Analyst and Investor Meet - Investor Call Intimation",
+          "list": [
+            {
+              "title": "Intimation of Earnings Conference Call for Q2 & H1 FY26",
+              "button-title": "Download",
+              "pdf": "documents/disclosure/schedule_of_analysts_institutional_investors_meet.pdf"
             }
           ]
         },
