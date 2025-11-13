@@ -796,7 +796,18 @@
             }
           ]
         },
-         {
+        {
+          "id": "recording-transcript",
+          "title": "Analyst and Investor Meet - Recording and Transcripts",
+          "list": [
+            {
+              "title": "Audio Link Q2 FY 2025-26 Earnings Call",
+              "button-title": "Play Now",
+              "pdf": "documents/disclosure/Midwest_Audio_Q2FY26.mp3"
+            }
+          ]
+        },
+		{
           "id": "integrated-filing",
           "title": "Integrated Filing (Finance)",
           "list": [
@@ -809,17 +820,6 @@
               "title": "Integrated Filing (Finance) Consolidated September 30, 2025",
               "button-title": "Download",
               "pdf": "documents/disclosure/Integrated_Filing_Finance_Ind AS_Consolidated.pdf"
-            }
-          ]
-        },
-		{
-          "id": "recording-transcript",
-          "title": "Analyst and Investor Meet - Recording and Transcripts",
-          "list": [
-            {
-              "title": "Audio Link Q2 FY 2025-26 Earnings Call",
-              "button-title": "Play Now",
-              "pdf": "documents/disclosure/Midwest_Audio_Q2FY26.mp3"
             }
           ]
         },
