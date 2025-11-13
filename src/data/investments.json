@@ -796,6 +796,22 @@
             }
           ]
         },
+         {
+          "id": "integrated-filing",
+          "title": "Integrated Filing (Finance)",
+          "list": [
+            {
+              "title": "Integrated Filing (Finance) Standalone September 30, 2025",
+              "button-title": "Download",
+              "pdf": "documents/disclosure/Integrated_Filing_Finance_Ind_AS_Standalone.pdf"
+            },
+	          {
+              "title": "Integrated Filing (Finance) Consolidated September 30, 2025",
+              "button-title": "Download",
+              "pdf": "documents/disclosure/Integrated_Filing_Finance_Ind AS_Consolidated.pdf"
+            }
+          ]
+        },
         {
           "id": "annual-returns",
           "title": "Annual Returns",
