@@ -808,6 +808,28 @@
           ]
         },
 		{
+          "id": "investor-presentation",
+          "title": "Investor Presentation",
+          "list": [
+            {
+              "title": "Investor Presentation - Q2 & H1FY26",
+              "button-title": "Download",
+              "pdf": "documents/disclosure/Reg30_Investor_Presentation.pdf"
+            }
+          ]
+        },
+		{
+          "id": "newspaper-publications",
+          "title": "Newspaper Publications",
+          "list": [
+            {
+              "title": "Un-audited Financial Results for Q2 - FY 2025-26",
+              "button-title": "Download",
+              "pdf": "documents/disclosure/Reg_30_Newspaper_Publication_.pdf"
+            }
+          ]
+        },
+		{
           "id": "integrated-filing",
           "title": "Integrated Filing (Finance)",
           "list": [
