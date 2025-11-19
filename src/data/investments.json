@@ -800,7 +800,12 @@
           "id": "recording-transcript",
           "title": "Analyst and Investor Meet - Recording and Transcripts",
           "list": [
-            {
+             {
+              "title": "Transcript - Q2 FY 2025-26 Earnings Call",
+              "button-title": "Download",
+              "pdf": "documents/disclosure/Reg30_Concall_Transcript_Q2H1FY26.pdf"
+            },
+			  {
               "title": "Audio Link Q2 FY 2025-26 Earnings Call",
               "button-title": "Play Now",
               "pdf": "documents/disclosure/Midwest_Audio_Q2FY26.mp3"
