@@ -897,6 +897,109 @@
               "pdf": "documents/disclosure/Annual_Action_Plan_CSR_AP.pdf"
             }
           ]
+        },
+        {
+          "id": "Subsidiary-Financials",
+          "title": "Subsidiary Financials",
+          "list": [
+            {
+              "title": "Andhra Pradesh Granite (Midwest) Private Limited",
+              "button-title": "View",
+              "pdf": "documents/disclosure/APGMPL_FS_FY_2024-25.pdf"
+            },
+	          {
+              "title": "Midwest Neostone Private Limited",
+              "button-title": "View",
+              "pdf": "documents/disclosure/Midwest_Neostone_FY_2024-25.pdf"
+            },
+            {
+              "title": "AP Midwest Galaxy Private Limited",
+              "button-title": "View",
+              "pdf": "documents/disclosure/AP_Midwest_Galaxy_Private_Limited_FY_2024-25.pdf"
+            },
+            {
+              "title": "Reliance Diamond Tools Private Limited",
+              "button-title": "View",
+              "pdf": "documents/disclosure/Reliance_Diamond_Tools_FY_2024-25.pdf"
+            },
+            {
+              "title": "Midwest Holdings Limited",
+              "button-title": "View",
+              "pdf": "documents/disclosure/Midwest_Holding_Limited_FY_2024-25.pdf"
+            },
+            {
+              "title": "Trinco Mineral Sands Private Limited",
+              "button-title": "View",
+              "pdf": "documents/disclosure/Trinco_Mineral_Sands_FY_2024-25.pdf"
+            },
+            {
+              "title": "Midwest Heavy Sands Private Limited",
+              "button-title": "View",
+              "pdf": "documents/disclosure/Midwest_Heavy_Sands_FY_2024-25.pdf"
+            },
+            {
+              "title": "Maven Holdings Limited",
+              "button-title": "View",
+              "pdf": "documents/disclosure/Midwest_Holding_Limited_FY_2024-25.pdf"
+            },
+            {
+              "title": "Midwest Africa LDA",
+              "button-title": "View",
+              "pdf": "documents/disclosure/Midwest_Africa_LDA_FY_2024-25.pdf"
+            },
+            {
+              "title": "Midwest Koriba LDA",
+              "button-title": "View",
+              "pdf": "documents/disclosure/Midwest_Koriba_LDA_FY_2024-25.pdf"
+            },
+            {
+              "title": "Southasia Granite and Marble Private Limited",
+              "button-title": "View",
+              "pdf": "documents/disclosure/Southasia_Granite_Marble_FY_2024-25.pdf"
+            },
+            {
+              "title": "Deccan Silica LLP",
+              "button-title": "View",
+              "pdf": "documents/disclosure/Deccan_Silica_LLP_FY_2024-25.pdf"
+            },
+            {
+              "title": "NDR Mining Co (Partnership Firm)",
+              "button-title": "View",
+              "pdf": "documents/disclosure/NDR_Mining_Co_FY_2024-25.pdf"
+            },
+            {
+              "title": "Maitreya Minerals (Partnership Firm)",
+              "button-title": "View",
+              "pdf": "documents/disclosure/Maitreya_Minerals_FY_2024-25.pdf"
+            },
+            {
+              "title": "Baahula Minerals (Partnership Firm)",
+              "button-title": "View",
+              "pdf": "documents/disclosure/Baahula_Minerals_FY_2024-25.pdf"
+            }
+            
+          ]
+        },
+        {
+          "id": "s-annual-return",
+          "title": "Subsidiary Annual Return",
+          "list": [
+            {
+              "title": "Andhra Pradesh Granite (Midwest) Private Limited",
+              "button-title": "View",
+              "pdf": "documents/disclosure/MGT7_APJV_2024-25.pdf"
+            },
+	          {
+              "title": "Midwest Neostone Private Limited",
+              "button-title": "View",
+              "pdf": "documents/disclosure/MNPL_MGT7_2024-25.pdf"
+            },
+            {
+              "title": "AP Midwest Galaxy Private Limited",
+              "button-title": "View",
+              "pdf": "documents/disclosure/MGT7_AP_Midwest_Galaxy_FY_2024-25.pdf"
+            }
+          ]
         }
       ]
     },
