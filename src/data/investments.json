@@ -1015,7 +1015,34 @@
               "pdf": "documents/disclosure/MGT7_AP_Midwest_Galaxy_FY_2024-25.pdf"
             }
           ]
-        }
+        },
+		  {
+          "id": "mw-csr",
+          "title": "CSR – Annual Action Plan",
+          "list": [
+            {
+              "title": "CSR Annual Action Plan for FY – 25-26",
+              "button-title": "Download",
+              "pdf": "documents/disclosure/CSR_Annual_Action_Plan-2025-26_MW.pdf"
+            }    
+          ]
+		},
+		{
+          "id": "apg-csr",
+          "title": "APG(M)PL - CSR",
+          "list": [
+            {
+              "title": "APG(M)PL CSR Policy",
+              "button-title": "Download",
+              "pdf": "documents/disclosure/Corporate_Social_Responsibility_Policy_AP.pdf"
+            },
+	          {
+              "title": "CSR Annual Action Plan for FY – 25-26",
+              "button-title": "Download",
+              "pdf": "documents/disclosure/Annual_Action_Plan_CSR_AP.pdf"
+            }
+          ]
+		}
       ]
     },
     "governance": {
