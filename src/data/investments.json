@@ -871,6 +871,39 @@
           ]
         },
         {
+          "id": "shareholding-pattern",
+          "title": "Shareholding Pattern",
+          "list": [
+            {
+              "title": "Integrated Filing (Finance) Standalone September 30, 2025",
+              "button-title": "Download",
+              "pdf": "documents/disclosure/Shareholding_Pattern_31122025.pdf"
+            }
+          ]
+        },
+        {
+        "id": "integrated-corporate",
+        "title": "Integrated Corporate Governance Reports",
+        "list": [
+          {
+            "title": "Integrated Corporate Governance Report for the quarter ended December 31, 2025",
+            "button-title": "Download",
+            "pdf": "documents/disclosure/Corporate_Governance_Report_31122025.pdf"
+          }
+        ]
+        },
+    {
+      "id": "reconciliation-of-share",
+      "title": "Reconciliation of Share Capital Audit Reports",
+      "list": [
+        {
+          "title": "Reconciliation of Share Capital Audit Report for the quarter ended December 31, 2025",
+          "button-title": "Download",
+          "pdf": "documents/disclosure/Reg76.pdf"
+        }
+      ]
+    },
+        {
           "id": "annual-returns",
           "title": "Annual Returns",
           "list": [
