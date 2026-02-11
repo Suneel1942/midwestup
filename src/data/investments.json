@@ -758,6 +758,11 @@
           "title": "Disclosure required Under Regulation 30 (8)",
           "list": [
             {
+              "title": "Prior Intimation of Board Meeting - 12.02.2026",
+              "button-title": "Download",
+              "pdf": "documents/disclosure/Board_Meeting_Prior_Intimation_12022026.pdf"
+            },
+            {
               "title": "Outcome of Board Meeting 07.01.2026",
               "button-title": "Download",
               "pdf": "documents/disclosure/Outcome_of_BM_07012026.pdf"
@@ -805,11 +810,16 @@
           "title": "Analyst and Investor Meet - Investor Call Intimation",
           "list": [
             {
+              "title": "Intimation of Earnings Conference Call for Q3 & 9M FY 2025-26",
+              "button-title": "Download",
+              "pdf": "documents/disclosure/Prior_Intimation_Con_Call_Midwest_Limited_F.pdf"
+            },
+            {
               "title": "Intimation of Earnings Conference Call for Q2 & H1 FY26",
               "button-title": "Download",
               "pdf": "documents/disclosure/schedule_of_analysts_institutional_investors_meet.pdf"
             },
-			{
+			      {
               "title": "Intimation of Schedule of Investors / Analysts Meeting 02.12.2025",
               "button-title": "Download",
               "pdf": "documents/disclosure/Analyst_Meet_Intimation__.pdf"
