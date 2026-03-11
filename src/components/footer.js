@@ -23,10 +23,10 @@ const Footer = ({ logo, menu, background }) => {
           <h3>Contact Us</h3>
           <ul>
             <li>
-              <strong>Regd Office:</strong>#8-2-684/3/25&26, Road No.12, Banjara Hills, Hyderabad - 500034, Telangana, India.
+              <strong>Regd Office:</strong># 19, Sky One, Prestige Skytech, Finanicial Dist, Nanakramguda, Gachibowli, Serilingampally, Hyderabad, Telangana- 500032, India.
             </li>
             <li>
-              <strong>Telephone:</strong>040-23305193/94/95
+              <strong>Telephone:</strong>040-40733000
             </li>
             <li>
               <strong>Email:</strong>info@midwest.in
