@@ -758,6 +758,11 @@
           "title": "Disclosure required Under Regulation 30 (8)",
           "list": [
             {
+              "title": " Press Release-Selected as Lead Consortium Partner by Kerala Minerals and Metals Ltd (KMML)",
+              "button-title": "Download",
+              "pdf": "documents/disclosure/Reg_30_Press_Release_KMML.pdf"
+            },
+            {
               "title": "Outcome of Board Meeting 12.02.2026",
               "button-title": "Download",
               "pdf": "documents/disclosure/Outcome_of_Board_Meeting_12022026.pdf"
@@ -908,6 +913,11 @@
               "title": "Shareholding Pattern for the quarter ended December 31, 2025",
               "button-title": "Download",
               "pdf": "documents/disclosure/Shareholding_Pattern_31122025.pdf"
+            },
+            {
+              "title": "Shareholding Pattern for the quarter ended March 31, 2026",
+              "button-title": "Download",
+              "pdf": "documents/disclosure/Shareholding_Pattern_31032026.pdf"
             }
           ]
         },
@@ -919,6 +929,11 @@
             "title": "Integrated Corporate Governance Report for the quarter ended December 31, 2025",
             "button-title": "Download",
             "pdf": "documents/disclosure/Corporate_Governance_Report_31122025.pdf"
+          },
+          {
+            "title": "Integrated Corporate Governance Reports for the quarter ended March 31, 2026",
+            "button-title": "Download",
+            "pdf": "documents/disclosure/Intergrated_Governance_quarter_ended_31032026.pdf"
           }
         ]
         },
@@ -930,6 +945,11 @@
           "title": "Reconciliation of Share Capital Audit Report for the quarter ended December 31, 2025",
           "button-title": "Download",
           "pdf": "documents/disclosure/Reg76.pdf"
+        },
+        {
+          "title": "Reconciliation of Share Capital Audit Report for the quarter ended March 31, 2026",
+          "button-title": "Download",
+          "pdf": "documents/disclosure/Reconciliation_ShareCapital_Quarter_31032026.pdf"
         }
       ]
     },
