@@ -627,6 +627,16 @@
           "title": "Disclosures under Regulation 46 of LODR",
           "list": [
             {
+              "title": "Details of Familiarization Programmes Imparted to Independent Directors",
+              "button-title": "Download",
+              "pdf": "documents/disclosure/MIDWEST_LIMITED_FAMILARIZATION_PROGRAM.pdf"
+            },
+            {
+              "title": "Disclosure of contact details of key managerial personnel who are authorized for the purpose of determining materiality of an event or information and for the purpose of making disclosures to stock exchange(s) as required under sub-regulation (5) of regulation 30 of these regulations",
+              "button-title": "Download",
+              "pdf": "documents/disclosure/Reg_30_5_Disclosure.pdf"
+            },
+            {
               "title": "Details of Business",
               "button-title": "View Details",
               "internal-link": "/about"
