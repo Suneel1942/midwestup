@@ -754,6 +754,16 @@
           "title": "Disclosure required Under Regulation 30 (8)",
           "list": [
             {
+              "title": "Prior Intimation of Board Meeting - 12.08.2026",
+              "button-title": "Download",
+              "pdf": "documents/disclosure/Board_Meeting_Intimation_082026.pdf"
+            },
+            {
+              "title": "Intimation of Credit Ratings",
+              "button-title": "Download",
+              "pdf": "documents/disclosure/SE_Intimation_082026.pdf"
+            },
+            {
               "title": "Certificate under Regulation 74(5) of SEBI Regulations, 2018 for the quarter ended June 30, 2026",
               "button-title": "Download",
               "pdf": "documents/disclosure/Certificate_under_Regulation_SEBIRegulations_2018_June302026.pdf"
@@ -866,6 +876,11 @@
           "id": "investor-call",
           "title": "Analyst and Investor Meet - Investor Call Intimation",
           "list": [
+            {
+              "title": "Intimation of Earnings Conference Call for Q1 FY 2026-27",
+              "button-title": "Download",
+              "pdf": "documents/disclosure/Intimation_of_the_EarningsCall_Q1FY27.pdf"
+            },
             {
               "title": "Intimation of Schedule of Investors / Analysts Meeting 29.05.2026",
               "button-title": "Download",
@@ -1007,16 +1022,23 @@
         "id": "integrated-corporate",
         "title": "Integrated Corporate Governance Reports",
         "list": [
+          
           {
-            "title": "Integrated Corporate Governance Report for the quarter ended December 31, 2025",
+            "title": "Integrated Corporate Governance Reports for the quarter ended June 30, 2026",
             "button-title": "Download",
-            "pdf": "documents/disclosure/Corporate_Governance_Report_31122025.pdf"
+            "pdf": "documents/disclosure/Integrated_Corporate_Governance_Reports_June30_2026.pdf"
           },
           {
             "title": "Integrated Corporate Governance Reports for the quarter ended March 31, 2026",
             "button-title": "Download",
             "pdf": "documents/disclosure/Intergrated_Governance_quarter_ended_31032026.pdf"
+          },
+          {
+            "title": "Integrated Corporate Governance Report for the quarter ended December 31, 2025",
+            "button-title": "Download",
+            "pdf": "documents/disclosure/Corporate_Governance_Report_31122025.pdf"
           }
+         
         ]
         },
     {
