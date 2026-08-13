@@ -918,6 +918,11 @@
           "title": "Analyst and Investor Meet - Recording and Transcripts",
           "list": [
             {
+              "title": "Audio Link Q1 FY 2026-27 Earnings Call",
+              "button-title": "Play Now",
+              "pdf": "documents/disclosure/Midwest_Q1FY27_Call_Audio.mp3"
+            },
+            {
               "title": "Audio Link Q4 & FY 2025-26 Earnings Call",
               "button-title": "Play Now",
               "pdf": "documents/disclosure/Midwest_Q4FY26_Call_Audio.mp3"
@@ -949,6 +954,11 @@
           "title": "Investor Presentation",
           "list": [
             {
+              "title": "Investor Presentation - Q1 FY27",
+              "button-title": "Download",
+              "pdf": "documents/disclosure/Investor_Presentations_Q127.pdf"
+            },
+            {
               "title": "Investor Presentation - Q4 & FY26",
               "button-title": "Download",
               "pdf": "documents/disclosure/Investor_Presentations_Q4-FY26.pdf"
@@ -969,6 +979,11 @@
           "id": "newspaper-publications",
           "title": "Newspaper Publications",
           "list": [
+            {
+              "title": "Un-audited Financial Results for Q1 - FY 2026-27",
+              "button-title": "Download",
+              "pdf": "documents/disclosure/Newspaper_Publication_Q127.pdf"
+            },
             {
               "title": "Audited Financial Results for Q4 - FY 2025-26",
               "button-title": "Download",
