@@ -759,6 +759,21 @@
           "title": "Disclosure required Under Regulation 30 (8)",
           "list": [
             {
+              "title": "Notice of 45th AGM",
+              "button-title": "Download",
+              "pdf": "documents/disclosure/Notice_of_45th_AGM.pdf"
+            },
+            {
+              "title": "Annual Report for the FY 25-26",
+              "button-title": "Download",
+              "pdf": "documents/disclosure/Midwest_45th_AnnualReport.pdf"
+            },
+            {
+              "title": "BRSR Report for the FY 2025-26",
+              "button-title": "Download",
+              "pdf": "documents/disclosure/Submission_of_BRSR_FY_2025-26.pdf"
+            },
+            {
               "title": "Outcome of Board Meeting 12.08.2026",
               "button-title": "Download",
               "pdf": "documents/disclosure/Outcome_of_the_Board_Meeting_Aug26.pdf"
@@ -928,6 +943,11 @@
           "title": "Analyst and Investor Meet - Recording and Transcripts",
           "list": [
             {
+              "title": "Transcript - Q1 FY 2026-27 Earnings Call",
+              "button-title": "Download",
+              "pdf": "documents/disclosure/Transcript_of_Earnings_Conference_Call.pdf"
+            },
+            {
               "title": "Audio Link Q1 FY 2026-27 Earnings Call",
               "button-title": "Play Now",
               "pdf": "documents/disclosure/Midwest_Q1FY27_Call_Audio.mp3"
@@ -989,6 +1009,16 @@
           "id": "newspaper-publications",
           "title": "Newspaper Publications",
           "list": [
+            {
+              "title": "Pre-Dispatch Letter to Shareholders for 45th AGM",
+              "button-title": "Download",
+              "pdf": "documents/disclosure/Pre-Dispatch_Letter-to-Shareholders.pdf"
+            },
+            {
+              "title": "Post-Dispatch Letter to Shareholders for 45th AGM",
+              "button-title": "Download",
+              "pdf": "documents/disclosure/Post_Dispatch_Letter_to_Shareholders.pdf"
+            },
             {
               "title": "Un-audited Financial Results for Q1 - FY 2026-27",
               "button-title": "Download",
