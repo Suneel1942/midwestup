@@ -1162,7 +1162,7 @@
         },
         {
           "id": "Subsidiary-Financials",
-          "title": "Subsidiary Financials",
+          "title": "Subsidiary Financials 2024-25",
           "list": [
             {
               "title": "Andhra Pradesh Granite (Midwest) Private Limited",
@@ -1240,6 +1240,92 @@
               "pdf": "documents/disclosure/Baahula_Minerals_FY_2024-25.pdf"
             }
             
+          ]
+        },
+        {
+          "id": "Subsidiary-Financial",
+          "title": "Subsidiary Financials 2025-26",
+          "list": [
+            {
+              "title": "Midwest Holdings Limited Consolidated Financial Statements FY 2025-26",
+              "button-title": "View",
+              "pdf": "documents/disclosure/MIDWEST_HOLDINGS_LIMITED_CONSOLIDATED_FY2025-26.pdf"
+            },
+            {
+              "title": "Midwest Holdings Limited Standalone Financial Statements FY 2025-26",
+              "button-title": "View",
+              "pdf": "documents/disclosure/MIDWEST_HOLDINGS_LIMITED_STANDALONE_FY2025-26.pdf"
+            },
+            {
+              "title": "Andhra Pradesh Granite (Midwest) Private Limited FY 2025-26",
+              "button-title": "View",
+              "pdf": "documents/disclosure/Andhra_Pradesh_Granite_Midwest_Private_Limited_FY2025-26.pdf"
+            },
+            {
+              "title": "Midwest Neostone Private Limited FY 2025-26",
+              "button-title": "View",
+              "pdf": "documents/disclosure/Midwest_Neostone_Private_Limited_FY2025-26.pdf"
+            },
+            {
+              "title": "AP Midwest Galaxy Financial Statements FY 2025-26",
+              "button-title": "View",
+              "pdf": "documents/disclosure/AP_MIDWEST_GALAXY_FS2025-26.pdf"
+            },
+            {
+              "title": "Maven Holdings Financial Statements FY 2025-26",
+              "button-title": "View",
+              "pdf": "documents/Maven_Holdings_Final_FY_2025-26.pdf"
+            },
+	          {
+              "title": "Midwest Africa LDA - Financial Statements FY 2025-26",
+              "button-title": "View",
+              "pdf": "documents/disclosure/Midwest_Africa_LDA_Financial_Statements_FY2025-26.pdf"
+            },
+            {
+              "title": "Midwest Heavy Sands Private Limited  FY 2025-26",
+              "button-title": "View",
+              "pdf": "documents/disclosure/Midwest_Heavy_Sands_Private_Limited_FY2025-26.pdf"
+            },
+            {
+              "title": "Midwest Koriba LDA - Financial statements FY 2025-26",
+              "button-title": "View",
+              "pdf": "documents/disclosure/Midwest_Koriba_LDA_Financial_Statements_FY2025-26.pdf"
+            },
+            {
+              "title": "Reliance Diamond Tools Private Limited FY 2025-26",
+              "button-title": "View",
+              "pdf": "documents/disclosure/Reliance_Diamond_Tools_Private_Limted_FY2025-26.pdf"
+            },
+            {
+              "title": "South Asia Marble and Granite Private Limited FY 2025-26",
+              "button-title": "View",
+              "pdf": "documents/disclosure/SouthAsia_Marble_Granite_Private_Limited_FY2025-26.pdf"
+            },
+            {
+              "title": "Trinco Minerals Sands Private Limited FY 2025-26",
+              "button-title": "View",
+              "pdf": "documents/disclosure/Trinco_Minerals_Sands_Private_Limited_FY2025-26.pdf"
+            },
+            {
+              "title": "Bahula Minerals Financial Statements FY 2025-26",
+              "button-title": "View",
+              "pdf": "documents/disclosure/BAHULA_MINERALS_FS2025-26.pdf"
+            },
+            {
+              "title": "Deccan Silica Financial Statements FY 2025-26",
+              "button-title": "View",
+              "pdf": "documents/disclosure/DECCAN_SILICA_FS2025-26.pdf"
+            },
+            {
+              "title": "Maitreya Minerals Financial Statements FY 2025-26",
+              "button-title": "View",
+              "pdf": "documents/disclosure/MAITREYA_MINERALS_FS2025-26.pdf"
+            },
+            {
+              "title": "NDR Mining Co Financial Statements FY 2025-26",
+              "button-title": "View",
+              "pdf": "documents/disclosure/NDR_MINING_CO_FY2025-26.pdf"
+            }
           ]
         },
         {
