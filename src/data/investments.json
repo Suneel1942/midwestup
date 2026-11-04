@@ -759,6 +759,26 @@
           "title": "Disclosure required Under Regulation 30 (8)",
           "list": [
             {
+              "title": "45th AGM Summary and Scrutinizers Report",
+              "button-title": "Download",
+              "pdf": "documents/disclosure/Midwest_Scrutinizers_Report 45th_AGM.pdf"
+            },
+            {
+              "title": "45th AGM Summary of Proceedings",
+              "button-title": "Download",
+              "pdf": "documents/disclosure/Summary_of_Proceedings_45th.pdf"
+            },
+            {
+              "title": "45th AGM Meeting Audio Link",
+              "button-title": "Play Now",
+              "pdf": "documents/disclosure/Midwest_45th_AGM_Audio.mp3"
+            },
+            {
+              "title": "Reg 30 Change in Management",
+              "button-title": "Download",
+              "pdf": "documents/disclosure/Reg_30_Change_in_Management.pdf"
+            },
+            {
               "title": "Notice of 45th AGM",
               "button-title": "Download",
               "pdf": "documents/disclosure/Notice_of_45th_AGM.pdf"
