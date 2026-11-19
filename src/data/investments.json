@@ -895,6 +895,16 @@
           "title": "Monitoring Agency Report",
           "list": [
             {
+              "title": "Monitoring Agency Report for the quarter ended 30th Sep 2026",
+              "button-title": "Download",
+              "pdf": "documents/disclosure/MA_Report_Midwest_Sept2026.pdf"
+            },
+            {
+              "title": "Monitoring Agency Report for the quarter ended 30th Jun 2026",
+              "button-title": "Download",
+              "pdf": "documents/disclosure/MA_Report_Midwst_Jun26.pdf"
+            },
+            {
               "title": "Monitoring Agency Report for the quarter ended 31st March 2026",
               "button-title": "Download",
               "pdf": "documents/disclosure/MA_report_Midwest_March_2026.pdf"
@@ -905,6 +915,11 @@
           "id": "financial-results",
           "title": "Financial Results",
           "list": [
+            {
+              "title": "Un-audited Financial Results for Q2 - FY 2026-27",
+              "button-title": "Download",
+              "pdf": "documents/disclosure/Un-audited_FinancialResults_Q2&H1FY2026-27.pdf"
+            },
             {
               "title": "Un-audited Financial Results for Q1 - FY 2026-27",
               "button-title": "Download",
@@ -1045,6 +1060,11 @@
           "title": "Newspaper Publications",
           "list": [
             {
+              "title": "Un-audited Financial Results for Q2 & H1 FY 2026-27",
+              "button-title": "Download",
+              "pdf": "documents/disclosure/Newspaper_Publication_26.pdf"
+            },
+            {
               "title": "Pre-Dispatch Letter to Shareholders for 45th AGM",
               "button-title": "Download",
               "pdf": "documents/disclosure/Pre-Dispatch_Letter-to-Shareholders.pdf"
@@ -1097,6 +1117,11 @@
           "title": "Shareholding Pattern",
           "list": [
             {
+              "title": "Shareholding Pattern for the quarter ended September 30, 2026",
+              "button-title": "Download",
+              "pdf": "documents/disclosure/Shareholding_Report_Midwest_Limited_30092026.pdf"
+            },
+            {
               "title": "Shareholding Pattern for the quarter ended June 30, 2026",
               "button-title": "Download",
               "pdf": "documents/disclosure/Shareholding_Pattern_quarter_June_302026.pdf"
@@ -1116,8 +1141,12 @@
         {
         "id": "integrated-corporate",
         "title": "Integrated Corporate Governance Reports",
-        "list": [
-          
+        "list": [     
+          {
+            "title": "Integrated Corporate Governance Reports for the quarter ended Sep 30, 2026",
+            "button-title": "Download",
+            "pdf": "documents/disclosure/CG_Report_MidwestLimited_30092026.pdf"
+          },   
           {
             "title": "Integrated Corporate Governance Reports for the quarter ended June 30, 2026",
             "button-title": "Download",
@@ -1140,6 +1169,16 @@
       "id": "reconciliation-of-share",
       "title": "Reconciliation of Share Capital Audit Reports",
       "list": [
+        {
+          "title": "Reconciliation of Share Capital Audit Report for the quarter ended September 30, 2026",
+          "button-title": "Download",
+          "pdf": "documents/disclosure/Reconciliation_of_Share_Capital_AuditReport_Quarter_September302026.pdf"
+        },
+        {
+          "title": "Reconciliation of Share Capital Audit Report for the quarter ended June 30, 2026",
+          "button-title": "Download",
+          "pdf": "documents/disclosure/Reconciliation_of_Share_Capital_AuditReport_Quarter_June302026.pdf"
+        },
         {
           "title": "Reconciliation of Share Capital Audit Report for the quarter ended December 31, 2025",
           "button-title": "Download",
@@ -1172,6 +1211,11 @@
           "id": "mw-csr",
           "title": "CSR – Annual Action Plan",
           "list": [
+            {
+              "title": "CSR Annual Action Plan for FY – 26-27",
+              "button-title": "Download",
+              "pdf": "documents/disclosure/CSR_AnnualActionPlan_FY26-27.pdf"
+            },  
             {
               "title": "CSR Annual Action Plan for FY – 25-26",
               "button-title": "Download",
